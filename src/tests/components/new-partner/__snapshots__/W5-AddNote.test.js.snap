@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNote component Debe mostrar snapshot 1`] = `
+<div
+  className="card form-group"
+>
+  <div
+    className="card-body"
+  >
+    <h1>
+      New note on Jhon Doe
+    </h1>
+    <form>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <Select
+            label="Code"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <Select
+            className="form-control"
+            label="Priority"
+          />
+        </div>
+        <div
+          className="row"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="col-md-6"
+          >
+            <label
+              style={
+                Object {
+                  "padding": "0 0 0 1%",
+                }
+              }
+            >
+              Authorization leve
+            </label>
+            <Checkbox
+              label="Low"
+              name="low"
+              value=""
+            />
+            <Checkbox
+              label="Normal"
+              name="normal"
+              value=""
+            />
+            <Checkbox
+              label="Interval-reinscription"
+              name="interval"
+              value=""
+            />
+            <Checkbox
+              label="High"
+              name="high"
+              value=""
+            />
+          </div>
+          <div
+            className="col"
+          >
+            <Input
+              label="Entry date"
+              placeholder="MM/DD/YYYY"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          className="row"
+          style={
+            Object {
+              "margin": "0 auto",
+              "padding": "0 1% 0 1%",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="col"
+          >
+            <TextArea
+              label="Note"
+              placeholder="Add note"
+              value="text"
+            />
+          </div>
+        </div>
+        <div
+          className="row"
+          style={
+            Object {
+              "padding": "2% 1% 0 1%",
+            }
+          }
+        >
+          <div
+            className="col"
+          >
+            <Checkbox
+              label="Is this guest special?"
+              name="guest"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </form>
+    <div
+      className="row"
+    >
+      <div
+        className="col-10"
+      >
+        <button
+          alt=""
+          className="btn btn-secondary btn-lg d-block ml-auto"
+          id="add-note"
+          title=""
+        >
+          <i
+            className="fas fa-times mr-1"
+          />
+        </button>
+      </div>
+      <div
+        className="col-2"
+      >
+        <button
+          alt=""
+          className="btn btn-default btn-primary btn-lg d-block m-auto"
+          id="add-note"
+          title=""
+        >
+          <i
+            className="fas fa-check mr-1"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

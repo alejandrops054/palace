@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiamondClassifications component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <div
+      className="card"
+    >
+      <h3>
+        Diamond Classifications
+      </h3>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <Select
+            col={12}
+            label="Classification"
+            placeholder=""
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <Select
+            col={12}
+            label="Invesment Type"
+            placeholder=""
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

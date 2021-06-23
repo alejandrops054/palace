@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba componente UI Input Debe de mostrar el componente <Input/> 1`] = `
+<div
+  className="col-lg- mb-3"
+>
+  <label />
+  <div
+    className="input-group"
+  >
+    <input
+      className="form-control"
+      placeholder=""
+      type=""
+    />
+  </div>
+</div>
+`;

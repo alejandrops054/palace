@@ -1,0 +1,1180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Provision component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <CardTitle
+        tag="h3"
+      >
+        Provision
+      </CardTitle>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="7"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="3"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                col={12}
+                label="Code"
+                type="text"
+              />
+            </Col>
+            <Col
+              lg="3"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Select />
+            </Col>
+            <Col
+              lg="3"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Select />
+            </Col>
+            <Col
+              lg="3"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                col={12}
+                label="Report Name"
+                type="text"
+              />
+            </Col>
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="8"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                col={12}
+                label="Name"
+                type="text"
+              />
+            </Col>
+            <Col
+              className="pt-4"
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Checkbox
+                label="5% Cash Sale"
+              />
+            </Col>
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Select />
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="2"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Checkbox
+                label="Airfare Cup"
+              />
+            </Col>
+            <Col
+              lg="2"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Checkbox
+                label="Le Blanc"
+              />
+            </Col>
+            <Col
+              lg="2"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Checkbox
+                label="Move In"
+              />
+            </Col>
+            <Col
+              lg="2"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Checkbox
+                label="Imperial Week"
+              />
+            </Col>
+            <Col
+              lg="2"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Checkbox
+                label="Residence"
+              />
+            </Col>
+            <Col
+              lg="2"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Checkbox
+                label="Is Trial"
+              />
+            </Col>
+          </Row>
+          <Row
+            className="pt-3"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="6"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Card
+                tag="div"
+              >
+                <CardHeader
+                  tag="div"
+                >
+                  <CardSubtitle
+                    tag="div"
+                  >
+                    ULG
+                  </CardSubtitle>
+                </CardHeader>
+                <Checkbox
+                  label="Can have unlimited golf"
+                />
+                <Checkbox
+                  label="Unlimited golf free"
+                />
+                <Checkbox
+                  label="Unlimited golf with additional payment"
+                />
+                <Checkbox
+                  label="Can Change"
+                />
+              </Card>
+            </Col>
+            <Col
+              lg="6"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <div
+                className="d-flex justify-content-between pb-3"
+              >
+                <Input
+                  col={6}
+                  label="Golf Round(s) Included"
+                  type="text"
+                />
+                <Input
+                  col={6}
+                  label="Promotion"
+                  type="text"
+                />
+              </div>
+              <Select />
+              <div
+                className="d-flex justify-content-between pb-3"
+              >
+                <Checkbox
+                  label="Generates Cost"
+                />
+                <Checkbox
+                  label="Impact Cost"
+                />
+              </div>
+              <Select />
+            </Col>
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="9"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Card
+                tag="div"
+              >
+                <CardHeader
+                  tag="div"
+                >
+                  <CardSubtitle
+                    tag="div"
+                  >
+                    Combination Week and Night
+                  </CardSubtitle>
+                </CardHeader>
+                <Row
+                  className="pt-3"
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  <Col
+                    lg="6"
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <Select />
+                  </Col>
+                  <Col
+                    lg="6"
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <Select />
+                  </Col>
+                </Row>
+                <Select />
+              </Card>
+            </Col>
+            <Col
+              className="pt-5"
+              lg="3"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Button
+                col={12}
+                icon="fas fa-check"
+                title="Room Types Promotional"
+                type="submit"
+                typebootstrap="primary btn-lg "
+              />
+            </Col>
+          </Row>
+        </Col>
+        <Col
+          lg="5"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="6"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Card
+                tag="div"
+              >
+                <CardHeader
+                  tag="div"
+                >
+                  <CardSubtitle
+                    tag="div"
+                  >
+                    Validity
+                  </CardSubtitle>
+                </CardHeader>
+                <CardBody
+                  tag="div"
+                >
+                  <div
+                    className="d-flex"
+                  >
+                    <Input
+                      col={6}
+                      label="Default"
+                      type="text"
+                    />
+                    <Input
+                      col={6}
+                      label="Maximum"
+                      type="text"
+                    />
+                  </div>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col
+              lg="6"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                col={10}
+                label="Beginning Date"
+                type="date"
+              />
+              <Input
+                col={10}
+                label="Ending Date"
+                type="date"
+              />
+            </Col>
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Card
+              tag="div"
+            >
+              <CardHeader
+                tag="div"
+              >
+                <CardSubtitle
+                  tag="div"
+                >
+                  Extra Cost Per Year
+                </CardSubtitle>
+              </CardHeader>
+              <CardBody
+                tag="div"
+              >
+                <Table
+                  className="table"
+                  columns={
+                    Array [
+                      Object {
+                        "align": "center",
+                        "dataIndex": "Years_From",
+                        "key": "1",
+                        "title": "Years From",
+                        "width": 120,
+                      },
+                      Object {
+                        "align": "center",
+                        "dataIndex": "Days_From",
+                        "key": "2",
+                        "title": "Days From",
+                        "width": 120,
+                      },
+                      Object {
+                        "align": "center",
+                        "dataIndex": "Years_To",
+                        "key": "3",
+                        "title": "Years To",
+                        "width": 120,
+                      },
+                      Object {
+                        "align": "center",
+                        "dataIndex": "Extra_Cost",
+                        "key": "4",
+                        "title": "Extra Cost",
+                        "width": 120,
+                      },
+                      Object {
+                        "align": "center",
+                        "dataIndex": "Period",
+                        "key": "5",
+                        "title": "Period",
+                        "width": 120,
+                      },
+                      Object {
+                        "align": "center",
+                        "dataIndex": "Validity_Day",
+                        "key": "5",
+                        "title": "Validity Day",
+                        "width": 120,
+                      },
+                    ]
+                  }
+                  data={
+                    Array [
+                      Object {
+                        "Days_From": "2",
+                        "Extra_Cost": "$100.00",
+                        "Period": "1",
+                        "Validity_Day": "1",
+                        "Years_From": "2",
+                        "Years_To": "2",
+                      },
+                      Object {
+                        "Days_From": "2",
+                        "Extra_Cost": "$100.00",
+                        "Period": "1",
+                        "Validity_Day": "1",
+                        "Years_From": "2",
+                        "Years_To": "2",
+                      },
+                      Object {
+                        "Days_From": "2",
+                        "Extra_Cost": "$100.00",
+                        "Period": "1",
+                        "Validity_Day": "1",
+                        "Years_From": "2",
+                        "Years_To": "2",
+                      },
+                      Object {
+                        "Days_From": "2",
+                        "Extra_Cost": "$100.00",
+                        "Period": "1",
+                        "Validity_Day": "1",
+                        "Years_From": "2",
+                        "Years_To": "2",
+                      },
+                    ]
+                  }
+                  emptyText={[Function]}
+                  id="resume-table"
+                  prefixCls="rc-table"
+                  rowKey="key"
+                  scroll={
+                    Object {
+                      "x": "auto",
+                      "y": "auto",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 300,
+                    }
+                  }
+                />
+              </CardBody>
+            </Card>
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="8"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Card
+                tag="div"
+              >
+                <CardHeader
+                  tag="div"
+                >
+                  <CardSubtitle
+                    tag="div"
+                  >
+                    SAP Category
+                  </CardSubtitle>
+                </CardHeader>
+                <CardBody
+                  tag="div"
+                >
+                  <Select />
+                  <Select />
+                </CardBody>
+              </Card>
+            </Col>
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Row
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Card
+                  tag="div"
+                >
+                  <CardHeader
+                    tag="div"
+                  >
+                    <CardSubtitle
+                      tag="div"
+                    >
+                      Stock
+                    </CardSubtitle>
+                  </CardHeader>
+                  <Checkbox
+                    label="Generates Cost"
+                  />
+                  <Checkbox
+                    label="Impact Cost"
+                  />
+                </Card>
+              </Row>
+              <Row
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Card
+                  tag="div"
+                >
+                  <CardHeader
+                    tag="div"
+                  >
+                    <CardSubtitle
+                      tag="div"
+                    >
+                      Sale Price
+                    </CardSubtitle>
+                  </CardHeader>
+                  <Label
+                    color="primary"
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    $ 75,000.00
+                  </Label>
+                </Card>
+              </Row>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Card
+            tag="div"
+          >
+            <CardHeader
+              tag="div"
+            >
+              <CardSubtitle
+                tag="div"
+              >
+                Hotels
+              </CardSubtitle>
+            </CardHeader>
+            <CardBody
+              tag="div"
+            >
+              <Table
+                className="table"
+                columns={
+                  Array [
+                    Object {
+                      "align": "center",
+                      "dataIndex": "Select",
+                      "key": "1",
+                      "title": "Select",
+                      "width": 50,
+                    },
+                    Object {
+                      "align": "center",
+                      "dataIndex": "Code",
+                      "key": "2",
+                      "title": "Code",
+                      "width": 50,
+                    },
+                    Object {
+                      "align": "center",
+                      "dataIndex": "Description",
+                      "key": "3",
+                      "title": "Description",
+                      "width": 100,
+                    },
+                    Object {
+                      "align": "center",
+                      "dataIndex": "Status",
+                      "key": "4",
+                      "title": "Status",
+                      "width": 60,
+                    },
+                    Object {
+                      "align": "center",
+                      "dataIndex": "Country",
+                      "key": "5",
+                      "title": "Country",
+                      "width": 100,
+                    },
+                  ]
+                }
+                data={
+                  Array [
+                    Object {
+                      "Code": "BP",
+                      "Country": "Mexico",
+                      "Description": "Cozumel Palace",
+                      "Select": <Checkbox />,
+                      "Status": "Alta",
+                    },
+                    Object {
+                      "Code": "BP",
+                      "Country": "Mexico",
+                      "Description": "Cozumel Palace",
+                      "Select": <Checkbox />,
+                      "Status": "Alta",
+                    },
+                    Object {
+                      "Code": "BP",
+                      "Country": "Mexico",
+                      "Description": "Cozumel Palace",
+                      "Select": <Checkbox />,
+                      "Status": "Alta",
+                    },
+                    Object {
+                      "Code": "BP",
+                      "Country": "Mexico",
+                      "Description": "Cozumel Palace",
+                      "Select": <Checkbox />,
+                      "Status": "Alta",
+                    },
+                    Object {
+                      "Code": "BP",
+                      "Country": "Mexico",
+                      "Description": "Cozumel Palace",
+                      "Select": <Checkbox />,
+                      "Status": "Alta",
+                    },
+                  ]
+                }
+                emptyText={[Function]}
+                id="resume-table"
+                prefixCls="rc-table"
+                rowKey="key"
+                scroll={
+                  Object {
+                    "x": "auto",
+                    "y": "auto",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 300,
+                  }
+                }
+              />
+            </CardBody>
+          </Card>
+        </Col>
+        <Col
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="8"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Card
+                tag="div"
+              >
+                <CardHeader
+                  tag="div"
+                >
+                  <CardSubtitle
+                    tag="div"
+                  >
+                    Reports Language
+                  </CardSubtitle>
+                </CardHeader>
+                <CardBody
+                  tag="div"
+                >
+                  <Select />
+                  <Select />
+                  <Table
+                    className="table"
+                    columns={
+                      Array [
+                        Object {
+                          "align": "center",
+                          "dataIndex": "Languages",
+                          "key": "1",
+                          "title": "Languages",
+                          "width": "auto",
+                        },
+                        Object {
+                          "align": "center",
+                          "dataIndex": "Specifications",
+                          "key": "2",
+                          "title": "Specifications",
+                          "width": 200,
+                        },
+                      ]
+                    }
+                    data={
+                      Array [
+                        Object {
+                          "Languages": "English",
+                          "Specifications": "All Inclusive Plus Plan",
+                        },
+                        Object {
+                          "Languages": "Portuguese",
+                          "Specifications": "Sistema Tudo Incluido Plus",
+                        },
+                        Object {
+                          "Languages": "Spanish",
+                          "Specifications": "Plan todo Incluido Plus",
+                        },
+                      ]
+                    }
+                    emptyText={[Function]}
+                    id="resume-table"
+                    prefixCls="rc-table"
+                    rowKey="key"
+                    scroll={
+                      Object {
+                        "x": "auto",
+                        "y": "auto",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 130,
+                      }
+                    }
+                  />
+                </CardBody>
+              </Card>
+            </Col>
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Card
+                tag="div"
+              >
+                <CardHeader
+                  tag="div"
+                >
+                  <CardSubtitle
+                    tag="div"
+                  >
+                    Occupancy
+                  </CardSubtitle>
+                </CardHeader>
+                <Input
+                  col={12}
+                  label="Minimum"
+                  type="text"
+                />
+                <Input
+                  col={12}
+                  label="Maximum"
+                  type="text"
+                />
+              </Card>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </CardBody>
+    <CardFooter
+      tag="div"
+    >
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col={2}
+          icon="fas fa-check"
+          title="Save"
+          type="submit"
+          typebootstrap="primary  "
+        />
+        <Button
+          col={2}
+          icon="fas fa-check"
+          title="Cancel"
+          type="submit"
+          typebootstrap="secondary "
+        />
+      </div>
+    </CardFooter>
+  </Card>
+</Fragment>
+`;

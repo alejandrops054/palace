@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <CustomerResult/> Debe renderizar el CustomerResult  1`] = `
+<div
+  className="customer-data"
+>
+  <div
+    className="customer-resume"
+  >
+    <div
+      className="customer-avatar"
+    >
+      <div
+        className="customer-photo"
+      >
+        <img
+          alt="memberImagen"
+          src="/static/media/unknown-user.a373f7fc.svg"
+        />
+      </div>
+    </div>
+    <div
+      className="customer-meta"
+    >
+      <h2>
+        John Doe
+      </h2>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberReservationRates component debe mostrar snapshot 1`] = `
+<Fragment>
+  <h2>
+    Member Reservation Rates
+  </h2>
+  <MemberReservationRatesMI />
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      className="border"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Table
+        columns={
+          Array [
+            Object {
+              "dataIndex": "application",
+              "key": "application",
+              "title": "Application",
+              "width": 130,
+            },
+            Object {
+              "dataIndex": "t-cc",
+              "key": "t-cc",
+              "title": "Type Credit Card",
+              "width": 130,
+            },
+          ]
+        }
+        emptyText={[Function]}
+        prefixCls="rc-table"
+        rowKey="key"
+      />
+    </Col>
+    <MemberReservationRatesYA />
+  </Row>
+  <Row
+    className="justify-content-around"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <InfoMembersNoContainer
+        text="14"
+        title="Reservation Rates"
+      />
+    </Col>
+    <Col
+      lg={
+        Object {
+          "offset": 1,
+          "size": 2,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Log
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Save Changes
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Close
+      </Button>
+    </Col>
+  </Row>
+</Fragment>
+`;

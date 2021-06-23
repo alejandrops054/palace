@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba componente UI <AffilitationUtilities/> Componente no recibe props  1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row mb-5"
+  >
+    <div
+      className="col"
+    >
+      <h1
+        style={
+          Object {
+            "color": "#ffffff",
+            "fontSize": "40px",
+            "fontWeight": 700,
+          }
+        }
+      >
+        Utilities for...
+      </h1>
+    </div>
+  </div>
+  <div
+    className="row pt-3"
+  >
+    <div
+      className="col-6"
+    >
+      <SeachNav
+        link="/reports/affiliation/results"
+        placeholder="Search affilliation"
+      />
+    </div>
+    <div
+      className="col"
+    >
+      <div
+        className="mr-5 pr-5"
+        style={
+          Object {
+            "float": "right",
+          }
+        }
+      >
+        <i
+          className="fas fa-print mr-3"
+        />
+        <Download />
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <img
+        alt="logo"
+        src="report-affiliation-utilities.PNG"
+        width="330px"
+      />
+    </div>
+    <div
+      className="col-7 align-self-center "
+    >
+      <h2
+        style={
+          Object {
+            "color": "#ffffff",
+            "fontSize": "40px",
+            "fontWeight": 700,
+          }
+        }
+      >
+        Do a filtering to 
+        <br />
+         show results
+      </h2>
+    </div>
+  </div>
+</div>
+`;

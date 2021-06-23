@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableReference component debe mostrar snapshot 1`] = `
+<div>
+  <Table
+    columns={
+      Array [
+        Object {
+          "dataIndex": "id",
+          "key": "id",
+          "title": "Id",
+          "width": 50,
+        },
+        Object {
+          "dataIndex": "date",
+          "key": "date",
+          "title": "Date",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "description",
+          "key": "description",
+          "title": "Description",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "reference",
+          "key": "reference",
+          "title": "Reference",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "system",
+          "key": "system",
+          "title": "System",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "charges",
+          "key": "charges",
+          "title": "Charges",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "charges",
+          "key": "charges",
+          "title": "Subtype",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "amount",
+          "key": "amount",
+          "title": "Use Amount",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "balance",
+          "key": "balance",
+          "title": "Balance",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "comments",
+          "key": "comments",
+          "title": "Comments",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "active",
+          "key": "active",
+          "title": "Active",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "expiration",
+          "key": "expiration",
+          "title": "Expiration",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "payments",
+          "key": "payments",
+          "title": "Payments",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "company",
+          "key": "company",
+          "title": "Company",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "application",
+          "key": "application",
+          "title": "Application",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "cost",
+          "key": "cost",
+          "title": "Cost",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "carnumber",
+          "key": "carnumber",
+          "title": "Card Number",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "released",
+          "key": "released",
+          "title": "Released",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "releasedate",
+          "key": "releasedate",
+          "title": "Release Date",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "shock",
+          "key": "shock",
+          "title": "Shock",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "cash",
+          "key": "cash",
+          "title": "5% Cash",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "full",
+          "key": "full",
+          "title": "In-Full",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "note",
+          "key": "note",
+          "title": "Note",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "financing",
+          "key": "financing",
+          "title": "Financing",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "status",
+          "key": "status",
+          "title": "Status",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "specialpromotion",
+          "key": "specialpromotions",
+          "title": "Special Promotion",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "hotel",
+          "key": "hotel",
+          "title": "Hotel",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "folio",
+          "key": "folio",
+          "title": "Folio",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "opera",
+          "key": "opera",
+          "title": "Hotel Opera",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "foliop",
+          "key": "foliop",
+          "title": "Folio Opera",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "aifare",
+          "key": "aifare",
+          "title": "Airfare Ticket",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "reference",
+          "key": "reference",
+          "title": "Reference id",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "coupon",
+          "key": "coupon",
+          "title": "Coupon Number",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "business",
+          "key": "business",
+          "title": "Business Segmen",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "collected",
+          "key": "collected",
+          "title": "Amount Collected ",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "log",
+          "key": "log",
+          "render": [Function],
+          "title": "Log",
+          "width": 150,
+        },
+      ]
+    }
+    dataSource={
+      Array [
+        Object {
+          "log": <Button
+            col="1.5"
+            icon="fas fa-book"
+            type="button"
+            typebootstrap="link"
+          />,
+        },
+      ]
+    }
+    rowKey="key"
+    scroll={
+      Object {
+        "x": 1300,
+        "y": 1300,
+      }
+    }
+  />
+</div>
+`;

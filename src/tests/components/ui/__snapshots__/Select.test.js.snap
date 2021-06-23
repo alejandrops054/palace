@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba componente UI <Search/> Componente recibe props  1`] = `
+<div
+  className="col-6 col-md-6"
+>
+  <label>
+    Titulo de placeholder
+     
+    <i
+      className="fa fas-check"
+    />
+  </label>
+  <div
+    className="input-group"
+  >
+    <select
+      className="form-control"
+      id="Titulo de placeholder"
+    >
+      <option
+        selected={true}
+      >
+        Opciones
+      </option>
+      <option
+        value="1"
+      >
+        Opciones
+      </option>
+      <option
+        value="2"
+      >
+        Opciones
+      </option>
+      <option
+        value="3"
+      >
+        Opciones
+      </option>
+    </select>
+    <div
+      className="input-group-append"
+    >
+      <Link
+        to="/"
+      >
+        <button
+          className="p-2 m-0 bg-primary text-white rounded fa fas-check"
+          htmlFor="Titulo de placeholder"
+        >
+           
+        </button>
+      </Link>
+    </div>
+  </div>
+</div>
+`;

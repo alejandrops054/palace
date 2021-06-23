@@ -1,0 +1,383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pending component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <SimpleTable
+          columns={
+            Array [
+              Object {
+                "dataIndex": "toprocess",
+                "key": "toprocess",
+                "render": [Function],
+                "title": "To Process",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "servermessage",
+                "key": "servermessage",
+                "render": [Function],
+                "title": "Server Message",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "affiliation",
+                "key": "affiliation",
+                "title": "Affiliation",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "company",
+                "key": "company",
+                "title": "Company",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "login",
+                "key": "login",
+                "title": "Login",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "module",
+                "key": "module",
+                "title": "Module",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "system",
+                "key": "system",
+                "title": "System",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "adddate",
+                "key": "adddate",
+                "title": "Add Date",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "updatedate",
+                "key": "updatedate",
+                "title": "Update Date",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "errormessage",
+                "key": "errormessage",
+                "title": "Error Message",
+                "width": "1%",
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+                "toprocess": "",
+                "updatedate": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+                "toprocess": "",
+                "updatedate": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+                "toprocess": "",
+                "updatedate": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+                "toprocess": "",
+                "updatedate": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+                "toprocess": "",
+                "updatedate": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+                "toprocess": "",
+                "updatedate": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+                "toprocess": "",
+                "updatedate": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+                "toprocess": "",
+                "updatedate": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+                "toprocess": "",
+                "updatedate": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+                "toprocess": "",
+                "updatedate": "",
+              },
+            ]
+          }
+          type="table"
+        />
+        <SimpleTable
+          columns={
+            Array [
+              Object {
+                "dataIndex": "servermessage",
+                "key": "servermessage",
+                "title": "Server Message",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "affiliation",
+                "key": "affiliation",
+                "title": "Affiliation",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "company",
+                "key": "company",
+                "title": "Company",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "login",
+                "key": "login",
+                "title": "Login",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "module",
+                "key": "module",
+                "title": "Module",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "system",
+                "key": "system",
+                "title": "System",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "adddate",
+                "key": "adddate",
+                "title": "Add Date",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "errormessage",
+                "key": "errormessage",
+                "title": "Error Message",
+                "width": "1%",
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+              },
+              Object {
+                "adddate": "",
+                "affiliation": "",
+                "company": "",
+                "errormessage": "",
+                "login": "",
+                "module": "",
+                "servermessage": "",
+                "system": "",
+              },
+            ]
+          }
+          type="table"
+        />
+        <Checkbox
+          col={12}
+          label="Apply the same filters that previous page"
+        />
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <Download/> Debe renderizar el dropdown menu 1`] = `
+<ButtonDropdown
+  isOpen={false}
+  toggle={[Function]}
+>
+  <DropdownToggle
+    aria-haspopup={true}
+    caret={true}
+    color="secondary"
+    size="sm"
+    style={
+      Object {
+        "background": "transparent",
+        "border": "none",
+      }
+    }
+  >
+    <i
+      className="fas fa-download"
+    />
+  </DropdownToggle>
+  <DropdownMenu
+    flip={true}
+    tag="div"
+  >
+    <DropdownItem
+      tag="button"
+      toggle={true}
+    >
+      <i
+        className="fas fa-file-excel mr-2"
+      />
+      Excel
+    </DropdownItem>
+    <DropdownItem
+      tag="button"
+      toggle={true}
+    >
+      <i
+        className="fas fa-file-pdf mr-2"
+      />
+      PDF
+    </DropdownItem>
+    <DropdownItem
+      tag="button"
+      toggle={true}
+    >
+      <i
+        className="fas fa-file-csv mr-2"
+      />
+      CSV
+    </DropdownItem>
+  </DropdownMenu>
+</ButtonDropdown>
+`;

@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GeographiLocationTable component debe mostrar snapshot 1`] = `
+<div>
+  <Modal
+    autoFocus={true}
+    backdrop={true}
+    backdropTransition={
+      Object {
+        "mountOnEnter": true,
+        "timeout": 150,
+      }
+    }
+    centered={false}
+    container="body"
+    fade={true}
+    isOpen={true}
+    keyboard={true}
+    modalTransition={
+      Object {
+        "timeout": 300,
+      }
+    }
+    onClosed={[Function]}
+    onOpened={[Function]}
+    returnFocusAfterClose={true}
+    role="dialog"
+    scrollable={false}
+    size="lg"
+    toggle={[Function]}
+    unmountOnClose={true}
+    zIndex={1050}
+  >
+    <form>
+      <ModalHeader
+        charCode={215}
+        closeAriaLabel="Close"
+        tag="h5"
+        wrapTag="div"
+      >
+        Search
+      </ModalHeader>
+      <ModalBody
+        className="p-0 "
+        tag="div"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-header"
+          >
+            <h3>
+              Search
+            </h3>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-2"
+            >
+              <div
+                className="input-group-prepend"
+              >
+                <div
+                  className="input-group"
+                >
+                  <div
+                    className="row"
+                  >
+                    <Checkbox
+                      col={12}
+                      label="Only Name"
+                      name="payCommission"
+                      value={true}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4"
+            >
+              <input
+                aria-describedby="basic-addon1"
+                className="form-control"
+                type="text"
+              />
+            </div>
+            <div
+              className="col-md-3"
+            >
+              <Button
+                col="6"
+                icon="fas fa-filter"
+                title="Apply"
+                typebootstrap="primary"
+              />
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-2"
+            >
+              <div
+                className="input-group-prepend"
+              >
+                <div
+                  className="input-group"
+                >
+                  <div
+                    className="row"
+                  >
+                    <Checkbox
+                      col={12}
+                      label="Place Name"
+                      name="payCommission"
+                      value={true}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4"
+            >
+              <input
+                aria-describedby="basic-addon1"
+                className="form-control"
+                type="text"
+              />
+            </div>
+          </div>
+          <br />
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-2"
+            >
+              <div
+                className="input-group-prepend"
+              >
+                <div
+                  className="input-group"
+                >
+                  <div
+                    className="row"
+                  >
+                    <Checkbox
+                      col={12}
+                      label="Zp Code"
+                      name="Zp Code"
+                      value={true}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4"
+            >
+              <input
+                aria-describedby="basic-addon1"
+                className="form-control"
+                type="text"
+              />
+            </div>
+            <div
+              className="col-md-3"
+            >
+              <Button
+                col="6"
+                icon="fas fa-filter"
+                title="Clear"
+                typebootstrap="primary"
+              />
+            </div>
+          </div>
+          <br />
+          <div>
+            <Table
+              className="table table-bordered"
+              columns={
+                Array [
+                  Object {
+                    "dataIndex": "code",
+                    "key": "code",
+                    "title": "Zp Code",
+                    "width": 200,
+                  },
+                  Object {
+                    "dataIndex": "city",
+                    "key": "city",
+                    "title": "City",
+                    "width": 200,
+                  },
+                  Object {
+                    "dataIndex": "state",
+                    "key": "state",
+                    "title": "State",
+                    "width": 200,
+                  },
+                  Object {
+                    "dataIndex": "country",
+                    "key": "conutry",
+                    "title": "Country",
+                    "width": 200,
+                  },
+                  Object {
+                    "dataIndex": "placename",
+                    "key": "placename",
+                    "title": "Place Name",
+                    "width": 200,
+                  },
+                ]
+              }
+              data={
+                Array [
+                  Object {
+                    "city": "KINGSTON 6",
+                    "code": "JJMAAW08",
+                    "country": "JAMAICA",
+                    "placename": "",
+                    "state": "ST ANDREW",
+                  },
+                ]
+              }
+              emptyText={[Function]}
+              prefixCls="rc-table"
+              rowKey="key"
+            />
+          </div>
+          <br />
+          <div>
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-3"
+              />
+              <div
+                className="col-sm-3"
+              >
+                <Button
+                  col="7"
+                  icon="fas fa-sync"
+                  title="Change City"
+                  typebootstrap="btn btn-primary"
+                />
+              </div>
+              <div
+                className="col-sm-2"
+              >
+                <Button
+                  col="7"
+                  icon="fas fa-check"
+                  title="Ok"
+                  typebootstrap="secondary"
+                />
+              </div>
+              <div
+                className="col-sm-2"
+              >
+                <Button
+                  col="8"
+                  icon="fas fa-times"
+                  title="Cancel"
+                  typebootstrap="secondary"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </ModalBody>
+    </form>
+  </Modal>
+</div>
+`;

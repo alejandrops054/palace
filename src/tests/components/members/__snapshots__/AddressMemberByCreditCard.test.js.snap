@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressMemberByCreditCard component debe mostrar snapshot 1`] = `
+<Fragment>
+  <h2>
+    Address of member by credit card
+  </h2>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <h4>
+      Member Information
+    </h4>
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <InfoMembersNoContainer
+            text="NOMBRE COMPLETO"
+            title="Member Name"
+          />
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <InfoMembersNoContainer
+            text="5"
+            title="Company"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <InfoMembersNoContainer
+            text="6007770"
+            title="Application"
+          />
+        </Col>
+      </Row>
+    </Row>
+  </Row>
+  <Table
+    columns={
+      Array [
+        Object {
+          "dataIndex": "application",
+          "key": "application",
+          "title": "Application",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "t-cc",
+          "key": "t-cc",
+          "title": "Type Credit Card",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "ccn",
+          "key": "ccn",
+          "title": "Credit Card Number",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "priority",
+          "key": "priority",
+          "title": "Priority",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "country",
+          "key": "country",
+          "title": "Country",
+          "width": 130,
+        },
+      ]
+    }
+    emptyText={[Function]}
+    prefixCls="rc-table"
+    rowKey="key"
+  />
+  <Row
+    className="mt-5"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Close
+      </Button>
+    </Col>
+  </Row>
+</Fragment>
+`;

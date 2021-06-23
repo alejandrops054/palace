@@ -1,0 +1,570 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Participants component Debe mostrar snapshot 1`] = `
+<div>
+  <h1>
+    Participants
+  </h1>
+  <Form
+    tag="form"
+  >
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <FormGroup
+          tag="div"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Id
+          </Label>
+          <Input
+            style={
+              Object {
+                "width": "40%",
+              }
+            }
+            type="text"
+          />
+        </FormGroup>
+      </Col>
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <FormGroup
+          tag="div"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Status
+          </Label>
+          <Input
+            style={
+              Object {
+                "width": "40%",
+              }
+            }
+            type="select"
+          />
+        </FormGroup>
+      </Col>
+      <Col
+        md={6}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <FormGroup
+          style={
+            Object {
+              "padding": "4%",
+            }
+          }
+          tag="div"
+        >
+          <Input
+            type="checkbox"
+          />
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Show in Artachment A
+          </Label>
+        </FormGroup>
+      </Col>
+    </Row>
+    <FormGroup
+      tag="div"
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Name
+      </Label>
+      <Input
+        type="text"
+      />
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        RFC
+      </Label>
+      <Input
+        type="text"
+      />
+    </FormGroup>
+    <FormGroup
+      tag="div"
+    >
+      <Col
+        sm={
+          Object {
+            "offset": 10,
+            "size": 10,
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="primary"
+          tag="button"
+        >
+          <i
+            className="fas fa-copy"
+          />
+           
+          Copy Address From Owner
+        </Button>
+      </Col>
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Address
+      </Label>
+      <Input
+        type="text"
+      />
+    </FormGroup>
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          City
+        </Label>
+        <Input
+          type="select"
+        />
+      </Col>
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          State
+        </Label>
+        <Input
+          type="text"
+        />
+      </Col>
+    </Row>
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Home phone
+        </Label>
+        <Input
+          type="select"
+        />
+      </Col>
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Country
+        </Label>
+        <Input
+          type="text"
+        />
+      </Col>
+    </Row>
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Cell phone
+        </Label>
+        <Input
+          type="select"
+        />
+      </Col>
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Nationality
+        </Label>
+        <Input
+          type="select"
+        />
+      </Col>
+    </Row>
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Office phone
+        </Label>
+        <Input
+          type="select"
+        />
+      </Col>
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Zip
+        </Label>
+        <Input
+          type="text"
+        />
+      </Col>
+    </Row>
+    <FormGroup
+      tag="div"
+    >
+      <Col
+        sm={
+          Object {
+            "offset": 10,
+            "size": 10,
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="primary"
+          tag="button"
+        >
+          Save
+        </Button>
+         
+        <Button
+          color="primary"
+          tag="button"
+        >
+          Close
+        </Button>
+      </Col>
+    </FormGroup>
+  </Form>
+</div>
+`;

@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InterfazAfilicianes component debe mostrar snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <div
+        className="card-title"
+      >
+        <h3>
+          Interfaz de Afiliaciones Palace/Inteval
+        </h3>
+      </div>
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className=" d-flex justify-content-end"
+      >
+        <Button
+          col="1.5"
+          icon="fas fa-print"
+          title="Print"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col="1.5"
+          icon="fas fa-search"
+          title="Mostrar Afiliacianes"
+          type="button"
+          typebootstrap="link"
+        />
+      </div>
+      <div
+        className="row d-flex"
+      >
+        <Input
+          col={2}
+          label="Date From"
+          type="date"
+        />
+        <Input
+          col={4}
+          label="Date To"
+          type="date"
+        />
+        <Select
+          col={2}
+          colIcon={0}
+          label="Office"
+          option="SUNRISE"
+        />
+        <Select
+          col={2}
+          colIcon={0}
+          label="Sale type"
+          option="NEW SALE"
+        />
+      </div>
+      <Hr />
+      <Nav
+        tabs={true}
+        tag="ul"
+        vertical={false}
+      >
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            onClick={[Function]}
+            tag="a"
+          >
+            Enviar Afiliaciones a Interval
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            className=""
+            onClick={[Function]}
+            tag="a"
+          >
+            Consultar afiliacioanes Enviadas
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            className=""
+            onClick={[Function]}
+            tag="a"
+          >
+            Ver Afilizaciones Rechazadas
+          </NavLink>
+        </NavItem>
+      </Nav>
+      <TabContent
+        activeTab="1"
+        tag="div"
+      >
+        <TabPane
+          tabId="1"
+          tag="div"
+        >
+          <EnviarAfiliacion />
+        </TabPane>
+        <TabPane
+          tabId="2"
+          tag="div"
+        >
+          <ConsultarAfiliacion />
+        </TabPane>
+        <TabPane
+          tabId="3"
+          tag="div"
+        >
+          <VerAfiliacion />
+        </TabPane>
+      </TabContent>
+      <div
+        className="row d-flex justify-content-end"
+      >
+        <Button
+          col={3}
+          title="Enviar a Interval"
+          type="button"
+          typebootstrap="primary "
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

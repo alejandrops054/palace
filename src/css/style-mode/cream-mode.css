@@ -1,0 +1,412 @@
+/*!
+DARK MODE STYLESHEET
+Theme Name: Intelligence 2.0
+Author: Integra IT
+Author URI: https://integraite.com.mx/
+Version: 2.0.0
+*/
+
+/* ---------------------------------------------
+ * GENERAL
+--------------------------------------------- */
+/* Layout
+--------------------------------------------- */
+html body {
+	background-color: #F9F3EC;
+	color: #333;
+}
+
+a {
+	color: #233586;
+}
+
+a:hover {
+	color: #111a43;
+}
+
+/* Wrappers */
+.customer-data {
+	background-color: #FFF;
+	box-shadow: 0 12px 25px rgba(247,141,30,.25);
+}
+
+.card,
+.card-sm,
+.accordion-item,
+.modal-header,
+.modal-body,
+.modal-footer {
+	background-color: #FFF;
+}
+
+/* Texts */
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+	color: black;
+}
+
+.customer-resume h3 {
+	color: #333;
+}
+
+.customer-resume h3 #current-amount {
+	color: #E87E0E;
+}
+
+.notes-list label {
+	color: #333;
+}
+
+/* Links & buttons */
+button.btn-notes,
+button.btn-notes:hover,
+button.btn-notes.active,
+button.btn-notes.active:hover  {
+	color: #444D6C;
+}
+
+button.btn-notes.active,
+button.btn-notes.active:hover {
+	color: #66A3EC;
+}
+
+.customer-avatar button {
+	background-color: #66A3EC;
+	color: #FFF;
+}
+
+button.btn-toggle {
+	color: #233586;
+}
+
+#gm-group .input-group-append  .btn {
+	background-color: #233586;
+	color: #FFF;
+}
+
+#gm-group .input-group-append  .btn:hover {
+	background-color: #233586;
+	color: #FFF;
+}
+
+/* Navigation
+--------------------------------------------- */
+/* Menu bar ---- */
+.app-header {
+	background-color: #FFF;
+}
+
+.submenu {
+	background-color: #FFF;
+}
+
+.menu a {
+	background-color: transparent;
+	color: #233586;
+}
+
+.submenu a {
+	color: #334864;
+}
+
+.menu a.active:hover,
+.menu a:hover > .link-name {
+	background-color: #F8FBFF;
+	text-decoration: none;
+	color: #233586;
+}
+
+.menu a.nav-link.active,
+a.dropdown-item.active,
+a.dropdown-item:active {
+	background-color: #E87E0E;
+	color: #FFF !important;
+}
+
+.submenu button {
+	color: #00AF9F;
+}
+
+.secondary-navigation .menu.toggled,
+.main-navigation .menu.toggled {
+	background-color: #FFF;
+}
+
+@media screen and (min-width: 992px) {
+	.menu-bar {
+		border-right: 1px solid #E0E0E0;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.menu-bar {
+		border-bottom: 1px solid #E0E0E0;
+	}
+}
+
+/* Breadcrumbs ---- */
+.breadcrumbs a {
+	color: #233586;
+}
+
+/* Notes list */
+.list-container {
+	background-color: #2C3248;
+	box-shadow: 0 12px 25px #08090F;
+}
+
+.list-container li {
+	border-bottom-color: #9BA2C6;
+}
+
+.list-container small {
+	color: #9BA2C6;
+}
+
+
+/* Form & Components
+--------------------------------------------- */
+/* Form components */
+.form-control,
+.form-select {
+	background-color: #FBF9F7;
+}
+
+.input-group .btn,
+.input-group-text {
+	background-color: #233586;
+	border-color: #233586;
+	color: #FFF;
+}
+
+.input-group>.input-group-append>.btn:hover,
+.input-group>.input-group-append>.btn:focus,
+.input-group>.input-group-append>.btn-secondary:hover,
+.input-group>.input-group-append>.btn-secondary:focus {
+	background-color: #233586;
+	border-color: #233586;
+}
+
+.nav-tabs .nav-item a.nav-link {
+	color: #233586;
+}
+
+.nav-tabs a.nav-link:focus,
+.nav-tabs a.nav-link:hover,
+.nav-tabs a.nav-link.active:focus,
+.nav-tabs a.nav-link.active:hover {
+	color: #233586;
+}
+
+.nav-tabs a.nav-link.active {
+	color: #000;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: #F78D1E !important;
+}
+
+.nav-pills .nav-link {
+	color: #233586;
+}
+
+.nav-pills .nav-link:hover {
+	background-color: #F2F2F2;
+}
+
+.form-nav {
+	background-color: #FFF;
+	box-shadow: 0 -12px 25px rgba(247,141,30,.25);
+	border-color: #E7ECF2;
+}
+
+/* Customer Resume */
+.customer-photo {
+	border-color: #E7ECF2;
+}
+
+.data-resume th {
+	color: #000;
+}
+
+.data-resume td {
+	color: #333;
+}
+
+/* Badges */
+span.badge {
+	background-color: #E87E0E !important;
+	color: #FFF;
+}
+
+.user-name span.badge {
+	background-color: #00AF9F !important;
+}
+
+.menu-bar span.badge,
+.notes-list span.badge {
+	border-color: #FFF;
+}
+
+
+/* Charts */
+.chart i {
+	color: #233586;
+}
+
+/* Wizard */
+.wizard ul::before {
+	background-color: #233586;
+}
+
+.wizard button {
+	background-color: #FFF;
+	border-color: #233586;
+	color: #233586;
+}
+
+.wizard button.active {
+	border-color: #233586;
+	background-color: #233586;
+	color: #FFF;
+}
+
+/* Tables */
+.page .table {
+	background-color: transparent;
+}
+
+.table thead th,
+.table tbody td {
+	vertical-align: middle;
+}
+
+.table thead th {
+	background-color: #FFF;
+	color: #000;
+}
+
+.table tbody th,
+.table tbody td {
+	color: #333;
+}
+
+.table thead th:last-child,
+.table tbody td:last-child {
+	text-align: right;
+}
+
+.table tbody tr:nth-child(odd) th,
+.table tbody tr:nth-child(odd) td {
+	background-color: #E7ECF2;
+}
+
+.table tbody tr:nth-child(even) th,
+.table tbody tr:nth-child(even) td {
+	background-color: #FFF;
+}
+
+.table a {
+	color: #E87E0E;
+}
+
+.tables .btn-link {
+	color: #233586;
+}
+
+.tables .btn-link:hover {
+	color: #233586 !important;
+}
+
+.tables .btn-link.main {
+	color: #E87E0E;
+}
+
+.tables .btn-link:hover,
+.tables .btn-link.main:hover {
+	background-color: transparent;
+	color: #FFF;
+}
+
+/* Checkboxes */
+.checkmark {
+	border-color: #233586;
+}
+
+.checkbox_input input:checked ~ .checkmark {
+	background-color: #233586;
+}
+
+.checkbox_input input:checked ~ .checkmark::after {
+	color: #FFF;
+}
+
+/* Pagination */
+.tp-link {
+	border-color: #6E83F0;
+	color: #233586;
+}
+
+.tp-link:hover,
+.tp-link:focus {
+	background-color: #6E83F0;
+	border-color: #6E83F0;
+}
+
+.tp-link.active {
+	background-color: #233586;
+	border-color: #233586;
+	color: #FFF;
+}
+
+/* Modal */
+.modal-backdrop {
+	background-color: rgba(0,0,0,.8);
+}
+
+/* ---------------------------------------------
+ * BRANDING
+--------------------------------------------- */
+/* Branding & profile
+--------------------------------------------- */
+.app-branding a {
+	background-color: #FAFAFA;
+	border-color: #E0E0E0;
+}
+
+.app-branding a:hover,
+.app-branding a:focus {
+	border-color: #233586;
+}
+
+.custom-profile {
+	border-color: #E0E0E0;
+}
+
+/* ---------------------------------------------
+ * SINGLE SIGN ON
+--------------------------------------------- */
+/* Branding
+--------------------------------------------- */
+/* SSO Headings */
+.sso-form-title {
+	color: initial;
+}
+
+.sso-form div.shadow {
+	background-color: #FFF;
+	box-shadow: 3px 9px 4px rgba(35,53,134,.12);
+}
+
+.sso-form form .input-group-text {
+	background-color: #FFF;
+	color: #333;
+}
+
+.sso-form button.btn.btn-primary.btn-lg {
+	font-size: 1rem;
+}
+
+.sso-container a {
+	color: #233586;
+}

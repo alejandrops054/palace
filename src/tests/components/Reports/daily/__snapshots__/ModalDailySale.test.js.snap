@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalDailySale component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Daily Sale
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="ms"
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle>
+        Daily Sale
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <Select
+              label="Company"
+              option="Todos"
+            />
+            <Select
+              label="Status"
+              option="Todos"
+            />
+            <Select
+              label="Office"
+              option="Todos"
+            />
+          </div>
+          <br />
+          <div
+            className="col-md-12"
+          >
+            <h5>
+              Membership
+            </h5>
+            <Input
+              col={12}
+              label="Application"
+              placeholder=""
+              type="text"
+            />
+          </div>
+          <br />
+          <div
+            className="col-md-12"
+          >
+            <h5>
+              Processable Date filter
+            </h5>
+            <Input
+              col={12}
+              label="From date"
+              placeholder=""
+              type="date"
+            />
+            <Input
+              col={12}
+              label="To date"
+              placeholder=""
+              type="date"
+            />
+            <Checkbox
+              label="Open report after generate"
+              name="checkRow3"
+            />
+          </div>
+        </div>
+      </div>
+    </ModalBody>
+    <ModalFooter>
+      <Button
+        active={false}
+        disabled={false}
+        onClick={[Function]}
+        variant="secondary"
+      >
+        close
+      </Button>
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Execute
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

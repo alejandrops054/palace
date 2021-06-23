@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OtherInfo component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <h5>
+        Other info
+      </h5>
+      <div
+        className="col-md-6"
+      >
+        <Input
+          col={12}
+          label="Source"
+          placeholder=""
+          type="text"
+        />
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <Input
+          col={12}
+          label="User"
+          placeholder=""
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VatRateGuestInformation component debe mostrar snapshot 1`] = `
+<div
+  className="container accordion"
+  div={true}
+  id="vat-rate"
+>
+  <div
+    className="mb-5 row"
+  >
+    <Accordionn
+      component={[Function]}
+      title="Owner"
+    />
+    <Accordionn
+      component={[Function]}
+      title="CoOwner"
+    />
+    <Accordionn
+      component={[Function]}
+      title="Beneficiary"
+    />
+  </div>
+</div>
+`;

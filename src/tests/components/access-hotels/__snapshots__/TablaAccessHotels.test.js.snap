@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente TablaAccessHotels  Creacion de TablaAccessHotels 1`] = `
+<ForwardRef
+  bordered={true}
+  hover={true}
+  striped={true}
+>
+  <thead>
+    <tr>
+      <td>
+        Code
+      </td>
+      <td>
+        Description
+      </td>
+      <td>
+        Status
+      </td>
+      <td>
+        Hotels Zone
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        JM
+      </td>
+      <td>
+        MOON PALACE JAMAICA
+      </td>
+      <td>
+        A
+      </td>
+      <td>
+        Caribe
+      </td>
+    </tr>
+  </tbody>
+</ForwardRef>
+`;

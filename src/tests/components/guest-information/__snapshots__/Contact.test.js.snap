@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact component debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Contact ID"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="white"
+      etiqueta="1234"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      color="grey"
+      etiqueta="Contact Name"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta="John Doe"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      col={9}
+      color="grey"
+      etiqueta="Profile ID"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta="2345"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      col={9}
+      color="grey"
+      etiqueta="Profile Name"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta="John"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      col={9}
+      color="grey"
+      etiqueta="Owner ID"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta="323232"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      col={9}
+      color="grey"
+      etiqueta="Title"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta="Owner"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      col={9}
+      color="grey"
+      etiqueta="Owner Name"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta="John Doe"
+      tamanio={18}
+    />
+  </div>
+</div>
+`;

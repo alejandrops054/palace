@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GolfRatesDiscount component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="h5"
+      >
+        Golf Rates 50% Discount
+      </CardTitle>
+      <SimpleTable
+        columns={
+          Array [
+            Object {
+              "dataIndex": "golfround",
+              "key": "golfround",
+              "title": "Golf Round",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "hotel",
+              "key": "hotel",
+              "title": "Hotel",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "amount",
+              "key": "amount",
+              "title": "Amount",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "useyear",
+              "key": "useyear",
+              "title": "Use Year",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "usedatefrom",
+              "key": "usedatefrom",
+              "title": "Use Date From",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "usedateto",
+              "key": "usedateto",
+              "title": "Use Date To",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "printdate",
+              "key": "printdate",
+              "title": "Print Date",
+              "width": "1%",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "amount": "",
+              "golfround": "",
+              "hotel": "",
+              "printdate": "",
+              "usedatefrom": "",
+              "usedateto": "",
+              "useyear": "",
+            },
+            Object {
+              "amount": "",
+              "golfround": "",
+              "hotel": "",
+              "printdate": "",
+              "usedatefrom": "",
+              "usedateto": "",
+              "useyear": "",
+            },
+            Object {
+              "amount": "",
+              "golfround": "",
+              "hotel": "",
+              "printdate": "",
+              "usedatefrom": "",
+              "usedateto": "",
+              "useyear": "",
+            },
+            Object {
+              "amount": "",
+              "golfround": "",
+              "hotel": "",
+              "printdate": "",
+              "usedatefrom": "",
+              "usedateto": "",
+              "useyear": "",
+            },
+            Object {
+              "amount": "",
+              "golfround": "",
+              "hotel": "",
+              "printdate": "",
+              "usedatefrom": "",
+              "usedateto": "",
+              "useyear": "",
+            },
+            Object {
+              "amount": "",
+              "golfround": "",
+              "hotel": "",
+              "printdate": "",
+              "usedatefrom": "",
+              "usedateto": "",
+              "useyear": "",
+            },
+            Object {
+              "amount": "",
+              "golfround": "",
+              "hotel": "",
+              "printdate": "",
+              "usedatefrom": "",
+              "usedateto": "",
+              "useyear": "",
+            },
+            Object {
+              "amount": "",
+              "golfround": "",
+              "hotel": "",
+              "printdate": "",
+              "usedatefrom": "",
+              "usedateto": "",
+              "useyear": "",
+            },
+            Object {
+              "amount": "",
+              "golfround": "",
+              "hotel": "",
+              "printdate": "",
+              "usedatefrom": "",
+              "usedateto": "",
+              "useyear": "",
+            },
+            Object {
+              "amount": "",
+              "golfround": "",
+              "hotel": "",
+              "printdate": "",
+              "usedatefrom": "",
+              "usedateto": "",
+              "useyear": "",
+            },
+          ]
+        }
+        type="table"
+      />
+    </CardBody>
+  </Card>
+</Fragment>
+`;

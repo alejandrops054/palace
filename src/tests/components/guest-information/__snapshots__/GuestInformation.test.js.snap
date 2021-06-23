@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GuestInformation component debe mostrar snapshot 1`] = `
+<div
+  className="guest-information"
+  div={true}
+  id="guest-information"
+>
+  <Card
+    col={12}
+    component={<ElementosCard />}
+    size={5}
+    title="Jane Doe"
+  />
+</div>
+`;

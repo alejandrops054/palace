@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <Chart/> Debe renderizar el Chart  1`] = `
+<div
+  className="chart position-relative"
+>
+  <i
+    className="fas fa-gifts"
+  />
+  <Doughnut
+    data={
+      Object {
+        "datasets": Array [
+          Object {
+            "backgroundColor": Array [
+              "rgba(0, 175, 159, 1)",
+              "rgba(44, 50, 72, 1)",
+            ],
+            "borderColor": Array [
+              "rgba(0, 175, 159, 0)",
+              "rgba(44, 50, 72, 0)",
+            ],
+            "borderWidth": 1,
+            "data": Array [
+              21,
+              79,
+            ],
+            "hoverBorderColor": Array [
+              "rgba(0, 175, 159, 0.5)",
+              "rgba(44, 50, 72, 0.5)",
+            ],
+          },
+        ],
+      }
+    }
+    options={
+      Object {
+        "title": Object {
+          "display": true,
+          "fontSize": 10,
+          "text": "Value",
+        },
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,510 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EInvoicingAffilation component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h3>
+          E-Invoicing by Affilation
+        </h3>
+      </CardTitle>
+      <br />
+      <h5>
+        Member Resume
+      </h5>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="4"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Company
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="4"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Application
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="4"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Member Name 
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="4"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Office 
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="4"
+        />
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="4"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+             Project
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+      </Row>
+      <br />
+      <Nav
+        tabs={true}
+        tag="ul"
+        vertical={false}
+      >
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            className="active"
+            onClick={[Function]}
+            tag="a"
+          >
+            In Process
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            className=""
+            onClick={[Function]}
+            tag="a"
+          >
+            Processed
+          </NavLink>
+        </NavItem>
+      </Nav>
+      <TabContent
+        activeTab="1"
+        tag="div"
+      >
+        <TabPane
+          tabId="1"
+          tag="div"
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              sm="12"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Card
+                body={true}
+                tag="div"
+              >
+                <CardTitle
+                  tag="div"
+                />
+                <Row
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  <Col
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                    xs="12"
+                  >
+                    <Table
+                      columns={
+                        Array [
+                          Object {
+                            "dataIndex": "type",
+                            "key": "type",
+                            "title": "Type ",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "trans",
+                            "key": "trans",
+                            "title": "Trans.date",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "code",
+                            "key": "code",
+                            "title": "Code/Sale Type",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "salesarea",
+                            "key": "salesarea",
+                            "title": "Sales Area",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "where",
+                            "key": "where",
+                            "title": "Where",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "invoice",
+                            "key": "invoice",
+                            "title": "Invoice",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "status",
+                            "key": "status",
+                            "title": "Status",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "document",
+                            "key": "document",
+                            "title": "Document",
+                            "width": 100,
+                          },
+                        ]
+                      }
+                      dataSource={
+                        Array [
+                          Object {},
+                        ]
+                      }
+                      rowKey="key"
+                    />
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane
+          tabId="2"
+          tag="div"
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              sm="12"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Card
+                body={true}
+                tag="div"
+              >
+                <CardTitle
+                  tag="div"
+                />
+                <Row
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  <Col
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                    xs="12"
+                  >
+                    <Table
+                      columns={
+                        Array [
+                          Object {
+                            "dataIndex": "reinvoice",
+                            "key": "reinvoice",
+                            "title": "ReInvoice ",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "creditnote",
+                            "key": "creditnote",
+                            "title": "Credit.Note",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "date",
+                            "key": "date",
+                            "title": "Date",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "codesale",
+                            "key": "codesale",
+                            "title": "Code / Sale type",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "where",
+                            "key": "where",
+                            "title": "Where",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "invoice",
+                            "key": "invoice",
+                            "title": "Invoice #",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "type",
+                            "key": "type",
+                            "title": "Type",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "document",
+                            "key": "document",
+                            "title": "Document",
+                            "width": 100,
+                          },
+                        ]
+                      }
+                      dataSource={
+                        Array [
+                          Object {},
+                        ]
+                      }
+                      rowKey="key"
+                    />
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+          </Row>
+        </TabPane>
+      </TabContent>
+      <br />
+    </CardBody>
+  </Card>
+</Fragment>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hotels component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Table
+    columns={
+      Array [
+        Object {
+          "dataIndex": "hotel",
+          "key": "hotel",
+          "title": "Hotel",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "status",
+          "key": "status",
+          "title": "Status",
+          "width": 130,
+        },
+      ]
+    }
+    emptyText={[Function]}
+    prefixCls="rc-table"
+    rowKey="key"
+  />
+</Fragment>
+`;

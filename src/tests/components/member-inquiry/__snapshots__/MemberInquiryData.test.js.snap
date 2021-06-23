@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente MemberInquiryData Creacion de MemberInquiryData 1`] = `
+<Fragment>
+  <Etiqueta
+    aling="center"
+    bold="bold"
+    col={12}
+    color="white"
+    etiqueta="Member Inquiry"
+    tamanio={25}
+  />
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <InfoMembers
+        text="7"
+        title="Company"
+      />
+    </div>
+    <div
+      className="col"
+    >
+      <InfoMembers
+        text="New BPG"
+        title="Scheme"
+      />
+    </div>
+    <div
+      className="col"
+    >
+      <InfoMembers
+        text="12312312"
+        title="Application"
+      />
+    </div>
+    <div
+      className="col"
+    >
+      <InfoMembers
+        text="7"
+        title="Sale level"
+      />
+    </div>
+  </div>
+</Fragment>
+`;

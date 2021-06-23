@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VatRateCoOwner component debe mostrar snapshot 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row"
+  >
+    <VatRateCoOwnerTaxNationality />
+  </div>
+  <div
+    className="row"
+  >
+    <VatRateCoOwnerReasons />
+  </div>
+  <hr
+    className="w-100"
+  />
+  <div
+    className="row"
+  >
+    <VatRateCoOwnerIdentifications />
+  </div>
+  <hr
+    className="w-80"
+  />
+  <div
+    className="row"
+  >
+    <h4>
+      Payment ways
+    </h4>
+    <div
+      className="col"
+    >
+      <RcTable />
+    </div>
+  </div>
+</div>
+`;

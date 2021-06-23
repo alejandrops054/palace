@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavEInvoicing component Debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <Nav
+      tabs={true}
+      tag="ul"
+      vertical={false}
+    >
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          onClick={[Function]}
+          tag="a"
+        >
+          In process
+        </NavLink>
+      </NavItem>
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          onClick={[Function]}
+          tag="a"
+        >
+          Processed
+        </NavLink>
+      </NavItem>
+    </Nav>
+    <TabContent
+      activeTab="1"
+      tag="div"
+    >
+      <TabPane
+        tabId="1"
+        tag="div"
+      >
+        <TableInProcess />
+      </TabPane>
+      <TabPane
+        tabId="2"
+        tag="div"
+      >
+        <TableProcessed />
+      </TabPane>
+    </TabContent>
+  </div>
+</div>
+`;

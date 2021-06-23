@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrintDailyExclude component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <label
+      col={12}
+      htmlFor=""
+    >
+      Exclude
+    </label>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-2"
+      >
+        <Select
+          col={12}
+          label="U Discount"
+          option="YES"
+        />
+      </div>
+      <div
+        className="col-md-2"
+      >
+        <Select
+          col={12}
+          label="H Discount"
+          option="YES"
+        />
+      </div>
+      <div
+        className="col-md-2"
+      >
+        <Select
+          col={12}
+          label="Cas out"
+          option="YES"
+        />
+      </div>
+      <div
+        className="col-md-3"
+      >
+        <Select
+          col={12}
+          label="NOM-Member Accounts(A777)"
+          option="YES"
+        />
+      </div>
+      <div
+        className="col-md-3"
+      >
+        <Select
+          col={12}
+          label="Clean Supense Tranction (ID code X)"
+          option="YES"
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

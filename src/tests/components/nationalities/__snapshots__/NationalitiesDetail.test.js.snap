@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NationalitiesDetail component Debe mostrar snapshot 1`] = `
+<Container
+  fluid={true}
+  tag="div"
+>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <CardTitle
+        tag="h3"
+      >
+        Nationalities
+      </CardTitle>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <div
+        className="d-flex"
+      >
+        <Input
+          col={4}
+          label="Spanish"
+          name="city"
+          placeholder=""
+          type="text"
+        />
+        <Input
+          col={4}
+          label="English"
+          name=""
+          placeholder=""
+          type="text"
+        />
+        <Input
+          col={4}
+          label="Portuguese"
+          name=""
+          placeholder=""
+          type="text"
+        />
+      </div>
+      <div
+        className="d-flex"
+      >
+        <Input
+          col={4}
+          label="Country"
+          name=""
+          placeholder=""
+          type="text"
+        />
+      </div>
+    </CardBody>
+    <CardFooter
+      tag="div"
+    >
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col={2}
+          icon="fas fa-save"
+          title="Save"
+          type="button"
+          typebootstrap="primary"
+        />
+        <Button
+          col={2}
+          icon="fas fa-times"
+          title="Close"
+          typebootstrap="secondary "
+        />
+      </div>
+    </CardFooter>
+  </Card>
+</Container>
+`;

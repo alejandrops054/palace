@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProvitionalQuery component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-3"
+    >
+      <Input
+        col={12}
+        label="CO #"
+        placeholder="5"
+        type="text"
+      />
+      <Input
+        col={12}
+        label="NAME "
+        placeholder="GURRT PRET"
+        type="text"
+      />
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <Input
+        col={12}
+        label="APLIC# "
+        placeholder="55462537"
+        type="text"
+      />
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <Input
+        col={12}
+        label="PAYMENTS MADE:"
+        placeholder="24"
+        type="text"
+      />
+      <Input
+        col={12}
+        label="RG EARNED :"
+        type="text"
+      />
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <Input
+        col={12}
+        label="OF :"
+        placeholder="10"
+        type="text"
+      />
+      <Input
+        col={12}
+        label="RG USED"
+        placeholder="0.00"
+        type="text"
+      />
+    </div>
+  </div>
+  <br />
+  <span
+    className="ant-form-text"
+  >
+    SELLERS
+  </span>
+  <br />
+  <div>
+    <Table
+      columns={
+        Array [
+          Object {
+            "dataIndex": "title",
+            "key": "title",
+            "title": "Title ",
+            "width": 100,
+          },
+          Object {
+            "dataIndex": "code",
+            "key": "code",
+            "title": "Code ",
+            "width": 150,
+          },
+          Object {
+            "dataIndex": "name",
+            "key": "name",
+            "title": "Name ",
+            "width": 150,
+          },
+        ]
+      }
+      data={Array []}
+      rowKey="key"
+    />
+  </div>
+  <br />
+  <span
+    className="ant-form-text"
+  >
+    BENEFICIARES
+  </span>
+  <br />
+  <div>
+    <Table
+      columns={
+        Array [
+          Object {
+            "dataIndex": "id",
+            "key": "id",
+            "title": "ID ",
+            "width": 100,
+          },
+          Object {
+            "dataIndex": "application",
+            "key": "application",
+            "title": "Application ",
+            "width": 150,
+          },
+          Object {
+            "dataIndex": "name",
+            "key": "name",
+            "title": "Name ",
+            "width": 150,
+          },
+          Object {
+            "dataIndex": "status",
+            "key": "status",
+            "title": "Status ",
+            "width": 150,
+          },
+        ]
+      }
+      data={Array []}
+      rowKey="key"
+    />
+  </div>
+  <br />
+  <span
+    className="ant-form-text"
+  >
+    PROVITIONS
+  </span>
+  <br />
+  <div>
+    <Table
+      columns={
+        Array [
+          Object {
+            "dataIndex": "folio",
+            "key": "folio",
+            "title": "Folio ",
+            "width": 100,
+          },
+          Object {
+            "dataIndex": "type",
+            "key": "type",
+            "title": "Type ",
+            "width": 150,
+          },
+          Object {
+            "dataIndex": "name",
+            "key": "name",
+            "title": "Name ",
+            "width": 150,
+          },
+          Object {
+            "dataIndex": "monthy",
+            "key": "monthy",
+            "title": "Monthy ",
+            "width": 150,
+          },
+          Object {
+            "dataIndex": "valid",
+            "key": "valid",
+            "title": "Valid ",
+            "width": 150,
+          },
+        ]
+      }
+      data={Array []}
+      rowKey="key"
+    />
+  </div>
+</div>
+`;

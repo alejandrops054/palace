@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InvoicingInfo component debe mostrar snapshot 1`] = `
+<div
+  className="container mb-4"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <h3>
+        Invoicing information
+      </h3>
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-4"
+        >
+          <Input
+            col={12}
+            label="Business name"
+            placeholder=""
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <Input
+            col={12}
+            label="RFC"
+            placeholder="XEXX010101000"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <Input
+            col={12}
+            label="Email"
+            placeholder=""
+            type="text"
+          />
+        </div>
+        <AddressInvoicing />
+        <div
+          className="col-md-12"
+        >
+          <Checkbox
+            col={12}
+            label="Sale processed"
+          />
+        </div>
+      </div>
+      <Button
+        col={3}
+        title="Save Invoicing Information"
+        type="button"
+        typebootstrap="primary"
+      />
+    </div>
+  </div>
+</div>
+`;

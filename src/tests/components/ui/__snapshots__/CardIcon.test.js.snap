@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <CardIcon/> Debe renderizar el CardIcon  1`] = `
+<Link
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }
+  to="/member-resume"
+>
+  <div
+    className="carta btn"
+  >
+    <div
+      className="card text-center"
+      style={
+        Object {
+          "height": "11.2rem",
+          "width": "12rem",
+        }
+      }
+    >
+      <div
+        className="card-body"
+      >
+        <img
+          alt="contracts"
+          className="col-6 mb-2"
+          src="images/brand/systems-iso/contracts.svg"
+        />
+        <h5
+          className="card-title mt-3"
+          style={
+            Object {
+              "color": "#00AF9F",
+            }
+          }
+        >
+          Titulo de CardIcon
+        </h5>
+      </div>
+    </div>
+  </div>
+</Link>
+`;

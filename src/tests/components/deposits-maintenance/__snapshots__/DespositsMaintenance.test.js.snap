@@ -1,0 +1,581 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DespositsMaintenance component Debe mostrar snapshot 1`] = `
+<Container
+  tag="div"
+>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <CardSubtitle
+            tag="h3"
+          >
+            Deposits Maintenance
+          </CardSubtitle>
+        </Col>
+      </Row>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="8"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <CardSubtitle
+            tag="div"
+          >
+            Member Information
+          </CardSubtitle>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              className="d-flex justify-content-end tables"
+              lg="12"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Button
+                col="1.5"
+                icon="fas fa-users"
+                title="Affiliation"
+                type="button"
+                typebootstrap="link main"
+              />
+              <Button
+                col="1.5"
+                icon="fas fa-credit-card"
+                title="Credit Card"
+                type="button"
+                typebootstrap="link"
+              />
+              <Button
+                col="1.5"
+                icon="fas fa-plus"
+                onClick={[Function]}
+                title="Add Deposit"
+                type="button"
+                typebootstrap="link"
+              />
+            </Col>
+          </Row>
+          <Row
+            className="mt-3"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <InfoMembers
+                text="5"
+                title="Company"
+              />
+              <InfoMembers
+                text=""
+                title="Office"
+              />
+            </Col>
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <InfoMembers
+                text=" "
+                title="Application"
+              />
+            </Col>
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <InfoMembers
+                text=""
+                title="Member Name"
+              />
+              <InfoMembers
+                text=""
+                title="Project"
+              />
+            </Col>
+          </Row>
+          <Table
+            className="table"
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "Date",
+                  "key": "1",
+                  "title": "Date >>",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "Deposit",
+                  "key": "2",
+                  "title": "Deposit >>",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "Transaction",
+                  "key": "3",
+                  "title": "Transaction",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "Credit_Card",
+                  "key": "4",
+                  "title": "Credit Card",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "Funds",
+                  "key": "5",
+                  "title": "Funds",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "Bank",
+                  "key": "6",
+                  "title": "Bank",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "Account",
+                  "key": "7",
+                  "title": "Account",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "Reference",
+                  "key": "8",
+                  "title": "Reference",
+                  "width": 100,
+                },
+              ]
+            }
+            data={
+              Array [
+                Object {
+                  "Account": "",
+                  "Amount": "",
+                  "Bank": "",
+                  "Credit_Card": "",
+                  "Date": "3",
+                  "Deposit": "",
+                  "Funds": "",
+                  "Reference": "",
+                  "Transaction": "",
+                },
+                Object {
+                  "Account": "",
+                  "Amount": "",
+                  "Bank": "",
+                  "Credit_Card": "",
+                  "Date": "3",
+                  "Deposit": "",
+                  "Funds": "",
+                  "Reference": "",
+                  "Transaction": "",
+                },
+                Object {
+                  "Account": "",
+                  "Amount": "",
+                  "Bank": "",
+                  "Credit_Card": "",
+                  "Date": "3",
+                  "Deposit": "",
+                  "Funds": "",
+                  "Reference": "",
+                  "Transaction": "",
+                },
+                Object {
+                  "Account": "",
+                  "Amount": "",
+                  "Bank": "",
+                  "Credit_Card": "",
+                  "Date": "3",
+                  "Deposit": "",
+                  "Funds": "",
+                  "Reference": "",
+                  "Transaction": "",
+                },
+              ]
+            }
+            emptyText={[Function]}
+            id="resume-table"
+            prefixCls="rc-table"
+            rowKey="key"
+            scroll={
+              Object {
+                "x": "auto",
+              }
+            }
+          />
+        </Col>
+        <Col
+          className="p-2"
+          lg="4"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <CardSubtitle
+            tag="div"
+          >
+            Entry
+          </CardSubtitle>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                type="text"
+              />
+            </Col>
+          </Row>
+          <CardSubtitle
+            tag="div"
+          >
+            Last Entry
+          </CardSubtitle>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                type="text"
+              />
+            </Col>
+          </Row>
+          <Table
+            className="table"
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "Item",
+                  "key": "1",
+                  "title": "Item",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "Description",
+                  "key": "2",
+                  "title": "Description",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "Totals",
+                  "key": "3",
+                  "title": "Totals",
+                  "width": 100,
+                },
+              ]
+            }
+            data={
+              Array [
+                Object {
+                  "Description": "",
+                  "Item": "3",
+                  "Totals": "",
+                },
+                Object {
+                  "Description": "",
+                  "Item": "3",
+                  "Totals": "",
+                },
+                Object {
+                  "Description": "",
+                  "Item": "3",
+                  "Totals": "",
+                },
+              ]
+            }
+            emptyText={[Function]}
+            id="resume-table"
+            prefixCls="rc-table"
+            rowKey="key"
+            scroll={
+              Object {
+                "x": "auto",
+              }
+            }
+          />
+        </Col>
+      </Row>
+    </CardBody>
+    <CardFooter
+      tag="div"
+    >
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          color="primary"
+          tag="button"
+        >
+          <i
+            className="fas fa-clipboard-list"
+          />
+          Log
+        </Button>
+        <Button
+          color="primary"
+          tag="button"
+        >
+          <i
+            className="fas fa-trash"
+          />
+          Delete
+        </Button>
+        <Button
+          color="primary"
+          tag="button"
+        >
+          <i
+            className="fas fa-print"
+          />
+          Print
+        </Button>
+        <Button
+          color="primary"
+          tag="button"
+        >
+          <i
+            className="fas fa-check"
+          />
+          Ok
+        </Button>
+        <Button
+          color="primary"
+          tag="button"
+        >
+          <i
+            className="fas fa-times"
+          />
+          Cancel
+        </Button>
+      </div>
+    </CardFooter>
+  </Card>
+</Container>
+`;

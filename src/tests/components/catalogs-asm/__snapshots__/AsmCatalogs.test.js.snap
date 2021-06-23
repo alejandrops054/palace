@@ -1,0 +1,364 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AsmCatalogs component debe mostrar snapshot 1`] = `
+<div>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <CardTitle
+            tag="h3"
+          >
+            ASM
+          </CardTitle>
+        </Col>
+        <Col
+          className=" d-flex justify-content-end tables"
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            col="1.5"
+            icon="fas fa-users"
+            title="Apply Filter"
+            type="button"
+            typebootstrap="link main"
+          />
+          <Button
+            col="1.5"
+            icon="fas fa-upload"
+            title="Clear Filter"
+            type="button"
+            typebootstrap="link"
+          />
+        </Col>
+      </Row>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className=" d-flex justify-content-end"
+        >
+          <Col
+            lg="3"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Select />
+          </Col>
+        </div>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Table
+          className="table"
+          columns={
+            Array [
+              Object {
+                "dataIndex": "id",
+                "key": "1",
+                "title": "ASM Id",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "name",
+                "key": "2",
+                "title": "Name",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "status",
+                "key": "3",
+                "title": "Status",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "active",
+                "key": "4",
+                "title": "Active",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "priority",
+                "key": "5",
+                "title": "Priority",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "auto",
+                "key": "6",
+                "title": "Automatic Assignments",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "pertmitMM",
+                "key": "7",
+                "title": "Permit Assign MM",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "priorityMM",
+                "key": "8",
+                "title": "Priority Assign MM",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "permitNC",
+                "key": "9",
+                "title": "Permit Assign NC",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "priorityNC",
+                "key": "10",
+                "title": "Priority Assign NC",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "pertmitM1",
+                "key": "11",
+                "title": "Permit Assign M1",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "priorityM1",
+                "key": "12",
+                "title": "Priority Assign M1",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "pertmitCrxTMP",
+                "key": "13",
+                "title": "Permit Assign Crx TMP",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "priorityCrxTMP",
+                "key": "14",
+                "title": "Priority Assign Crx TMP",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "pertmitSM",
+                "key": "15",
+                "title": "Permit Assign SM",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "prioritySM",
+                "key": "16",
+                "title": "Priority Assign SM",
+                "width": "auto",
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "active": "",
+                "auto": "",
+                "id": "2201",
+                "name": "",
+                "permitNC": "",
+                "pertmitCrxTMP": "",
+                "pertmitM1": "",
+                "pertmitMM": "",
+                "pertmitSM": "",
+                "priority": "",
+                "priorityCrxTMP": "",
+                "priorityM1": "",
+                "priorityMM": "",
+                "priorityNC": "",
+                "prioritySM": "",
+                "status": "",
+              },
+              Object {
+                "active": "",
+                "auto": "",
+                "id": "2201",
+                "name": "",
+                "permitNC": "",
+                "pertmitCrxTMP": "",
+                "pertmitM1": "",
+                "pertmitMM": "",
+                "pertmitSM": "",
+                "priority": "",
+                "priorityCrxTMP": "",
+                "priorityM1": "",
+                "priorityMM": "",
+                "priorityNC": "",
+                "prioritySM": "",
+                "status": "",
+              },
+              Object {
+                "active": "",
+                "auto": "",
+                "id": "2201",
+                "name": "",
+                "permitNC": "",
+                "pertmitCrxTMP": "",
+                "pertmitM1": "",
+                "pertmitMM": "",
+                "pertmitSM": "",
+                "priority": "",
+                "priorityCrxTMP": "",
+                "priorityM1": "",
+                "priorityMM": "",
+                "priorityNC": "",
+                "prioritySM": "",
+                "status": "",
+              },
+              Object {
+                "active": "",
+                "auto": "",
+                "id": "2201",
+                "name": "",
+                "permitNC": "",
+                "pertmitCrxTMP": "",
+                "pertmitM1": "",
+                "pertmitMM": "",
+                "pertmitSM": "",
+                "priority": "",
+                "priorityCrxTMP": "",
+                "priorityM1": "",
+                "priorityMM": "",
+                "priorityNC": "",
+                "prioritySM": "",
+                "status": "",
+              },
+            ]
+          }
+          emptyText={[Function]}
+          id="resume-table"
+          prefixCls="rc-table"
+          rowKey="key"
+          scroll={
+            Object {
+              "x": 2800,
+            }
+          }
+          style={
+            Object {
+              "width": "auto",
+            }
+          }
+        />
+      </Row>
+    </CardBody>
+    <CardFooter
+      tag="div"
+    >
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col={2}
+          icon="fas fa-clipboard-list"
+          title="Log"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col={2}
+          icon="fas fa-plus"
+          title="Add"
+          typebootstrap="link "
+        />
+        <Button
+          col={2}
+          icon="fas fa-times"
+          title="Properties"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col={2}
+          icon="fas fa-trash"
+          title="Delete"
+          typebootstrap="link "
+        />
+        <Button
+          col={2}
+          icon="fas fa-sync-alt"
+          title="Refresh"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col={2}
+          icon="fas fa-times"
+          title="Close"
+          typebootstrap="link "
+        />
+      </div>
+    </CardFooter>
+  </Card>
+</div>
+`;

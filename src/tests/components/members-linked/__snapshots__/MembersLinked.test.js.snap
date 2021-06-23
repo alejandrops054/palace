@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MembersLinked component debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <div
+        className="card-title"
+      >
+        <h3>
+          Members Linked
+        </h3>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-4"
+        >
+          <InfoMembers
+            color="#fff"
+            text="9"
+            title="Company"
+          />
+          <InfoMembers
+            color="#fff"
+            text="70007336"
+            title="Application "
+          />
+          <InfoMembers
+            color="#fff"
+            text="Dionne Casona Foster"
+            title="Name "
+          />
+        </div>
+        <div
+          className="col-lg-4 "
+        >
+          <Input
+            col={12}
+            label="Virtual program"
+            type="text"
+          />
+          <InfoMembers
+            color="#fff"
+            text="$4,100 00"
+            title="Virtual amount "
+          />
+        </div>
+        <div
+          className="col-lg-4"
+        >
+          <Select
+            col={12}
+            label="Virtual price level"
+            option="Option"
+          />
+          <Button
+            col="9"
+            icon="fas fa-search"
+            title="Search"
+            type="button"
+            typebootstrap="primary"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="card-body table"
+    >
+      <Table
+        columns={
+          Array [
+            Object {
+              "align": "center",
+              "dataIndex": "Company",
+              "key": "1",
+              "title": "Company",
+              "width": 120,
+            },
+            Object {
+              "dataIndex": "Application",
+              "key": "Application",
+              "title": "Application",
+              "width": 120,
+            },
+            Object {
+              "dataIndex": "Name",
+              "key": "Name",
+              "title": "Name",
+              "width": 120,
+            },
+            Object {
+              "dataIndex": "Program",
+              "key": "Program",
+              "title": "Program",
+              "width": 120,
+            },
+            Object {
+              "dataIndex": "Exchange",
+              "key": "Exchange",
+              "title": "Exchange",
+              "width": 120,
+            },
+            Object {
+              "dataIndex": "Currency",
+              "key": "Currency",
+              "title": "Currency",
+              "width": 120,
+            },
+            Object {
+              "dataIndex": "Total",
+              "key": "Total",
+              "title": "Total",
+              "width": 120,
+            },
+            Object {
+              "dataIndex": "Amount",
+              "key": "Amount",
+              "title": "USD Amount",
+              "width": 120,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "Amount": "",
+              "Application": " ",
+              "Company": " ",
+              "Currency": "1",
+              "Exchange": " ",
+              "Name": "A",
+              "Program": "Y",
+              "Total": 2,
+            },
+            Object {
+              "Amount": "",
+              "Application": " ",
+              "Company": " ",
+              "Currency": "1",
+              "Exchange": " ",
+              "Name": "A",
+              "Program": "Y",
+              "Total": 2,
+            },
+            Object {
+              "Amount": "",
+              "Application": " ",
+              "Company": " ",
+              "Currency": "1",
+              "Exchange": " ",
+              "Name": "A",
+              "Program": "Y",
+              "Total": 2,
+            },
+            Object {
+              "Amount": "",
+              "Application": " ",
+              "Company": " ",
+              "Currency": "1",
+              "Exchange": " ",
+              "Name": "A",
+              "Program": "Y",
+              "Total": 2,
+            },
+          ]
+        }
+        emptyText={[Function]}
+        id="resume-table"
+        prefixCls="rc-table"
+        rowKey="key"
+      />
+    </div>
+  </div>
+</div>
+`;

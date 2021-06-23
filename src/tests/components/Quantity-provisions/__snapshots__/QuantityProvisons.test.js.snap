@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuantityProvisons component Debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="border-top border-secondary"
+  >
+    <div
+      className="container"
+    >
+      <div>
+        <Table
+          className="table table-striped table-dark"
+          columns={
+            Array [
+              Object {
+                "dataIndex": "item",
+                "key": "item",
+                "width": "250",
+              },
+              Object {
+                "dataIndex": "currency",
+                "key": "currency",
+                "width": "250",
+              },
+              Object {
+                "dataIndex": "initial",
+                "key": "initial",
+                "width": "250",
+              },
+              Object {
+                "dataIndex": "DataDay",
+                "key": "DataDay",
+                "width": "250",
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "currency": "",
+                "initial": "$6,000.00",
+                "item": "Unitary cost",
+              },
+              Object {
+                "currency": "",
+                "initial": "$0.00",
+                "item": "Unitary waiver",
+              },
+              Object {
+                "currency": "",
+                "initial": "$6,00.00",
+                "item": "Provision total cost",
+              },
+              Object {
+                "currency": <Checkbox
+                  name="payCommission"
+                />,
+                "initial": "",
+                "item": "Provision stock",
+              },
+              Object {
+                "currency": <Checkbox
+                  name="payCommission"
+                />,
+                "initial": "",
+                "item": "Provision move in",
+              },
+              Object {
+                "DataDay": "11/26/23",
+                "currency": "",
+                "initial": "3",
+                "item": "Provision date",
+              },
+              Object {
+                "currency": <Checkbox
+                  name="payCommission"
+                />,
+                "initial": "",
+                "item": "Extensin pack",
+              },
+              Object {
+                "currency": <Checkbox
+                  name="payCommission"
+                />,
+                "initial": "",
+                "item": "Extensin Stock",
+              },
+              Object {
+                "currency": <Checkbox
+                  name="payCommission"
+                />,
+                "initial": "",
+                "item": "Extensin no cost",
+              },
+              Object {
+                "currency": "",
+                "initial": "$0.00",
+                "item": "Unitary extension cost",
+              },
+              Object {
+                "currency": "",
+                "initial": "$0.00",
+                "item": "Total extension cost",
+              },
+              Object {
+                "currency": "",
+                "initial": "$6,500.00",
+                "item": "Total",
+              },
+            ]
+          }
+          emptyText={[Function]}
+          prefixCls="rc-table"
+          rowKey="key"
+        />
+      </div>
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col="1"
+          icon="fas fa-times"
+          title=""
+          typebootstrap="secondary"
+        />
+        <Button
+          col="1"
+          icon="fas fa-check"
+          title=""
+          typebootstrap="primary"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

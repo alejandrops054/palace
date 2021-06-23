@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HotelsZoneLog component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Log
+    columns={
+      Array [
+        Object {
+          "dataIndex": "user",
+          "key": "user",
+          "title": "User",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "date/time",
+          "key": "date/time",
+          "title": "Date/Time",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "module",
+          "key": "module",
+          "title": "Module",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "action",
+          "key": "action",
+          "title": "Action",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "original",
+          "key": "original",
+          "title": "Original",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "changes",
+          "key": "changes",
+          "title": "Changes",
+          "width": 130,
+        },
+      ]
+    }
+    titles="Hotels Zone Log"
+  />
+</Fragment>
+`;

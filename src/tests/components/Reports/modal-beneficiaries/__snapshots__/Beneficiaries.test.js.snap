@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Beneficiaries component debe mostrar snapshot 1`] = `
+<Fragment>
+  <i
+    className="fas fa-edit d-flex justify-content-end"
+  />
+  <div
+    className="d-flex"
+  >
+    <InfoMembers
+      color="#9BA2C6"
+      text="ISORIANO"
+      title="Username"
+    />
+    <InfoMembers
+      text="9440446"
+      title="Recrum"
+    />
+    <InfoMembers
+      text="11/21/2020"
+      title="Date"
+    />
+    <InfoMembers
+      text="--"
+      title="Category"
+    />
+  </div>
+  <InfoMembers
+    color="#fff"
+    text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    title="Note"
+  />
+  <div
+    className="d-flex justify-content-end"
+  >
+    <Button
+      col={12}
+      icon="fas fa-check"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+      typebootstrap="primary"
+    />
+  </div>
+</Fragment>
+`;

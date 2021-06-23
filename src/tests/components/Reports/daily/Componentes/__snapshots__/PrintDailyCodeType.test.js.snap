@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrintDailyCodeType component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-4"
+      >
+        <label
+          col={12}
+          htmlFor=""
+        >
+          Code Type
+        </label>
+        <Select
+          col={12}
+          label=""
+          option="Process Satus"
+        />
+        <Input
+          col={12}
+          label="Where"
+          placeholder=""
+          type="Special code (A-Z)"
+        />
+        <Select
+          col={12}
+          label="Print Report Code"
+          option="All Detail"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <br />
+        <br />
+        <label
+          col={12}
+          htmlFor=""
+        >
+          D 
+          <small>
+            For debis code B.R.V and L
+          </small>
+        </label>
+        <br />
+        <label
+          col={12}
+          htmlFor=""
+        >
+          T 
+          <small>
+            For tranfers code T. X and I
+          </small>
+        </label>
+        <br />
+        <label
+          col={12}
+          htmlFor=""
+        >
+          G 
+          <small>
+            For Admin fee code G only
+          </small>
+        </label>
+        <br />
+        <label
+          col={12}
+          htmlFor=""
+        >
+          O 
+          <small>
+            For Trans 3RD code only
+          </small>
+        </label>
+        <br />
+        <label
+          col={12}
+          htmlFor=""
+        >
+          S 
+          <small>
+            Select A code
+          </small>
+        </label>
+        <br />
+        <label
+          col={12}
+          htmlFor=""
+        >
+          B 
+          <small>
+            Both debist credits code B.R.V.E.D.M.I.K and S
+          </small>
+        </label>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <br />
+        <br />
+        <label
+          col={12}
+          htmlFor=""
+        >
+          C 
+          <small>
+            For credis code E.D.M.P.S and Z
+          </small>
+        </label>
+        <br />
+        <label
+          col={12}
+          htmlFor=""
+        >
+          R 
+          <small>
+            For refunds code R only
+          </small>
+        </label>
+        <br />
+        <label
+          col={12}
+          htmlFor=""
+        >
+          Q 
+          <small>
+            For cancel voucher Q code V only
+          </small>
+        </label>
+        <br />
+        <label
+          col={12}
+          htmlFor=""
+        >
+          V 
+          <small>
+            For cancel voucher - Mexico code V only
+          </small>
+        </label>
+        <br />
+        <label
+          col={12}
+          htmlFor=""
+        >
+          B 
+          <small>
+            For all code
+          </small>
+        </label>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

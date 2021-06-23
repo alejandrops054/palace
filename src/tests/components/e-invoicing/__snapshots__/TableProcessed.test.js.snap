@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableProcessed component Debe mostrar snapshot 1`] = `
+<SimpleTable
+  columns={
+    Array [
+      Object {
+        "dataIndex": "creditnote",
+        "key": "creditnote",
+        "title": "Credit Note",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "reinvoice",
+        "key": "reinvoice",
+        "title": "ReInvoice",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "company",
+        "key": "company",
+        "title": "Company",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "application",
+        "key": "application",
+        "title": "Application",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "date",
+        "key": "date",
+        "title": "Date",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "salesarea",
+        "key": "salesarea",
+        "title": "Sales area",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "reference",
+        "key": "reference",
+        "title": "Reference",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "authid",
+        "key": "authid",
+        "title": "Auth ID",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "codesale",
+        "key": "codesale",
+        "title": "Code/Sale type",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "where",
+        "key": "where",
+        "title": "Where",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "invoice",
+        "key": "invoice",
+        "title": "Invoice #",
+        "width": "1%",
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "application": "",
+        "authid": "",
+        "codesale": "",
+        "company": "",
+        "creditnote": "",
+        "date": "",
+        "invoice": "",
+        "reference": "",
+        "reinvoice": "",
+        "salesarea": "",
+        "where": "",
+      },
+      Object {
+        "application": "",
+        "authid": "",
+        "codesale": "",
+        "company": "",
+        "creditnote": "",
+        "date": "",
+        "invoice": "",
+        "reference": "",
+        "reinvoice": "",
+        "salesarea": "",
+        "where": "",
+      },
+      Object {
+        "application": "",
+        "authid": "",
+        "codesale": "",
+        "company": "",
+        "creditnote": "",
+        "date": "",
+        "invoice": "",
+        "reference": "",
+        "reinvoice": "",
+        "salesarea": "",
+        "where": "",
+      },
+      Object {
+        "application": "",
+        "authid": "",
+        "codesale": "",
+        "company": "",
+        "creditnote": "",
+        "date": "",
+        "invoice": "",
+        "reference": "",
+        "reinvoice": "",
+        "salesarea": "",
+        "where": "",
+      },
+    ]
+  }
+  type="table"
+/>
+`;

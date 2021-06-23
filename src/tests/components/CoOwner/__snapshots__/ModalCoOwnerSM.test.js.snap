@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalCoOwnerSM component debe mostrar snapshot 1`] = `
+<div>
+  <Button
+    color="secondary"
+    onClick={[Function]}
+    tag="button"
+    title="Social media"
+    type="button"
+    typebootstrap="secondary"
+  >
+    Social Media
+  </Button>
+  <Modal
+    autoFocus={true}
+    backdrop={true}
+    backdropTransition={
+      Object {
+        "mountOnEnter": true,
+        "timeout": 150,
+      }
+    }
+    centered={false}
+    container="body"
+    fade={true}
+    isOpen={false}
+    keyboard={true}
+    modalTransition={
+      Object {
+        "timeout": 300,
+      }
+    }
+    onClosed={[Function]}
+    onOpened={[Function]}
+    returnFocusAfterClose={true}
+    role="dialog"
+    scrollable={false}
+    toggle={[Function]}
+    unmountOnClose={true}
+    zIndex={1050}
+  >
+    <ModalHeader
+      charCode={215}
+      closeAriaLabel="Close"
+      tag="h5"
+      toggle={[Function]}
+      wrapTag="div"
+    >
+      <h1>
+        CoOwner Social Media
+      </h1>
+    </ModalHeader>
+    <ModalBody
+      tag="div"
+    >
+      <CoOwnerSM />
+    </ModalBody>
+    <ModalFooter
+      tag="div"
+    >
+      <Button
+        color="primary"
+        onClick={[Function]}
+        tag="button"
+      >
+        Save
+      </Button>
+       
+      <Button
+        color="secondary"
+        onClick={[Function]}
+        tag="button"
+      >
+        Cancel
+      </Button>
+    </ModalFooter>
+  </Modal>
+</div>
+`;

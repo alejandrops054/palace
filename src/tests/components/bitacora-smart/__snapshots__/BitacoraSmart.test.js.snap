@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BitacoraSmart component Debe mostrar snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <div
+        className="card-title"
+      >
+        <h3>
+          Bitacora Smart
+        </h3>
+      </div>
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className=" d-flex justify-content-end tables"
+      >
+        <Button
+          col="1.5"
+          icon="fas fa-filter"
+          title="Apply Filter"
+          type="button"
+          typebootstrap="link main"
+        />
+        <Button
+          col="1.5"
+          icon="fas fa-filter"
+          title="Clean Filter"
+          type="button"
+          typebootstrap="link"
+        />
+      </div>
+      <div
+        className="row "
+      >
+        <div
+          className="col-lg-4"
+        >
+          <Select
+            col={12}
+            colIcon={0}
+            label="Company"
+            option="0 - All"
+          />
+          <Input
+            col={12}
+            label="Application"
+            type="text"
+          />
+          <Input
+            col={12}
+            label="User Name"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-lg-4"
+        >
+          <Input
+            col={12}
+            label="Date From"
+            type="date"
+          />
+        </div>
+        <div
+          className="col-lg-4"
+        >
+          <Input
+            col={12}
+            label="Date To"
+            type="date"
+          />
+        </div>
+      </div>
+      <Table
+        className="table"
+        columns={
+          Array [
+            Object {
+              "dataIndex": "Company",
+              "key": "1",
+              "title": "Company",
+              "width": 100,
+            },
+            Object {
+              "dataIndex": "Application",
+              "key": "2",
+              "title": "Application",
+              "width": 100,
+            },
+            Object {
+              "dataIndex": "User_Name",
+              "key": "3",
+              "title": "User Name",
+              "width": 100,
+            },
+            Object {
+              "dataIndex": "User_Pruser",
+              "key": "4",
+              "title": "Usr Pruser",
+              "width": 100,
+            },
+            Object {
+              "dataIndex": "Terminal",
+              "key": "5",
+              "title": "Terminal",
+              "width": 100,
+            },
+            Object {
+              "dataIndex": "Fecha",
+              "key": "6",
+              "title": "Fecha",
+              "width": 100,
+            },
+            Object {
+              "dataIndex": "Hora",
+              "key": "7",
+              "title": "Hora",
+              "width": 100,
+            },
+            Object {
+              "dataIndex": "Programa",
+              "key": "8",
+              "title": "Programa",
+              "width": 100,
+            },
+            Object {
+              "dataIndex": "Origen",
+              "key": "8",
+              "title": "Origen",
+              "width": 100,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "Application": "",
+              "Company": "3",
+              "Fecha": "",
+              "Hora": "",
+              "Origen": "",
+              "Programa": "",
+              "Terminal": "",
+              "User_Name": "",
+              "User_Pruser": "",
+            },
+            Object {
+              "Application": "",
+              "Company": "3",
+              "Fecha": "",
+              "Hora": "",
+              "Origen": "",
+              "Programa": "",
+              "Terminal": "",
+              "User_Name": "",
+              "User_Pruser": "",
+            },
+            Object {
+              "Application": "",
+              "Company": "3",
+              "Fecha": "",
+              "Hora": "",
+              "Origen": "",
+              "Programa": "",
+              "Terminal": "",
+              "User_Name": "",
+              "User_Pruser": "",
+            },
+            Object {
+              "Application": "",
+              "Company": "3",
+              "Fecha": "",
+              "Hora": "",
+              "Origen": "",
+              "Programa": "",
+              "Terminal": "",
+              "User_Name": "",
+              "User_Pruser": "",
+            },
+          ]
+        }
+        emptyText={[Function]}
+        id="resume-table"
+        prefixCls="rc-table"
+        rowKey="key"
+        scroll={
+          Object {
+            "x": "auto",
+          }
+        }
+      />
+    </div>
+    <div
+      className="card-footer"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-9 justify-content-start"
+        >
+          <InfoMembers
+            text="63"
+            title="Records : "
+          />
+        </div>
+        <div
+          className="col-lg-3 justify-content-end"
+        >
+          <Button
+            color="primary"
+            tag="button"
+          >
+            <i
+              className="fas fa-sync-alt"
+            />
+            Refresh
+          </Button>
+          <Button
+            color="primary"
+            tag="button"
+          >
+            <i
+              className="fas fa-times"
+            />
+            Close
+          </Button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

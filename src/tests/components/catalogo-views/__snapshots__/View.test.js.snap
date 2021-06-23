@@ -1,0 +1,513 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h2>
+          View
+        </h2>
+      </CardTitle>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Code
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        />
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <br />
+          <Label
+            check={true}
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Input
+              type="checkbox"
+            />
+             Special
+          </Label>
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="8"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Description
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            System
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <br />
+          <Input
+            type="select"
+          >
+            <option>
+              Systema de Contratos
+            </option>
+            <option>
+              2
+            </option>
+            <option>
+              3
+            </option>
+            <option>
+              4
+            </option>
+            <option>
+              5
+            </option>
+          </Input>
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="5"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Status Help
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="5"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Tag
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="12"
+        >
+          <Table
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "menu",
+                  "key": "menu",
+                  "render": [Function],
+                  "title": "Menu ",
+                  "width": 40,
+                },
+                Object {
+                  "dataIndex": "description",
+                  "key": "description",
+                  "title": "Description",
+                  "width": 50,
+                },
+              ]
+            }
+            dataSource={
+              Array [
+                Object {
+                  "description": "Member Report",
+                  "menu": "146",
+                },
+              ]
+            }
+            rowKey="key"
+          />
+          <span
+            className="owner"
+          >
+            Menus : 1
+          </span>
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="12"
+        >
+          <Table
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "userclass",
+                  "key": "userclass",
+                  "render": [Function],
+                  "title": "User Class ",
+                  "width": 40,
+                },
+                Object {
+                  "dataIndex": "description",
+                  "key": "description",
+                  "title": "Description",
+                  "width": 100,
+                },
+              ]
+            }
+            dataSource={
+              Array [
+                Object {
+                  "description": "Usuario Vlo's de Sala Beach Palace",
+                  "userclass": "",
+                },
+                Object {
+                  "description": "Usuario Vlo's de Sala Beach Palace",
+                  "userclass": "",
+                },
+                Object {
+                  "description": "Usuario Vlo's de Sala Beach Palace",
+                  "userclass": "",
+                },
+              ]
+            }
+            rowKey="key"
+          />
+          <span
+            className="owner"
+          >
+            User Classes : 13
+          </span>
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="8"
+        />
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="4"
+        >
+          <ButtonGroup
+            role="group"
+            tag="div"
+          >
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Save
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Close
+            </Button>
+          </ButtonGroup>
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

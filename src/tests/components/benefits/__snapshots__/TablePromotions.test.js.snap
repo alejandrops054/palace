@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TablePromotions component Debe mostrar snapshot 1`] = `
+<div>
+  <Nav
+    tabs={true}
+    tag="ul"
+    vertical={false}
+  >
+    <NavItem
+      tag="li"
+    >
+      <NavLink
+        onClick={[Function]}
+        tag="a"
+      >
+        Promotions
+      </NavLink>
+    </NavItem>
+    <NavItem
+      tag="li"
+    >
+      <NavLink
+        onClick={[Function]}
+        tag="a"
+      >
+        Provisions
+      </NavLink>
+    </NavItem>
+    <NavItem
+      tag="li"
+    >
+      <NavLink
+        onClick={[Function]}
+        tag="a"
+      >
+        Discount products
+      </NavLink>
+    </NavItem>
+    <NavItem
+      tag="li"
+    >
+      <NavLink
+        onClick={[Function]}
+        tag="a"
+      >
+        Wallet
+      </NavLink>
+    </NavItem>
+  </Nav>
+  <TabContent
+    activeTab="1"
+    tag="div"
+  >
+    <TabPane
+      tabId="1"
+      tag="div"
+    >
+      <Promotions />
+    </TabPane>
+    <TabPane
+      tabId="2"
+      tag="div"
+    >
+      <Provisions />
+    </TabPane>
+    <TabPane
+      tabId="3"
+      tag="div"
+    />
+    <TabPane
+      tabId="4"
+      tag="div"
+    >
+      <AdjustMovements />
+      <ModalAffiliationInquery />
+      <EstadoDeCuenta />
+      <ModalElectronicWallet />
+    </TabPane>
+  </TabContent>
+</div>
+`;

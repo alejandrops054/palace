@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ElementosCard component debe mostrar snapshot 1`] = `
+<div>
+  <br />
+  <div
+    className="row"
+  >
+    <Etiqueta
+      aling="left"
+      bold="bold"
+      col={12}
+      color="white"
+      etiqueta="Origin Information"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Office"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="white"
+      etiqueta="Surise"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      color="grey"
+      etiqueta="Project"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta="Palace Elite"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      col={9}
+      color="grey"
+      etiqueta="Application"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta="1,323,384"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      col={9}
+      color="grey"
+      etiqueta="Previous Application"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta="-"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      col={9}
+      color="grey"
+      etiqueta="Next Application"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta="-"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <br />
+  <div
+    className="row"
+  >
+    <label
+      className="col-6"
+      id="labelguest"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "white",
+          "font-weighy": "bold",
+          "fontSize": 25,
+        }
+      }
+    >
+      Guest Information
+    </label>
+    <label
+      className="col-6"
+      id="labelcontact"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "white",
+          "font-weighy": "bold",
+          "fontSize": 25,
+        }
+      }
+    >
+      Contact Information
+    </label>
+  </div>
+  <Guest />
+</div>
+`;

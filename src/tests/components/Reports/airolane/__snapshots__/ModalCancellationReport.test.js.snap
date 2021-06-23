@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalCancellationReport component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Cancellation Report
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="ms"
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle>
+        Cancellation Report
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <p>
+            Date
+          </p>
+          <div
+            className="col-md-6"
+          >
+            <Input
+              col={12}
+              label="Start date"
+              placeholder=""
+              type="date"
+            />
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <Input
+              col={12}
+              label="End date"
+              placeholder=""
+              type="date"
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <Select
+              col={12}
+              label="Company"
+              options="PALACE ELITE S.A DE C.V"
+              type="text"
+            />
+            <Checkbox
+              col={12}
+              label="Do you want detail?"
+              name="checkRow3"
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          className="row"
+        >
+          <p>
+            Type
+          </p>
+          <div
+            className="col-md-12"
+          >
+            <Select
+              col={12}
+              label="Procesable"
+              options="All"
+              type="text"
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          className="row"
+        >
+          <p>
+            Sale
+          </p>
+          <div
+            className="col-md-12"
+          >
+            <Select
+              col={12}
+              label="Portofolio"
+              options="All"
+              type="text"
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          className="row"
+        >
+          <p>
+            Temporary | permanent | Both
+          </p>
+          <div
+            className="col-md-12"
+          >
+            <Select
+              col={12}
+              label="CNX"
+              options="A ambas"
+              type="text"
+            />
+            <Checkbox
+              col={12}
+              label="Do you want to open the report?"
+              name="checkRow3"
+            />
+          </div>
+        </div>
+      </div>
+    </ModalBody>
+    <ModalFooter>
+      <Button
+        active={false}
+        disabled={false}
+        variant="secondary"
+      >
+        Close
+      </Button>
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Execute
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

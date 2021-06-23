@@ -1,0 +1,9 @@
+.table-line {
+    padding: .75rem;
+    vertical-align: top;
+    border-bottom: 1px solid #343a40;
+}
+
+.table-line-amount {
+    color: #00AF9F!important;
+ }

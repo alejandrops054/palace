@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableConsecutive component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <SimpleTable
+        columns={
+          Array [
+            Object {
+              "dataIndex": "consecutive",
+              "key": "consecutive",
+              "title": "Consecutive",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "documentclass",
+              "key": "documentclass",
+              "title": "Document Class",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "society",
+              "key": "society",
+              "title": "Society",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "documentcurrency",
+              "key": "documentcurrency",
+              "title": "Document Currency",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "exchangerateml",
+              "key": "exchangerateml",
+              "title": "Exchange Rate ML",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "documentdate",
+              "key": "documentdate",
+              "title": "Document Date",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "accountdate",
+              "key": "accountdate",
+              "title": "Account Date",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "headertext",
+              "key": "headertext",
+              "title": "Header Text",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "accountingkey",
+              "key": "accountingkey",
+              "title": "Accounting Key",
+              "width": "1%",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "accountdate": "",
+              "accountingkey": "",
+              "consecutive": "",
+              "documentclass": "",
+              "documentcurrency": "",
+              "documentdate": "",
+              "exchangerateml": "",
+              "headertext": "",
+              "society": "",
+            },
+          ]
+        }
+        type="table"
+      />
+    </CardBody>
+  </Card>
+</Fragment>
+`;

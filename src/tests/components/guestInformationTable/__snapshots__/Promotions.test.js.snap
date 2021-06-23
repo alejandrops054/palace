@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Promotions component debe mostrar snapshot 1`] = `
+<form
+  className="mb-6"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-12"
+      >
+        <Table
+          className="table"
+          columns={
+            Array [
+              Object {
+                "dataIndex": "number",
+                "key": "number",
+                "title": <i
+                  className="fas fa-caret-right"
+                />,
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "description",
+                "key": "description",
+                "title": "Description",
+                "width": 200,
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {},
+            ]
+          }
+          emptyText={[Function]}
+          prefixCls="rc-table"
+          rowKey="key"
+        />
+      </div>
+    </div>
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="col-lg-1"
+      />
+      <div
+        className="col-lg-6"
+      >
+        <Button
+          col="4"
+          title="Add Promotions"
+          type="button"
+          typebootstrap="secondary"
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="card"
+      >
+        <br />
+        <h3>
+          Virtual Reservation
+        </h3>
+        <br />
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-2"
+          />
+          <div
+            className="col-lg-6"
+          >
+            <Button
+              col="6"
+              title="Create Virtual Reservation"
+              type="button"
+              typebootstrap="secondary"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="card"
+      >
+        <br />
+        <h3>
+          Diamond Certificated 
+        </h3>
+        <br />
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-3"
+          >
+            <Checkbox
+              col={8}
+              label="Traveling with the Owner"
+              value={true}
+            />
+          </div>
+          <div
+            className="col-lg-6"
+          >
+            <Select
+              col={4}
+              colIcon={0}
+              label="Bracelets"
+              option=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="card"
+      >
+        <br />
+        <h3>
+          Residence Certificated 
+        </h3>
+        <br />
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-3"
+          >
+            <Checkbox
+              col={8}
+              label="Traveling with the Owner"
+              value={true}
+            />
+          </div>
+          <div
+            className="col-lg-6"
+          >
+            <Select
+              col={4}
+              colIcon={0}
+              label="Bracelets"
+              option=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="card"
+      >
+        <br />
+        <h3>
+          REFERRAL PROGRAM 
+        </h3>
+        <br />
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-3"
+          >
+            <Checkbox
+              col={12}
+              label="BONUS ULG"
+              value={true}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;

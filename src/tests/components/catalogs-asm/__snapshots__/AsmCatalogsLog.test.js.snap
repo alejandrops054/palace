@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AsmCatalogsLog component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Log
+    columns={
+      Array [
+        Object {
+          "dataIndex": "user",
+          "key": "1",
+          "title": "User",
+          "width": 200,
+        },
+        Object {
+          "dataIndex": "dateTime",
+          "key": "2",
+          "title": "Date / Time",
+          "width": 200,
+        },
+        Object {
+          "dataIndex": "module",
+          "key": "3",
+          "title": "Module",
+          "width": 200,
+        },
+        Object {
+          "dataIndex": "action",
+          "key": "4",
+          "title": "Action",
+          "width": 200,
+        },
+        Object {
+          "dataIndex": "original",
+          "key": "5",
+          "title": "Original",
+          "width": 200,
+        },
+        Object {
+          "dataIndex": "changes",
+          "key": "6",
+          "title": "Changes",
+          "width": 200,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "action": "",
+          "changes": "",
+          "dateTime": "",
+          "module": "",
+          "original": "",
+          "user": "2201",
+        },
+        Object {
+          "action": "",
+          "changes": "",
+          "dateTime": "",
+          "module": "",
+          "original": "",
+          "user": "2201",
+        },
+        Object {
+          "action": "",
+          "changes": "",
+          "dateTime": "",
+          "module": "",
+          "original": "",
+          "user": "2201",
+        },
+        Object {
+          "action": "",
+          "changes": "",
+          "dateTime": "",
+          "module": "",
+          "original": "",
+          "user": "2201",
+        },
+      ]
+    }
+    title="ASM Log"
+  />
+</Fragment>
+`;

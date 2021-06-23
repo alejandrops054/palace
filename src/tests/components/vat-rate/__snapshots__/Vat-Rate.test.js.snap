@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VatRate component debe mostrar snapshot 1`] = `
+<div
+  className="vat-rate card m-1 mb4 "
+>
+  <div
+    className="row"
+  >
+    <Etiqueta
+      bold={true}
+      col={6}
+      color="white"
+      etiqueta="Member information"
+      tamanio={28}
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <Select
+      col={4}
+      label="Value-Added Tax(%)"
+      option={
+        Array [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+        ]
+      }
+    />
+    <Input
+      col={4}
+      label="Nationality"
+      type="date"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <Select
+      col={4}
+      label="Downgrade Type"
+      option={
+        Array [
+          0,
+        ]
+      }
+    />
+    <Input
+      col={4}
+      label="Portfolio"
+      type="text"
+    />
+    <Input
+      col={4}
+      label="Purchase Date"
+      type="date"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <Select
+      col={4}
+      label="Origin"
+      option={
+        Array [
+          "In house",
+        ]
+      }
+    />
+    <div
+      className="col"
+    >
+      <div
+        className="row"
+      >
+        <Checkbox
+          col={4}
+          label="Pay Commisision"
+          value={0}
+        />
+      </div>
+      <div
+        className="row"
+      >
+        <Checkbox
+          col={4}
+          label="Request Invoice"
+          value={0}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="mb-5 row"
+    id="accordion"
+  >
+    <h2>
+      Acordeones
+    </h2>
+    <Accordionn
+      component={[Function]}
+    />
+    <Accordionn
+      component={[Function]}
+    />
+    <Accordionn
+      component={[Function]}
+    />
+  </div>
+</div>
+`;

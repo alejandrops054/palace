@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PalaceEliteGolf component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      Palace Elite Golf
+    </h5>
+    <div
+      className="row"
+    >
+      <Input
+        col={4}
+        label="Total Membership Fee"
+        type="text"
+      />
+      <Input
+        col={4}
+        label=""
+        type="text"
+      />
+      <Input
+        col={4}
+        label=""
+        type="text"
+      />
+      <Input
+        col={4}
+        label="Affiliation Vat"
+        type="text"
+      />
+      <Input
+        col={4}
+        label=""
+        type="text"
+      />
+      <Input
+        col={4}
+        label=""
+        type="text"
+      />
+      <Input
+        col={4}
+        label="Affiliation Fee"
+        type="text"
+      />
+      <Input
+        col={4}
+        label=""
+        type="text"
+      />
+      <Input
+        col={4}
+        label=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Golf Rounds"
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Golf Rounds Access"
+        type="text"
+      />
+      <div
+        className="card"
+      >
+        <div
+          className="card-body"
+        >
+          <h5
+            className="card-title"
+          >
+            Golf Rounds
+          </h5>
+          <div
+            className="row"
+          >
+            <Input
+              col={4}
+              label="Earned"
+              type="text"
+            />
+            <Input
+              col={4}
+              label="Check In"
+              type="text"
+            />
+            <Input
+              col={4}
+              label="Reserved"
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <div
+          className="card-body"
+        >
+          <h5
+            className="card-title"
+          >
+            Certificate Rounds Golf 
+          </h5>
+          <div
+            className="row"
+          >
+            <Input
+              col={4}
+              label="Earned"
+              type="text"
+            />
+            <Input
+              col={4}
+              label="Check In"
+              type="text"
+            />
+            <Input
+              col={4}
+              label="Reserved"
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

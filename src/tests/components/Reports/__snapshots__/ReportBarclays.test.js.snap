@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportBarclays component debe mostrar snapshot 1`] = `
+<Fragment>
+  <h1>
+    Reports Barclays
+  </h1>
+  <Form
+    tag="form"
+  >
+    <FormGroup
+      tag="div"
+    >
+      <Col
+        sm={
+          Object {
+            "offset": 10,
+            "size": 10,
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Datiled Report
+        </Label>
+         
+        <Input
+          type="checkbox"
+        />
+      </Col>
+      <h6>
+        Date
+      </h6>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Start date
+          </Label>
+          <Input
+            type="date"
+          />
+        </Col>
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            End date
+          </Label>
+          <Input
+            type="date"
+          />
+        </Col>
+      </Row>
+    </FormGroup>
+    <FormGroup
+      tag="div"
+    >
+      <h6>
+        Project and office
+      </h6>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          md={4}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Project
+          </Label>
+          <Input
+            type="number"
+          />
+        </Col>
+        <Col
+          md={8}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            .
+          </Label>
+          <Input
+            type="select"
+          />
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          md={4}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Office
+          </Label>
+          <Input
+            type="number"
+          />
+        </Col>
+        <Col
+          md={8}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            .
+          </Label>
+          <Input
+            type="select"
+          />
+        </Col>
+      </Row>
+    </FormGroup>
+    <FormGroup
+      style={
+        Object {
+          "paddingTop": "5%",
+        }
+      }
+      tag="div"
+    >
+      <Col
+        sm={
+          Object {
+            "offset": 10,
+            "size": 10,
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="primary"
+          tag="button"
+        >
+          Print
+        </Button>
+      </Col>
+    </FormGroup>
+  </Form>
+</Fragment>
+`;

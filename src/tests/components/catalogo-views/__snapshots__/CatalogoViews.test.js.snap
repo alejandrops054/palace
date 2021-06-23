@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CatalogoViews component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h2>
+          Views
+        </h2>
+        <h4>
+          Catalog of Views
+        </h4>
+      </CardTitle>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Code
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Description
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <br />
+          <Button
+            color="primary"
+            tag="button"
+          >
+            Apply Filter
+          </Button>
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            System 
+          </Label>
+          <Input
+            type="select"
+          >
+            <option />
+            <option>
+              2
+            </option>
+            <option>
+              3
+            </option>
+            <option>
+              4
+            </option>
+            <option>
+              5
+            </option>
+          </Input>
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+             Tooltip
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <br />
+          <Button
+            color="primary"
+            tag="button"
+          >
+            Clear Filter
+          </Button>
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="12"
+        >
+          <Table
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "code",
+                  "key": "code",
+                  "title": "Code ",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "description",
+                  "key": "description",
+                  "title": "Description",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "system",
+                  "key": "system",
+                  "title": "System",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "tooltip",
+                  "key": "tooltip",
+                  "title": "ToolTip",
+                  "width": 100,
+                },
+              ]
+            }
+            dataSource={
+              Array [
+                Object {
+                  "code": "1",
+                  "description": "Panel de Password",
+                  "system": "Tablas Globales",
+                  "tooltip": "Mantenimiento de Vistas",
+                },
+                Object {
+                  "code": "1",
+                  "description": "Panel de Password",
+                  "system": "Tablas Globales",
+                  "tooltip": "Mantenimiento de Vistas",
+                },
+                Object {
+                  "code": "1",
+                  "description": "Panel de Password",
+                  "system": "Tablas Globales",
+                  "tooltip": "Mantenimiento de Vistas",
+                },
+              ]
+            }
+            rowKey="key"
+          />
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="7"
+        />
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="5"
+        >
+          <ButtonGroup
+            role="group"
+            tag="div"
+          >
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Log
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Add
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Properties
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Add Like
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Refresh
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Close
+            </Button>
+          </ButtonGroup>
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

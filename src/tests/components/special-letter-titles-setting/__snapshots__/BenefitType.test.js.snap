@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BenefitType component debe mostrar BenefitType 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Benefit Type Title
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="lg"
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle>
+        Benefit Type Title
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <Input
+              col={12}
+              label="Where"
+              placeholder=""
+              type="Category Name"
+            />
+            <Select
+              col={12}
+              label="Status"
+              option="All"
+            />
+            <br />
+            <TablaBenefitType />
+          </div>
+        </div>
+      </div>
+    </ModalBody>
+    <Button
+      active={false}
+      disabled={false}
+      onClick={[Function]}
+      variant="secondary"
+    >
+      Cancel
+    </Button>
+    <ModalFooter>
+      <Button
+        active={false}
+        disabled={false}
+        onClick={[Function]}
+        variant="secondary"
+      >
+        Clear fiter
+      </Button>
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Apply filter
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

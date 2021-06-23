@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReferralProgram component Debe mostrar snapshot 1`] = `
+<div
+  className="m-1"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-body"
+    >
+      <h5
+        className="card-title"
+      >
+        Referral program
+      </h5>
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-6"
+        >
+          <label
+            for="next-application"
+          >
+            Bonus ULG
+          </label>
+        </div>
+        <div
+          className="col-lg-6"
+        >
+          <div
+            className="form-check form-switch"
+          >
+            <input
+              className="form-check-input"
+              id="flexSwitchCheckDefault"
+              type="checkbox"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PricesLevels component debe mostrar snapshot 1`] = `
+<Container
+  tag="div"
+>
+  <h2>
+    Price Levels
+  </h2>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Log
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Add
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Properties
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Refresh
+      </Button>
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Table
+      columns={
+        Array [
+          Object {
+            "dataIndex": "idpricelevels",
+            "key": "idpricelevels",
+            "title": "IdPriceLevels",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "membershipMinimunPrice",
+            "key": "membershipMinimunPrice",
+            "title": "MembershipMinimunPrice",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "membershipMaximumPrice",
+            "key": "membershipMaximumPrice",
+            "title": "MembershipMaximunPrice",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "coin",
+            "key": "coin",
+            "title": "Coin",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "membershipValidity",
+            "key": "membershipValidity",
+            "title": "MembershipValidity",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "baseComisionable",
+            "key": "baseComisionable",
+            "title": "BaseComisionable",
+            "width": 130,
+          },
+        ]
+      }
+      emptyText={[Function]}
+      prefixCls="rc-table"
+      rowKey="key"
+    />
+  </Row>
+</Container>
+`;

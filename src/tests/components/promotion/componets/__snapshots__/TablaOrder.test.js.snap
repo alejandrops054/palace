@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TablaOrder component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <div>
+    <ForwardRef
+      bordered={true}
+      className="table table-hover"
+      hover={true}
+      striped={true}
+    >
+      <thead>
+        <tr>
+          <td
+            className="text-align-justify"
+          >
+            Order
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Code
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Description
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td
+            className="text-align-justify"
+          >
+            1
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            CCREP
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Promocion $500 Resort credit
+          </td>
+        </tr>
+        <tr>
+          <td
+            className="text-align-justify"
+          >
+            2
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            CLOS
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Programa de palace rewards UK
+          </td>
+        </tr>
+        <tr>
+          <td
+            className="text-align-justify"
+          >
+            3
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            ASM
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Niños gratis
+          </td>
+        </tr>
+      </tbody>
+    </ForwardRef>
+  </div>
+</Fragment>
+`;

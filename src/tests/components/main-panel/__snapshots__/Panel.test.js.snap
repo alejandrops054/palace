@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Loading />
+</Fragment>
+`;

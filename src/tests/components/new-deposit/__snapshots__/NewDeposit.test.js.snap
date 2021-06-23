@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewDeposit component Debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      New Deposit
+    </h5>
+    <div
+      className="row"
+    >
+      <Etiqueta
+        col={2}
+        etiqueta="Company: 5"
+      />
+      <Etiqueta
+        col={4}
+        etiqueta="Member Name: GURPREET S AULAKH"
+      />
+      <Etiqueta
+        col={3}
+        etiqueta="Application: 4031348"
+      />
+      <Etiqueta
+        col={3}
+        etiqueta="Portfolio: CIHC"
+      />
+      <CreditCard />
+      <DownPayments />
+      <InfoCard />
+    </div>
+  </div>
+</div>
+`;

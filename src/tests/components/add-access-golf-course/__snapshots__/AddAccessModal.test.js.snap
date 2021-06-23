@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente AddAccessModal  Creacion de AddAccessModal 1`] = `
+<div>
+  <Button
+    color="danger"
+    onClick={[Function]}
+    tag="button"
+  >
+    Boton
+  </Button>
+  <Modal
+    autoFocus={true}
+    backdrop={true}
+    backdropTransition={
+      Object {
+        "mountOnEnter": true,
+        "timeout": 150,
+      }
+    }
+    centered={false}
+    container="body"
+    fade={true}
+    isOpen={false}
+    keyboard={true}
+    modalTransition={
+      Object {
+        "timeout": 300,
+      }
+    }
+    onClosed={[Function]}
+    onOpened={[Function]}
+    returnFocusAfterClose={true}
+    role="dialog"
+    scrollable={false}
+    toggle={[Function]}
+    unmountOnClose={true}
+    zIndex={1050}
+  >
+    <ModalHeader
+      charCode={215}
+      closeAriaLabel="Close"
+      tag="h5"
+      toggle={[Function]}
+      wrapTag="div"
+    >
+      Add Access Golf Courses
+    </ModalHeader>
+    <ModalBody
+      tag="div"
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Row
+          className="align-middle"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Col
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+            xs="3"
+          >
+            <Label
+              for="name"
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              Name: 
+            </Label>
+            <Input
+              id="name"
+              name="select"
+              type="select"
+              width="75"
+            >
+              <option
+                key="Moon Palace Punta Cana"
+              >
+                Moon Palace Punta Cana
+              </option>
+              <option
+                key="Moon Palace Punta Cana #2"
+              >
+                Moon Palace Punta Cana #2
+              </option>
+              <option
+                key="Moon Palace Punta Cana #3"
+              >
+                Moon Palace Punta Cana #3
+              </option>
+            </Input>
+          </Col>
+        </Row>
+      </FormGroup>
+      <div
+        className="d-flex justify-content-around"
+      >
+        <Button
+          color="primary"
+          tag="button"
+        >
+          Ok
+        </Button>
+        <Button
+          color="secondary"
+          tag="button"
+        >
+          Cancel
+        </Button>
+      </div>
+    </ModalBody>
+  </Modal>
+</div>
+`;

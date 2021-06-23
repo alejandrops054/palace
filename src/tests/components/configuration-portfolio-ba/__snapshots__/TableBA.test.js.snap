@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableBA component debe mostrar snapshot 1`] = `
+<SimpleTable
+  columns={
+    Array [
+      Object {
+        "dataIndex": "code",
+        "key": "code",
+        "title": "Code",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "description",
+        "key": "description",
+        "title": "Description",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "merchantcode",
+        "key": "merchantcode",
+        "title": "Merchant Code",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "office",
+        "key": "office",
+        "title": "Office",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "account",
+        "key": "account",
+        "title": "Account",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "porfolio",
+        "key": "porfolio",
+        "title": "Porfolio",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "currency",
+        "key": "currency",
+        "title": "Currency",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "status",
+        "key": "status",
+        "title": "Status",
+        "width": "1%",
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "account": "",
+        "code": "",
+        "currency": "",
+        "description": "",
+        "merchantcode": "",
+        "office": "",
+        "porfolio": "",
+        "status": "",
+      },
+      Object {
+        "account": "",
+        "code": "",
+        "currency": "",
+        "description": "",
+        "merchantcode": "",
+        "office": "",
+        "porfolio": "",
+        "status": "",
+      },
+      Object {
+        "account": "",
+        "code": "",
+        "currency": "",
+        "description": "",
+        "merchantcode": "",
+        "office": "",
+        "porfolio": "",
+        "status": "",
+      },
+      Object {
+        "account": "",
+        "code": "",
+        "currency": "",
+        "description": "",
+        "merchantcode": "",
+        "office": "",
+        "porfolio": "",
+        "status": "",
+      },
+    ]
+  }
+  type="table"
+/>
+`;

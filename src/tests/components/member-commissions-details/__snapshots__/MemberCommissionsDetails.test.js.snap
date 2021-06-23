@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente MemberCommissionsDetails Creacion de MemberCommissionsDetails 1`] = `
+<div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <div
+        className="card-title"
+      >
+        <h3>
+          Member Commissions Details
+        </h3>
+      </div>
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-8"
+        >
+          <Input
+            col={12}
+            icon="fas fa-percentage"
+            label="Commission Down Payment Required"
+            placeholder="10.00"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <Input
+            col={12}
+            icon="fas fa-dollar-sign"
+            label="   "
+            placeholder="410.00"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="row "
+      >
+        <div
+          className="col-md-6  "
+        >
+          <Input
+            col={12}
+            icon="fas fa-dollar-sign"
+            label="Commission Total Amount"
+            placeholder="4,100.00"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

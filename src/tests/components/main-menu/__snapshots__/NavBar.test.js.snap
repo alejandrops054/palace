@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar component Debe mostrar snapshot 1`] = `
+<nav
+  className="main-navigation"
+>
+  <button
+    className="btn-toggle"
+  >
+    <i
+      className="fas fa-bars"
+    />
+    <span
+      className="link-name"
+    >
+      Menu
+    </span>
+  </button>
+  <ul
+    className="menu"
+  >
+    <LiNavBar
+      active=""
+      icon="fas fa-th"
+      short={true}
+      title="Modules"
+    />
+    <LiNavBar
+      active="active"
+      data={
+        Array [
+          Object {
+            "path": "/new-member",
+            "title": "Add member",
+          },
+          Object {
+            "path": "",
+            "title": "Promotions",
+          },
+          Object {
+            "path": "",
+            "title": "Notes",
+          },
+          Object {
+            "path": "",
+            "title": "Beneficiaries",
+          },
+          Object {
+            "path": "",
+            "title": "Deposits maintenance",
+          },
+          Object {
+            "path": "",
+            "title": "Members previous",
+          },
+          Object {
+            "path": "",
+            "title": "Member VAT Rate",
+          },
+          Object {
+            "path": "",
+            "title": "Cancel SMART Provisions",
+          },
+        ]
+      }
+      icon="fas fa-user"
+      short={false}
+      title="Members"
+    />
+    <LiNavBar
+      active=""
+      data={
+        Array [
+          Object {
+            "path": "/reports/affiliation",
+            "title": "Afiliation Utility",
+          },
+          Object {
+            "path": "",
+            "title": "Account receivable",
+          },
+          Object {
+            "path": "",
+            "title": "Airplane ticket",
+          },
+          Object {
+            "path": "",
+            "title": "Cancellation report",
+          },
+          Object {
+            "path": "",
+            "title": "Comparative portfolio",
+          },
+          Object {
+            "path": "",
+            "title": "Members capture",
+          },
+          Object {
+            "path": "",
+            "title": "Print dauly collections",
+          },
+          Object {
+            "path": "/reports/membership-reports",
+            "title": "Membership report",
+          },
+          Object {
+            "path": "",
+            "title": "Tax-ID/NNS Report",
+          },
+          Object {
+            "path": "",
+            "title": "Universal credit club",
+          },
+          Object {
+            "path": "",
+            "title": "Universal credit hotel",
+          },
+          Object {
+            "path": "",
+            "title": "Cycle monthly delinq",
+          },
+        ]
+      }
+      icon="fas fa-paste"
+      short={false}
+      title="Reports"
+    />
+    <LiNavBar
+      active=""
+      data={
+        Array [
+          Object {
+            "path": "/addmember",
+            "title": "Color Editor",
+          },
+          Object {
+            "path": "/addmember",
+            "title": "Count provisions",
+          },
+          Object {
+            "path": "/addmember",
+            "title": "Interfaz Palace - Interval",
+          },
+          Object {
+            "path": "/addmember",
+            "title": "Event viewer",
+          },
+          Object {
+            "path": "/addmember",
+            "title": "Initialize financing members",
+          },
+          Object {
+            "path": "/addmember",
+            "title": "Performance",
+          },
+          Object {
+            "path": "/addmember",
+            "title": "Raffle weeks",
+          },
+          Object {
+            "path": "/documents/reporteditorview",
+            "title": "Report editor",
+          },
+          Object {
+            "path": "/documents/SpecialLetterEditor",
+            "title": "Special letters",
+          },
+        ]
+      }
+      icon="fas fa-cog"
+      short={false}
+      title="Settings"
+    />
+    <LiNavBar
+      active=""
+      data={
+        Array [
+          Object {
+            "path": "",
+            "title": "Members",
+          },
+          Object {
+            "path": "",
+            "title": "Members 2",
+          },
+        ]
+      }
+      icon="fas fa-book"
+      short={false}
+      title="Catalogs"
+    />
+    <LiNavBar
+      active=""
+      data={
+        Array [
+          Object {
+            "path": "",
+            "title": "Credits",
+          },
+          Object {
+            "path": "",
+            "title": "Credits 2",
+          },
+        ]
+      }
+      icon="fas fa-credit-card"
+      short={false}
+      title="Credits"
+    />
+  </ul>
+</nav>
+`;

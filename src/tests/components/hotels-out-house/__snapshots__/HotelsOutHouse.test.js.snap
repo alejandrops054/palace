@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HotelsOutHouse component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <CardTitle
+            tag="h3"
+          >
+            Hotels OutHouse
+          </CardTitle>
+        </Col>
+        <Col
+          className=" d-flex justify-content-end tables"
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        />
+      </Row>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Table
+          className="table"
+          columns={
+            Array [
+              Object {
+                "dataIndex": "Code",
+                "key": "1",
+                "title": "Code",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "Name",
+                "key": "2",
+                "title": "Name",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "Reason",
+                "key": "3",
+                "title": "Reason",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "RFC",
+                "key": "4",
+                "title": "RFC",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "Address",
+                "key": "5",
+                "title": "Address",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "Address2",
+                "key": "6",
+                "title": "Address2",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "City",
+                "key": "7",
+                "title": "City",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "State",
+                "key": "8",
+                "title": "State",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "Zip",
+                "key": "9",
+                "title": "Zip",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "Telephone",
+                "key": "10",
+                "title": "Telephone",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "Fax",
+                "key": "11",
+                "title": "Fax",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "Palace_Code",
+                "key": "12",
+                "title": "Palace Code",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "Status",
+                "key": "13",
+                "title": "Status",
+                "width": "auto",
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "Address": "",
+                "Address2": "",
+                "City": "",
+                "Code": "2201",
+                "Fax": "",
+                "Name": "",
+                "Palace_Code": "",
+                "RFC": "",
+                "Reason": "",
+                "State": "",
+                "Status": "",
+                "Telephone": "",
+                "Zip": "",
+              },
+              Object {
+                "Address": "",
+                "Address2": "",
+                "City": "",
+                "Code": "2201",
+                "Fax": "",
+                "Name": "",
+                "Palace_Code": "",
+                "RFC": "",
+                "Reason": "",
+                "State": "",
+                "Status": "",
+                "Telephone": "",
+                "Zip": "",
+              },
+              Object {
+                "Address": "",
+                "Address2": "",
+                "City": "",
+                "Code": "2201",
+                "Fax": "",
+                "Name": "",
+                "Palace_Code": "",
+                "RFC": "",
+                "Reason": "",
+                "State": "",
+                "Status": "",
+                "Telephone": "",
+                "Zip": "",
+              },
+              Object {
+                "Address": "",
+                "Address2": "",
+                "City": "",
+                "Code": "2201",
+                "Fax": "",
+                "Name": "",
+                "Palace_Code": "",
+                "RFC": "",
+                "Reason": "",
+                "State": "",
+                "Status": "",
+                "Telephone": "",
+                "Zip": "",
+              },
+            ]
+          }
+          emptyText={[Function]}
+          id="resume-table"
+          prefixCls="rc-table"
+          rowKey="key"
+          scroll={
+            Object {
+              "x": 2800,
+            }
+          }
+          style={
+            Object {
+              "width": "auto",
+            }
+          }
+        />
+      </Row>
+    </CardBody>
+    <CardFooter
+      tag="div"
+    >
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col={2}
+          icon="fas fa-clipboard-list"
+          title="Log"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col={2}
+          icon="fas fa-plus"
+          title="Add"
+          typebootstrap="link "
+        />
+        <Button
+          col={2}
+          icon="fas fa-times"
+          title="Properties"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col={2}
+          icon="fas fa-trash"
+          title="Delete"
+          typebootstrap="link "
+        />
+        <Button
+          col={2}
+          icon="fas fa-sync-alt"
+          title="Refresh"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col={2}
+          icon="fas fa-times"
+          title="Close"
+          typebootstrap="link "
+        />
+      </div>
+    </CardFooter>
+  </Card>
+</Fragment>
+`;

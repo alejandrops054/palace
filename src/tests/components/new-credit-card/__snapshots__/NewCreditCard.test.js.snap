@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewCreditCard component Debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <Select
+        col="12"
+        label="Type"
+        option="Visa"
+      />
+      <Select
+        col={12}
+        label="Relationship"
+        option="Owner"
+      />
+      <Select
+        col={12}
+        label="Amount paid"
+        option=""
+      />
+      <Input
+        col={12}
+        label="RFC"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={12}
+        label="Credit granted"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={12}
+        label="Name as appear in the ID"
+        placeholder=""
+        type="text"
+      />
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <Select
+        col="12"
+        label="Type card"
+        option="Credit"
+      />
+      <Select
+        col={12}
+        label="Currency"
+        option="one"
+      />
+      <Select
+        col={12}
+        label="Place of signature"
+        option="Californnia"
+      />
+      <Input
+        col={12}
+        label="Card number"
+        placeholder=""
+        type="text"
+      />
+      <Select
+        col={12}
+        label="By"
+        option="Amex"
+      />
+      <Select
+        col={12}
+        label="Name as appear in the card"
+        option="Name"
+      />
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-4"
+    >
+      <Input
+        col={12}
+        label="Security code"
+        placeholder=""
+        type="text"
+      />
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <Input
+        col={12}
+        label="Start"
+        placeholder=""
+        type="text"
+      />
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <Input
+        col={12}
+        label="Expire"
+        placeholder=""
+        type="text"
+      />
+    </div>
+  </div>
+  <Checkbox
+    className="mt-3"
+    col={12}
+    label="Do you authorize of monthly changes without support?"
+    name="check1"
+    value="check1"
+  />
+  <div
+    className="d-flex justify-content-end"
+  >
+    <Button
+      col="1"
+      icon="fas fa-times"
+      title="   "
+      typebootstrap="secondary"
+    />
+    <Button
+      col="1"
+      icon="fas fa-check"
+      title="   "
+      typebootstrap="primary"
+    />
+  </div>
+</div>
+`;

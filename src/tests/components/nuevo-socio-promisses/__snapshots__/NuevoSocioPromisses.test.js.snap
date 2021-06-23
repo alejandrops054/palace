@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NuevoSocioPromisses component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Modal
+    autoFocus={true}
+    backdrop={true}
+    backdropTransition={
+      Object {
+        "mountOnEnter": true,
+        "timeout": 150,
+      }
+    }
+    centered={false}
+    container="body"
+    fade={true}
+    isOpen={true}
+    keyboard={true}
+    modalTransition={
+      Object {
+        "timeout": 300,
+      }
+    }
+    onClosed={[Function]}
+    onOpened={[Function]}
+    returnFocusAfterClose={true}
+    role="dialog"
+    scrollable={false}
+    size="lg"
+    toggle={[Function]}
+    unmountOnClose={true}
+    zIndex={1050}
+  >
+    <ModalBody
+      className="p-0 "
+      tag="div"
+    >
+      <GeographicLocation />
+    </ModalBody>
+    <ModalFooter
+      tag="div"
+    >
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col={12}
+          icon="fas fa-times"
+          type="button"
+          typebootstrap="secondary"
+        />
+        <Button
+          col={12}
+          icon="fas fa-check"
+          onClick={[Function]}
+          type="submit"
+          typebootstrap="primary "
+        />
+      </div>
+    </ModalFooter>
+  </Modal>
+  <div
+    className="App"
+  >
+    <div
+      className="page"
+    >
+      <header
+        className="app-header menu-bar"
+        id="menubar"
+      >
+        <MainMenu />
+      </header>
+      <section
+        className="app-content"
+      >
+        <Header
+          icon="fas fa-user-plus"
+          route2="Members"
+          title="Add member"
+        />
+        <main>
+          <article
+            className="content-area"
+          >
+            <form>
+              <div>
+                <div
+                  className="container"
+                >
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className="col-4"
+                    >
+                      <Blance />
+                    </div>
+                    <div
+                      className="col-8"
+                    >
+                      <GetExistingF />
+                    </div>
+                  </div>
+                </div>
+                <br />
+                <br />
+                <div>
+                  <Company />
+                  <div
+                    className="border-top border-secondary"
+                  >
+                    <Nav
+                      tabs={true}
+                      tag="ul"
+                      vertical={false}
+                    >
+                      <NavItem
+                        tag="li"
+                      >
+                        <NavLink
+                          onClick={[Function]}
+                          tag="a"
+                        >
+                          Account detail
+                        </NavLink>
+                      </NavItem>
+                      <NavItem
+                        tag="li"
+                      >
+                        <NavLink
+                          onClick={[Function]}
+                          tag="a"
+                        >
+                          Promises
+                        </NavLink>
+                      </NavItem>
+                      <NavItem
+                        tag="li"
+                      >
+                        <NavLink
+                          onClick={[Function]}
+                          tag="a"
+                        >
+                          Promises detail
+                        </NavLink>
+                      </NavItem>
+                      <NavItem
+                        tag="li"
+                      >
+                        <NavLink
+                          onClick={[Function]}
+                          tag="a"
+                        >
+                          Conciliations
+                        </NavLink>
+                      </NavItem>
+                      <NavItem
+                        tag="li"
+                      >
+                        <NavLink
+                          onClick={[Function]}
+                          tag="a"
+                        >
+                          Credit Cards
+                        </NavLink>
+                      </NavItem>
+                    </Nav>
+                    <TabContent
+                      activeTab="1"
+                      tag="div"
+                    >
+                      <TabPane
+                        tabId="1"
+                        tag="div"
+                      >
+                        <div
+                          className="col-lg-12"
+                        >
+                          <AccDet />
+                        </div>
+                      </TabPane>
+                      <TabPane
+                        tabId="2"
+                        tag="div"
+                      >
+                        <Promises />
+                      </TabPane>
+                      <TabPane
+                        tabId="3"
+                        tag="div"
+                      >
+                        <div
+                          className="card"
+                        />
+                      </TabPane>
+                      <TabPane
+                        tabId="4"
+                        tag="div"
+                      >
+                        <div
+                          className="card"
+                        />
+                      </TabPane>
+                      <TabPane
+                        tabId="5"
+                        tag="div"
+                      >
+                        <CreditCard />
+                      </TabPane>
+                    </TabContent>
+                  </div>
+                  <div
+                    className="d-flex justify-content-center m-2"
+                  >
+                    <button
+                      className="btn btn-secundary col-2"
+                    >
+                      Cancel
+                    </button>
+                    <Link
+                      className="col-2"
+                      to="/newsociopromisses"
+                    >
+                      <button
+                        className="btn btn-primary"
+                      >
+                        Next
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </article>
+        </main>
+      </section>
+    </div>
+  </div>
+</Fragment>
+`;

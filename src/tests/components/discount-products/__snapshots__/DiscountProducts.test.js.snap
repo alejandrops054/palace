@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiscountProducts component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h3>
+          Discount Product
+        </h3>
+      </CardTitle>
+      <br />
+      <span>
+        Catalog of Type Products
+      </span>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="12"
+        >
+          <Table
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "code",
+                  "key": "code",
+                  "title": "Code ",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "description",
+                  "key": "description",
+                  "title": "Description",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "status",
+                  "key": "status",
+                  "title": "Status",
+                  "width": 100,
+                },
+              ]
+            }
+            dataSource={
+              Array [
+                Object {
+                  "code": "1",
+                  "description": "5% POR VENTA",
+                  "status": "Alta",
+                },
+                Object {
+                  "code": "2",
+                  "description": "CREDITO UNIVERSAL",
+                  "status": "Baja",
+                },
+                Object {
+                  "code": "3",
+                  "description": "SOBRE PRECIO",
+                  "status": "Alta",
+                },
+                Object {
+                  "code": "4",
+                  "description": "PEM",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "status": "Alta",
+                },
+              ]
+            }
+            rowKey="key"
+          />
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="2"
+        >
+          <span>
+            Records: 8
+          </span>
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="5"
+        />
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="5"
+        >
+          <ButtonGroup
+            role="group"
+            tag="div"
+          >
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Add Type
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Product
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Log
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Properties
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Refresh
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Close
+            </Button>
+          </ButtonGroup>
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberReservationRatesYA component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Col
+    className="border"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <h6>
+      Years available
+    </h6>
+    <ul>
+      <li
+        key="0"
+      >
+        <Checkbox
+          label={2014}
+          name={2014}
+          value={2014}
+        />
+      </li>
+      <li
+        key="1"
+      >
+        <Checkbox
+          label={2015}
+          name={2015}
+          value={2015}
+        />
+      </li>
+      <li
+        key="2"
+      >
+        <Checkbox
+          label={2016}
+          name={2016}
+          value={2016}
+        />
+      </li>
+      <li
+        key="3"
+      >
+        <Checkbox
+          label={2017}
+          name={2017}
+          value={2017}
+        />
+      </li>
+      <li
+        key="4"
+      >
+        <Checkbox
+          label={2018}
+          name={2018}
+          value={2018}
+        />
+      </li>
+      <li
+        key="5"
+      >
+        <Checkbox
+          label={2019}
+          name={2019}
+          value={2019}
+        />
+      </li>
+      <li
+        key="6"
+      >
+        <Checkbox
+          label={2020}
+          name={2020}
+          value={2020}
+        />
+      </li>
+      <li
+        key="7"
+      >
+        <Checkbox
+          label={2021}
+          name={2021}
+          value={2021}
+        />
+      </li>
+    </ul>
+  </Col>
+</Fragment>
+`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="row"
+  >
+    <Input
+      label="Value-Add Tax (%)"
+      placeholder="Value-Add Tax (%)"
+      type="number"
+    />
+    <Input
+      label="Last change"
+      placeholder="Last change"
+      type="number"
+    />
+    <div
+      className="col-lg-4 filter-pandding"
+    >
+      <button
+        alt="Filters"
+        className="btn btn-link ml-2"
+        id="btn-filters"
+        title="Filters"
+        type="button"
+      >
+        <i
+          className="fas fa-filter"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <Input
+      label="Downgrade type"
+      placeholder="Downgrade type"
+      type="number"
+    />
+    <Input
+      label="Portafolio"
+      placeholder="Portafolio"
+      type="number"
+    />
+    <Input
+      label="Purchase date"
+      placeholder="Purchase date"
+      type="number"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <Input
+      label="Origin"
+      placeholder="Origin"
+      type="number"
+    />
+    <div
+      className="row"
+    >
+      <Checkbox
+        label="Pay Commission"
+        name="payCommission"
+        value={true}
+      />
+      <Checkbox
+        label="Request Invoice"
+        name="requestInvoice"
+        value={true}
+      />
+    </div>
+  </div>
+</Fragment>
+`;

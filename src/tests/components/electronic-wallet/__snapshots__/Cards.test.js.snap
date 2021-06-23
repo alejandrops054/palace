@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards component debe mostrar snapshot 1`] = `
+<Fragment>
+  <from>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-5"
+        >
+          <Input
+            col={12}
+            label="Card"
+            placeholder=""
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-5"
+        >
+          <Input
+            col={12}
+            label="Card ID"
+            placeholder=""
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-2"
+        >
+          <br />
+          <Checkbox
+            label="Aditional"
+            name="checkRow3"
+          />
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12"
+        >
+          <Input
+            col={12}
+            label="Name"
+            placeholder=""
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <Input
+            col={12}
+            label="Expedition"
+            placeholder=""
+            type="date"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <Input
+            col={12}
+            label="Expiration"
+            placeholder=""
+            type="date"
+          />
+        </div>
+      </div>
+      <br />
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-8"
+        >
+          <Input
+            col={12}
+            label="Sec Code"
+            placeholder=""
+            type="text"
+          />
+          <Select
+            col={12}
+            label=""
+            option="ALTA"
+          />
+        </div>
+        <div
+          className="col-md-2"
+        />
+        <div
+          className="col-md-2"
+        >
+          <br />
+          <br />
+          <br />
+          <Button
+            active={false}
+            className="left "
+            disabled={false}
+            variant="dark"
+          >
+            Asign Card
+          </Button>
+           
+        </div>
+      </div>
+    </div>
+  </from>
+</Fragment>
+`;

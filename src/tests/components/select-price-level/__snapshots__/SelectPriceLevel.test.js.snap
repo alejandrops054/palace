@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectPriceLevel component Debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <div
+        className="card-title"
+      >
+        <h3>
+          Select Price Level
+        </h3>
+      </div>
+    </div>
+    <div
+      className="card-body table"
+    >
+      <Table
+        columns={
+          Array [
+            Object {
+              "align": "center",
+              "dataIndex": "ID",
+              "title": "ID",
+              "width": 60,
+            },
+            Object {
+              "dataIndex": "Program",
+              "key": "Program",
+              "title": "Program",
+              "width": 160,
+            },
+            Object {
+              "dataIndex": "Program_name",
+              "key": "Program_name",
+              "title": "Program name",
+              "width": 160,
+            },
+            Object {
+              "dataIndex": "Minimum_price",
+              "key": "Minimum_price",
+              "title": "Minimum Price",
+              "width": 160,
+            },
+            Object {
+              "dataIndex": "Maximum_price",
+              "key": "Maximum_price",
+              "title": "Maximum Price",
+              "width": 160,
+            },
+            Object {
+              "dataIndex": "Incentives_weeks",
+              "key": "Incentives_weeks",
+              "title": "Incentives Weeks",
+              "width": 160,
+            },
+            Object {
+              "dataIndex": "Admin_Fee",
+              "key": "Admin_Fee",
+              "title": "Admin Fee",
+              "width": 160,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "Admin_Fee": "$275.00",
+              "ID": "1",
+              "Incentives_weeks": "1",
+              "Maximum_price": "$6,247.99",
+              "Minimum_price": "$1.00",
+              "Program": "TR",
+              "Program_name": "Trial",
+            },
+            Object {
+              "Admin_Fee": "$275.00",
+              "ID": "1",
+              "Incentives_weeks": "1",
+              "Maximum_price": "$6,247.99",
+              "Minimum_price": "$1.00",
+              "Program": "TR",
+              "Program_name": "Trial",
+            },
+          ]
+        }
+        emptyText={[Function]}
+        id="resume-table"
+        prefixCls="rc-table"
+        rowKey="key"
+      />
+      <hr />
+      <Table
+        columns={
+          Array [
+            Object {
+              "align": "center",
+              "dataIndex": "Required",
+              "key": "1",
+              "title": "DP Required (%)",
+              "width": 160,
+            },
+            Object {
+              "dataIndex": "Paid",
+              "key": "Paid",
+              "title": "DP Paid (%)",
+              "width": 160,
+            },
+            Object {
+              "dataIndex": "Min_Pack",
+              "key": "id",
+              "title": "Min Pack Amount",
+              "width": 160,
+            },
+            Object {
+              "dataIndex": "Max_Pack",
+              "key": "Max_Pack",
+              "title": "Max Pack Amount",
+              "width": 160,
+            },
+            Object {
+              "dataIndex": "Min_Amount",
+              "key": "Min_Amount",
+              "title": "Min Amount Required",
+              "width": 160,
+            },
+            Object {
+              "dataIndex": "Max_Amount",
+              "key": "Max_Amount",
+              "title": "Max Amount Required",
+              "width": 160,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "Max_Amount": "$669.00",
+              "Max_Pack": "$100.00",
+              "Min_Amount": "$3,499.00",
+              "Min_Pack": "$100.00",
+              "Paid": "0.00",
+              "Required": "15",
+            },
+          ]
+        }
+        emptyText={[Function]}
+        id="resume-table"
+        prefixCls="rc-table"
+        rowKey="key"
+      />
+    </div>
+    <div
+      className="row d-flex justify-content-end"
+    >
+      <Button
+        col={2}
+        title="Ok"
+        type="button"
+        typebootstrap="primary"
+      />
+      <Button
+        col={2}
+        title="Cancel"
+        type="button"
+        typebootstrap="secondary "
+      />
+    </div>
+  </div>
+</div>
+`;

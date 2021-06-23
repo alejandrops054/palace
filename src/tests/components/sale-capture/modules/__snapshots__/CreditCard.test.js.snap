@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCard component Debe mostrar snapshot 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-md-12 d-flex justify-content-end tables"
+  >
+    <Button
+      col="1.5"
+      icon="fas fa-plus"
+      title="Add credit card"
+      type="button"
+      typebootstrap="link"
+    />
+    <Button
+      col="1.5"
+      icon="fas fa-trash"
+      title="Delete credit card"
+      type="button"
+      typebootstrap="link"
+    />
+  </div>
+  <div
+    className="col-lg-12"
+  >
+    <Etiqueta
+      col={3}
+      etiqueta="Company: 7"
+    />
+    <Etiqueta
+      col={3}
+      etiqueta="Application: 4050478"
+    />
+    <Etiqueta
+      col={5}
+      etiqueta="Nenver Name: OMAR PEREZ MARTINEZ"
+    />
+  </div>
+  <div
+    className="col-lg-12"
+  >
+    <SimpleTable
+      columns={
+        Array [
+          Object {
+            "dataIndex": "type",
+            "key": "type",
+            "title": "Type",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "cardnumber",
+            "key": "cardnumber",
+            "title": "Card Number",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "name",
+            "key": "name",
+            "title": "Name as appear in the card",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "start",
+            "key": "start",
+            "title": "Start",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "expire",
+            "key": "expire",
+            "title": "Expire",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "securitycode",
+            "key": "securitycode",
+            "title": "Security Code",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "currency",
+            "key": "currency",
+            "title": "Currency",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "creditgranted",
+            "key": "creditgranted",
+            "title": "Credit Granted",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "bank",
+            "key": "bank",
+            "title": "Bank",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "status",
+            "key": "status",
+            "title": "Status",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "relationship",
+            "key": "relationship",
+            "title": "Relationship",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "profileid",
+            "key": "profileid",
+            "title": "Profile Id",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "typecard",
+            "key": "typecard",
+            "title": "Type Card",
+            "width": "4%",
+          },
+          Object {
+            "dataIndex": "monthlyauthorization",
+            "key": "monthlyauthorization",
+            "title": "Monthly Authorization",
+            "width": "4%",
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "bank": "",
+            "cardnumber": "4111-1111-1111-1111",
+            "creditgranted": "$0.00",
+            "currency": "US",
+            "expire": "12/24",
+            "monthlyauthorization": <Checkbox />,
+            "name": "EDUARDO SANCHEZ DEL MONTE",
+            "profileid": "20799625",
+            "relationship": "Co Owner",
+            "securitycode": "123",
+            "start": "01/20",
+            "status": "A",
+            "type": "VISA",
+            "typecard": "",
+          },
+          Object {
+            "bank": "",
+            "cardnumber": "",
+            "creditgranted": "",
+            "currency": "",
+            "expire": "",
+            "monthlyauthorization": "",
+            "name": "",
+            "profileid": "",
+            "relationship": "",
+            "securitycode": "",
+            "start": "",
+            "status": "",
+            "type": "",
+            "typecard": "",
+          },
+          Object {
+            "bank": "",
+            "cardnumber": "",
+            "creditgranted": "",
+            "currency": "",
+            "expire": "",
+            "monthlyauthorization": "",
+            "name": "",
+            "profileid": "",
+            "relationship": "",
+            "securitycode": "",
+            "start": "",
+            "status": "",
+            "type": "",
+            "typecard": "",
+          },
+          Object {
+            "bank": "",
+            "cardnumber": "",
+            "creditgranted": "",
+            "currency": "",
+            "expire": "",
+            "monthlyauthorization": "",
+            "name": "",
+            "profileid": "",
+            "relationship": "",
+            "securitycode": "",
+            "start": "",
+            "status": "",
+            "type": "",
+            "typecard": "",
+          },
+        ]
+      }
+      type="table"
+    />
+  </div>
+</div>
+`;

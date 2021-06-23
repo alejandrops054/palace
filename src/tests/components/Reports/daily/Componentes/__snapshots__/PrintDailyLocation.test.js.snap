@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrintDailyLocation component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-4"
+      >
+        <Select
+          col={12}
+          label="Location code"
+          option="Process Satus"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <label
+          col={12}
+          htmlFor=""
+        >
+          Enter Date
+        </label>
+        <Input
+          col={12}
+          label="Date From"
+          placeholder=""
+          type="date"
+        />
+        <Input
+          col={12}
+          label="Date to"
+          placeholder=""
+          type="date"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <label
+          col={12}
+          htmlFor=""
+        >
+          Sale Date
+        </label>
+        <Input
+          col={12}
+          label="Date"
+          placeholder=""
+          type="date"
+        />
+        <Input
+          col={12}
+          label="Date"
+          placeholder=""
+          type="date"
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

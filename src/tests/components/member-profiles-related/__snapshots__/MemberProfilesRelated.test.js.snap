@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberProfilesRelated component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <h3
+      className="card-title"
+    >
+      New Deposit
+    </h3>
+    <div
+      className="row"
+    >
+      <h5
+        className="card-title"
+      >
+        Member Information
+      </h5>
+      <Etiqueta
+        col={4}
+        etiqueta="Member Name: GURPREET S AULAKH"
+      />
+      <Etiqueta
+        col={2}
+        etiqueta="Company: 5"
+      />
+      <Etiqueta
+        col={3}
+        etiqueta="Application: 6007770"
+      />
+      <SimpleTable
+        columns={
+          Array [
+            Object {
+              "dataIndex": "id",
+              "key": "id",
+              "title": "Id",
+              "width": "12.5%",
+            },
+            Object {
+              "dataIndex": "company",
+              "key": "company",
+              "title": "Company",
+              "width": "12.5%",
+            },
+            Object {
+              "dataIndex": "application",
+              "key": "application",
+              "title": "Application",
+              "width": "12.5%",
+            },
+            Object {
+              "dataIndex": "name",
+              "key": "name",
+              "title": "Name",
+              "width": "12.5%",
+            },
+            Object {
+              "dataIndex": "profileid",
+              "key": "profileid",
+              "title": "Profile Id",
+              "width": "12.5%",
+            },
+            Object {
+              "dataIndex": "idrelationclub",
+              "key": "idrelationclub",
+              "title": "Id Relation Club",
+              "width": "12.5%",
+            },
+            Object {
+              "dataIndex": "relationship",
+              "key": "relationship",
+              "render": [Function],
+              "title": "Relationship",
+              "width": "12.5%",
+            },
+            Object {
+              "dataIndex": "id2",
+              "key": "id2",
+              "title": "Id",
+              "width": "12.5%",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "application": "",
+              "company": "",
+              "id": "",
+              "id2": "",
+              "idrelationclub": "",
+              "name": "",
+              "profileid": "",
+              "relationship": "",
+            },
+            Object {
+              "application": "",
+              "company": "",
+              "id": "",
+              "id2": "",
+              "idrelationclub": "",
+              "name": "",
+              "profileid": "",
+              "relationship": "",
+            },
+            Object {
+              "application": "",
+              "company": "",
+              "id": "",
+              "id2": "",
+              "idrelationclub": "",
+              "name": "",
+              "profileid": "",
+              "relationship": "",
+            },
+            Object {
+              "application": "",
+              "company": "",
+              "id": "",
+              "id2": "",
+              "idrelationclub": "",
+              "name": "",
+              "profileid": "",
+              "relationship": "",
+            },
+          ]
+        }
+        type="table"
+      />
+      <Button
+        col={3}
+        icon="fas fa-trash"
+        title="Delete Profile"
+        type="button"
+        typebootstrap="link"
+      />
+      <Etiqueta
+        col={6}
+        etiqueta="Profiles: 13"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TablaSelectBankAccount component debe mostrar snapshot 1`] = `
+<ForwardRef
+  bordered={true}
+  hover={true}
+  striped={true}
+>
+  <thead>
+    <tr>
+      <td
+        key="0"
+      >
+        Account
+      </td>
+      <td
+        key="1"
+      >
+        Merchant
+      </td>
+      <td
+        key="2"
+      >
+        Company
+      </td>
+      <td
+        key="3"
+      >
+        Currency
+      </td>
+      <td
+        key="4"
+      >
+        Bank
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        1578288
+      </td>
+      <td>
+        1578288
+      </td>
+      <td>
+        PER
+      </td>
+      <td>
+        US
+      </td>
+      <td>
+        No identificado
+      </td>
+    </tr>
+  </tbody>
+</ForwardRef>
+`;

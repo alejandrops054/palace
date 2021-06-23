@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalReportDespositBatchListing component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Report Desposit Batch Listing
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="lg"
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle>
+        Report Desposit Batch Listing
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-6"
+          >
+            <h5>
+              Date
+            </h5>
+            <Input
+              col={12}
+              label="Start date"
+              placeholder=""
+              type="date"
+            />
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <br />
+            <Input
+              col={12}
+              label="End date"
+              placeholder=""
+              type="date"
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          className="row"
+        >
+          <h5>
+            Project & Office
+          </h5>
+          <div
+            className="col-md-4"
+          >
+            <Input
+              col={12}
+              label="Prject"
+              placeholder=""
+              type="text"
+            />
+            <Input
+              col={12}
+              label="Office"
+              placeholder=""
+              type="text"
+            />
+          </div>
+          <div
+            className="col-md-8"
+          >
+            <Select
+              label=""
+              option="PLACE ELITE"
+            />
+            <br />
+            <Select
+              label=""
+              option="PAYACAR PALCE"
+            />
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <Checkbox
+              label="Include credit note postdated"
+              name="checkRow3"
+            />
+            <Checkbox
+              label="Onon payments membership"
+              name="checkRow3"
+            />
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <Checkbox
+              label="Include past postdated"
+              name="checkRow3"
+            />
+          </div>
+        </div>
+      </div>
+    </ModalBody>
+    <ModalFooter>
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Print
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

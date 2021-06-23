@@ -1,0 +1,62 @@
+/* Ancho del Switch */
+.onoffswitch {
+    position: relative; width:80px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+
+/* Quita el Estilo del Switch Original del HTML */
+.onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Grueso del Border */
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 3px solid #999999; border-radius: 20px;
+}
+
+/* Estilo del Switch Apagado */
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+/* Alto del Switch */
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+
+/* Estilo de la Etiqueta ON */
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #4234c1; color: #FFFFFF;
+}
+/* Estilo de la Etiqueta OFF */
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+
+/* Estilo del Punto */
+.onoffswitch-switch {
+    display: block; width: 30px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius:20px;
+    transition: all 0.3s ease-in 0s; 
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0px;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}

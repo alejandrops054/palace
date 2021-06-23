@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <CustomerData/> Debe renderizar el CustomerData  1`] = `
+<aside>
+  <div
+    className="customer-data"
+  >
+    <nav
+      className="notes-list"
+    >
+      <button
+        alt="Notes on user"
+        className="btn-notes active"
+        title="Notes on user"
+      >
+        <i
+          className="fas fa-sticky-note"
+        />
+        <span
+          className="badge"
+          onClick={[Function]}
+        >
+           
+          2
+           
+        </span>
+      </button>
+      <Note
+        className="list-container"
+      />
+    </nav>
+    <div
+      className="customer-resume"
+    >
+      <div
+        className="customer-avatar"
+      >
+        <div
+          className="customer-photo"
+        >
+          <img
+            alt="member"
+            src="images/svg/unknown-user.svg"
+          />
+        </div>
+        <button
+          alt="upload-photo"
+          className="btn-photo"
+          title="upload-photo"
+        >
+           
+          <i
+            className="fas fa-camera"
+          />
+        </button>
+      </div>
+      <div
+        className="customer-meta"
+      >
+        <h2>
+          Member's Name
+        </h2>
+        <label />
+      </div>
+    </div>
+  </div>
+  <button
+    alt="Add note"
+    className="btn btn-primary btn-lg d-block m-auto"
+    onClick={[Function]}
+    title="Add note"
+  >
+     
+    <i
+      className="fas fa-sticky-note mr-1"
+    />
+    Add note
+  </button>
+  <Modal
+    autoFocus={true}
+    backdrop={true}
+    backdropTransition={
+      Object {
+        "mountOnEnter": true,
+        "timeout": 150,
+      }
+    }
+    centered={false}
+    container="body"
+    fade={true}
+    isOpen={false}
+    keyboard={true}
+    modalTransition={
+      Object {
+        "timeout": 300,
+      }
+    }
+    onClosed={[Function]}
+    onOpened={[Function]}
+    returnFocusAfterClose={true}
+    role="dialog"
+    scrollable={false}
+    size="md"
+    toggle={[Function]}
+    unmountOnClose={true}
+    zIndex={1050}
+  >
+    <form>
+      <ModalHeader
+        charCode={215}
+        closeAriaLabel="Close"
+        tag="h5"
+        wrapTag="div"
+      >
+          Add Note 
+      </ModalHeader>
+      <ModalBody
+        className="p-0 "
+        tag="div"
+      >
+        <AddNote />
+      </ModalBody>
+    </form>
+  </Modal>
+</aside>
+`;

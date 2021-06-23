@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccDet component Debe mostrar snapshot 1`] = `
+<div
+  className="container"
+>
+  <form>
+    <Table
+      className="table table-striped table-dark"
+      columns={
+        Array [
+          Object {
+            "dataIndex": "item",
+            "key": "item",
+            "width": 400,
+          },
+          Object {
+            "dataIndex": "currency",
+            "key": "currency",
+            "width": 400,
+          },
+          Object {
+            "dataIndex": "initial",
+            "key": "initial",
+            "width": 400,
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "currency": <i
+              className="fas fa-user-cog"
+            >
+               Member inquiry
+            </i>,
+            "initial": <div
+              className="d-flex justify-content-end"
+            >
+              <p
+                className="pt-4"
+              >
+                $
+              </p>
+              <Input
+                col="6"
+                disabled={false}
+                name="totalAffiliation"
+                onChange={[Function]}
+                type="number"
+                value={0}
+              />
+            </div>,
+            "item": "Total affiliation fee",
+          },
+          Object {
+            "currency": "",
+            "initial": "$0.00",
+            "item": "Previous sale",
+          },
+          Object {
+            "currency": "$ New deposit",
+            "initial": "$0",
+            "item": "New sale",
+          },
+          Object {
+            "currency": "0.00%",
+            "initial": "$0.00",
+            "item": "Discount",
+          },
+          Object {
+            "currency": "0.00%",
+            "initial": "$0.00",
+            "item": "Adjustment for DG 100%",
+          },
+          Object {
+            "currency": " ",
+            "initial": "",
+            "item": "General adjustment sale",
+          },
+          Object {
+            "currency": " ",
+            "initial": "$0",
+            "item": "Total membership fee Net",
+          },
+          Object {
+            "currency": "0.00% ",
+            "initial": "$0.00",
+            "item": "Affiliation VAT",
+          },
+          Object {
+            "currency": "0%",
+            "initial": "$0",
+            "item": "Down payments required at",
+          },
+          Object {
+            "currency": <div
+              className="d-flex justify-content-end"
+            >
+              <Input
+                col="6"
+                disabled={false}
+                name="dpRequiredNewSale"
+                onChange={[Function]}
+                type="number"
+                value={0}
+              />
+              <strong
+                className="pt-4"
+              >
+                %
+              </strong>
+            </div>,
+            "initial": "$0",
+            "item": "DP required new sale",
+          },
+          Object {
+            "currency": <Checkbox
+              label="Exclude"
+              name="payCommission"
+            />,
+            "initial": "$699",
+            "item": "Administration fee (included VAT)",
+          },
+          Object {
+            "currency": "0%",
+            "initial": <div
+              className="d-flex justify-content-end"
+            >
+              <Input
+                col="6"
+                disabled={false}
+                name="downPayment"
+                onChange={[Function]}
+                type="number"
+                value={0}
+              />
+              <strong
+                className="pt-4"
+              >
+                $
+              </strong>
+            </div>,
+            "item": "Down payment",
+          },
+          Object {
+            "currency": <Input
+              col={7}
+              icon="fas fa-calendar-alt"
+              type="date"
+            />,
+            "initial": "$0.00",
+            "item": "Down payment other",
+          },
+          Object {
+            "currency": " ",
+            "initial": <InfoMembers
+              text="$0.00"
+            />,
+            "item": "Administration fee paid",
+          },
+          Object {
+            "currency": " ",
+            "initial": "$699",
+            "item": "Total initial payment",
+          },
+          Object {
+            "currency": " ",
+            "initial": "$0",
+            "item": "Down payment remaining",
+          },
+          Object {
+            "currency": " ",
+            "initial": "$0.00",
+            "item": "Remaining (previous)",
+          },
+          Object {
+            "currency": " ",
+            "initial": "$0",
+            "item": "Remaining (new)",
+          },
+          Object {
+            "initial": "$0",
+            "item": "Amount to be financed",
+          },
+          Object {
+            "currency": " ",
+            "initial": "$0.00",
+            "item": "Financing amount paid previous",
+          },
+          Object {
+            "currency": " ",
+            "initial": "$0.00",
+            "item": "Debit balance (previous)",
+          },
+          Object {
+            "currency": " ",
+            "initial": "$0",
+            "item": "Debit balance (new)",
+          },
+          Object {
+            "currency": "12",
+            "initial": "",
+            "item": "Total payments",
+          },
+        ]
+      }
+      emptyText={[Function]}
+      prefixCls="rc-table"
+      rowKey="key"
+    />
+  </form>
+</div>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente ManagementReports Creacion de ManagementReports 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      Management Reports
+    </h5>
+    <div
+      className="row"
+    >
+      <SimpleTable
+        columns={
+          Array [
+            Object {
+              "dataIndex": "item",
+              "key": "item",
+              "title": "Report Name",
+              "width": "100%",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "item": "Accesos de suites - Cantidad y Vigencia de Accesos",
+            },
+            Object {
+              "item": "Accesos de suites",
+            },
+            Object {
+              "item": "Accesos de suites",
+            },
+            Object {
+              "item": "Accesos de suites",
+            },
+          ]
+        }
+        type="table"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba componente UI <Search/> Componente recibe props placeholder:String, link:String y col:Number 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md4"
+      >
+        <h5 />
+      </div>
+      <div
+        className="input-group get-member col-lg-6 mb-3"
+      >
+        <input
+          aria-describedby="Get member"
+          aria-label="Get member"
+          className="form-control"
+          placeholder="Titulo de placeholder"
+          type="text"
+        />
+        <div
+          className="input-group-append"
+        >
+          <Link
+            to="/"
+          >
+            <button
+              className="btn btn-secondary text-white"
+              id="get-member"
+              style={
+                Object {
+                  "background": "#212337",
+                  "border": "transparent",
+                  "height": "100%",
+                }
+              }
+              type="button"
+            >
+              <i
+                className="fas fa-search"
+              />
+            </button>
+          </Link>
+        </div>
+        <button
+          alt="Filters"
+          className="btn btn-link ml-2"
+          id="btn-filters"
+          onclick="return openFilters()"
+          title="Filters"
+          type="button"
+        >
+          <i
+            className="fas fa-filter"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

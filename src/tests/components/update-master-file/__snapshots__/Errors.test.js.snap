@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Errors component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <SimpleTable
+          columns={
+            Array [
+              Object {
+                "dataIndex": "company",
+                "key": "company",
+                "title": "Company",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "application",
+                "key": "application",
+                "title": "Application",
+                "width": "1%",
+              },
+              Object {
+                "dataIndex": "message",
+                "key": "message",
+                "title": "Message",
+                "width": "1%",
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "application": "",
+                "company": "",
+                "message": "",
+              },
+              Object {
+                "application": "",
+                "company": "",
+                "message": "",
+              },
+              Object {
+                "application": "",
+                "company": "",
+                "message": "",
+              },
+              Object {
+                "application": "",
+                "company": "",
+                "message": "",
+              },
+              Object {
+                "application": "",
+                "company": "",
+                "message": "",
+              },
+              Object {
+                "application": "",
+                "company": "",
+                "message": "",
+              },
+              Object {
+                "application": "",
+                "company": "",
+                "message": "",
+              },
+              Object {
+                "application": "",
+                "company": "",
+                "message": "",
+              },
+              Object {
+                "application": "",
+                "company": "",
+                "message": "",
+              },
+            ]
+          }
+          type="table"
+        />
+        <Col
+          md={12}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <h5>
+            Processed affiliation 0 Of 0:
+          </h5>
+        </Col>
+        <Col
+          md={4}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          />
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          md={2}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Total Errors 0
+          </Label>
+        </Col>
+        <Col
+          md={2}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Total Warnings 0
+          </Label>
+        </Col>
+        <Col
+          md={2}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            col={12}
+            icon="fas fa-file-alt"
+            title="Select All"
+            type="button"
+            typebootstrap="secondary"
+          />
+        </Col>
+        <Col
+          md={2}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            col={12}
+            icon="fas fa-sync-alt"
+            title="Refresh"
+            type="button"
+            typebootstrap="secondary"
+          />
+        </Col>
+        <Col
+          md={2}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            col={12}
+            icon="fas fa-cog"
+            title="Process"
+            type="button"
+            typebootstrap="secondary"
+          />
+        </Col>
+        <Col
+          md={2}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            col={12}
+            icon="fas fa-times"
+            title="Cancel"
+            type="button"
+            typebootstrap="secondary"
+          />
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

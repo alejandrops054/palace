@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CellPhone component Debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="row justify-content-start"
+  >
+    <div
+      className="col-lg-12"
+    >
+      <Input
+        col={12}
+        label="Country Code"
+        placeholder="876"
+        type="text"
+      />
+      <Input
+        col={12}
+        label="Area Code"
+        type="text"
+      />
+      <Input
+        col={12}
+        label="Cell Phone"
+        placeholder="8679312"
+        type="text"
+      />
+      <Etiqueta
+        aling="center"
+        col={12}
+        etiqueta="Current Cell Phone 8768679312"
+      />
+    </div>
+  </div>
+</div>
+`;

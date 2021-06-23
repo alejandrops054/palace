@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menusocios component Debe mostrar snapshot 1`] = `
+<li
+  className="has-children"
+>
+  <a
+    className="active"
+    href="!#"
+  >
+    <i
+      className="fas fa-user"
+    />
+    <span
+      className="link-name"
+    >
+      Members
+    </span>
+  </a>
+  <div
+    className="submenu"
+    id="submenu"
+  >
+    <button
+      className="submenu-toggle"
+    >
+      <i
+        className="fas fa-arrow-left"
+      />
+    </button>
+    <ul>
+      <li
+        key="0"
+      >
+        Add member
+      </li>
+      <li
+        key="1"
+      >
+        Promotions
+      </li>
+      <li
+        key="2"
+      >
+        Notes
+      </li>
+      <li
+        key="3"
+      >
+        Beneficiaries
+      </li>
+      <li
+        key="4"
+      >
+        Deposits maintenance
+      </li>
+      <li
+        key="5"
+      >
+        Members previous
+      </li>
+      <li
+        key="6"
+      >
+        Member VAT Rate
+      </li>
+      <li
+        key="7"
+      >
+        Cancel SMART Provisions
+      </li>
+    </ul>
+  </div>
+</li>
+`;

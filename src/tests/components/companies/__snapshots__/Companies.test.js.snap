@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Companies component debe mostrar snapshot 1`] = `
+<Container
+  fluid={true}
+  tag="div"
+>
+  <h2>
+    Companies
+  </h2>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Log
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Add
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Properties
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Refresh
+      </Button>
+    </Col>
+  </Row>
+  <Row
+    className="mt-3"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Table
+      columns={
+        Array [
+          Object {
+            "dataIndex": "code",
+            "key": "code",
+            "title": "Code",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "description",
+            "key": "description",
+            "title": "Description",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "mexican",
+            "key": "mexican",
+            "title": "Mexican",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "status",
+            "key": "status",
+            "title": "Status",
+            "width": 130,
+          },
+        ]
+      }
+      emptyText={[Function]}
+      prefixCls="rc-table"
+      rowKey="key"
+    />
+  </Row>
+  <Row
+    className="mt-2"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Close
+      </Button>
+    </Col>
+  </Row>
+</Container>
+`;

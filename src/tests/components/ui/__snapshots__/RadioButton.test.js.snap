@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba componente UI <RadioButton/> Componente recibe props label:String, col:Number 1`] = `
+<div
+  className="col-lg-6 mb-3"
+>
+  <label>
+    Titulo de etiqueta
+  </label>
+  <div
+    className="onoffswitch"
+  >
+    <input
+      checked={true}
+      className="onoffswitch-checkbox"
+      id="myonoffswitch"
+      name="onoffswitch"
+      tabindex="0"
+      type="checkbox"
+    />
+    <label
+      className="onoffswitch-label"
+      for="myonoffswitch"
+    >
+      <span
+        className="onoffswitch-inner"
+      />
+      <span
+        className="onoffswitch-switch"
+      />
+    </label>
+  </div>
+</div>
+`;

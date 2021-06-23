@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Owner component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <label
+        className="form-check-label"
+        for="flexSwitchCheckChecked"
+      >
+        Text recidence manifest
+      </label>
+      <div
+        className="form-check form-switch"
+      >
+        <input
+          className="form-check-input"
+          id="flexSwitchCheckChecked"
+          type="checkbox"
+        />
+      </div>
+    </div>
+    <Select
+      className={2}
+      label="Nationality"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <h6>
+      Reasons
+    </h6>
+  </div>
+  <div
+    className="row"
+  >
+    <Checkbox
+      label="Pago inicial en efectivo"
+      name="payCommission"
+      value={true}
+    />
+    <Checkbox
+      label="Pago con tarjeta de crédito y/o débito nacional"
+      name="requestInvoice"
+      value={true}
+    />
+    <Checkbox
+      label="Identificación y/o pasaporte nacional"
+      name="requestInvoice"
+      value={true}
+    />
+  </div>
+  <hr
+    className="path"
+  />
+  <div
+    className="row"
+  >
+    <h6>
+      Identifications
+    </h6>
+  </div>
+  <div
+    className="row"
+  >
+    <h6
+      className="col-lg-3"
+    >
+      Item
+    </h6>
+    <h6
+      className="col-lg-3"
+    >
+      Origin
+    </h6>
+    <h6
+      className="col-lg-3"
+    >
+      Show
+    </h6>
+  </div>
+  <div
+    className="row"
+  >
+    <span
+      className="col-lg-3"
+    >
+      Passaport, imigration form
+    </span>
+    <Select
+      col={3}
+    />
+    <div
+      className="col-lg-6"
+    >
+      <Checkbox
+        name="requestInvoice"
+        value={true}
+      />
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <span
+      className="col-lg-3"
+    >
+      Drive licence
+    </span>
+    <Select
+      col={3}
+    />
+    <div
+      className="col-lg-6"
+    >
+      <Checkbox
+        name="requestInvoice"
+        value={true}
+      />
+    </div>
+  </div>
+  <hr
+    className="path"
+  />
+  <PaymentWay />
+</Fragment>
+`;

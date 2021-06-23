@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cancellationlog component debe mostrar snapshot 1`] = `
+<div
+  className="m-1"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-body"
+    >
+      <h5
+        className="card-title"
+      >
+        Cancellation Log
+      </h5>
+      <SimpleTable
+        columns={
+          Array [
+            Object {
+              "dataIndex": "item",
+              "key": "item",
+              "title": "",
+              "width": "8.33%",
+            },
+            Object {
+              "dataIndex": "user",
+              "key": "user",
+              "title": "User",
+              "width": "8.33%",
+            },
+            Object {
+              "dataIndex": "date",
+              "key": "date",
+              "title": "Date/Hour",
+              "width": "8.33%",
+            },
+            Object {
+              "dataIndex": "company",
+              "key": "company",
+              "title": "Company",
+              "width": "8.33%",
+            },
+            Object {
+              "dataIndex": "application",
+              "key": "application",
+              "title": "Application",
+              "width": "8.33%",
+            },
+            Object {
+              "dataIndex": "canceldate",
+              "key": "canceldate",
+              "title": "Cancel Date",
+              "width": "8.33%",
+            },
+            Object {
+              "dataIndex": "cancelcode",
+              "key": "cancelcode",
+              "title": "Cancel Code",
+              "width": "8.33%",
+            },
+            Object {
+              "dataIndex": "notes",
+              "key": "notes",
+              "title": "Notes",
+              "width": "8.33%",
+            },
+            Object {
+              "dataIndex": "type",
+              "key": "type",
+              "title": "Type",
+              "width": "8.33%",
+            },
+            Object {
+              "dataIndex": "lastcancel",
+              "key": "lastcancel",
+              "title": "Last Cancel Date",
+              "width": "8.33%",
+            },
+            Object {
+              "dataIndex": "reactivation",
+              "key": "reactivation",
+              "title": "Reactivation Date",
+              "width": "8.33%",
+            },
+            Object {
+              "dataIndex": "asm",
+              "key": "asm",
+              "title": "Asm Name",
+              "width": "8.33%",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "application": "",
+              "asm": "",
+              "cancelcode": "",
+              "canceldate": "",
+              "company": "",
+              "date": "",
+              "item": "",
+              "lastcancel": "",
+              "notes": "",
+              "reactivation": "",
+              "type": "",
+              "user": "",
+            },
+            Object {
+              "application": "",
+              "asm": "",
+              "cancelcode": "",
+              "canceldate": "",
+              "company": "",
+              "date": "",
+              "item": "",
+              "lastcancel": "",
+              "notes": "",
+              "reactivation": "",
+              "type": "",
+              "user": "",
+            },
+            Object {
+              "application": "",
+              "asm": "",
+              "cancelcode": "",
+              "canceldate": "",
+              "company": "",
+              "date": "",
+              "item": "",
+              "lastcancel": "",
+              "notes": "",
+              "reactivation": "",
+              "type": "",
+              "user": "",
+            },
+            Object {
+              "application": "",
+              "asm": "",
+              "cancelcode": "",
+              "canceldate": "",
+              "company": "",
+              "date": "",
+              "item": "",
+              "lastcancel": "",
+              "notes": "",
+              "reactivation": "",
+              "type": "",
+              "user": "",
+            },
+          ]
+        }
+        type="table"
+      />
+    </div>
+  </div>
+</div>
+`;

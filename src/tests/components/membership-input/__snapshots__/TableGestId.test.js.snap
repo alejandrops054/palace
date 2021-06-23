@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableGestId component debe mostrar snapshot 1`] = `
+<Fragment>
+  <button
+    className="btn btn-link input-group-addon btn btn-secondary"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#212337",
+        "border": "transparent",
+      }
+    }
+    type="button"
+  >
+    <i
+      className="fas fa-plus"
+    />
+  </button>
+  <Modal
+    autoFocus={true}
+    backdrop={true}
+    backdropTransition={
+      Object {
+        "mountOnEnter": true,
+        "timeout": 150,
+      }
+    }
+    centered={false}
+    container="body"
+    fade={true}
+    isOpen={false}
+    keyboard={true}
+    modalTransition={
+      Object {
+        "timeout": 300,
+      }
+    }
+    onClosed={[Function]}
+    onOpened={[Function]}
+    returnFocusAfterClose={true}
+    role="dialog"
+    scrollable={false}
+    size="lg"
+    toggle={[Function]}
+    unmountOnClose={true}
+    zIndex={1050}
+  >
+    <form>
+      <ModalBody
+        className="p-0 "
+        tag="div"
+      >
+        <Card
+          tag="div"
+        >
+          <CardBody
+            tag="div"
+          >
+            <Row
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Col
+                md={12}
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Label
+                  tag="label"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  Guest Id
+                </Label>
+                <Input
+                  type="text"
+                />
+              </Col>
+            </Row>
+            <br />
+            <Row
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Col
+                md={5}
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Label
+                  tag="label"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  From
+                </Label>
+                <Input
+                  type="date"
+                />
+              </Col>
+              <Col
+                md={5}
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Label
+                  tag="label"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  To
+                </Label>
+                <Input
+                  type="date"
+                />
+              </Col>
+              <Col
+                md={2}
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <br />
+                <Button
+                  col={12}
+                  icon="fas fa-search"
+                  type="button"
+                  typebootstrap="secondary"
+                />
+              </Col>
+            </Row>
+            <br />
+            <Row
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Table
+                className="table"
+                columns={
+                  Array [
+                    Object {
+                      "dataIndex": "guestid",
+                      "key": "guestid",
+                      "title": "Guest Id",
+                      "width": 100,
+                    },
+                    Object {
+                      "dataIndex": "firstname",
+                      "key": "firstname",
+                      "title": "First Name",
+                      "width": 150,
+                    },
+                    Object {
+                      "dataIndex": "lastname",
+                      "key": "lastname",
+                      "title": "Last Name",
+                      "width": 150,
+                    },
+                    Object {
+                      "dataIndex": "firstname2",
+                      "key": "firstname2",
+                      "title": "First Name 2",
+                      "width": 150,
+                    },
+                    Object {
+                      "dataIndex": "lastname2",
+                      "key": "lastname2",
+                      "title": "Last Name 2",
+                      "width": 150,
+                    },
+                    Object {
+                      "dataIndex": "program",
+                      "key": "program",
+                      "title": "Program",
+                      "width": 100,
+                    },
+                    Object {
+                      "dataIndex": "invitationtype",
+                      "key": "invitationtype",
+                      "title": "Invitation Type",
+                      "width": 150,
+                    },
+                    Object {
+                      "dataIndex": "hotel",
+                      "key": "hotel",
+                      "title": "Hotel",
+                      "width": 100,
+                    },
+                    Object {
+                      "dataIndex": "salesroom",
+                      "key": "salesroom",
+                      "title": "Sales Room",
+                      "width": 150,
+                    },
+                    Object {
+                      "dataIndex": "folioinhouse",
+                      "key": "folioinhouse",
+                      "title": "Folio Inhouse",
+                      "width": 150,
+                    },
+                    Object {
+                      "dataIndex": "folioouthouse",
+                      "key": "folioouthouse",
+                      "title": "Folio Outhouse",
+                      "width": 150,
+                    },
+                  ]
+                }
+                data={
+                  Array [
+                    Object {
+                      "firstname": "",
+                      "firstname2": "",
+                      "folioinhouse": "",
+                      "folioouthouse": "",
+                      "guestid": "",
+                      "hotel": "",
+                      "invitationtype": "",
+                      "lastname": "",
+                      "lastname2": "",
+                      "program": "",
+                      "salesroom": "",
+                    },
+                    Object {
+                      "firstname": "",
+                      "firstname2": "",
+                      "folioinhouse": "",
+                      "folioouthouse": "",
+                      "guestid": "",
+                      "hotel": "",
+                      "invitationtype": "",
+                      "lastname": "",
+                      "lastname2": "",
+                      "program": "",
+                      "salesroom": "",
+                    },
+                    Object {
+                      "firstname": "",
+                      "firstname2": "",
+                      "folioinhouse": "",
+                      "folioouthouse": "",
+                      "guestid": "",
+                      "hotel": "",
+                      "invitationtype": "",
+                      "lastname": "",
+                      "lastname2": "",
+                      "program": "",
+                      "salesroom": "",
+                    },
+                    Object {
+                      "firstname": "",
+                      "firstname2": "",
+                      "folioinhouse": "",
+                      "folioouthouse": "",
+                      "guestid": "",
+                      "hotel": "",
+                      "invitationtype": "",
+                      "lastname": "",
+                      "lastname2": "",
+                      "program": "",
+                      "salesroom": "",
+                    },
+                    Object {
+                      "firstname": "",
+                      "firstname2": "",
+                      "folioinhouse": "",
+                      "folioouthouse": "",
+                      "guestid": "",
+                      "hotel": "",
+                      "invitationtype": "",
+                      "lastname": "",
+                      "lastname2": "",
+                      "program": "",
+                      "salesroom": "",
+                    },
+                    Object {
+                      "firstname": "",
+                      "firstname2": "",
+                      "folioinhouse": "",
+                      "folioouthouse": "",
+                      "guestid": "",
+                      "hotel": "",
+                      "invitationtype": "",
+                      "lastname": "",
+                      "lastname2": "",
+                      "program": "",
+                      "salesroom": "",
+                    },
+                    Object {
+                      "firstname": "",
+                      "firstname2": "",
+                      "folioinhouse": "",
+                      "folioouthouse": "",
+                      "guestid": "",
+                      "hotel": "",
+                      "invitationtype": "",
+                      "lastname": "",
+                      "lastname2": "",
+                      "program": "",
+                      "salesroom": "",
+                    },
+                    Object {
+                      "firstname": "",
+                      "firstname2": "",
+                      "folioinhouse": "",
+                      "folioouthouse": "",
+                      "guestid": "",
+                      "hotel": "",
+                      "invitationtype": "",
+                      "lastname": "",
+                      "lastname2": "",
+                      "program": "",
+                      "salesroom": "",
+                    },
+                    Object {
+                      "firstname": "",
+                      "firstname2": "",
+                      "folioinhouse": "",
+                      "folioouthouse": "",
+                      "guestid": "",
+                      "hotel": "",
+                      "invitationtype": "",
+                      "lastname": "",
+                      "lastname2": "",
+                      "program": "",
+                      "salesroom": "",
+                    },
+                    Object {
+                      "firstname": "",
+                      "firstname2": "",
+                      "folioinhouse": "",
+                      "folioouthouse": "",
+                      "guestid": "",
+                      "hotel": "",
+                      "invitationtype": "",
+                      "lastname": "",
+                      "lastname2": "",
+                      "program": "",
+                      "salesroom": "",
+                    },
+                    Object {
+                      "firstname": "",
+                      "firstname2": "",
+                      "folioinhouse": "",
+                      "folioouthouse": "",
+                      "guestid": "",
+                      "hotel": "",
+                      "invitationtype": "",
+                      "lastname": "",
+                      "lastname2": "",
+                      "program": "",
+                      "salesroom": "",
+                    },
+                  ]
+                }
+                emptyText={[Function]}
+                prefixCls="rc-table"
+                rowKey="key"
+                scroll={
+                  Object {
+                    "x": "auto",
+                    "y": "auto",
+                  }
+                }
+                style={
+                  Object {
+                    "width": 1000,
+                  }
+                }
+              />
+            </Row>
+          </CardBody>
+        </Card>
+      </ModalBody>
+      <ModalFooter
+        tag="div"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-6"
+          >
+            <Button
+              col={12}
+              icon="fas fa-times"
+              onClick={[Function]}
+              type="button"
+              typebootstrap="secondary"
+            />
+          </div>
+          <div
+            className="col-lg-6"
+          >
+            <Button
+              col={12}
+              icon="fas fa-check"
+              type="button"
+              typebootstrap="primary "
+            />
+          </div>
+        </div>
+      </ModalFooter>
+    </form>
+  </Modal>
+</Fragment>
+`;

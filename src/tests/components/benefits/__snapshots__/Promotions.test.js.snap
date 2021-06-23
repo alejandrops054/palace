@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Promotions component Debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="row mb-1"
+  >
+    <div
+      className="d-flex justify-content-end"
+    >
+      <button
+        className="btn btn-link"
+        id="consult"
+        type="button"
+      >
+        <i
+          className="fas fa-share"
+        />
+        Transfer
+      </button>
+      <button
+        className="btn btn-link main"
+        id="consult"
+        type="button"
+      >
+        <i
+          className="fas fa-plus"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="table-responsive-lg"
+  >
+    <SimpleTable
+      columns={
+        Array [
+          Object {
+            "dataIndex": "",
+            "key": "",
+            "render": [Function],
+            "title": <Checkbox />,
+            "width": 100,
+          },
+          Object {
+            "dataIndex": "description",
+            "key": "description",
+            "title": "Description",
+            "width": 599,
+          },
+          Object {
+            "dataIndex": "priority",
+            "key": "priority",
+            "title": "Priority",
+            "width": 400,
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "description": "Unlimited referral plus program 2x1",
+            "priority": "1",
+          },
+          Object {
+            "description": "Kids and teens fee",
+            "priority": "2",
+          },
+          Object {
+            "description": "Promotion $500 resort credit afitional by reservation",
+            "priority": "3",
+          },
+        ]
+      }
+      type="table"
+    />
+  </div>
+</div>
+`;

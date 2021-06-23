@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <Header/> Renderiza un titulo en H5  1`] = `
+<header
+  className="module-header"
+>
+  <h1
+    className="page-title"
+  >
+    <i
+      className="fas fa-clock"
+    />
+     
+    Titulo Prueba
+  </h1>
+  <nav
+    className="breadcrumbs"
+  >
+    <ul
+      className="breadcrumb-nav"
+    >
+      <li>
+        <Link
+          to="!#"
+        >
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link
+          className="ellipsis"
+          to="!#"
+        >
+          Membership input
+        </Link>
+      </li>
+      <li>
+        <span
+          className="ellipsis"
+        >
+          Add member
+        </span>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

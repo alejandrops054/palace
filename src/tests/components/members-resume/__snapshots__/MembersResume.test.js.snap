@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MembersResume component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="row my-5"
+  >
+    <Etiqueta
+      bold={true}
+      col={6}
+      color="black"
+      etiqueta="Member Resume"
+      tamanio={25}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <SeachNav
+      col={6}
+      placeholder="Get member..."
+    />
+    <Button
+      col="2"
+      onClick={[Function]}
+      title="New member"
+      typebootstrap="primary"
+    />
+  </div>
+  <div
+    className="row mt-5"
+  >
+    <Etiqueta
+      bold={true}
+      col={12}
+      color="black"
+      etiqueta="Current Members"
+      tamanio={20}
+    />
+  </div>
+  <Table
+    className="table"
+    columns={
+      Array [
+        Object {
+          "align": "center",
+          "dataIndex": "priority",
+          "key": "priority",
+          "title": "Priority",
+          "width": 120,
+        },
+        Object {
+          "align": "center",
+          "dataIndex": "idMembers",
+          "key": "idMembers",
+          "title": "Id",
+          "width": 120,
+        },
+        Object {
+          "align": "center",
+          "dataIndex": "profileId",
+          "key": "profileId",
+          "title": "Profile Id",
+          "width": 120,
+        },
+        Object {
+          "align": "center",
+          "dataIndex": "firstname",
+          "key": "firstname",
+          "title": "Firt Name",
+          "width": 120,
+        },
+        Object {
+          "align": "center",
+          "dataIndex": "lastname",
+          "key": "lastname",
+          "title": "Last Name",
+          "width": 120,
+        },
+        Object {
+          "align": "center",
+          "dataIndex": "status",
+          "key": "status",
+          "title": "Status",
+          "width": 120,
+        },
+        Object {
+          "dataIndex": "",
+          "key": "7",
+          "render": [Function],
+          "title": "Go",
+          "width": 120,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "age": "25",
+          "firstname": "Penny",
+          "idMembers": "1234567",
+          "key": "11111",
+          "lastname": "Lane",
+          "office": "",
+          "priority": "1",
+          "profileId": "1234567",
+          "project": "",
+          "status": "Active",
+        },
+        Object {
+          "firstname": "Miguel",
+          "idMembers": "1234567",
+          "key": "2",
+          "lastname": "Sánchez",
+          "priority": "2",
+          "profileId": "1234567",
+          "status": "Active",
+        },
+        Object {
+          "firstname": "Jude",
+          "idMembers": "1234567",
+          "key": "3",
+          "lastname": "Hudson",
+          "priority": "3",
+          "profileId": "1234567",
+          "status": "Active",
+        },
+        Object {
+          "firstname": "John",
+          "idMembers": "1234567",
+          "key": "4",
+          "lastname": "Doe",
+          "priority": "4",
+          "profileId": "1234567",
+          "status": "Active",
+        },
+        Object {
+          "firstname": "Mikáel",
+          "idMembers": "1234567",
+          "key": "5",
+          "lastname": "Akeson",
+          "priority": "5",
+          "profileId": "1234567",
+          "status": "Active",
+        },
+      ]
+    }
+    emptyText={[Function]}
+    prefixCls="rc-table"
+    rowKey={[Function]}
+    scroll={
+      Object {
+        "x": "auto",
+      }
+    }
+    style={
+      Object {
+        "width": "auto",
+      }
+    }
+  />
+  <div
+    className="table-footer mt-5"
+  >
+    <small
+      id="table-meta"
+    >
+      5
+       of 2000 registrations
+    </small>
+    <nav
+      aria-label="Page navigation"
+    >
+      <ul
+        className="table-pagination"
+      >
+        <li
+          className="tp-item"
+        >
+          <a
+            className="tp-link"
+            href="#"
+          >
+            <i
+              className="fas fa-step-backward"
+            />
+          </a>
+        </li>
+        <li
+          className="tp-item"
+        >
+          <a
+            className="tp-link active"
+            href="#"
+          >
+            1
+          </a>
+        </li>
+        <li
+          className="tp-item"
+        >
+          <a
+            className="tp-link"
+            href="#"
+          >
+            2
+          </a>
+        </li>
+        <li
+          className="tp-item"
+        >
+          <a
+            className="tp-link"
+            href="#"
+          >
+            3
+          </a>
+        </li>
+        <li
+          className="tp-item"
+        >
+          <a
+            className="tp-link"
+            href="#"
+          >
+            <i
+              className="fas fa-step-forward"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</Fragment>
+`;

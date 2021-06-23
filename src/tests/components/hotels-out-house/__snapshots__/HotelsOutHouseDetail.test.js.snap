@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HotelsOutHouseDetail component Debe mostrar snapshot 1`] = `
+<Container
+  fluid={true}
+  tag="div"
+>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <CardTitle
+        tag="h3"
+      >
+        Hotels Outhouse
+      </CardTitle>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Col
+            lg="6"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Input
+              col={12}
+              label="Id"
+              name="id"
+              placeholder=""
+              type="text"
+            />
+          </Col>
+          <Col
+            lg="6"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Checkbox
+              col={12}
+              label="Allow Automatic Assignment"
+              name="check1"
+            />
+          </Col>
+        </Row>
+        <Input
+          col={3}
+          label="Name"
+          name="name"
+          placeholder=""
+          type="text"
+        />
+        <Input
+          col={3}
+          label="Business Name"
+          name="user_login"
+          placeholder=""
+          type="text"
+        />
+      </Row>
+      <div
+        className="d-flex"
+      >
+        <Input
+          col={4}
+          label="City"
+          name="city"
+          placeholder=""
+          type="text"
+        />
+        <Input
+          col={4}
+          label="State"
+          name=""
+          placeholder=""
+          type="text"
+        />
+        <Input
+          col={4}
+          label="Zip"
+          name=""
+          placeholder=""
+          type="text"
+        />
+      </div>
+      <div
+        className="d-flex"
+      >
+        <Input
+          col={4}
+          label="Telephone"
+          name=""
+          placeholder=""
+          type="text"
+        />
+        <Input
+          col={4}
+          label="Fax"
+          name=""
+          placeholder=""
+          type="text"
+        />
+      </div>
+      <div
+        className="d-flex"
+      >
+        <Input
+          col={4}
+          label="Palace Code"
+          name=""
+          placeholder=""
+          type="text"
+        />
+        <Col
+          lg="3"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Select />
+        </Col>
+      </div>
+    </CardBody>
+    <CardFooter
+      tag="div"
+    >
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col={2}
+          icon="fas fa-save"
+          title="Save"
+          type="button"
+          typebootstrap="primary"
+        />
+        <Button
+          col={2}
+          icon="fas fa-times"
+          title="Close"
+          typebootstrap="secondary "
+        />
+      </div>
+    </CardFooter>
+  </Card>
+</Container>
+`;

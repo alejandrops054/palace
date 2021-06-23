@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Plans component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="h5"
+      >
+        Plans
+      </CardTitle>
+      <SimpleTable
+        columns={
+          Array [
+            Object {
+              "dataIndex": "code",
+              "key": "code",
+              "title": "Code",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "title",
+              "key": "title",
+              "title": "Title",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "office",
+              "key": "office",
+              "title": "Office",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "project",
+              "key": "project",
+              "title": "Project",
+              "width": "1%",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "code": "",
+              "office": "",
+              "project": "",
+              "title": "",
+            },
+          ]
+        }
+        type="table"
+      />
+    </CardBody>
+  </Card>
+</Fragment>
+`;

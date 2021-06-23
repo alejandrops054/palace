@@ -1,0 +1,408 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente Account Creacion de Account 1`] = `
+<div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Total Affiliation Fee"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$55,000.00"
+      tamanio={18}
+    />
+  </div>
+  <Tr />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Previous Sale"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00"
+      tamanio={18}
+    />
+  </div>
+  <Tr />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="New Sale"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$55,000.00"
+      tamanio={18}
+    />
+  </div>
+  <Tr />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Diference"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00"
+      tamanio={18}
+    />
+  </div>
+  <Tr />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Discount"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="0.00%"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00%"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Adjustment for DG 100%"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="0.00%"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00%"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="General Adjustment"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Total Membership Fee Paid"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 55,000.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Affiliation VAT"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="0.00%"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Down Payment Required at"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="0.00%"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 16,500.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="DP Required New Sale"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="0.00%"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 16,500.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Administration Fee (included VAT)"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 699.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="General Adjustment"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Down Payment"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Administration Fee Paid"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Total Initial Payment"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Down Payment Remining"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 17,199.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Remaining (previous)"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00%"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Remaining (new)"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 17,199.00%"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Amount to Be Financed"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Financing Amount Paid Previous"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Debit Balance (previous)"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 0.00"
+      tamanio={18}
+    />
+  </div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Debit Balance (new)"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="grey"
+      etiqueta="$ 38,500.00"
+      tamanio={18}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente MembersMarkets Creacion de MembersMarkets 1`] = `
+<Fragment>
+  <h1>
+    Member Markets
+  </h1>
+  <Form
+    tag="form"
+  >
+    <h6>
+      Member Information
+    </h6>
+    <Label
+      tag="label"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      Member Name
+    </Label>
+    <Input
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+      type="text"
+    />
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <FormGroup
+          tag="div"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Company
+          </Label>
+          <Input
+            style={
+              Object {
+                "width": "30%",
+              }
+            }
+            type="number"
+          />
+        </FormGroup>
+      </Col>
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <FormGroup
+          tag="div"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Application
+          </Label>
+          <Input
+            style={
+              Object {
+                "width": "30%",
+              }
+            }
+            type="number"
+          />
+        </FormGroup>
+      </Col>
+      <Col
+        md={6}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <FormGroup
+          tag="div"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Markets Combination
+          </Label>
+          <Input
+            style={
+              Object {
+                "width": "30%",
+              }
+            }
+            type="select"
+          />
+        </FormGroup>
+      </Col>
+    </Row>
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Table
+          responsiveTag="div"
+          striped={true}
+          tag="table"
+        >
+          <thead>
+            <tr>
+              <th>
+                Code
+              </th>
+              <th>
+                Description
+              </th>
+              <th>
+                Selected
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                CANADA
+              </td>
+              <td>
+                Canada
+              </td>
+              <td>
+                <Input
+                  type="checkbox"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </Table>
+      </FormGroup>
+    </Row>
+    <FormGroup
+      tag="div"
+    >
+      <Col
+        sm={
+          Object {
+            "offset": 10,
+            "size": 10,
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="primary"
+          tag="button"
+        >
+          Save changes
+        </Button>
+         
+        <Button
+          color="primary"
+          tag="button"
+        >
+          Close
+        </Button>
+      </Col>
+    </FormGroup>
+  </Form>
+</Fragment>
+`;

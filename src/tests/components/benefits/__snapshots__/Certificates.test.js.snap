@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Certificates component Debe mostrar snapshot 1`] = `
+<div
+  className="m-1 mb-4"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-body"
+    >
+      <h5
+        className="card-title"
+      >
+        Certificates
+      </h5>
+      <SimpleTable
+        columns={
+          Array [
+            Object {
+              "dataIndex": "item",
+              "key": "item",
+              "title": "Item",
+              "width": 400,
+            },
+            Object {
+              "dataIndex": "",
+              "key": "",
+              "render": [Function],
+              "title": "Traveling with the owner",
+              "width": 400,
+            },
+            Object {
+              "dataIndex": "",
+              "key": "",
+              "render": [Function],
+              "title": "Bracelet",
+              "width": 200,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "item": "Diamond",
+            },
+            Object {
+              "item": "Residence",
+            },
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

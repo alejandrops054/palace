@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VatRateCoOwnerIdentifications component debe mostrar snapshot 1`] = `
+<Fragment>
+  <h4>
+    Identifications
+  </h4>
+  <div
+    className="col"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-3"
+      >
+        <h5>
+          Item
+        </h5>
+      </div>
+      <div
+        className="col-3"
+      >
+        <h5>
+          Origin
+        </h5>
+      </div>
+      <div
+        className="col-3"
+      >
+        <h5>
+          Show
+        </h5>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-3"
+      >
+        <span>
+          Passport, immigration form
+        </span>
+      </div>
+      <div
+        className="col-3"
+      >
+        <Select
+          option="Foreign"
+        />
+      </div>
+      <div
+        className="col-3"
+      >
+        <Checkbox />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-3"
+      >
+        <span>
+          Drive license
+        </span>
+      </div>
+      <div
+        className="col-3"
+      >
+        <Select
+          option="Foreign"
+        />
+      </div>
+      <div
+        className="col-3"
+      >
+        <Checkbox />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Members component debe mostrar snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="page"
+  >
+    <header
+      className="app-header menu-bar"
+      id="menubar"
+    >
+      <MainMenu />
+    </header>
+    <section
+      className="app-content"
+    >
+      <Header
+        icon="fas fa-user-plus"
+        title="Member"
+      />
+      <main>
+        <CustomerData />
+        <article
+          className="content-area"
+        >
+          <form>
+            <AddtionalInformation />
+            <br />
+            <DowPayment />
+            <br />
+            <DiamondClassifications />
+            <br />
+            <MembersPrevious />
+            <br />
+            <MembersLikend />
+          </form>
+          <div
+            className="d-flex justify-content-end mt-5 row"
+          >
+            <div
+              className="col-3  align-self-center"
+            >
+              <button
+                className="btn btn-secondary"
+                style={
+                  Object {
+                    "width": "80%",
+                  }
+                }
+              >
+                Cancel
+              </button>
+            </div>
+            <div
+              className="col-3  align-self-center"
+            >
+              <Link
+                to="/"
+              >
+                <button
+                  className="btn btn-primary"
+                  style={
+                    Object {
+                      "width": "80%",
+                    }
+                  }
+                >
+                  Next
+                </button>
+              </Link>
+            </div>
+          </div>
+        </article>
+      </main>
+    </section>
+  </div>
+</div>
+`;

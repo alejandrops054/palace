@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente Conciliations Creacion de Conciliations 1`] = `
+<div>
+  <Table
+    className="table"
+    columns={
+      Array [
+        Object {
+          "dataIndex": "Recnum",
+          "key": "1",
+          "title": "Recnum",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Concept",
+          "key": "2",
+          "title": "Concept",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Financing",
+          "key": "3",
+          "title": "Financing Id",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Payment",
+          "key": "4",
+          "title": "Payment Id",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Deposit",
+          "key": "5",
+          "title": "Deposit Id",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Deposit_Status",
+          "key": "6",
+          "title": "Deposit Status",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Deposit_Amount",
+          "key": "7",
+          "title": "Deposit Amount",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Deposit_Code",
+          "key": "8",
+          "title": "Deposit Code",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Deposit_Concile",
+          "key": "9",
+          "title": "Deposit Concile",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Deposit_Remaining",
+          "key": "10",
+          "title": "Deposit Remaining",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Detail_Separator",
+          "key": "11",
+          "title": "Detail Separator",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Detail_Id",
+          "key": "12",
+          "title": "Detail Id",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Detail_Amount",
+          "key": "13",
+          "title": "Detail Amount",
+          "width": 100,
+        },
+        Object {
+          "dataIndex": "Detail_Down",
+          "key": "14",
+          "title": "Detail Down",
+          "width": 100,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "Concept": "Down Complement",
+          "Deposit": "1630591",
+          "Deposit_Amount": "$0.01",
+          "Deposit_Code": "D",
+          "Deposit_Concile": "$0.00",
+          "Deposit_Remaining": "$0.00",
+          "Deposit_Status": "A",
+          "Detail_Amount": "$2,605.00",
+          "Detail_Down": "$2,605.00",
+          "Detail_Id": "7332257",
+          "Detail_Separator": "",
+          "Financing": "201385",
+          "Payment": "1",
+          "Recnum": "4317915",
+        },
+        Object {
+          "Concept": "Down Complement",
+          "Deposit": "1630591",
+          "Deposit_Amount": "$0.01",
+          "Deposit_Code": "D",
+          "Deposit_Concile": "$0.00",
+          "Deposit_Remaining": "$0.00",
+          "Deposit_Status": "A",
+          "Detail_Amount": "$2,605.00",
+          "Detail_Down": "$2,605.00",
+          "Detail_Id": "7332257",
+          "Detail_Separator": "",
+          "Financing": "201385",
+          "Payment": "1",
+          "Recnum": "4317915",
+        },
+        Object {
+          "Concept": "Down Complement",
+          "Deposit": "1630591",
+          "Deposit_Amount": "$0.01",
+          "Deposit_Code": "D",
+          "Deposit_Concile": "$0.00",
+          "Deposit_Remaining": "$0.00",
+          "Deposit_Status": "A",
+          "Detail_Amount": "$2,605.00",
+          "Detail_Down": "$2,605.00",
+          "Detail_Id": "7332257",
+          "Detail_Separator": "",
+          "Financing": "201385",
+          "Payment": "1",
+          "Recnum": "4317915",
+        },
+        Object {
+          "Concept": "Down Complement",
+          "Deposit": "1630591",
+          "Deposit_Amount": "$0.01",
+          "Deposit_Code": "D",
+          "Deposit_Concile": "$0.00",
+          "Deposit_Remaining": "$0.00",
+          "Deposit_Status": "A",
+          "Detail_Amount": "$2,605.00",
+          "Detail_Down": "$2,605.00",
+          "Detail_Id": "7332257",
+          "Detail_Separator": "",
+          "Financing": "201385",
+          "Payment": "1",
+          "Recnum": "4317915",
+        },
+        Object {
+          "Concept": "Down Complement",
+          "Deposit": "1630591",
+          "Deposit_Amount": "$0.01",
+          "Deposit_Code": "D",
+          "Deposit_Concile": "$0.00",
+          "Deposit_Remaining": "$0.00",
+          "Deposit_Status": "A",
+          "Detail_Amount": "$2,605.00",
+          "Detail_Down": "$2,605.00",
+          "Detail_Id": "7332257",
+          "Detail_Separator": "",
+          "Financing": "201385",
+          "Payment": "1",
+          "Recnum": "4317915",
+        },
+        Object {
+          "Concept": "Down Complement",
+          "Deposit": "1630591",
+          "Deposit_Amount": "$0.01",
+          "Deposit_Code": "D",
+          "Deposit_Concile": "$0.00",
+          "Deposit_Remaining": "$0.00",
+          "Deposit_Status": "A",
+          "Detail_Amount": "$2,605.00",
+          "Detail_Down": "$2,605.00",
+          "Detail_Id": "7332257",
+          "Detail_Separator": "",
+          "Financing": "201385",
+          "Payment": "1",
+          "Recnum": "4317915",
+        },
+        Object {
+          "Concept": "Down Complement",
+          "Deposit": "1630591",
+          "Deposit_Amount": "$0.01",
+          "Deposit_Code": "D",
+          "Deposit_Concile": "$0.00",
+          "Deposit_Remaining": "$0.00",
+          "Deposit_Status": "A",
+          "Detail_Amount": "$2,605.00",
+          "Detail_Down": "$2,605.00",
+          "Detail_Id": "7332257",
+          "Detail_Separator": "",
+          "Financing": "201385",
+          "Payment": "1",
+          "Recnum": "4317915",
+        },
+        Object {
+          "Concept": "Down Complement",
+          "Deposit": "1630591",
+          "Deposit_Amount": "$0.01",
+          "Deposit_Code": "D",
+          "Deposit_Concile": "$0.00",
+          "Deposit_Remaining": "$0.00",
+          "Deposit_Status": "A",
+          "Detail_Amount": "$2,605.00",
+          "Detail_Down": "$2,605.00",
+          "Detail_Id": "7332257",
+          "Detail_Separator": "",
+          "Financing": "201385",
+          "Payment": "1",
+          "Recnum": "4317915",
+        },
+      ]
+    }
+    emptyText={[Function]}
+    id="resume-table"
+    prefixCls="rc-table"
+    rowKey="key"
+    scroll={
+      Object {
+        "x": 2000,
+      }
+    }
+    style={
+      Object {
+        "width": 1200,
+      }
+    }
+  />
+</div>
+`;

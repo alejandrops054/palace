@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Provisions component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="App"
+  >
+    <div
+      className="page"
+    >
+      <header
+        className="app-header menu-bar"
+      >
+        <MainMenu />
+      </header>
+      <section
+        className="app-content"
+      >
+        <Header
+          icon="fas fa-user"
+          title="Add Member"
+        />
+        <div
+          className="row"
+        >
+          <div
+            className="col-2"
+          >
+            <h2>
+              John Doe
+            </h2>
+          </div>
+          <div
+            className="col-7"
+          >
+            <Company />
+          </div>
+          <div
+            className="col-3"
+          >
+            <h3>
+              Current Amount
+               
+              <div
+                className="customer-photo"
+              >
+                <Chart />
+              </div>
+              <span
+                id="current-amount"
+              >
+                $2500
+              </span>
+               /
+               
+              <span
+                id="total-amount"
+              >
+                $12000
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div
+          className="row col-12"
+        >
+          <div
+            className="border-top border-secondary"
+          >
+            <Nav
+              tabs={true}
+              tag="ul"
+              vertical={false}
+            >
+              <NavItem
+                tag="li"
+              >
+                <NavLink
+                  icon="fa fa-trash-o"
+                  onClick={[Function]}
+                  tag="a"
+                >
+                  Delete
+                </NavLink>
+              </NavItem>
+              <NavItem
+                tag="li"
+              >
+                <NavLink
+                  onClick={[Function]}
+                  tag="a"
+                >
+                  Add provision
+                </NavLink>
+              </NavItem>
+            </Nav>
+            <TabContent
+              activeTab="1"
+              tag="div"
+            >
+              <TabPane
+                tabId="1"
+                tag="div"
+              >
+                <div
+                  className="card"
+                >
+                  <div
+                    className="col-lg-12"
+                  >
+                    <div
+                      className="card-body table"
+                    >
+                      <Table
+                        columns={
+                          Array [
+                            Object {
+                              "align": "center",
+                              "dataIndex": "check",
+                              "key": "1",
+                              "title": <Checkbox />,
+                              "width": 60,
+                            },
+                            Object {
+                              "dataIndex": "Type",
+                              "key": "Type",
+                              "title": "Type",
+                              "width": 180,
+                            },
+                            Object {
+                              "dataIndex": "Name",
+                              "key": "Name",
+                              "title": "Name",
+                              "width": 180,
+                            },
+                            Object {
+                              "dataIndex": "Folio",
+                              "key": "Folio",
+                              "title": "Folio",
+                              "width": 180,
+                            },
+                            Object {
+                              "dataIndex": "Cost",
+                              "key": "Cost",
+                              "title": "Cost",
+                              "width": 180,
+                            },
+                            Object {
+                              "dataIndex": "SaleDate",
+                              "key": "SaleDate",
+                              "title": "SaleDate",
+                              "width": 180,
+                            },
+                            Object {
+                              "dataIndex": "Expirationdate",
+                              "key": "Expirationdate",
+                              "title": "Expirationdate",
+                              "width": 180,
+                            },
+                          ]
+                        }
+                        data={
+                          Array [
+                            Object {
+                              "Cost": "$0",
+                              "Expirationdate": "23/02/21",
+                              "Folio": "001",
+                              "Name": "Pepe",
+                              "SaleDate": "$43,000",
+                              "Type": "1",
+                            },
+                          ]
+                        }
+                        emptyText={[Function]}
+                        id="resume-table"
+                        prefixCls="rc-table"
+                        rowKey="key"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </TabPane>
+              <TabPane
+                tabId="2"
+                tag="div"
+              >
+                <NewProvision />
+              </TabPane>
+            </TabContent>
+          </div>
+        </div>
+        <Link
+          to=""
+        />
+      </section>
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionnInformation component debe mostrar snapshot 1`] = `
+<div>
+  <h4>
+    <Etiqueta
+      etiqueta="Jane Doe"
+    />
+  </h4>
+  <h4>
+    <Etiqueta
+      etiqueta="Origin Information"
+    />
+  </h4>
+  <br />
+  <Office />
+  <br />
+  <div
+    className="border-top border-secondary"
+  >
+    <br />
+    <Nav
+      tabs={true}
+      tag="ul"
+      vertical={false}
+    >
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          onClick={[Function]}
+          tag="a"
+        >
+          <h4>
+            Guest Information
+          </h4>
+        </NavLink>
+      </NavItem>
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          onClick={[Function]}
+          tag="a"
+        >
+          <h4>
+            Contact Information
+          </h4>
+        </NavLink>
+      </NavItem>
+    </Nav>
+  </div>
+  <br />
+  <div
+    className="border-top border-secondary"
+  >
+    <br />
+    <Contact />
+  </div>
+</div>
+`;

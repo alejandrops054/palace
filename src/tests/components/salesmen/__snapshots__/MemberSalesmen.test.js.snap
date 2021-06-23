@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberSalesmen component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <h2>
+    Member Salesmen
+  </h2>
+  <MemberSalesmenInfo />
+  <Row
+    className="mt-5"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Row
+      className="mb-5"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="secondary"
+          tag="button"
+        >
+          Log
+        </Button>
+      </Col>
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="secondary"
+          tag="button"
+        >
+          Add
+        </Button>
+      </Col>
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="secondary"
+          tag="button"
+        >
+          Properties
+        </Button>
+      </Col>
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="secondary"
+          tag="button"
+        >
+          Delete
+        </Button>
+      </Col>
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="secondary"
+          tag="button"
+        >
+          Refresh
+        </Button>
+      </Col>
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="secondary"
+          tag="button"
+        >
+          Close
+        </Button>
+      </Col>
+    </Row>
+    <Table
+      className="table"
+      columns={
+        Array [
+          Object {
+            "dataIndex": "code",
+            "key": "code",
+            "title": "Code",
+            "width": 100,
+          },
+          Object {
+            "dataIndex": "name",
+            "key": "name",
+            "title": "Name",
+            "width": 250,
+          },
+          Object {
+            "dataIndex": "job",
+            "key": "job",
+            "title": "Job",
+            "width": 150,
+          },
+          Object {
+            "dataIndex": "status",
+            "key": "status",
+            "title": "Status",
+            "width": 100,
+          },
+          Object {
+            "dataIndex": "id-global",
+            "key": "id-global",
+            "title": "Id Global",
+            "width": 150,
+          },
+        ]
+      }
+      emptyText={[Function]}
+      prefixCls="rc-table"
+      rowKey="key"
+    />
+  </Row>
+</Fragment>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TablaBenefitPolicy component Debe mostrar snapshot 1`] = `
+<ForwardRef
+  bordered={true}
+  hover={true}
+  striped={true}
+>
+  <thead>
+    <tr>
+      <td />
+      <td>
+        Consecutive
+      </td>
+      <td>
+        Code
+      </td>
+      <td>
+        Document Date
+      </td>
+      <td>
+        Header Text
+      </td>
+      <td>
+        Accounting key
+      </td>
+      <td>
+        Amount loc
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td />
+    </tr>
+  </tbody>
+</ForwardRef>
+`;

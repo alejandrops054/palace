@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersClass component debe mostrar snapshot 1`] = `
+<Fragment>
+  <h1>
+    Users Class
+  </h1>
+  <Form
+    tag="form"
+  >
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Col
+        md={6}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          System
+        </Label>
+        <Input
+          style={
+            Object {
+              "width": "60%",
+            }
+          }
+          type="select"
+        />
+      </Col>
+      <Col
+        md={6}
+        style={
+          Object {
+            "paddingTop": "2%",
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="primary"
+          tag="button"
+        >
+          Apply filtler
+        </Button>
+      </Col>
+    </Row>
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Col
+        md={6}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Code
+        </Label>
+        <Input
+          style={
+            Object {
+              "width": "60%",
+            }
+          }
+          type="select"
+        />
+      </Col>
+      <Col
+        md={6}
+        style={
+          Object {
+            "paddingTop": "2%",
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="primary"
+          tag="button"
+        >
+          Clear filtler
+        </Button>
+      </Col>
+    </Row>
+    <Label
+      tag="label"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      Description
+    </Label>
+    <Input
+      style={
+        Object {
+          "width": "60%",
+        }
+      }
+      type="text"
+    />
+    <Label
+      tag="label"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      Override
+    </Label>
+    <Input
+      style={
+        Object {
+          "width": "60%",
+        }
+      }
+      type="select"
+    />
+    <FormGroup
+      tag="div"
+    >
+      <Table
+        className="table"
+        columns={
+          Array [
+            Object {
+              "align": "center",
+              "dataIndex": "Code",
+              "key": "1",
+              "title": "Code",
+              "width": 180,
+            },
+            Object {
+              "align": "center",
+              "dataIndex": "Description",
+              "key": "2",
+              "title": "Description",
+              "width": 180,
+            },
+            Object {
+              "align": "center",
+              "dataIndex": "System",
+              "key": "3",
+              "title": "System",
+              "width": 180,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "Code": "CARTERA-CBK",
+              "Description": "CARTERA CHANGE BANKS",
+              "System": "CARTERA OF CHANGES BANKS",
+            },
+          ]
+        }
+        emptyText={[Function]}
+        id="resume-table"
+        prefixCls="rc-table"
+        rowKey="key"
+      />
+    </FormGroup>
+  </Form>
+</Fragment>
+`;

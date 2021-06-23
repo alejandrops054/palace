@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberWeeksInquiry component debe mostrar snapshot 1`] = `
+<Fragment>
+  <MemberWeeksInquiry />
+  <MemberWeeksInquiryAmount />
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Table
+      columns={
+        Array [
+          Object {
+            "dataIndex": "w/n",
+            "key": "w/n",
+            "title": "Week/Night",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "purchased",
+            "key": "purchased",
+            "title": "Purchased",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "earned",
+            "key": "earned",
+            "title": "Earned",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "used",
+            "key": "used",
+            "title": "Used",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "reserved",
+            "key": "reserved",
+            "title": "Reserved",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "available",
+            "key": "available",
+            "title": "Available",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "type",
+            "key": "type",
+            "title": "Type",
+            "width": 130,
+          },
+        ]
+      }
+      emptyText={[Function]}
+      prefixCls="rc-table"
+      rowKey="key"
+    />
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Input
+      type="textarea"
+    />
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 9,
+          "size": 2,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Close
+      </Button>
+    </Col>
+  </Row>
+</Fragment>
+`;

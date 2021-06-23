@@ -1,0 +1,76 @@
+/* Sistema Intelligence 2.0
+Módulo Contratos
+Versión 1.0
+Author: IntregraIT Contratos
+Comentarios: xxxxx
+*/
+.accordion {
+    height: 80px;
+    width: 717px;
+}
+
+.accordion-button {
+    border: 0px;
+}
+
+.input-field {
+    box-sizing: border-box!important;
+    height: 37px!important;
+    width: 183px!important;
+    border-radius: 4px!important;
+    background-color: #2C3248!important;
+    border: 1px solid #6E83F0!important;
+}
+
+.view {
+    width: 717px;
+}
+
+  .owner {
+    height: 17px;
+    width: 53px;
+    color: #FF9100;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 17px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .name {
+    height: 22px;
+    width: 75px;
+    color: #FFF;
+    font-family: 'Lato' sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .filter {
+    height: 16px;
+    width: 16px;
+    color: #00AF9F;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .filter-pandding {
+    padding-top: 33px;
+  }
+
+  .tr {
+    height: 19px;
+    width: 517px;
+  }
+
+  .th {
+    height: 38px;
+    width: 543px;
+  }
+
+  .path {
+    box-sizing: border-box;
+    height: 1px;
+    width: 680px;
+    border: 1px solid #6E83F0;
+  }

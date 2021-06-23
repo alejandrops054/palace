@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente BreadCrumbsMemberInquiry Creacion de BreadCrumbsMemberInquiry 1`] = `
+<Fragment>
+  <nav
+    className="breadcrumbs"
+  >
+    <ul
+      className="breadcrumb-nav"
+    >
+      <li>
+        <a
+          href="!#"
+        >
+          Account Details
+        </a>
+      </li>
+      <li>
+        <Link
+          className="ellipsis"
+          to="/account-details"
+        >
+          Promises
+        </Link>
+      </li>
+      <li>
+        <a
+          href="!#"
+        >
+          Conciliations
+        </a>
+      </li>
+    </ul>
+  </nav>
+</Fragment>
+`;

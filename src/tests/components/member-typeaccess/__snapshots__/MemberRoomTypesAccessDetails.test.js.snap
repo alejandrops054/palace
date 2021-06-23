@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberRoomTypesAccessDetails component debe mostrar snapshot 1`] = `
+<div
+  className="mt-3"
+>
+  <div
+    className="d-flex"
+  >
+    <InfoMembers
+      color="#fff"
+      text="42"
+      title="Code :"
+    />
+    <InfoMembers
+      color="#fff"
+      text="Grand Family"
+      title="Description :"
+    />
+  </div>
+  <Table
+    className="table"
+    columns={
+      Array [
+        Object {
+          "align": "center",
+          "dataIndex": "Year",
+          "key": "Year",
+          "title": "Year",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "Purchased",
+          "key": "Purchased",
+          "title": "Purchased",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "Reserved",
+          "key": "Reserved",
+          "title": "Reserved",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "Used",
+          "key": "Used",
+          "title": "Used",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "Available",
+          "key": "Available",
+          "title": "Available",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "Date_From",
+          "key": "Date_From",
+          "title": "Date From",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "Date_To",
+          "key": "Date_To",
+          "title": "Date To",
+          "width": 130,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "Available": "0",
+          "Date_From": "1/5/2020",
+          "Date_To": "1/5/2021",
+          "Purchased": "0",
+          "Reserved": "0",
+          "Used": "0",
+          "Year": "2021",
+        },
+        Object {
+          "Available": "0",
+          "Date_From": "1/5/2020",
+          "Date_To": "1/5/2021",
+          "Purchased": "0",
+          "Reserved": "0",
+          "Used": "0",
+          "Year": "2021",
+        },
+        Object {
+          "Available": "0",
+          "Date_From": "1/5/2020",
+          "Date_To": "1/5/2021",
+          "Purchased": "0",
+          "Reserved": "0",
+          "Used": "0",
+          "Year": "2021",
+        },
+        Object {
+          "Available": "0",
+          "Date_From": "1/5/2020",
+          "Date_To": "1/5/2021",
+          "Purchased": "0",
+          "Reserved": "0",
+          "Used": "0",
+          "Year": "2021",
+        },
+      ]
+    }
+    emptyText={[Function]}
+    id="resume-table"
+    prefixCls="rc-table"
+    rowKey="key"
+  />
+</div>
+`;

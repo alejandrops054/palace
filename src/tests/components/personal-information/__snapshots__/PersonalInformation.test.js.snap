@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonalInformation component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      Personal Information
+    </h5>
+    <div
+      className="row"
+    >
+      <Input
+        col={12}
+        label="Name"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Last Name"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="First"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Co-Owner"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="First"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={12}
+        label="Address"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="City"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="State"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Zip"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Country"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Phone 1"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Phone 1"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={12}
+        label="Email"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={12}
+        label="Int. Mail"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Psw"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Lang"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Minor Age"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="No Web"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="2nd Bill Ad"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Rep"
+        placeholder=""
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;

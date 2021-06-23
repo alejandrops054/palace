@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LiNavbar component Debe mostrar snapshot 1`] = `
+<li
+  className="has-children"
+>
+  <Link
+    to="/panel"
+  >
+    <i
+      className=""
+    />
+     
+    <span
+      className="link-name"
+    />
+  </Link>
+</li>
+`;

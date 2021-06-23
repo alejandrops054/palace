@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalAffiliationUtility component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Affiliation Utility
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="lg"
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle>
+        Affiliation Utility
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <h5>
+            Filters
+          </h5>
+          <div
+            className="col-md-6"
+          >
+            <Select
+              col={12}
+              label="Processable"
+              placeholder="All"
+              type="text"
+            />
+            <Input
+              col={12}
+              label="Start date"
+              placeholder=""
+              type="date"
+            />
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <Select
+              col={12}
+              label="Office"
+              placeholder="All"
+              type="text"
+            />
+            <Input
+              col={12}
+              label="End date"
+              placeholder=""
+              type="date"
+            />
+          </div>
+          <div
+            className="col-md-12"
+          >
+            <Input
+              col={12}
+              label="Affilation"
+              placeholder=""
+              type="text"
+            />
+            <SeachNav
+              col={12}
+              placeholder="Search"
+            />
+          </div>
+        </div>
+      </div>
+    </ModalBody>
+    <ModalFooter>
+      <Button
+        active={false}
+        disabled={false}
+        onClick={[Function]}
+        variant="secondary"
+      >
+        Print
+      </Button>
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Specif Member
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

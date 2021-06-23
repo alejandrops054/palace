@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CleanSuspense component debe mostrar snapshot 1`] = `
+<Container
+  tag="div"
+>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <CardTitle
+        tag="h3"
+      >
+        Clean Suspense
+      </CardTitle>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="8"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <CardSubtitle
+            tag="div"
+          >
+            From
+          </CardSubtitle>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                col={12}
+                label="Affiliation"
+                type="text"
+              />
+              <InfoMembers
+                text="Name"
+                title="Name :"
+              />
+            </Col>
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <InfoMembers
+                text="Company"
+                title="Company :"
+              />
+            </Col>
+          </Row>
+          <hr />
+          <CardSubtitle
+            tag="div"
+          >
+            To
+          </CardSubtitle>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                col={12}
+                label="Affiliation"
+                type="text"
+              />
+              <InfoMembers
+                text="Name"
+                title="Name :"
+              />
+            </Col>
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <InfoMembers
+                text="Company"
+                title="Company :"
+              />
+            </Col>
+          </Row>
+        </Col>
+        <Col
+          lg="4"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Table
+            className="table"
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "Company",
+                  "key": "1",
+                  "title": "Company",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "Affiliation",
+                  "key": "2",
+                  "title": "Affiliation",
+                  "width": 100,
+                },
+              ]
+            }
+            data={
+              Array [
+                Object {
+                  "Affiliation": "",
+                  "Company": "3",
+                },
+                Object {
+                  "Affiliation": "",
+                  "Company": "3",
+                },
+                Object {
+                  "Affiliation": "",
+                  "Company": "3",
+                },
+                Object {
+                  "Affiliation": "",
+                  "Company": "3",
+                },
+                Object {
+                  "Affiliation": "",
+                  "Company": "3",
+                },
+                Object {
+                  "Affiliation": "",
+                  "Company": "3",
+                },
+                Object {
+                  "Affiliation": "",
+                  "Company": "3",
+                },
+                Object {
+                  "Affiliation": "",
+                  "Company": "3",
+                },
+                Object {
+                  "Affiliation": "",
+                  "Company": "3",
+                },
+              ]
+            }
+            emptyText={[Function]}
+            id="resume-table"
+            prefixCls="rc-table"
+            rowKey="key"
+            scroll={
+              Object {
+                "y": "auto",
+              }
+            }
+          />
+        </Col>
+      </Row>
+    </CardBody>
+    <CardFooter
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className="d-flex justify-content-end"
+        >
+          <Button
+            color="primary"
+            tag="button"
+          >
+            <i
+              className="fas fa-check"
+            />
+            Execute
+          </Button>
+          <Button
+            color="primary"
+            tag="button"
+          >
+            <i
+              className="fas fa-times"
+            />
+            Close
+          </Button>
+        </div>
+      </Row>
+    </CardFooter>
+  </Card>
+</Container>
+`;

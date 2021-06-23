@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FinancingPromisesInfo component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="col"
+  >
+    <label />
+    <h4 />
+  </div>
+  <div
+    className="col"
+  >
+    <label />
+    <h4 />
+  </div>
+</Fragment>
+`;

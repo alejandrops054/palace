@@ -1,0 +1,808 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountStatement component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h3>
+          Account Statement
+        </h3>
+      </CardTitle>
+      <br />
+      <h5>
+        Member Resume
+      </h5>
+      <br />
+      <Nav
+        tabs={true}
+        tag="ul"
+        vertical={false}
+      >
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            className="active"
+            onClick={[Function]}
+            tag="a"
+          >
+            General
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            className=""
+            onClick={[Function]}
+            tag="a"
+          >
+            Print Form
+          </NavLink>
+        </NavItem>
+      </Nav>
+      <TabContent
+        activeTab="1"
+        tag="div"
+      >
+        <TabPane
+          tabId="1"
+          tag="div"
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              sm="12"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Card
+                body={true}
+                tag="div"
+              >
+                <CardTitle
+                  tag="div"
+                />
+                <Row
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  <Col
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <Row
+                      tag="div"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      <Col
+                        tag="div"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                        xs="3"
+                      >
+                        <Label
+                          check={true}
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          <Input
+                            type="checkbox"
+                          />
+                           By Range
+                        </Label>
+                      </Col>
+                    </Row>
+                    <br />
+                    <Row
+                      tag="div"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      <Col
+                        tag="div"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                        xs="3"
+                      >
+                        <Label
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          Company
+                        </Label>
+                        <Input
+                          disabled={true}
+                          type="select"
+                        >
+                          <option>
+                            Todas
+                          </option>
+                        </Input>
+                      </Col>
+                    </Row>
+                    <br />
+                    <Row
+                      tag="div"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      <Col
+                        tag="div"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                        xs="3"
+                      >
+                        <Label
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          Period
+                        </Label>
+                        <Input
+                          disabled={true}
+                          type="select"
+                        >
+                          <option>
+                            All
+                          </option>
+                        </Input>
+                      </Col>
+                    </Row>
+                    <br />
+                    <Row
+                      tag="div"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      <Col
+                        tag="div"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                        xs="3"
+                      >
+                        <Label
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          Translate Date
+                        </Label>
+                        <Input
+                          disabled={true}
+                          type="date"
+                        />
+                      </Col>
+                    </Row>
+                    <br />
+                    <Row
+                      tag="div"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      <Col
+                        tag="div"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                        xs="3"
+                      >
+                        <Label
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          Statement Date
+                        </Label>
+                        <Input
+                          disabled={true}
+                          type="date"
+                        />
+                      </Col>
+                    </Row>
+                    <br />
+                    <Row
+                      tag="div"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      <Col
+                        tag="div"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                        xs="3"
+                      >
+                        <Label
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          Month for Billing
+                        </Label>
+                        <Input
+                          type="select"
+                        >
+                          <option>
+                            1
+                          </option>
+                        </Input>
+                      </Col>
+                    </Row>
+                    <br />
+                    <Row
+                      tag="div"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      <Col
+                        tag="div"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                        xs="3"
+                      >
+                        <Label
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          Year for Billing
+                        </Label>
+                        <Input
+                          type="select"
+                        >
+                          <option>
+                            2021
+                          </option>
+                        </Input>
+                      </Col>
+                    </Row>
+                    <br />
+                    <Row
+                      tag="div"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      <Col
+                        tag="div"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                        xs="3"
+                      >
+                        <Label
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          Send Statement
+                        </Label>
+                        <Input
+                          type="select"
+                        >
+                          <option />
+                        </Input>
+                      </Col>
+                    </Row>
+                    <br />
+                    <Row
+                      tag="div"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      <Col
+                        tag="div"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                        xs="3"
+                      >
+                        <Label
+                          check={true}
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          <Input
+                            type="checkbox"
+                          />
+                           Auto Debit C/C
+                        </Label>
+                      </Col>
+                    </Row>
+                    <Row
+                      tag="div"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      <Col
+                        tag="div"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                        xs="3"
+                      >
+                        <Label
+                          check={true}
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          <Input
+                            type="checkbox"
+                          />
+                           Overwrite
+                        </Label>
+                      </Col>
+                    </Row>
+                  </Col>
+                  <Col
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <Table
+                      columns={
+                        Array [
+                          Object {
+                            "dataIndex": "type",
+                            "key": "type",
+                            "title": "File Name ",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "trans",
+                            "key": "trans",
+                            "title": "Application Name",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "code",
+                            "key": "code",
+                            "title": "Status",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "salesarea",
+                            "key": "salesarea",
+                            "title": "Print",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "where",
+                            "key": "where",
+                            "title": "Upload",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "invoice",
+                            "key": "invoice",
+                            "title": "Exit Online",
+                            "width": 100,
+                          },
+                          Object {
+                            "dataIndex": "status",
+                            "key": "status",
+                            "title": "Status Print",
+                            "width": 100,
+                          },
+                        ]
+                      }
+                      dataSource={
+                        Array [
+                          Object {},
+                        ]
+                      }
+                      rowKey="key"
+                    />
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane
+          tabId="2"
+          tag="div"
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              sm="12"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Card
+                body={true}
+                tag="div"
+              >
+                <CardTitle
+                  tag="div"
+                />
+                <Row
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  <Col
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                    xs="12"
+                  />
+                </Row>
+              </Card>
+            </Col>
+          </Row>
+        </TabPane>
+      </TabContent>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            check={true}
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Input
+              type="checkbox"
+            />
+             Print All
+          </Label>
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            check={true}
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Input
+              type="checkbox"
+            />
+             Upload All
+          </Label>
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

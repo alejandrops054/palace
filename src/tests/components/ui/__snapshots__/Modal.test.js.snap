@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <Modal/> Debe renderizar el modal y componente 1`] = `
+<div
+  className="modal fade"
+>
+  <div
+    className="modal-dialog modal-dialog-centered"
+  >
+    <div
+      className="card"
+      style={
+        Object {
+          "margin": "0 auto",
+          "width": "700px",
+        }
+      }
+    >
+      <div
+        className="card-body"
+      >
+        <h3
+          className="card-title"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BankAccountsLog component debe mostrar snapshot 1`] = `
+<Fragment>
+  <h2>
+    Bank Accounts Log
+  </h2>
+  <BankAccountsLogFilters />
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Table
+      columns={
+        Array [
+          Object {
+            "dataIndex": "user",
+            "key": "user",
+            "title": "User",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "d/t",
+            "key": "d/t",
+            "title": "Date/Time",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "module",
+            "key": "module",
+            "title": "Module",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "action",
+            "key": "action",
+            "title": "Action",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "original",
+            "key": "original",
+            "title": "Original",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "changes",
+            "key": "changes",
+            "title": "Changes",
+            "width": 130,
+          },
+        ]
+      }
+      emptyText={[Function]}
+      prefixCls="rc-table"
+      rowKey="key"
+    />
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Details
+      </Button>
+    </Col>
+  </Row>
+</Fragment>
+`;

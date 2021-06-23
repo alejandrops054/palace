@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account component debe mostrar snapshot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-5"
+      >
+        <Input
+          col={12}
+          label="Previous Affiliation"
+          name="previousAffiliation"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <Button
+          active={false}
+          disabled={false}
+          variant="dark"
+        >
+          Assign Account
+        </Button>
+         
+      </div>
+      <div
+        className="col-md-5"
+      >
+        <Input
+          col={12}
+          label="Account number"
+          placeholder=""
+          type="text"
+        />
+      </div>
+      <div
+        className="col-md-2"
+      >
+        <br />
+        <Button
+          active={false}
+          disabled={false}
+          variant="secondary"
+        >
+          ...
+        </Button>
+         
+      </div>
+    </div>
+    <br />
+    <from>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12"
+        >
+          <Input
+            col={12}
+            label="Name"
+            name="name_card"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-5"
+        >
+          <Input
+            col={12}
+            label="Creation"
+            name="creation"
+            onChange={[Function]}
+            type="date"
+            value=""
+          />
+        </div>
+        <div
+          className="col-md-5"
+        >
+          <Select />
+        </div>
+        <div
+          className="col-md-2"
+        >
+          <br />
+          <Button
+            active={false}
+            disabled={false}
+            variant="secondary"
+          >
+            Save Changes
+          </Button>
+           
+        </div>
+      </div>
+    </from>
+  </div>
+</form>
+`;

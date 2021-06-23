@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GuestInformationDates component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <Nav
+      tabs={true}
+      tag="ul"
+      vertical={false}
+    >
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          onClick={[Function]}
+          tag="a"
+        >
+          Guest Information
+        </NavLink>
+      </NavItem>
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          onClick={[Function]}
+          tag="a"
+        >
+          Contact
+        </NavLink>
+      </NavItem>
+    </Nav>
+    <TabContent
+      activeTab="1"
+      tag="div"
+    >
+      <TabPane
+        tabId="1"
+        tag="div"
+      >
+        <div
+          className="card mb-4"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-lg-6 mb-3"
+              id="gm-group"
+            >
+              <div
+                className="col-lg-12 mb-3"
+              >
+                <label>
+                  Guest ID
+                </label>
+                <div
+                  className="input-group"
+                >
+                  <input
+                    className="form-control"
+                    name="guestid"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+                  />
+                  <TableGestId />
+                </div>
+              </div>
+              <Input
+                col={12}
+                icon="fas fa-plus"
+                label="Profile ID"
+                name="profileid"
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+              <Input
+                col={12}
+                label="Owner ID"
+                name="ownerid"
+                onChange={[Function]}
+                placeholder="0"
+                type="text"
+                value=""
+              />
+              <Input
+                col={12}
+                label="Owner name"
+                name="ownername"
+                onChange={[Function]}
+                placeholder="First name"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="col-lg-6 mb-3"
+              id="gm-group"
+            >
+              <Input
+                col={12}
+                label="Guest name"
+                name="guestname"
+                onChange={[Function]}
+                placeholder="Complete name"
+                type="text"
+                value=""
+              />
+              <Input
+                col={12}
+                label="Profile name"
+                name="profilename"
+                onChange={[Function]}
+                placeholder="Short name"
+                type="text"
+                value=""
+              />
+              <Input
+                col={12}
+                label="Title"
+                name="title"
+                onChange={[Function]}
+                placeholder="Short name"
+                type="text"
+                value=""
+              />
+              <Input
+                col={12}
+                label="Last name"
+                name="lastname"
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </TabPane>
+      <TabPane
+        tabId="2"
+        tag="div"
+      >
+        <div
+          className="card mb-4"
+        >
+          <div
+            className="row"
+          >
+            <FormContact
+              setContact={[Function]}
+            />
+          </div>
+        </div>
+      </TabPane>
+    </TabContent>
+  </div>
+</Fragment>
+`;

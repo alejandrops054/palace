@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrintDailyNational component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <label
+        col={12}
+        htmlFor=""
+      >
+        National or foreingers
+      </label>
+      <div
+        className="col-md-4"
+      >
+        <Select
+          col={12}
+          label="."
+          option="All"
+        />
+        <Select
+          col={12}
+          label="Report selection"
+          option="All"
+        />
+        <Select
+          col={12}
+          label="Only CNX date"
+          option="YES"
+        />
+        <Select
+          col={12}
+          label="Generate Accounting records"
+          option="YES"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <Select
+          col={12}
+          label="Company"
+          option="0 Todos"
+        />
+        <Select
+          col={12}
+          label="Include web Transactions"
+          option="Yes"
+        />
+        <br />
+        <label
+          col={12}
+          htmlFor=""
+        >
+          Applications
+        </label>
+        <Input
+          col={12}
+          label="From"
+          placeholder=""
+          type="text"
+        />
+        <Input
+          col={12}
+          label="To"
+          placeholder=""
+          type="text"
+        />
+        <Checkbox
+          col={12}
+          label="All"
+          name="checkRow3"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <Select
+          col={12}
+          label="PorFolio"
+          option="All"
+        />
+        <Select
+          col={12}
+          label="Tax Rate"
+          option="Todos"
+        />
+        <Select
+          col={12}
+          label="Deposit sale"
+          option="Akk"
+        />
+        <Select
+          col={12}
+          label="Procesable"
+          option="All"
+        />
+        <Checkbox
+          col={12}
+          label="Open rreport after generate"
+          name="checkRow3"
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SaleDetail component Debe mostrar snapshot 1`] = `
+<form>
+  <h3>
+    Sale detail
+  </h3>
+  <div
+    className="row d-flex"
+  >
+    <div
+      className="col"
+    >
+      <Select />
+      <Select />
+      <Select />
+    </div>
+    <div
+      className="col"
+    >
+      <Select />
+      <Select />
+      <Select />
+    </div>
+  </div>
+</form>
+`;

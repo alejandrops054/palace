@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberRoomTypeAccess component debe mostrar snapshot 1`] = `
+<div
+  className="container mt-3"
+>
+  <div
+    className="row d-flex"
+  >
+    <Input
+      col={3}
+      label="Code"
+      type="text"
+    />
+    <Input
+      col={3}
+      label="Description"
+      type="text"
+    />
+    <Button
+      col="3"
+      icon="fas fa-filter"
+      title="Apply Filter"
+      type="button"
+      typebootstrap="link main"
+    />
+    <Button
+      col="3"
+      icon="fas fa-filter"
+      title="Clear Filter"
+      type="button"
+      typebootstrap="link"
+    />
+  </div>
+  <Table
+    className="table"
+    columns={
+      Array [
+        Object {
+          "align": "center",
+          "dataIndex": "Selected",
+          "key": "1",
+          "render": [Function],
+          "title": <Checkbox />,
+          "width": 30,
+        },
+        Object {
+          "dataIndex": "Code",
+          "key": "Code",
+          "title": "Code",
+          "width": 60,
+        },
+        Object {
+          "dataIndex": "Description",
+          "key": "Description",
+          "title": "Description",
+          "width": 150,
+        },
+        Object {
+          "dataIndex": "Total_Access",
+          "key": "Total_Access",
+          "title": "Total Access",
+          "width": 80,
+        },
+        Object {
+          "dataIndex": "Period",
+          "key": "Period",
+          "title": "Period Type",
+          "width": 80,
+        },
+        Object {
+          "dataIndex": "Discount",
+          "key": "Discount",
+          "title": "Discount Rate",
+          "width": 80,
+        },
+        Object {
+          "dataIndex": "Validity",
+          "key": "Validity",
+          "title": "Validity",
+          "width": 50,
+        },
+        Object {
+          "align": "center",
+          "dataIndex": "Link",
+          "key": "1",
+          "render": [Function],
+          "title": "Link",
+          "width": 50,
+        },
+        Object {
+          "align": "center",
+          "dataIndex": "Group",
+          "key": "1",
+          "render": [Function],
+          "title": "Group",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "Scheme",
+          "key": "Scheme",
+          "title": "Scheme",
+          "width": 60,
+        },
+        Object {
+          "dataIndex": "Reason",
+          "key": "Reason",
+          "title": "Import Reason",
+          "width": 50,
+        },
+        Object {
+          "dataIndex": "Afiliation",
+          "key": "Afiliation",
+          "title": "Afiliation Source",
+          "width": 50,
+        },
+        Object {
+          "dataIndex": "Date",
+          "key": "Date",
+          "title": "Date From",
+          "width": 50,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "Afiliation": "",
+          "Code": "6",
+          "Date": "1/1/21",
+          "Description": "Standard",
+          "Discount": "0",
+          "Period": "Per Year",
+          "Scheme": "Variable",
+          "Total_Access": "4",
+          "Validity": "25",
+        },
+        Object {
+          "currency": "US Dollar",
+          "item": "Cash",
+        },
+        Object {
+          "currency": "US Dollar",
+          "item": "Bank tranfer",
+        },
+        Object {
+          "currency": "US Dollar",
+          "item": "Web Payment",
+        },
+      ]
+    }
+    emptyText={[Function]}
+    id="resume-table"
+    prefixCls="rc-table"
+    rowKey="key"
+    scroll={
+      Object {
+        "x": 1600,
+      }
+    }
+  />
+  <Button
+    col={3}
+    title="Special Group"
+    type="button"
+    typebootstrap="secondary"
+  />
+</div>
+`;

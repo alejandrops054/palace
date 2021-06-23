@@ -1,0 +1,1180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioBankAccount component debe mostrar snapshot 1`] = `
+<Fragment>
+  <h2>
+    Portfolio Bank Account
+  </h2>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      md={
+        Object {
+          "margin": "0 auto",
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      sm={
+        Object {
+          "offset": 4,
+          "size": 1,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "offset": 5,
+          "size": 1,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Code
+      </Label>
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 4,
+        }
+      }
+      md={
+        Object {
+          "size": 2,
+        }
+      }
+      sm={
+        Object {
+          "size": 3,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Input
+        type=""
+      />
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      md={
+        Object {
+          "margin": "0 auto",
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      sm={
+        Object {
+          "offset": 4,
+          "size": 1,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "offset": 5,
+          "size": 1,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Code Project
+      </Label>
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 4,
+        }
+      }
+      md={
+        Object {
+          "size": 2,
+        }
+      }
+      sm={
+        Object {
+          "size": 3,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Input
+        type=""
+      />
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      md={
+        Object {
+          "margin": "0 auto",
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      sm={
+        Object {
+          "offset": 4,
+          "size": 1,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "offset": 5,
+          "size": 1,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Company
+      </Label>
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 6,
+        }
+      }
+      md={
+        Object {
+          "size": 6,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Input
+        type="select"
+      />
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      md={
+        Object {
+          "margin": "0 auto",
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      sm={
+        Object {
+          "offset": 4,
+          "size": 1,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "offset": 5,
+          "size": 1,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Portfolio
+      </Label>
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 6,
+        }
+      }
+      md={
+        Object {
+          "size": 6,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Input
+        type="text"
+      />
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      md={
+        Object {
+          "margin": "0 auto",
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      sm={
+        Object {
+          "offset": 4,
+          "size": 1,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "offset": 5,
+          "size": 1,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Bank
+      </Label>
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 6,
+        }
+      }
+      md={
+        Object {
+          "size": 6,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Input
+        type="select"
+      />
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      md={
+        Object {
+          "margin": "0 auto",
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      sm={
+        Object {
+          "offset": 4,
+          "size": 1,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "offset": 5,
+          "size": 1,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Account
+      </Label>
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 6,
+        }
+      }
+      md={
+        Object {
+          "size": 6,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Input
+        type="text"
+      />
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      md={
+        Object {
+          "margin": "0 auto",
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      sm={
+        Object {
+          "offset": 4,
+          "size": 1,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "offset": 5,
+          "size": 1,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Mechant code
+      </Label>
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 6,
+        }
+      }
+      md={
+        Object {
+          "size": 6,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Input
+        type="text"
+      />
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      md={
+        Object {
+          "margin": "0 auto",
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      sm={
+        Object {
+          "offset": 4,
+          "size": 1,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "offset": 5,
+          "size": 1,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Room
+      </Label>
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 6,
+        }
+      }
+      md={
+        Object {
+          "size": 6,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Input
+        type="text"
+      />
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      md={
+        Object {
+          "margin": "0 auto",
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      sm={
+        Object {
+          "offset": 4,
+          "size": 1,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "offset": 5,
+          "size": 1,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Transaction Type
+      </Label>
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 6,
+        }
+      }
+      md={
+        Object {
+          "size": 6,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Input
+        type="select"
+      />
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      md={
+        Object {
+          "margin": "0 auto",
+          "offset": 3,
+          "size": 1,
+        }
+      }
+      sm={
+        Object {
+          "offset": 4,
+          "size": 1,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "offset": 5,
+          "size": 1,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Currency
+      </Label>
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 6,
+        }
+      }
+      md={
+        Object {
+          "size": 6,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Input
+        type="select"
+      />
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 5,
+          "size": 1,
+        }
+      }
+      md={
+        Object {
+          "margin": "0 auto",
+          "offset": 5,
+          "size": 1,
+        }
+      }
+      sm={
+        Object {
+          "offset": 6,
+          "size": 1,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "offset": 7,
+          "size": 1,
+        }
+      }
+    >
+      <Checkbox
+        label="Attendance"
+      />
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 6,
+        }
+      }
+      md={
+        Object {
+          "size": 6,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Checkbox
+        label="Recurring ADP"
+      />
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 5,
+          "size": 1,
+        }
+      }
+      md={
+        Object {
+          "margin": "0 auto",
+          "offset": 5,
+          "size": 1,
+        }
+      }
+      sm={
+        Object {
+          "offset": 6,
+          "size": 1,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "offset": 7,
+          "size": 1,
+        }
+      }
+    >
+      <Checkbox
+        label="Recurring Month"
+      />
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 6,
+        }
+      }
+      md={
+        Object {
+          "size": 6,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Checkbox
+        label="Visible"
+      />
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      className=""
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Save
+      </Button>
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Close
+      </Button>
+    </Col>
+  </Row>
+</Fragment>
+`;

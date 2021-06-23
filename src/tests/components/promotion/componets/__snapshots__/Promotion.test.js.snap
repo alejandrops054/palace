@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Promotion component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <from>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-4"
+        >
+          <Input
+            col={12}
+            label="ID"
+            type="text"
+          />
+          <Checkbox
+            col={12}
+            label="Closed Date"
+          />
+          <Checkbox
+            col={12}
+            label="Unlimited"
+          />
+          <Checkbox
+            col={12}
+            label="Trasfenble"
+          />
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <Select
+            col={12}
+            label="Status"
+            option="Alta"
+          />
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <Select
+            col={12}
+            label="Referrals Plus"
+            option="Promotion Type"
+          />
+        </div>
+      </div>
+      <br />
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-4"
+        >
+          <Input
+            col={12}
+            label="Spanish Description"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <Input
+            col={12}
+            label="Short Description MX"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <br />
+          <Checkbox
+            col={12}
+            label="Retricted"
+          />
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <Input
+            col={12}
+            label="English Description"
+            type="text"
+          />
+          <Input
+            col={12}
+            label="Benefeit Type"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <Input
+            col={12}
+            label="Short Description US"
+            type="text"
+          />
+          <Input
+            col={12}
+            label="Date from"
+            placeholder=""
+            type="date"
+          />
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <Select
+            col={12}
+            label="Max Use"
+            option="0"
+            type="text"
+          />
+          <br />
+          <Input
+            col={12}
+            label="Date To"
+            placeholder=""
+            type="date"
+          />
+        </div>
+        <div
+          className="col-md-2"
+        >
+          <Select
+            col={12}
+            label="Order"
+            option="0"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-2"
+        >
+          <Select
+            col={12}
+            label="Validity"
+            option="0"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-2"
+        >
+          <Select
+            col={12}
+            label="Year from"
+            option="0"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-2"
+        >
+          <Select
+            col={12}
+            label="Year To"
+            option="0"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-2"
+        >
+          <Select
+            col={12}
+            label="Couples"
+            option="0"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-2"
+        >
+          <Select
+            col={12}
+            label="Weeks"
+            option="0"
+            type="text"
+          />
+        </div>
+      </div>
+      <br />
+    </div>
+  </from>
+</Fragment>
+`;

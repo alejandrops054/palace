@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <Note/> Debe renderizar note 1`] = `
+<div>
+  <label>
+    Notes
+  </label>
+  <ul
+    className="menu"
+  >
+    <li
+      key="21/11/2020"
+    >
+      <Link
+        to="/note-beneficiaries"
+      >
+        <p>
+          <i
+            className="fas fa-sticky-note mr-2"
+          />
+          <span>
+            Beneficiaries...
+          </span>
+        </p>
+        <footer
+          className="note-meta"
+        >
+          <small>
+            <i
+              className="fas fa-user"
+            />
+            ISORIANO
+          </small>
+          <small>
+            <i
+              className="fas fa-calendar"
+            />
+            21/11/2020
+          </small>
+        </footer>
+      </Link>
+    </li>
+    <li
+      key="22/11/2020"
+    >
+      <Link
+        to="/"
+      >
+        <p>
+          <i
+            className="fas fa-sticky-note mr-2"
+          />
+          <span>
+            Inserted credit...
+          </span>
+        </p>
+        <footer
+          className="note-meta"
+        >
+          <small>
+            <i
+              className="fas fa-user"
+            />
+            ISORIANO
+          </small>
+          <small>
+            <i
+              className="fas fa-calendar"
+            />
+            22/11/2020
+          </small>
+        </footer>
+      </Link>
+    </li>
+    <li
+      key="23/11/2020"
+    >
+      <Link
+        to="/"
+      >
+        <p>
+          <i
+            className="fas fa-sticky-note mr-2"
+          />
+          <span>
+            Inserted credit...
+          </span>
+        </p>
+        <footer
+          className="note-meta"
+        >
+          <small>
+            <i
+              className="fas fa-user"
+            />
+            ISORIANO
+          </small>
+          <small>
+            <i
+              className="fas fa-calendar"
+            />
+            23/11/2020
+          </small>
+        </footer>
+      </Link>
+    </li>
+    <li
+      key="24/11/2020"
+    >
+      <Link
+        to="/"
+      >
+        <p>
+          <i
+            className="fas fa-sticky-note mr-2"
+          />
+          <span>
+            Inserted credit...
+          </span>
+        </p>
+        <footer
+          className="note-meta"
+        >
+          <small>
+            <i
+              className="fas fa-user"
+            />
+            ISORIANO
+          </small>
+          <small>
+            <i
+              className="fas fa-calendar"
+            />
+            24/11/2020
+          </small>
+        </footer>
+      </Link>
+    </li>
+    <li
+      key="25/11/2020"
+    >
+      <Link
+        to="/"
+      >
+        <p>
+          <i
+            className="fas fa-sticky-note mr-2"
+          />
+          <span>
+            Inserted credit...
+          </span>
+        </p>
+        <footer
+          className="note-meta"
+        >
+          <small>
+            <i
+              className="fas fa-user"
+            />
+            ISORIANO
+          </small>
+          <small>
+            <i
+              className="fas fa-calendar"
+            />
+            25/11/2020
+          </small>
+        </footer>
+      </Link>
+    </li>
+  </ul>
+  <Link
+    className="btn btn-link d-block"
+    to="!#"
+  >
+    View more
+    <i
+      className="fas fa-arrow-circle-right ml-2"
+    />
+  </Link>
+</div>
+`;

@@ -1,0 +1,19 @@
+###Members Resume
+GET https://j3yivm7r58.execute-api.us-east-1.amazonaws.com/default/pruebas
+
+###Tabla de Coowners
+GET https://0oinvh75d1.execute-api.us-east-1.amazonaws.com/dev/members/nationalities
+
+###
+GET https://0oinvh75d1.execute-api.us-east-1.amazonaws.com/dev/members/coowners
+
+
+
+
+###
+POST https://0stlfq22ok.execute-api.us-east-1.amazonaws.com/dev/members/savechangeslog?keyData=LOGIN=INTEGRAIT&user=INTEGRAIT&tableName=UserClassByUser&original=RECNUM-1CLASSUPDATE-AMG&changes=RECNUM-1CLASSUPDATE-AAMG&module=Catalog&action=AddUserClassByUser
+Content-Type: application/json
+
+  {
+
+  },

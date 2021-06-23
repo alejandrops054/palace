@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <BenefitsCurrent/> Debe renderizar el componente con titulo, precio y precio total 1`] = `
+<h3>
+   
+  Titulo BenefitsCurrent
+   
+  <span
+    id="current-amount"
+  >
+    $
+    500
+  </span>
+  /
+  <span
+    id="total-amount"
+  >
+    $
+  </span>
+</h3>
+`;

@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManagaParticipants component Debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <div
+        className="card-title"
+      >
+        <h3>
+          Manage Participants
+        </h3>
+        <p>
+          Member Information
+        </p>
+      </div>
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-4 d-flex"
+        >
+          <InfoMembers
+            text="7"
+            title="Company"
+          />
+          <InfoMembers
+            text="3"
+            title="Office"
+          />
+        </div>
+        <div
+          className="col-lg-4 d-flex"
+        >
+          <InfoMembers
+            text="4050478"
+            title="Application"
+          />
+          <InfoMembers
+            title="SUNRISE"
+          />
+        </div>
+        <div
+          className="col-lg-4 d-flex"
+        >
+          <InfoMembers
+            text="OMAR PEREZ MARTINEZ"
+            title="Member Name"
+          />
+          <InfoMembers
+            text="Palace Elite"
+            title="Project"
+          />
+        </div>
+      </div>
+      <hr />
+      <Table
+        className="table"
+        columns={
+          Array [
+            Object {
+              "align": "center",
+              "dataIndex": "ID",
+              "key": "1",
+              "title": "ID",
+              "width": 180,
+            },
+            Object {
+              "align": "center",
+              "dataIndex": "Name",
+              "key": "2",
+              "title": "Name",
+              "width": 180,
+            },
+            Object {
+              "align": "center",
+              "dataIndex": "Status",
+              "key": "3",
+              "title": "Status",
+              "width": 180,
+            },
+            Object {
+              "align": "center",
+              "dataIndex": "NSS",
+              "key": "3",
+              "title": "NSS",
+              "width": 180,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "ID": "996",
+              "NSS": "",
+              "Name": "ENRIQUE PEÑA NIETO",
+              "Status": "A",
+            },
+            Object {
+              "ID": "996",
+              "NSS": "",
+              "Name": "ENRIQUE PEÑA NIETO",
+              "Status": "A",
+            },
+            Object {
+              "ID": "996",
+              "NSS": "",
+              "Name": "ENRIQUE PEÑA NIETO",
+              "Status": "A",
+            },
+          ]
+        }
+        emptyText={[Function]}
+        id="resume-table"
+        prefixCls="rc-table"
+        rowKey="key"
+      />
+    </div>
+  </div>
+</div>
+`;

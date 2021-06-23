@@ -1,0 +1,562 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente AccountBankDetail  Creacion de AccountBankDetail 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h3>
+          Account Bank
+        </h3>
+      </CardTitle>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Code
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Bank 
+          </Label>
+          <Input
+            type="select"
+          >
+            <option>
+              Santander
+            </option>
+          </Input>
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Account
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Merchar Code
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Account Location
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Company 
+          </Label>
+          <Input
+            type="select"
+          >
+            <option>
+              7 - PALACE ELITE S.A DE CV
+            </option>
+          </Input>
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Currency 
+          </Label>
+          <Input
+            type="select"
+          >
+            <option>
+              MX
+            </option>
+          </Input>
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Room 
+          </Label>
+          <Input
+            type="select"
+          >
+            <option>
+              SUNRISE
+            </option>
+          </Input>
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Status 
+          </Label>
+          <Input
+            type="select"
+          >
+            <option>
+              Alta
+            </option>
+          </Input>
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="12"
+        >
+          <Table
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "id",
+                  "key": "id",
+                  "title": "Id ",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "name",
+                  "key": "name",
+                  "title": "Name",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "description",
+                  "key": "description",
+                  "title": "Description",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "status",
+                  "key": "status",
+                  "title": "Status",
+                  "width": 100,
+                },
+              ]
+            }
+            dataSource={
+              Array [
+                Object {
+                  "description": "PEM",
+                  "id": "1",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "status": "Active",
+                },
+                Object {
+                  "description": "PEM",
+                  "id": "1",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "status": "Active",
+                },
+                Object {
+                  "description": "PEM",
+                  "id": "1",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "status": "Active",
+                },
+                Object {
+                  "description": "PEM",
+                  "id": "1",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "status": "Active",
+                },
+              ]
+            }
+            rowKey="key"
+          />
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="9"
+        />
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <ButtonGroup
+            role="group"
+            tag="div"
+          >
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Save
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Close
+            </Button>
+          </ButtonGroup>
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

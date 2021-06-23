@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ElectronicWallet component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body table"
+  >
+    <TableProduct />
+    <br />
+    <TableReference />
+  </div>
+</div>
+`;

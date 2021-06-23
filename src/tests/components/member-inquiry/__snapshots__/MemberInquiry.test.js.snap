@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente MemberInquiry Creacion de MemberInquiry 1`] = `
+<div>
+  <div
+    className="MemberInquiry"
+    div={true}
+    id="MemberInquiry"
+  >
+    <div
+      className="row"
+    >
+      <Etiqueta
+        aling="center"
+        bold="bold"
+        col={2}
+        color="grey"
+        etiqueta="Company:"
+        tamanio={20}
+      />
+      <Etiqueta
+        aling="center"
+        bold="bold"
+        col={2}
+        color="grey"
+        etiqueta="Scheme:"
+        tamanio={20}
+      />
+      <Etiqueta
+        aling="center"
+        bold="bold"
+        col={2}
+        color="grey"
+        etiqueta="Application:"
+        tamanio={20}
+      />
+      <Etiqueta
+        aling="center"
+        bold="bold"
+        col={2}
+        color="grey"
+        etiqueta="Sale Level:"
+        tamanio={20}
+      />
+    </div>
+    <div
+      className="row"
+    >
+      <Etiqueta
+        aling="center"
+        bold="bold"
+        col={2}
+        color="#E87E0E"
+        etiqueta="7"
+        tamanio={20}
+      />
+      <Etiqueta
+        aling="center"
+        bold="bold"
+        col={2}
+        color="#E87E0E"
+        etiqueta="New BPG"
+        tamanio={20}
+      />
+      <Etiqueta
+        aling="center"
+        bold="bold"
+        col={2}
+        color="#E87E0E"
+        etiqueta="12312312"
+        tamanio={20}
+      />
+      <Etiqueta
+        aling="center"
+        bold="bold"
+        col={2}
+        color="#E87E0E"
+        etiqueta="Exit"
+        tamanio={20}
+      />
+    </div>
+    <Tr />
+    <Nav
+      tabs={true}
+      tag="ul"
+      vertical={false}
+    >
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          onClick={[Function]}
+          tag="a"
+        >
+          Account detail
+        </NavLink>
+      </NavItem>
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          onClick={[Function]}
+          tag="a"
+        >
+          Promises
+        </NavLink>
+      </NavItem>
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          onClick={[Function]}
+          tag="a"
+        >
+          Conciliations
+        </NavLink>
+      </NavItem>
+    </Nav>
+    <TabContent
+      activeTab="1"
+      tag="div"
+    >
+      <TabPane
+        tabId="1"
+        tag="div"
+      >
+        <Account />
+      </TabPane>
+      <TabPane
+        tabId="2"
+        tag="div"
+      >
+        <Promises />
+      </TabPane>
+      <TabPane
+        tabId="3"
+        tag="div"
+      >
+        <Conciliations />
+      </TabPane>
+    </TabContent>
+  </div>
+</div>
+`;

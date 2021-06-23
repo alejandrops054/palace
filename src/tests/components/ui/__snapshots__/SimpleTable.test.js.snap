@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente SimpleTable  Creacion de snapashot 1`] = `
+<Table
+  className=""
+  columns={Object {}}
+  data={Object {}}
+  emptyText={[Function]}
+  prefixCls="rc-table"
+  rowKey="key"
+/>
+`;

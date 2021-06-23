@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`W2Promisses component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "margin": "0 auto",
+      "width": "700px",
+    }
+  }
+>
+  <div
+    className="card-body"
+  >
+    <h2
+      className="card-title"
+    >
+      Financing promisses
+    </h2>
+    <div
+      className="row align-items-center"
+    >
+      <FinancingPromesisInfo />
+    </div>
+    <FormFinancingPromises />
+  </div>
+</div>
+`;

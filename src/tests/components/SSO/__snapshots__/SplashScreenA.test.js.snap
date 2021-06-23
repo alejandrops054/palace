@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba componente UI <SplashScreenA/> Componente no recibe props  1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row justify-content-center"
+  >
+    <div
+      className="col align-self-center"
+    >
+      <div
+        className="row mb-3"
+      >
+        <div
+          className="col text-center"
+        >
+          <img
+            src="intelligence-20.svg"
+            width="35"
+          />
+        </div>
+      </div>
+      <div
+        className="row mb-3"
+      >
+        <div
+          className="col"
+        >
+          <Spinner />
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col text-center"
+        >
+          <span>
+            Cargando
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FinancingPromises component debe mostrar snapshot 1`] = `
+<div
+  className="mb-5"
+  id="modal"
+>
+  <div
+    className="modal-dialog"
+  >
+    <div
+      className="modal-content"
+    >
+      <div
+        className="modal-header"
+      >
+        <h5
+          className="modal-title"
+          id="exampleModalLabel"
+        >
+          Financing promises
+        </h5>
+        <button
+          aria-label="Close"
+          className="btn-close"
+          data-bs-dismiss="modal"
+          type="button"
+        />
+      </div>
+      <div
+        className="modal-body"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-6 mb-3"
+          >
+            <p>
+              Down payment remainig
+            </p>
+            <h5>
+              $48,250.00
+            </h5>
+          </div>
+          <div
+            className="col-lg-6 mb-3"
+          >
+            <p>
+              Principal remainig
+            </p>
+            <h5>
+              $48,250.00
+            </h5>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-12 mb-3"
+          >
+            <label
+              for="application"
+            >
+              Type refinancing
+            </label>
+            <select
+              className="form-control"
+              id="office"
+            >
+              <option />
+            </select>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-12"
+          >
+            <label>
+              Create financing promises
+            </label>
+          </div>
+          <div
+            className="col-lg-6"
+          >
+            <label>
+              Financing type
+            </label>
+            <select
+              className="form-control"
+              id="office"
+            >
+              <option />
+            </select>
+            <label>
+              Total payments
+            </label>
+            <select
+              className="form-control"
+              id="office"
+            >
+              <option>
+                1
+              </option>
+            </select>
+            <label>
+              Inital month
+            </label>
+            <select
+              className="form-control"
+              id="office"
+            >
+              <option />
+            </select>
+            <label>
+              Periodicity number
+            </label>
+            <select
+              className="form-control"
+              id="office"
+            >
+              <option />
+            </select>
+          </div>
+          <div
+            className="col-lg-6"
+          >
+            <label>
+              Payment way
+            </label>
+            <select
+              className="form-control"
+              id="office"
+            >
+              <option />
+            </select>
+            <label>
+              Periodicity
+            </label>
+            <select
+              className="form-control"
+              id="office"
+            >
+              <option />
+            </select>
+            <label>
+              First payment
+            </label>
+            <select
+              className="form-control"
+              id="office"
+            >
+              <option>
+                MM/DD/YY
+              </option>
+            </select>
+            <label>
+              Sudget
+            </label>
+            <select
+              className="form-control"
+              id="office"
+            >
+              <option />
+            </select>
+          </div>
+        </div>
+      </div>
+      <div
+        className="modal-footer"
+      >
+        <button
+          className="btn btn-secondary"
+          data-bs-dismiss="modal"
+          type="button"
+        >
+          Close
+        </button>
+        <button
+          className="btn btn-primary"
+          type="button"
+        >
+          Save changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

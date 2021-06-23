@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableSuccess component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <SimpleTable
+        columns={
+          Array [
+            Object {
+              "dataIndex": "success",
+              "key": "success",
+              "title": "Success",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "sapdocument",
+              "key": "sapdocument",
+              "title": "SAP Document",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "policycode",
+              "key": "policycode",
+              "title": "Policy Code",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "records",
+              "key": "records",
+              "title": "Records",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "policydate",
+              "key": "policydate",
+              "title": "Policy Date",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "currency",
+              "key": "currency",
+              "title": "Currency",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "response",
+              "key": "response",
+              "title": "Response",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "datecreated",
+              "key": "datecreated",
+              "title": "Date Created",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "user",
+              "key": "user",
+              "title": "User",
+              "width": "1%",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "currency": "",
+              "datecreated": "",
+              "policycode": "",
+              "policydate": "",
+              "records": "",
+              "response": "",
+              "sapdocument": "",
+              "success": "",
+              "user": "",
+            },
+            Object {
+              "currency": "",
+              "datecreated": "",
+              "policycode": "",
+              "policydate": "",
+              "records": "",
+              "response": "",
+              "sapdocument": "",
+              "success": "",
+              "user": "",
+            },
+            Object {
+              "currency": "",
+              "datecreated": "",
+              "policycode": "",
+              "policydate": "",
+              "records": "",
+              "response": "",
+              "sapdocument": "",
+              "success": "",
+              "user": "",
+            },
+          ]
+        }
+        type="table"
+      />
+    </CardBody>
+  </Card>
+</Fragment>
+`;

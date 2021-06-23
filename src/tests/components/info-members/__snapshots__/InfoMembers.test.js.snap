@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoMembers component debe mostrar snapshot 1`] = `
+<div
+  className="container"
+>
+  <br />
+  <h7>
+    :
+  </h7>
+  <p
+    style={
+      Object {
+        "color": "#00af9f",
+      }
+    }
+  />
+</div>
+`;

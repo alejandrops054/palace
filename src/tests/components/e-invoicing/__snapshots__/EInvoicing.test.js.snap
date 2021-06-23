@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EInvoicing component Debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      E-Invoicing
+    </h5>
+    <div
+      className="row"
+    >
+      <Input
+        col={4}
+        label="Application"
+      />
+      <Select
+        col={4}
+        label="Company"
+      />
+      <Select
+        col={4}
+        label="Source"
+      />
+      <Input
+        col={4}
+        label="From"
+        type="date"
+      />
+      <Input
+        col={4}
+        label="From"
+        type="date"
+      />
+      <Button
+        col={4}
+        icon="fas fa-search"
+        title="Search"
+        typebootstrap="primary"
+      />
+      <NavEInvoicing />
+    </div>
+  </div>
+</div>
+`;

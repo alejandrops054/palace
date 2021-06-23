@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SaleCapture component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="m-1 mb-4"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="card-body"
+      >
+        <SaleDetail />
+      </div>
+    </div>
+  </div>
+  <div
+    className="m-1 mb-4"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="card-body"
+      >
+        <FinancingDetail />
+      </div>
+    </div>
+  </div>
+  <div
+    className="m-1 mb-4"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="card-body"
+      >
+        <StayDetail />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

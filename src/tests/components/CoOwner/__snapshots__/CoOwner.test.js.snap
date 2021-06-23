@@ -1,0 +1,737 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoOwner component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Container
+    className="mb-4"
+    tag="div"
+  >
+    <Card
+      tag="div"
+    >
+      <CardHeader
+        tag="div"
+      >
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Col
+            lg="6"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <CardTitle
+              tag="h3"
+            >
+              CoOwner
+            </CardTitle>
+          </Col>
+          <Col
+            className=" d-flex justify-content-end tables"
+            lg="6"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Button
+              col="1.5"
+              icon="fas fa-users"
+              type="button"
+              typebootstrap="link"
+            />
+            <Button
+              col="1.5"
+              icon="fas fa-upload"
+              type="button"
+              typebootstrap="link"
+            />
+            <Button
+              col="1.5"
+              icon="fas fa-plus"
+              onClick={[Function]}
+              type="button"
+              typebootstrap="link main"
+            />
+          </Col>
+        </Row>
+      </CardHeader>
+      <CardBody
+        tag="div"
+      >
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        />
+        <Table
+          className="table"
+          columns={
+            Array [
+              Object {
+                "align": "center",
+                "dataIndex": "check",
+                "key": "1",
+                "render": [Function],
+                "title": <Checkbox />,
+                "width": 30,
+              },
+              Object {
+                "dataIndex": "priority",
+                "key": "priority",
+                "title": "Priority",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "id",
+                "key": "id",
+                "title": "ID",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "profile",
+                "key": "profile",
+                "title": "Profile",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "first",
+                "key": "first",
+                "title": "First name",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "last",
+                "key": "last",
+                "title": "Last name",
+                "width": "auto",
+              },
+              Object {
+                "dataIndex": "but",
+                "key": "but",
+                "render": [Function],
+                "title": <Button
+                  icon="fas fa-ellipsis-v"
+                  type="button"
+                  typebootstrap="link"
+                />,
+                "width": "auto",
+              },
+            ]
+          }
+          data={Array []}
+          emptyText={[Function]}
+          id="resume-table"
+          prefixCls="rc-table"
+          rowKey="key"
+          scroll={
+            Object {
+              "x": "auto",
+            }
+          }
+          style={
+            Object {
+              "width": "auto",
+            }
+          }
+        />
+      </CardBody>
+    </Card>
+    <Modal
+      autoFocus={true}
+      backdrop={true}
+      backdropTransition={
+        Object {
+          "mountOnEnter": true,
+          "timeout": 150,
+        }
+      }
+      centered={false}
+      container="body"
+      fade={true}
+      isOpen={false}
+      keyboard={true}
+      modalTransition={
+        Object {
+          "timeout": 300,
+        }
+      }
+      onClosed={[Function]}
+      onOpened={[Function]}
+      returnFocusAfterClose={true}
+      role="dialog"
+      scrollable={false}
+      size="lg"
+      toggle={[Function]}
+      unmountOnClose={true}
+      zIndex={1050}
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <ModalHeader
+          charCode={215}
+          closeAriaLabel="Close"
+          tag="h5"
+          wrapTag="div"
+        >
+          CoOwner information
+        </ModalHeader>
+        <ModalBody
+          className="p-0 col-sm "
+          tag="div"
+        >
+          <Card
+            tag="div"
+          >
+            <Row
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Col
+                lg={12}
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Table
+                  className="table"
+                  columns={
+                    Array [
+                      Object {
+                        "align": "center",
+                        "dataIndex": "check",
+                        "key": "1",
+                        "render": [Function],
+                        "title": <Checkbox />,
+                        "width": 30,
+                      },
+                      Object {
+                        "dataIndex": "priority",
+                        "key": "priority",
+                        "title": "Priority",
+                        "width": "auto",
+                      },
+                      Object {
+                        "dataIndex": "id",
+                        "key": "id",
+                        "title": "ID",
+                        "width": "auto",
+                      },
+                      Object {
+                        "dataIndex": "profile",
+                        "key": "profile",
+                        "title": "Profile",
+                        "width": "auto",
+                      },
+                      Object {
+                        "dataIndex": "first",
+                        "key": "first",
+                        "title": "First name",
+                        "width": "auto",
+                      },
+                      Object {
+                        "dataIndex": "last",
+                        "key": "last",
+                        "title": "Last name",
+                        "width": "auto",
+                      },
+                      Object {
+                        "dataIndex": "but",
+                        "key": "but",
+                        "render": [Function],
+                        "title": <Button
+                          icon="fas fa-ellipsis-v"
+                          type="button"
+                          typebootstrap="link"
+                        />,
+                        "width": "auto",
+                      },
+                    ]
+                  }
+                  data={Array []}
+                  emptyText={[Function]}
+                  id="resume-table"
+                  prefixCls="rc-table"
+                  rowKey="key"
+                  scroll={
+                    Object {
+                      "x": "auto",
+                    }
+                  }
+                  style={
+                    Object {
+                      "width": "auto",
+                    }
+                  }
+                />
+              </Col>
+            </Row>
+            <Row
+              className="justify-content-start"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Col
+                lg="6"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Input
+                  col={12}
+                  label="CoOwner ID"
+                  name="coOwnerId"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+                <Input
+                  col={12}
+                  label="Title"
+                  name="title"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+                <Input
+                  col={12}
+                  label="Last name"
+                  name="last_name"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+                <Input
+                  col={12}
+                  label="RFC"
+                  name="rfc"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+                <Checkbox
+                  label="Accounting"
+                  name="check1"
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  value={false}
+                />
+                <Checkbox
+                  label="Add to interval"
+                  name="check2"
+                  onChange={[Function]}
+                  value={false}
+                />
+              </Col>
+              <Col
+                lg="6"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Input
+                  col={12}
+                  label="ID Profile Opera"
+                  name="id_profile"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+                <Select />
+                <Input
+                  col={12}
+                  label="First name"
+                  name="first_name"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+                <Input
+                  col={12}
+                  label="Email"
+                  name="email"
+                  onChange={[Function]}
+                  type="email"
+                  value=""
+                />
+                <ModalCoOwnerSm />
+              </Col>
+            </Row>
+          </Card>
+          <Row
+            className="m-3"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <TextArea
+              col={12}
+              disabled={false}
+              label="Address"
+              name="address"
+              onChange={[Function]}
+              placeholder=""
+              value=""
+            />
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                col={12}
+                icon="fas fa-plus"
+                label="City"
+                name="city"
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+            </Col>
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                col={12}
+                icon="fas fa-plus"
+                label="State"
+                name="state"
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+            </Col>
+            <Col
+              lg="4"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                col={12}
+                icon="fas fa-plus"
+                label="Country"
+                name="country"
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+            </Col>
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="6"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                col={12}
+                icon="fas fa-plus"
+                label="Zip code"
+                name="zip"
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+            </Col>
+            <Col
+              lg="6"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Select />
+            </Col>
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              lg="6"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                col={12}
+                label="Home phone"
+                name="home"
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+              <Input
+                col={12}
+                label="Office phone"
+                name="office_phone"
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+            </Col>
+            <Col
+              lg="6"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                col={12}
+                label="Cell phone"
+                name="cell_phone"
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+              <Input
+                col={12}
+                label="Fax phone"
+                name="fax_phone"
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+            </Col>
+          </Row>
+        </ModalBody>
+        <ModalFooter
+          tag="div"
+        >
+          <div
+            className="d-flex justify-content-end"
+          >
+            <Button
+              icon="fas fa-plus"
+              onClick={[Function]}
+              title="Add New"
+              type="button"
+              typebootstrap="primary main"
+            />
+          </div>
+        </ModalFooter>
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Col
+            md={6}
+            sm={
+              Object {
+                "offset": 5,
+                "size": 10,
+              }
+            }
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="d-flex justify-content-end"
+            >
+              <Button
+                col={6}
+                icon="fas fa-times"
+                onClick={[Function]}
+                type="button"
+                typebootstrap="secondary"
+              />
+              <Button
+                col={6}
+                icon="fas fa-check"
+                type="submit"
+                typebootstrap="primary "
+              />
+            </div>
+          </Col>
+        </Row>
+        <br />
+      </form>
+    </Modal>
+  </Container>
+</Fragment>
+`;

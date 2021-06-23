@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente AccountBank  Creacion de AccountBank 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h3>
+          Account Bank
+        </h3>
+      </CardTitle>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="8"
+        >
+          <Table
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "code",
+                  "key": "code",
+                  "title": "Code ",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "description",
+                  "key": "description",
+                  "title": "Description",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "merchar",
+                  "key": "merchar",
+                  "title": "Merchar Code",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "account",
+                  "key": "account",
+                  "title": "Account",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "currency",
+                  "key": "currency",
+                  "title": "Currency",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "status",
+                  "key": "status",
+                  "title": "Status",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "accountL",
+                  "key": "accountL",
+                  "title": "Account Location",
+                  "width": 100,
+                },
+              ]
+            }
+            dataSource={
+              Array [
+                Object {
+                  "account": "3121211",
+                  "accountL": "",
+                  "code": "1",
+                  "currency": "MX",
+                  "description": "Santander",
+                  "merchar": "7271271",
+                  "status": "A",
+                },
+                Object {
+                  "account": "3121211",
+                  "accountL": "",
+                  "code": "1",
+                  "currency": "MX",
+                  "description": "Santander",
+                  "merchar": "7271271",
+                  "status": "A",
+                },
+                Object {
+                  "account": "3121211",
+                  "accountL": "",
+                  "code": "1",
+                  "currency": "MX",
+                  "description": "Santander",
+                  "merchar": "7271271",
+                  "status": "A",
+                },
+                Object {
+                  "account": "3121211",
+                  "accountL": "",
+                  "code": "1",
+                  "currency": "MX",
+                  "description": "Santander",
+                  "merchar": "7271271",
+                  "status": "A",
+                },
+                Object {
+                  "account": "3121211",
+                  "accountL": "",
+                  "code": "1",
+                  "currency": "MX",
+                  "description": "Santander",
+                  "merchar": "7271271",
+                  "status": "A",
+                },
+              ]
+            }
+            rowKey="key"
+          />
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="2"
+        >
+          <span>
+            Records: 8
+          </span>
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="7"
+        />
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <ButtonGroup
+            role="group"
+            tag="div"
+          >
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Log
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Add
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Properties
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Refresh
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Close
+            </Button>
+          </ButtonGroup>
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

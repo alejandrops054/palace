@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <Acordion/> Debe renderizar el acordeon con titulo y componente 1`] = `
+<div>
+  <Button
+    aria-controls="collapseOne"
+    aria-expanded="true"
+    className="accordion-button collapsed card mt-1 pr-5 pb-1"
+    color="dark"
+    data-bs-toggle="collapse"
+    onClick={[Function]}
+    style={
+      Object {
+        "marginBottom": "1rem",
+      }
+    }
+    tag="button"
+  >
+    <h5
+      className="accordion-header text-left "
+    >
+      Titulo acordeon
+    </h5>
+  </Button>
+  <Collapse
+    appear={false}
+    className="accordion-body"
+    enter={true}
+    exit={true}
+    in={false}
+    isOpen={false}
+    mountOnEnter={false}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onEntering={[Function]}
+    onExit={[Function]}
+    onExited={[Function]}
+    onExiting={[Function]}
+    tag="div"
+    timeout={350}
+    unmountOnExit={false}
+  >
+    <Card
+      tag="div"
+    >
+      <CardBody
+        tag="div"
+      >
+        <AccordionnInformation />
+      </CardBody>
+    </Card>
+  </Collapse>
+</div>
+`;

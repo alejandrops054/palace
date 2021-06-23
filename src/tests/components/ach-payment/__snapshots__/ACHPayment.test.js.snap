@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente ACHPayment  Creacion de snapashot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <h3
+      className="card-title"
+    >
+      New Deposit
+    </h3>
+    <div
+      className="row mb-3"
+    >
+      <Input
+        col={6}
+        label="Bank"
+      />
+      <Input
+        col={6}
+        label="Aba"
+      />
+      <Input
+        col={6}
+        label="Account Number"
+      />
+      <Input
+        col={6}
+        label="Account Name"
+      />
+      <Select
+        col={6}
+        label="Transaction Code"
+      />
+    </div>
+    <div
+      className="row"
+    >
+      <Button
+        col={3}
+        color="primary"
+        title="Save"
+      />
+      <Button
+        col={3}
+        color="secondary"
+        title="Cancel"
+      />
+    </div>
+  </div>
+</div>
+`;

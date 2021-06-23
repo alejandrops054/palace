@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Provisions component Debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="row mb-1"
+  >
+    <div
+      className="d-flex justify-content-end"
+    >
+      <button
+        className="btn btn-link"
+        id="consult"
+        type="button"
+      >
+        <i
+          className="fas fa-share"
+        />
+      </button>
+      <button
+        className="btn btn-link main"
+        id="consult"
+        type="button"
+      >
+        <i
+          className="fas fa-plus"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="table-responsive-lg "
+  >
+    <SimpleTable
+      columns={
+        Array [
+          Object {
+            "dataIndex": "",
+            "key": "",
+            "render": [Function],
+            "title": <Checkbox />,
+            "width": "10%",
+          },
+          Object {
+            "dataIndex": "Type",
+            "key": "Type",
+            "title": "Type",
+            "width": "10%",
+          },
+          Object {
+            "dataIndex": "Name",
+            "key": "Name",
+            "title": "Name",
+            "width": "15%",
+          },
+          Object {
+            "dataIndex": "Folio",
+            "key": "Folio",
+            "title": "Folio",
+            "width": "15%",
+          },
+          Object {
+            "dataIndex": "Cost",
+            "key": "Cost",
+            "title": "Cost",
+            "width": "10%",
+          },
+          Object {
+            "dataIndex": "Sale",
+            "key": "Sale",
+            "title": "Sale date",
+            "width": "20%",
+          },
+          Object {
+            "dataIndex": "Expiracion",
+            "key": "Expiracion",
+            "title": "Expiracion date",
+            "width": "15%",
+          },
+          Object {
+            "dataIndex": "Status",
+            "key": "Status",
+            "render": [Function],
+            "title": <Button
+              icon="fas fa-ellipsis-v"
+              type="button"
+              typebootstrap="link"
+            />,
+            "width": 50,
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "Cost": "$1234",
+            "Expiracion": 1612560377161,
+            "Folio": 6712,
+            "Name": "jon doe",
+            "Sale": 1612560377160,
+            "Type": 1,
+          },
+          Object {
+            "Cost": "$1234",
+            "Expiracion": 1612560377161,
+            "Folio": 6712,
+            "Name": "jon doe",
+            "Sale": 1612560377161,
+            "Type": 1,
+          },
+          Object {
+            "Cost": "$1234",
+            "Expiracion": 1612560377161,
+            "Folio": 6712,
+            "Name": "jon doe",
+            "Sale": 1612560377161,
+            "Type": 1,
+          },
+        ]
+      }
+      type="table"
+    />
+  </div>
+</div>
+`;

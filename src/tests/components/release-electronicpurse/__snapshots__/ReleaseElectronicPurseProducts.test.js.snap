@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReleaseElectronicPurseProducts component debe mostrar snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <Nav
+        tabs={true}
+        tag="ul"
+        vertical={false}
+      >
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            onClick={[Function]}
+            tag="a"
+          >
+            Generate Amounts
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            onClick={[Function]}
+            tag="a"
+          >
+            Transfer Amounts
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            onClick={[Function]}
+            tag="a"
+          >
+            Activate Balance
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            onClick={[Function]}
+            tag="a"
+          >
+            Exit
+          </NavLink>
+        </NavItem>
+      </Nav>
+      <TabContent
+        activeTab="1"
+        tag="div"
+      >
+        <TabPane
+          tabId="1"
+          tag="div"
+        />
+        <TabPane
+          tabId="2"
+          tag="div"
+        >
+           
+        </TabPane>
+        <TabPane
+          tabId="3"
+          tag="div"
+        >
+           
+        </TabPane>
+        <TabPane
+          tabId="4"
+          tag="div"
+        >
+           
+        </TabPane>
+      </TabContent>
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className="card-title"
+      >
+        <h3>
+          Release Electronic Purse Products
+        </h3>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="d-flex"
+        >
+          <div
+            className="col-lg-6"
+          >
+            <p>
+              Product Information
+            </p>
+          </div>
+          <div
+            className="col-lg-6"
+          >
+            <p>
+              Electronic Purse Detail
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-lg-6 d-flex"
+        >
+          <div
+            className="col"
+          >
+            <InfoMembers
+              text="1234567890"
+              title="Amount Number"
+            />
+            <InfoMembers
+              text="1 - SPA MONEY"
+              title="Product"
+            />
+          </div>
+          <div
+            className="col"
+          >
+            <InfoMembers
+              text="100.00"
+              title="Amount"
+            />
+            <InfoMembers
+              text="4"
+              title="Total Payments"
+            />
+          </div>
+        </div>
+        <div
+          className="col-lg-6 d-flex"
+        >
+          <div
+            className="col"
+          >
+            <Input
+              label="Num Pol"
+              type="text"
+            />
+            <Input
+              icon="fas fa-calendar-week"
+              label="Expiration"
+              type="date"
+            />
+          </div>
+          <div
+            className="col"
+          >
+            <Input
+              label="Payments"
+              type="text"
+            />
+            <Select
+              label="Financing Type"
+              option="None"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt-3 "
+      >
+        <Table
+          className="table"
+          columns={
+            Array [
+              Object {
+                "dataIndex": "Stock",
+                "key": "1",
+                "title": "Stock",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Item",
+                "key": "2",
+                "title": "Item",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Date",
+                "key": "3",
+                "title": "Date",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Description",
+                "key": "4",
+                "title": "Description",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Reference",
+                "key": "5",
+                "title": "Reference",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Amount",
+                "key": "6",
+                "title": "Amount",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Activate",
+                "key": "7",
+                "title": "Activate",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Expiration",
+                "key": "8",
+                "title": "Expiration",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Payments",
+                "key": "9",
+                "title": "Payments",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Financing_Type",
+                "key": "10",
+                "title": "Financing Type",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Cash",
+                "key": "11",
+                "title": "5 % Cash",
+                "width": 200,
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "Activate": "",
+                "Amount": "",
+                "Cash": "",
+                "Date": "",
+                "Description": "",
+                "Expiration": "",
+                "Financing_Type": "",
+                "Item": "",
+                "Payments": "",
+                "Reference": "",
+                "Stock": "3",
+              },
+            ]
+          }
+          emptyText={[Function]}
+          id="resume-table"
+          prefixCls="rc-table"
+          rowKey="key"
+          scroll={
+            Object {
+              "x": 1000,
+            }
+          }
+          style={
+            Object {
+              "width": "auto",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiamontClassificationLogDetail component debe mostrar snapshot 1`] = `
+<Fragment>
+  <LogDetail
+    column={
+      Array [
+        Object {
+          "dataIndex": "order",
+          "key": "order",
+          "title": "Order",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "fn",
+          "key": "fn",
+          "title": "Field Name",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "og",
+          "key": "og",
+          "title": "Original",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "change",
+          "key": "change",
+          "title": "Change",
+          "width": 130,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "change": "",
+          "fn": "",
+          "og": "",
+          "order": "2201",
+        },
+        Object {
+          "change": "",
+          "fn": "",
+          "og": "",
+          "order": "2201",
+        },
+        Object {
+          "change": "",
+          "fn": "",
+          "og": "",
+          "order": "2201",
+        },
+      ]
+    }
+    title="Diamond Classifications Log Detail"
+  />
+</Fragment>
+`;

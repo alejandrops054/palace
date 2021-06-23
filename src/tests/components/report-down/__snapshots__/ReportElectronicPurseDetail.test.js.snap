@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportElectronicPurseDetail component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h2>
+          Report Electronic Purse Detail
+        </h2>
+      </CardTitle>
+      <br />
+      <Card
+        tag="div"
+      >
+        <CardBody
+          tag="div"
+        >
+          <CardTitle
+            tag="div"
+          >
+            <span>
+              Filter
+            </span>
+          </CardTitle>
+          <br />
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xs="3"
+            >
+              <Label
+                check={true}
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Input
+                  type="radio"
+                />
+                 Date
+              </Label>
+            </Col>
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xs="1"
+            />
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xs="3"
+            >
+              <Label
+                check={true}
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Input
+                  type="radio"
+                />
+                 Application
+              </Label>
+            </Col>
+          </Row>
+        </CardBody>
+      </Card>
+      <Card
+        tag="div"
+      >
+        <CardBody
+          tag="div"
+        >
+          <CardTitle
+            tag="div"
+          >
+            <span>
+              Date
+            </span>
+          </CardTitle>
+          <br />
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xs="3"
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Start Date
+              </Label>
+              <Input
+                type="date"
+              />
+            </Col>
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xs="1"
+            />
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xs="3"
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                End Date
+              </Label>
+              <Input
+                type="date"
+              />
+            </Col>
+          </Row>
+        </CardBody>
+      </Card>
+      <Card
+        tag="div"
+      >
+        <CardBody
+          tag="div"
+        >
+          <CardTitle
+            tag="div"
+          >
+            <span>
+              Application
+            </span>
+          </CardTitle>
+          <br />
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xs="3"
+            >
+              <Input
+                type="text"
+              />
+            </Col>
+          </Row>
+        </CardBody>
+      </Card>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="9"
+        />
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <br />
+          <Button
+            color="primary"
+            tag="button"
+          >
+            Print
+          </Button>
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

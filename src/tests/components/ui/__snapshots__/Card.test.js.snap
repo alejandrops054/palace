@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <Card/> Debe renderizar el acordeon con titulo y componente 1`] = `
+<div
+  className="card text-undefined col-lg-undefined mb-10"
+  style={
+    Object {
+      "width": "undefinedrem;",
+    }
+  }
+>
+  <div
+    className="card-body"
+  >
+    <h3
+      className="card-title"
+    >
+      Titulo de etiqueta
+    </h3>
+  </div>
+</div>
+`;

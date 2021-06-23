@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SalesMen component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h3>
+          Salesmen
+        </h3>
+      </CardTitle>
+      <br />
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Col
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+            xs="4"
+          >
+            <Label
+              check={true}
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                name="radio1"
+                type="radio"
+              />
+              Option two can be something
+            </Label>
+          </Col>
+          <Col
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+            xs="6"
+          >
+            <Input
+              type="text"
+            />
+          </Col>
+        </Row>
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Col
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+            xs="12"
+          >
+            <Label
+              check={true}
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                name="radio1"
+                type="radio"
+              />
+               Option three is disabled
+            </Label>
+          </Col>
+        </Row>
+      </FormGroup>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="12"
+        >
+          <Table
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "code",
+                  "key": "code",
+                  "title": "Code",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "name",
+                  "key": "name",
+                  "title": "Name",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "job",
+                  "key": "job",
+                  "title": "Job",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "zone",
+                  "key": "zone",
+                  "title": "Zone",
+                  "width": 100,
+                },
+              ]
+            }
+            dataSource={
+              Array [
+                Object {
+                  "code": "L8",
+                  "job": "Lega Representative",
+                  "name": "Abril del Carmen Garzenas",
+                  "zone": "BP",
+                },
+                Object {
+                  "code": "L5",
+                  "job": "Lega Representative",
+                  "name": "Abril del Carmen Garzenas",
+                  "zone": "BP",
+                },
+                Object {
+                  "code": "C3",
+                  "job": "Lega Representative",
+                  "name": "Abril del Carmen Garzenas",
+                  "zone": "BP",
+                },
+                Object {
+                  "code": "B2",
+                  "job": "Lega Representative",
+                  "name": "Abril del Carmen Garzenas",
+                  "zone": "BP",
+                },
+              ]
+            }
+            rowKey="key"
+          />
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalPortafolioCompanies component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Portafolio Companies
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="lg"
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle>
+        Portafolio Companies
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <from>
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <small>
+              Catalog Of Companies
+            </small>
+            <br />
+            <div
+              className="col-md-12"
+            >
+              <TablaPortafolioCompanies />
+            </div>
+          </div>
+        </div>
+      </from>
+    </ModalBody>
+    <ModalFooter>
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Generate
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

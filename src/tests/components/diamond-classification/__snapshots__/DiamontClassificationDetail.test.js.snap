@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiamontClassificationDetail component debe mostrar snapshot 1`] = `
+<Container
+  className="themed-container"
+  fluid="sm"
+  tag="div"
+>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <CardTitle
+        tag="h3"
+      >
+        Diamond Classifications
+      </CardTitle>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Input
+        col={3}
+        label="Id"
+        name="id"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={3}
+        label="Description"
+        name="description"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={3}
+        label="Status"
+        name="status"
+        placeholder=""
+        type="text"
+      />
+    </CardBody>
+    <CardFooter
+      tag="div"
+    >
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col={2}
+          icon="fas fa-check"
+          title="Ok"
+          type="button"
+          typebootstrap="primary"
+        />
+        <Button
+          col={2}
+          icon="fas fa-times"
+          title="Cancel"
+          typebootstrap="secondary "
+        />
+      </div>
+    </CardFooter>
+  </Card>
+</Container>
+`;

@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MonthlyStock component debe mostrar snapshot 1`] = `
+<Container
+  fluid={true}
+  tag="div"
+>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <h1>
+          Monthly Stock
+        </h1>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <span>
+          Catalog Monthly Stock
+        </span>
+      </Row>
+    </Col>
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Select />
+        </Col>
+        <Col
+          className="mt-4"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            color="secondary"
+            tag="button"
+          >
+            Apply Filter
+          </Button>
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Select />
+        </Col>
+        <Col
+          className="mt-4"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            color="secondary"
+            tag="button"
+          >
+            Clear Filter
+          </Button>
+        </Col>
+      </Row>
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Table
+      columns={
+        Array [
+          Object {
+            "dataIndex": "officeName",
+            "key": "officeName",
+            "title": "Office Name",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "year",
+            "key": "year",
+            "title": "Year",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "month",
+            "key": "month",
+            "title": "Month",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "unit",
+            "key": "unit",
+            "title": "Unit",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "stockType",
+            "key": "stockType",
+            "title": "Stock type",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "quiantity",
+            "key": "quantity",
+            "title": "Quantity",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "provision",
+            "key": "provision",
+            "title": "Provision ID",
+            "width": 130,
+          },
+        ]
+      }
+      emptyText={[Function]}
+      prefixCls="rc-table"
+      rowKey="key"
+    />
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 5,
+        }
+      }
+      md={
+        Object {
+          "offset": 5,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Copy Year
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Log
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Add
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Properties
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Refresh
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Close
+      </Button>
+    </Col>
+  </Row>
+</Container>
+`;

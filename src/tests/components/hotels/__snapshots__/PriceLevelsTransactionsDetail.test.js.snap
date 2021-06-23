@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PricesLevels component debe mostrar snapshot 1`] = `
+<Container
+  fluid={true}
+  tag="div"
+>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      className="border"
+      lg={
+        Object {
+          "size": 3,
+        }
+      }
+      md={
+        Object {
+          "size": 3,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Table
+        columns={
+          Array [
+            Object {
+              "dataIndex": "datefrom",
+              "key": "datefrom",
+              "title": "DateFrom",
+              "width": 130,
+            },
+            Object {
+              "dataIndex": "dateto",
+              "key": "dateto",
+              "title": "DateTo",
+              "width": 130,
+            },
+          ]
+        }
+        emptyText={[Function]}
+        prefixCls="rc-table"
+        rowKey="key"
+      />
+    </Col>
+    <Col
+      className="border"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Table
+        columns={
+          Array [
+            Object {
+              "dataIndex": "id",
+              "key": "id",
+              "title": "Id",
+              "width": 130,
+            },
+            Object {
+              "dataIndex": "codigonivel",
+              "key": "codigonivel",
+              "title": "CodigoNivel",
+              "width": 130,
+            },
+            Object {
+              "dataIndex": "program",
+              "key": "program",
+              "title": "Program",
+              "width": 130,
+            },
+            Object {
+              "dataIndex": "preciominimomembers",
+              "key": "preciominimomembers",
+              "title": "PrecioMinimoMembers",
+              "width": 130,
+            },
+          ]
+        }
+        emptyText={[Function]}
+        prefixCls="rc-table"
+        rowKey="key"
+      />
+    </Col>
+  </Row>
+</Container>
+`;

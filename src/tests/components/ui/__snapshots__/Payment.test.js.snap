@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba componente UI <Payment/> Componente recibe props label:String, price:Number y col:Number 1`] = `
+<div
+  className="col-lg-6 mb-3"
+>
+  <label>
+    Titulo de etiqueta
+  </label>
+  <h3>
+    $
+    1000
+    .00
+  </h3>
+</div>
+`;

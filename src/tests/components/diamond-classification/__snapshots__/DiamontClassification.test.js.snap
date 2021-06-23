@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiamontClassification component debe mostrar snapshot 1`] = `
+<div>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <CardTitle
+        tag="h3"
+      >
+        Diamond Classifications
+      </CardTitle>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Table
+          className="table"
+          columns={
+            Array [
+              Object {
+                "dataIndex": "code",
+                "key": "1",
+                "title": "Code",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "description",
+                "key": "2",
+                "title": "Description",
+                "width": 200,
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "code": "2201",
+                "description": "",
+              },
+              Object {
+                "code": "2201",
+                "description": "",
+              },
+              Object {
+                "code": "2201",
+                "description": "",
+              },
+            ]
+          }
+          emptyText={[Function]}
+          id="resume-table"
+          prefixCls="rc-table"
+          rowKey="key"
+          style={
+            Object {
+              "width": "auto",
+            }
+          }
+        />
+      </Row>
+    </CardBody>
+    <CardFooter
+      tag="div"
+    >
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col={2}
+          icon="fas fa-clipboard-list"
+          title="Log"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col={2}
+          icon="fas fa-plus"
+          title="Add"
+          typebootstrap="link "
+        />
+        <Button
+          col={2}
+          icon="fas fa-times"
+          title="Properties"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col={2}
+          icon="fas fa-sync-alt"
+          title="Refresh"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col={2}
+          icon="fas fa-times"
+          title="Close"
+          typebootstrap="link "
+        />
+      </div>
+    </CardFooter>
+  </Card>
+</div>
+`;

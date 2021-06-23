@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente SapAccounting  Creacion de SapAccounting 1`] = `
+<div>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <SapAccountingSideBar />
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Table
+          columns={
+            Array [
+              Object {
+                "dataIndex": "app",
+                "key": "app",
+                "title": "Application",
+                "width": 130,
+              },
+              Object {
+                "dataIndex": "company",
+                "key": "company",
+                "title": "Company",
+                "width": 130,
+              },
+              Object {
+                "dataIndex": "salecode",
+                "key": "salecode",
+                "title": "SaleCode",
+                "width": 130,
+              },
+              Object {
+                "dataIndex": "soc",
+                "key": "soc",
+                "title": "S0C",
+                "width": 130,
+              },
+              Object {
+                "dataIndex": "sala_venta",
+                "key": "sal_venta",
+                "title": "Sala_Venta",
+                "width": 130,
+              },
+              Object {
+                "dataIndex": "concept",
+                "key": "concept",
+                "title": "Concept",
+                "width": 130,
+              },
+              Object {
+                "dataIndex": "process_date",
+                "key": "process_date",
+                "title": "Process_Date",
+                "width": 130,
+              },
+              Object {
+                "dataIndex": "importe",
+                "key": "importe",
+                "title": "IMPORTE",
+                "width": 130,
+              },
+              Object {
+                "dataIndex": "descuento",
+                "key": "descuento",
+                "title": "DESCUENTO",
+                "width": 130,
+              },
+              Object {
+                "dataIndex": "moneda",
+                "key": "moneda",
+                "title": "MONEDA",
+                "width": 130,
+              },
+            ]
+          }
+          emptyText={[Function]}
+          prefixCls="rc-table"
+          rowKey="key"
+        />
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            color="secondary"
+            tag="button"
+          >
+            Informations
+          </Button>
+          <Button
+            color="secondary"
+            tag="button"
+          >
+            Errors
+          </Button>
+          <Button
+            color="secondary"
+            tag="button"
+          >
+            Alerts
+          </Button>
+          <Button
+            color="secondary"
+            tag="button"
+          >
+            Filter
+          </Button>
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Table
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "type",
+                  "key": "type",
+                  "title": "Type",
+                  "width": 130,
+                },
+                Object {
+                  "dataIndex": "message",
+                  "key": "message",
+                  "title": "Message",
+                  "width": 130,
+                },
+              ]
+            }
+            emptyText={[Function]}
+            prefixCls="rc-table"
+            rowKey="key"
+          />
+        </Col>
+      </Row>
+    </Col>
+  </Row>
+</div>
+`;

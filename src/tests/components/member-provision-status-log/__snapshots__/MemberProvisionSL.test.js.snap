@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberProvisionSL component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      Member Provision Status Log
+    </h5>
+    <div
+      className="row"
+    >
+      <Input
+        col={3}
+        label="Company"
+        type="text"
+      />
+      <Input
+        col={3}
+        icon="fas fa-times"
+        label="Application"
+        type="text"
+      />
+      <Input
+        col={3}
+        label="Start Folio"
+        type="text"
+      />
+      <Input
+        col={3}
+        label="End Folio"
+        type="text"
+      />
+      <Select
+        col={8}
+        label="Type"
+      />
+      <Select
+        col={4}
+        label=""
+      />
+      <Button
+        col={3}
+        icon=""
+        title="Apply filter"
+        typebootstrap="primary"
+      />
+      <Button
+        col={3}
+        icon=""
+        title="Clear filter"
+        typebootstrap="secondary"
+      />
+      <TableMemberProvisionSL />
+    </div>
+  </div>
+</div>
+`;

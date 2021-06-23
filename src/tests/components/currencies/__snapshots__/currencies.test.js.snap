@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente Currencies Creacion de Currencies 1`] = `
+<Fragment>
+  <ForwardRef
+    bordered={true}
+    hover={true}
+    striped={true}
+  >
+    <thead>
+      <tr>
+        <td>
+          Code
+        </td>
+        <td>
+          Description
+        </td>
+        <td>
+          Country
+        </td>
+        <td>
+          Status
+        </td>
+        <td>
+          Fiscal ER
+        </td>
+        <td>
+          Fiscal Date
+        </td>
+        <td>
+          Sale Date
+        </td>
+        <td>
+          Purchase ER
+        </td>
+        <td>
+          Purchase Date
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          MX
+        </td>
+        <td>
+          PESO MEXICANO
+        </td>
+        <td>
+          MX
+        </td>
+        <td>
+          A
+        </td>
+        <td>
+          $1,000
+        </td>
+        <td>
+          10/29/2001
+        </td>
+        <td>
+          4/11/2003
+        </td>
+        <td>
+          $1,000
+        </td>
+        <td>
+          10/29/2001
+        </td>
+      </tr>
+    </tbody>
+  </ForwardRef>
+</Fragment>
+`;

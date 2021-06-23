@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DemographicAreas component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="h5"
+      >
+        Demographic Areas
+      </CardTitle>
+      <SimpleTable
+        columns={
+          Array [
+            Object {
+              "dataIndex": "code",
+              "key": "code",
+              "title": "Code",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "description",
+              "key": "description",
+              "title": "Description",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "status",
+              "key": "status",
+              "title": "Status",
+              "width": "1%",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "code": "1",
+              "description": "",
+              "status": "",
+            },
+            Object {
+              "code": "1",
+              "description": "",
+              "status": "",
+            },
+            Object {
+              "code": "1",
+              "description": "",
+              "status": "",
+            },
+            Object {
+              "code": "1",
+              "description": "",
+              "status": "",
+            },
+            Object {
+              "code": "1",
+              "description": "",
+              "status": "",
+            },
+            Object {
+              "code": "1",
+              "description": "",
+              "status": "",
+            },
+            Object {
+              "code": "1",
+              "description": "",
+              "status": "",
+            },
+            Object {
+              "code": "1",
+              "description": "",
+              "status": "",
+            },
+          ]
+        }
+        type="table"
+      />
+    </CardBody>
+  </Card>
+</Fragment>
+`;

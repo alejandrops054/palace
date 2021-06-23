@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Company component Debe mostrar snapshot 1`] = `
+<div
+  className="border-top border-secondary"
+>
+  <div
+    className="container"
+  >
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="col-2"
+      >
+        <InfoMembers
+          text="7"
+          title="Company"
+        />
+      </div>
+      <div
+        className="col-2"
+      >
+        <InfoMembers
+          text="1234567"
+          title="Application"
+        />
+      </div>
+      <div
+        className="col-3"
+      >
+        <InfoMembers
+          text="$0,000,000,000.00"
+          title="Amount financed CC"
+        />
+      </div>
+      <div
+        className="col-3"
+      >
+        <InfoMembers
+          text="$0,000,000,000.00"
+          title="Nount to be finnanced"
+        />
+      </div>
+      <div
+        className="col-2"
+      >
+        <InfoMembers
+          text="0"
+          title="Total payments"
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-2"
+      >
+        <InfoMembers
+          text="char"
+          title="Periodicity"
+        />
+      </div>
+      <div
+        className="col-2"
+      >
+        <InfoMembers
+          text="0"
+          title="Periodicity number"
+        />
+      </div>
+      <div
+        className="col-3"
+      >
+        <InfoMembers
+          text="John Doe"
+          title="Member name"
+        />
+      </div>
+      <div
+        className="col-3"
+      >
+        <InfoMembers
+          text="From $55,000.00 to $75,698.99 (8)"
+          title="Price level"
+        />
+      </div>
+      <div
+        className="col-2"
+      >
+        <InfoMembers
+          text="From $55,000.00 to $75,698.99 (8)"
+          title="Price level (NS)"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TablaPortafolioCompanies component debe mostrar snapshot 1`] = `
+<ForwardRef
+  bordered={true}
+  hover={true}
+  striped={true}
+>
+  <thead>
+    <tr>
+      <td
+        key="0"
+      >
+        ID
+      </td>
+      <td
+        key="1"
+      >
+        Code
+      </td>
+      <td
+        key="2"
+      >
+        Name
+      </td>
+      <td
+        key="3"
+      >
+        Number identification fiscal
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        1
+      </td>
+      <td>
+        CIHC
+      </td>
+      <td>
+        CONTROLADOR IHC S.A DE
+      </td>
+      <td>
+        Cih130221V31
+      </td>
+    </tr>
+    <tr>
+      <td>
+        2
+      </td>
+      <td>
+        HPR
+      </td>
+      <td>
+        HOTEL PALACE RESORTS, S.A.P.I DE C.V
+      </td>
+      <td>
+        Cih130221V31
+      </td>
+    </tr>
+    <tr>
+      <td>
+        2
+      </td>
+      <td>
+        HPR
+      </td>
+      <td>
+        HOTEL PALACE RESORTS, S.A.P.I DE C.V
+      </td>
+      <td>
+        Cih130221V31
+      </td>
+    </tr>
+  </tbody>
+</ForwardRef>
+`;

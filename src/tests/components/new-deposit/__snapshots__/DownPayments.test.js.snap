@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DownPayments component Debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <Nav
+      tabs={true}
+      tag="ul"
+      vertical={false}
+    >
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          onClick={[Function]}
+          tag="a"
+        >
+          Down Payments
+        </NavLink>
+      </NavItem>
+      <NavItem
+        tag="li"
+      >
+        <NavLink
+          onClick={[Function]}
+          tag="a"
+        >
+          Fees
+        </NavLink>
+      </NavItem>
+    </Nav>
+    <TabContent
+      activeTab="1"
+      tag="div"
+    >
+      <TabPane
+        tabId="1"
+        tag="div"
+      >
+        <div
+          className="row"
+        >
+          <Button
+            col={3}
+            title="Down Payments"
+            type="prymary"
+            typebootstrap="primary"
+          />
+          <Input
+            col={3}
+            label="Amount"
+            type="text"
+          />
+          <Input
+            col={3}
+            label="Collected"
+            type="text"
+          />
+          <Etiqueta
+            col={4}
+            etiqueta="Currency: DOLAR U.S.A"
+          />
+          <Input
+            col={4}
+            label=""
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Collected AF"
+            type="text"
+          />
+        </div>
+      </TabPane>
+      <TabPane
+        tabId="2"
+        tag="div"
+      >
+        <div
+          className="row"
+        >
+          <Checkbox
+            col={6}
+            label="Late/Service Fee"
+          />
+          <Input
+            col={6}
+            label=""
+            type="text"
+          />
+          <Checkbox
+            col={6}
+            label="Refinancing Fee"
+          />
+          <Input
+            col={6}
+            label=""
+            type="text"
+          />
+        </div>
+      </TabPane>
+    </TabContent>
+  </div>
+</div>
+`;

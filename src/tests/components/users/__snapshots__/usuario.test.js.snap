@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersClass Usuario debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <label
+      col={12}
+    >
+      Users
+    </label>
+    <div
+      className="row"
+    >
+      <Button
+        className="btn btn-primary"
+        style={
+          Object {
+            "width": "20%",
+          }
+        }
+        title="Create Users"
+        type="button"
+      />
+      <div
+        className="col-md-12"
+      >
+        <TablaUsuarios />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

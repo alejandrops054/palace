@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente Promises Creacion de Promises 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-3"
+      >
+        <h7>
+          Promisse :
+        </h7>
+        <Button
+          title="$000,0000,0000.00"
+          type="button"
+          typebootstrap="btn btn-link main"
+        />
+      </div>
+      <div
+        className="col-md-9 d-flex justify-content-end tables"
+      >
+        <Button
+          col="1.5"
+          icon="fas fa-plus"
+          onClick={[Function]}
+          title="Add promise"
+          type="button"
+          typebootstrap="link main"
+        />
+        <Button
+          col="1.5"
+          icon="fas fa-plus"
+          onClick={[Function]}
+          title="Add credit card"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col="1.5"
+          icon="fas fa-trash"
+          title="Delete credit card"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col="1.5"
+          icon="fas fa-log"
+          title="Log"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col="1.5"
+          icon="fas fa-upload"
+          title="Replace"
+          type="button"
+          typebootstrap="link"
+        />
+      </div>
+    </div>
+    <div
+      className="card-body table"
+    >
+      <Table
+        columns={
+          Array [
+            Object {
+              "align": "center",
+              "dataIndex": "check",
+              "key": "1",
+              "render": [Function],
+              "title": <Checkbox />,
+              "width": 60,
+            },
+            Object {
+              "dataIndex": "Financing_ID",
+              "key": "Financing_ID",
+              "title": "FinancingID",
+              "width": 140,
+            },
+            Object {
+              "dataIndex": "Payment_ID",
+              "key": "Payment_ID",
+              "title": "Payment ID",
+              "width": 140,
+            },
+            Object {
+              "dataIndex": "Amount",
+              "key": "Amount",
+              "title": "Amount",
+              "width": 140,
+            },
+            Object {
+              "dataIndex": "Down",
+              "key": "Down",
+              "title": "Down",
+              "width": 140,
+            },
+            Object {
+              "dataIndex": "Amount_Fee",
+              "key": "Amount_Fee",
+              "title": "Amount Fee",
+              "width": 140,
+            },
+            Object {
+              "dataIndex": "Date",
+              "key": "Date",
+              "title": "Date",
+              "width": 140,
+            },
+            Object {
+              "dataIndex": "Status",
+              "key": "Status",
+              "title": "Status",
+              "width": 50,
+            },
+            Object {
+              "dataIndex": "Status",
+              "key": "Status",
+              "render": [Function],
+              "title": <Button
+                icon="fas fa-ellipsis-v"
+                type="button"
+                typebootstrap="link"
+              />,
+              "width": 50,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "Amount": "$2,50.00",
+              "Amount_Fee": "$0.0",
+              "Date": "12/25/2020",
+              "Down": "$2,50.00",
+              "Financing_ID": "0",
+              "Payment_ID": "1",
+              "Status": "Alta",
+            },
+          ]
+        }
+        emptyText={[Function]}
+        id="resume-table"
+        prefixCls="rc-table"
+        rowKey="key"
+      />
+    </div>
+  </div>
+  <Modal
+    autoFocus={true}
+    backdrop={true}
+    backdropTransition={
+      Object {
+        "mountOnEnter": true,
+        "timeout": 150,
+      }
+    }
+    centered={false}
+    container="body"
+    fade={true}
+    isOpen={false}
+    keyboard={true}
+    modalTransition={
+      Object {
+        "timeout": 300,
+      }
+    }
+    onClosed={[Function]}
+    onOpened={[Function]}
+    returnFocusAfterClose={true}
+    role="dialog"
+    scrollable={false}
+    size="md"
+    toggle={[Function]}
+    unmountOnClose={true}
+    zIndex={1050}
+  >
+    <form>
+      <ModalHeader
+        charCode={215}
+        closeAriaLabel="Close"
+        tag="h5"
+        wrapTag="div"
+      >
+        New credit card
+      </ModalHeader>
+      <ModalBody
+        className="p-0 "
+        tag="div"
+      >
+        <NewCreditCard />
+      </ModalBody>
+    </form>
+  </Modal>
+  <Modal
+    autoFocus={true}
+    backdrop={true}
+    backdropTransition={
+      Object {
+        "mountOnEnter": true,
+        "timeout": 150,
+      }
+    }
+    centered={false}
+    container="body"
+    fade={true}
+    isOpen={false}
+    keyboard={true}
+    modalTransition={
+      Object {
+        "timeout": 300,
+      }
+    }
+    onClosed={[Function]}
+    onOpened={[Function]}
+    returnFocusAfterClose={true}
+    role="dialog"
+    scrollable={false}
+    size="md"
+    toggle={[Function]}
+    unmountOnClose={true}
+    zIndex={1050}
+  >
+    <form>
+      <ModalHeader
+        charCode={215}
+        closeAriaLabel="Close"
+        tag="h5"
+        wrapTag="div"
+      >
+        Financing promises
+      </ModalHeader>
+      <ModalBody
+        className="p-0 "
+        tag="div"
+      >
+        <FinancingPromesis />
+      </ModalBody>
+    </form>
+  </Modal>
+</Fragment>
+`;

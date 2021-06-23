@@ -1,0 +1,1209 @@
+/*!
+GENERAL LAYOUT STYLESHEET
+Theme Name: Intelligence 2.0
+Author: Integra IT
+Author URI: https://integraite.com.mx/
+Version: 2.0.0
+*/
+
+/* ---------------------------------------------
+ * LAYOUT & COMPONENTES
+--------------------------------------------- */
+/* Layout
+--------------------------------------------- */
+html body {
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Work Sans', sans-serif;
+}
+
+form h3 {
+	font-size: 18px;
+}
+
+/* Wrappers */
+.page {
+	vertical-align: top;
+	display: flex;
+}
+
+.menu-bar {
+	width: 90px;
+	height: 100vh;
+	padding-top: 12px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.app-content {
+	margin-left: 6.75rem;
+	padding: 20px 1rem;
+	width: 100%;
+	transition: all ease-in-out .25s;
+}
+
+.app-content.toggled {
+	margin-left: 305px;
+}
+
+.app-content main {
+	display: flex;
+	margin: 0 -1rem;
+}
+
+header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.module-header {
+	display: flex;
+	margin-bottom: 1.5rem;
+}
+
+.customer-data {
+	width: 220px;
+	border-radius: 2rem;
+	margin: 0 1rem 1.5rem;
+	padding: 2rem 1rem;
+	position: relative;
+}
+
+.customer-avatar {
+	position: relative;
+	margin-right: 5px;
+}
+
+.content-area {
+	width: 100%;
+	height: 100vh;
+	margin: 0 1rem 1.5rem;
+	position: relative;
+}
+
+.notes-list {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.wizard {
+	max-width: 400px;
+	margin: 0 auto 1.5rem;
+}
+
+.card {
+	border-radius: 2rem !important;
+	padding: 1rem;
+}
+
+.accordion-item {
+	border-radius: 1rem;
+	margin-bottom: .25rem;
+}
+
+.accordion-collapse {
+	padding: 1rem;
+}
+
+.filters-container {
+	display: none;
+}
+
+.filters-container.toggled {
+	display: block;
+}
+
+@media screen and (max-width: 991px) {
+	/* Wrappers */
+	.page {
+		display: block;
+	}
+
+	.menu-bar {
+		width: 100%;
+		height: 70px;
+		padding: 0 1rem;
+		display: flex;
+	}
+
+	.app-content,
+	.app-content.toggled {
+		margin-left: initial;
+		margin-top: 75px;
+	}
+
+	.app-content main {
+		display: block;
+		margin: 0;
+	}
+
+	.content-area {
+		margin: 0 0 1.5rem;
+	}
+
+	.customer-data {
+		max-width: 450px;
+		width: 100%;
+		height: 100px;
+		border-radius: 10rem;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.app-content aside {
+		margin-bottom: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.module-header {
+		display: initial;
+		text-align: center;
+	}
+}
+
+/* Texts
+--------------------------------------------- */
+.page-title {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.notes-list label {
+	float: left;
+	position: relative;
+	z-index: 2;
+	margin: 1.5rem 0 0 .5rem;
+}
+
+.content-title {
+	text-align: center;
+	font-size: 21px;
+	margin-bottom: 1.5rem;
+}
+
+.accordion-header {
+	margin-bottom: 0;
+}
+
+/* Links & buttons
+--------------------------------------------- */
+.page a {
+	transition: all ease-in-out .12s;
+	position: relative;
+}
+
+.page a:hover,
+.page a:focus {
+	text-decoration: none;
+}
+
+.page button {
+	border: 0;
+	position: relative;
+	transition: all ease-in-out .12s;
+}
+
+button.btn,
+input.btn,
+a.btn {
+	border-radius: 0;
+}
+
+button.btn-primary,
+button.btn-default,
+input.btn-primary,
+input.btn-default,
+a.btn-primary,
+button.btn-secondary,
+button.btn-secondary,
+input.btn-secondary,
+input.btn-secondary,
+a.btn-secondary,
+button.btn-default,
+button.btn-default,
+input.btn-default,
+input.btn-default,
+a.btn-default {
+	border: 2px solid;
+}
+
+.submenu button {
+	display: block;
+	margin-left: auto;
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+	opacity: .5;
+}
+
+.submenu button:hover {
+	opacity: 1;
+}
+
+button.btn-notes,
+button.btn-notes:hover {
+	opacity: .9;
+	background-color: transparent !important;
+	z-index: 1;
+	margin: 1.5rem 1.5rem 0 0;
+	float: right;
+}
+
+button.btn-notes.active:hover {
+	opacity: 1;
+}
+
+button.btn-toggle {
+	display: none;
+	height: 70px;
+	width: 70px;
+	background-color: transparent;
+}
+
+.accordion-button,
+.accordion .accordion-button:hover,
+.accordion .accordion-button:focus {
+	background-color: transparent;
+	width: 100%;
+	border-radius: 1rem;
+	text-align: left;
+}
+
+.accordion-button {
+	padding: 1.5rem 1rem;
+}
+
+.accordion-button:not(.collapsed)::after {
+	transform: rotate(180deg);
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "\f078";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    transition: transform .2s ease-in-out;
+    float: right;
+}
+
+
+/* Notes on */
+.btn-notes {
+	display: block;
+	margin-left: auto;
+	background-color: transparent;
+	font-size: 1.3rem;
+	padding: 0;
+	width: auto;
+	height: auto;
+	line-height: initial;
+}
+
+@media screen and (max-width: 991px) {
+	.app-notifications .menu a {
+		font-size: 1.5rem;
+		width: 70px;
+		height: 70px;
+	}
+
+	button.btn-toggle {
+		display: block;
+	}
+
+	.notes-list {
+		top: 3px;
+		right: 3px;
+	}
+}
+
+/* Navigation
+--------------------------------------------- */
+/* Menu bar ---- */
+.main-navigation {
+	z-index: 1;
+}
+
+.menu li {
+	text-align: center;
+	clear: both;
+}
+
+.menu a {
+	display: block;
+	margin: auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 10rem;
+	line-height: 3;
+}
+
+.menu a:hover {
+	color: #FFF;
+	transition: all ease-in-out .12s;
+}
+
+.menu a:hover > .link-name {
+	overflow: visible;
+	margin-left: 12px;
+	z-index: 2;
+	clip-path: initial;
+	padding: .25rem .5rem;
+	top: 0;
+	clip: initial;
+	border-radius: 0 .5rem .5rem 0;
+	font-size: 14px;
+	line-height: 1.5;
+	top: 10px;
+}
+
+.link-name {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	margin-left: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	word-wrap: normal !important;
+	transition: all ease-in-out .12s;
+	top: 10px;
+}
+
+.submenu {
+	position: fixed;
+	top: 0;
+	left: -9999px;
+	width: 205px;
+	height: 100vh;
+	padding: 1rem;
+	z-index: -1;
+}
+
+.has-children:hover > .submenu {
+	left: 90px;
+}
+
+.submenu li {
+	text-align: left;
+	font-size: 14px;
+}
+
+.submenu a {
+	width: auto;
+}
+
+@media screen and (max-width: 991px) {
+	.main-navigation ul {
+		display: none;
+	}
+
+	.menu.toggled {
+		display: block;
+	}
+}
+
+/* Breadcrumbs ---- */
+.breadcrumbs {
+	margin-left: 2rem;
+}
+
+.breadcrumbs ul {
+	display: flex;
+	margin-top: .5rem;
+}
+
+.breadcrumbs li {
+	padding: 0 .4rem;
+	vertical-align: top;
+}
+
+.breadcrumbs li::after {
+	content: '\f0a9';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: bold;
+	margin-left: .5rem;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.breadcrumbs li:last-child::after {
+	display: none;
+}
+
+.breadcrumbs a {
+	font-size: 14px;
+}
+
+.breadcrumbs .ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 90px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 991px) {
+	.breadcrumbs {
+		margin-left: auto;
+	}
+
+	.breadcrumbs ul {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.breadcrumbs {
+		margin-left: initial;
+		margin-bottom: 1rem;
+	}
+}
+
+/* Notes list */
+.list-container {
+	display: none;
+	border-radius: 2rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0 .5rem 1rem;
+}
+
+.list-container.toggled {
+	display: block;
+}
+
+.list-container ul {
+	list-style: none;
+	margin: 0 0 1rem;
+	padding: 0;
+}
+
+.list-container li {
+	text-align: left;
+	padding: .5rem;
+	border-bottom: 1px solid;
+}
+
+.list-container a {
+	width: auto;
+	height: auto;
+	margin: initial;
+	line-height: initial;
+	font-size: 14px;
+}
+
+.list-container p {
+	margin-bottom: 0;
+}
+
+.note-meta {
+	display: flex;
+	margin-top: 5px;
+}
+
+.note-meta small {
+	font-size: 10px;
+	width: 100%;
+}
+
+.note-meta small:last-child {
+	margin-left: auto;
+	text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+	.notes-list {
+		top: initial;
+		right: 0;
+		bottom: -2.5rem;
+	}
+}
+
+/* Components
+--------------------------------------------- */
+/* Form components */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"]
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover
+
+button:active, button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+	border-radius: .25rem;
+	border: 1px solid;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"] {
+	height: 46px;
+}
+
+.form-switch .form-check-input {
+	border: 2px solid;
+	width: 4rem;
+	height: 2rem;
+}
+
+.input-group>.input-group-append>.btn {
+	border-radius: 0 .25rem .25rem 0;
+	padding: 3px 12px;
+}
+
+#gm-group .input-group-append .btn {
+	border-left-color: transparent;
+	border-width: 1px;
+	border-radius: 0 .25rem .2rem 0;
+}
+
+ul.nav-tabs {
+	border-bottom: 0;
+}
+
+.nav-tabs a.nav-link,
+.nav-tabs a.nav-link.active {
+	background-color: transparent;
+	border: 0;
+}
+
+.nav-tabs a.nav-link {
+	border: 0;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+	border: 0;
+}
+
+/* Customer Resume */
+.customer-photo {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 10px;
+	border-radius: 200rem;
+	overflow: hidden;
+	position: relative;
+	border: 2px solid;
+}
+
+.customer-photo img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.customer-avatar button {
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 2.5rem;
+	border-radius: 5rem;
+	line-height: 0;
+}
+
+button.btn-photo {
+	width: 2rem;
+	height: 2rem;
+	padding: 0;
+}
+
+.customer-resume h2,
+.customer-resume label,
+.customer-resume h3 {
+	text-align: center;
+}
+
+.customer-resume h2 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-right: 5px;
+}
+
+.customer-resume h3 {
+	font-size: 14px;
+}
+
+.customer-resume label {
+	font-size: 12px;
+	text-transform: uppercase;
+	display: block;
+	letter-spacing: 1.71px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+.data-resume {
+	font-size: 12px;
+	font-weight: normal;
+	vertical-align: top;
+	width: 190px;
+	margin-bottom: 1.5rem;
+}
+
+.data-resume th,
+.data-resume td {
+	vertical-align: top;
+	padding: .12rem .5rem;
+	letter-spacing: -0.19px;
+}
+
+.data-resume th i {
+	display: inline-block;
+	width: 1.25rem;
+	text-align: center;
+}
+
+.form-nav {
+	position: sticky;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	height: 60px;
+	text-align: center;
+	border-radius: 1rem 1rem 0 0;
+	padding-top: .75rem;
+}
+
+.form-nav button,
+.form-nav input[type="button"],
+.form-nav button[type="submit"] {
+	margin: 0 .5rem;
+}
+
+@media screen and (max-width: 991px) {
+	table.data-resume,
+	.customer-resume h3,
+	.customer-resume canvas.chart {
+		display: none !important;
+	}
+
+	.customer-resume h2,
+	.customer-resume label,
+	.customer-resume h3 {
+		text-align: left;
+	}
+
+	.customer-avatar,
+	.customer-meta {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.customer-avatar {
+		height: 100px;
+	}
+
+	.customer-meta {
+		margin-left: 13%;
+	}
+
+	.customer-avatar button {
+		bottom: 2rem;
+		right: -1rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.customer-meta {
+		margin-left: 1.5rem;
+	}
+}
+
+/* Tables */
+.page .table td,
+.page .table th {
+	border: 0;
+	padding: 1rem;
+}
+
+.page .table input[type="checkbox"] {
+	display: inline-block;
+}
+
+/* Badges */
+span.badge {
+	border-radius: 10rem;
+	border: 2px solid;
+}
+
+a span.badge {
+	position: absolute;
+	top: 2px;
+	right: 3px;
+	border: 3px solid;
+}
+
+.notes-list .badge {
+	position: absolute;
+	top: -.5rem;
+	right: -1rem;
+}
+
+@media screen and (max-width: 991px) {
+	.app-notifications span.badge {
+		position: relative;
+		top: -3px;
+		right: 10px;
+	}
+}
+
+/* Spinners */
+span.visually-hidden {
+	visibility: hidden;
+}
+
+/* Charts */
+.chart i {
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+	left: 0;
+    font-size: 3rem;
+    margin: auto;
+    width: 60px;
+    height: 48px;
+}
+
+/* Wizard */
+.wizard ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	height: 50px
+}
+
+.wizard ul::before {
+	content: '';
+	position: absolute;
+	top: 1.5rem;
+	left: 0;
+	width: 100%;
+	height: 2px;
+}
+
+.wizard li {
+	margin: auto;
+	vertical-align: middle;
+}
+
+.wizard li:first-child {
+	margin-left: 0;
+}
+
+.wizard li:last-child {
+	margin-right: 0;
+}
+
+.wizard button {
+	width: 40px;
+	height: 40px;
+	border: 2px solid;
+	font-size: 1rem;
+	border-radius: 10rem;
+}
+
+.wizard button.active {
+	width: 50px;
+	height: 50px;
+	font-size: 1.5rem;
+	border-width: 4px;
+}
+
+/* Checkboxes */
+.checkbox_input {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 1rem;
+	height: 1rem;
+	vertical-align: middle;
+}
+
+.checkbox_input input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 1rem;
+	width: 1rem;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	margin: auto;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1rem;
+	width: 1rem;
+	border: 2px solid;
+	border-radius: .25rem;
+}
+
+.checkmark::after {
+	content: '\f00c';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: bold;
+	font-size: .75rem;
+	position: absolute;
+	display: none;
+}
+
+.checkbox_input input:checked ~ .checkmark::after {
+	display: block;
+	border-radius: .25rem;
+	left: 0;
+	top: -2px;
+}
+
+.checkbox_input .checkmark::after {
+	left: 0;
+	top: 0;
+	width: 1rem;
+	height: 1rem;
+}
+
+/* Pagination */
+.table-footer {
+display: flex;
+}
+
+.table-footer nav {
+	margin-left: auto;
+}
+
+.table-pagination {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.table-pagination li.tp-item {
+	clear: both;
+	vertical-align: top;
+	margin: 0 1px;
+}
+
+.table-pagination a.tp-link {
+	display: block;
+	padding: .25rem .5rem;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.table-pagination a.tp-link.active {
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+}
+
+.table-pagination li:first-child a.tp-link {
+	border-radius: .25rem 0 0 .25rem;
+}
+
+.table-pagination li:last-child a.tp-link {
+	border-radius: 0 .25rem .25rem 0;
+}
+
+/* ---------------------------------------------
+ * BRANDING
+--------------------------------------------- */
+/* Branding & profile
+--------------------------------------------- */
+.app-branding,
+.user-profile {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.app-branding a,
+.user-profile a {
+	display: block;
+}
+
+.app-branding a {
+	width: 73px;
+	height: 73px;
+	margin: 0 auto;
+	padding: 18px 11px;
+	border-radius: 10rem;
+	transition: all ease-in-out .12s;
+}
+
+.custom-logo {
+	width: 100%;
+}
+
+.custom-profile {
+	width: 50px;
+	height: 50px;
+	border-radius: 10rem;
+	border: 1px solid;
+}
+
+@media screen and (max-width: 991px) {
+	.app-branding,
+	.user-profile,
+	.app-notifications,
+	.main-navigation {
+		height: 70px;
+		margin-bottom: 0;
+		vertical-align: top;
+	}
+
+	.app-branding,
+	.user-profile {
+		margin-right: 1rem;
+	}
+
+	.app-notifications,
+	.main-navigation {
+		margin-left: auto;
+	}
+
+	.user-profile a {
+		line-height: 4.25;
+	}
+
+	.app-notification a,
+	.main-navigation button.btn-toggle {
+		font-size: 1.5rem;
+	}
+}
+
+/* Modal */
+.modal-header {
+	border-bottom: 0;
+}
+
+.modal-footer {
+	border-top: 0;
+}
+
+/* ---------------------------------------------
+ * SINGLE SIGN ON
+--------------------------------------------- */
+/* Layout
+--------------------------------------------- */
+.sso-container,
+.sso-cover {
+	vertical-align: top;
+	position: relative;
+	padding: 1.5rem;
+	height: 100vh;
+}
+
+.sso-header{
+	text-align: center;
+}
+
+.sso-container {
+	width: 60vw;
+}
+
+.sso-cover {
+	width: 100vw;
+	overflow: hidden;
+}
+
+@media screen and (min-width: 992px) {
+	.sso-container main {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+	.sso-container {
+		order: 1;
+	}
+
+	.sso-cover {
+		order: 2;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.sso-container main {
+		width: 30vw;
+		height: 95vh;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.sso-container,
+	.sso-cover {
+		width: 100vw;
+	}
+
+	.sso-container {
+		height: auto;
+	}
+
+	.sso-cover {
+		height: 35vh;
+	}
+}
+
+/* Branding
+--------------------------------------------- */
+.sso-apps {
+	margin-left: 0;
+	margin-bottom: 2rem;
+	padding-left: 0;
+	list-style: none;
+	display: flex;
+}
+
+.sso-apps li {
+	vertical-align: top;
+	margin-right: auto;
+}
+
+.sso-apps img {
+	width: 30px;
+}
+
+/* SSO Headings */
+.pe-title {
+	margin-bottom: 10px;
+}
+
+.sso-title {
+	margin-bottom: 20px;
+}
+
+.sso-form-title {
+	font-size: 3.4rem;
+	line-height: 3rem;
+	font-weight: bold;
+	margin-bottom: 2rem;
+	text-align: center;
+	padding-top: 5%;
+}
+
+.sso-form form h3 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+/* SSO Images */
+.sso-title img {
+	max-width: 180px;
+}
+
+.sso-cover img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* SSO Login Form */
+.sso-form form .input-group-text,
+.sso-form .input-group>.custom-select:not(:first-child),
+.sso-form .input-group>.form-control:not(:first-child) {
+	border-radius: 0;
+	border: 0;
+}
+
+.sso-form form .input-group-text {
+	background-color: #2C3248;
+	color: #9BA2C6;
+}
+
+.sso-container a i{
+	color: #00AF9F;
+}
+
+input {
+	border:none!important;
+	background-color: #212337!important;
+	color: #FFF!important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none  !important;
+}
+
+a {
+	cursor: pointer!important;
+}

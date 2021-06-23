@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCard component Debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-body"
+    >
+      <div
+        className="row"
+      >
+        <Select
+          col={8}
+          label="Depost Type"
+        />
+        <Input
+          col={4}
+          label="Date"
+          type="text"
+        />
+        <Checkbox
+          col={12}
+          label="Admin Fee Include"
+        />
+        <h5
+          className="card-title"
+        >
+          ...
+        </h5>
+        <Input
+          col={4}
+          label="Code"
+          type="text"
+        />
+        <Input
+          col={4}
+          label="..."
+          type="text"
+        />
+        <Input
+          col={4}
+          label="Payment Type"
+          type="text"
+        />
+        <Select
+          col={12}
+          label="Transaction Type"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-body"
+    >
+      <div
+        className="row"
+      >
+        <Input
+          col={6}
+          label="Credit Card"
+          type="text"
+        />
+        <Input
+          col={6}
+          label="Credit Card #"
+          type="text"
+        />
+        <Input
+          col={6}
+          label="Expire"
+          type="text"
+        />
+        <Input
+          col={6}
+          label="Authorization #"
+          type="text"
+        />
+        <Input
+          col={6}
+          label="Credit Card Name"
+          type="text"
+        />
+        <Checkbox
+          col={6}
+          label="Debit Card"
+          type="text"
+        />
+        <Input
+          col={6}
+          label="Credit Granted"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

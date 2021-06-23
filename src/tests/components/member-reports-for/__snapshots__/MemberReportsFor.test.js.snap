@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberReportsFor component debe mostrar snapshot 1`] = `
+<Fragment>
+  <header
+    className="app-header menu-bar"
+  >
+    <MainMenu />
+  </header>
+  <div
+    className="container"
+  >
+    <Header
+      icon="fas fa-edit"
+      title="Reports"
+    />
+    <div
+      className="d-flex align-items-center mt-5 pt-5"
+    >
+      <h2
+        className="mt-5 mb-5"
+      >
+        Memberships report for...
+      </h2>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-4"
+      >
+        <Input
+          col={12}
+          icon="fas fa-search"
+          label=""
+          placeholder="Search guest ID"
+          type="text"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <Select
+          col={12}
+          colIcon={0}
+          label=""
+          option="Processable"
+        />
+      </div>
+    </div>
+    <div
+      className="row mt-4"
+    >
+      <div
+        className="col-md-6"
+      >
+        <img
+          alt="report"
+          src="archive.svg"
+        />
+      </div>
+      <div
+        className="col-md-6 text-center"
+      >
+        <h1>
+          <Link
+            to="/reports/membership-reports/customer-search"
+          >
+            Look for into our archive what you need
+          </Link>
+        </h1>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

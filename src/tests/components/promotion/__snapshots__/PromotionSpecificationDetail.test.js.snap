@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PromotionSpecificationDetail component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="h5"
+      >
+        Promotion Specification
+      </CardTitle>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Specification Type
+          </Label>
+          <Input
+            id="exampleSelect"
+            name="select"
+            type="select"
+          >
+            <option>
+              1
+            </option>
+            <option>
+              2
+            </option>
+          </Input>
+        </Col>
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Status
+          </Label>
+          <Input
+            id="exampleSelect"
+            name="select"
+            type="select"
+          >
+            <option>
+              1
+            </option>
+            <option>
+              2
+            </option>
+          </Input>
+        </Col>
+      </Row>
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col={2}
+          title="Save"
+          type="submit"
+          typebootstrap="primary "
+        />
+        <Button
+          col={2}
+          title="Cancel"
+          type="button"
+          typebootstrap="secondary"
+        />
+      </div>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

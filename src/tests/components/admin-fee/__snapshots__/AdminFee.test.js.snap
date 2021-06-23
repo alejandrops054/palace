@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminFee component debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <div
+        className="card-title"
+      >
+        <h3>
+          Admin Fee
+        </h3>
+      </div>
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-6"
+        >
+          <Input
+            col={12}
+            icon="fas fa-dollar-sign"
+            label="Admin Fee Requiered"
+            placeholder="275.00"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-lg-6"
+        >
+          <Input
+            col={12}
+            icon="fas fa-dollar-sign"
+            label="Admin Fee"
+            placeholder="0.00"
+            type="text"
+          />
+          <Input
+            col={12}
+            icon="fas fa-dollar-sign"
+            label="Discount Products"
+            placeholder="275.00"
+            type="text"
+          />
+          <Input
+            col={12}
+            icon="fas fa-dollar-sign"
+            label="Waiver"
+            placeholder="0.00"
+            type="text"
+          />
+          <Hr />
+          <Input
+            col={12}
+            icon="fas fa-dollar-sign"
+            label="Total"
+            placeholder="275.00"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="card-footer d-flex justify-content-center"
+    >
+      <Button
+        col={3}
+        icon="fas fa-times"
+        title="Cancel"
+        type="button"
+        typebootstrap="secondary"
+      />
+      <Button
+        col={3}
+        icon="fas fa-check"
+        title="Accept"
+        type="button"
+        typebootstrap="primary "
+      />
+    </div>
+  </div>
+</div>
+`;

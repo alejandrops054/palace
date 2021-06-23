@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba componente UI Label2 Debe de mostrar el componente <Label2/> 1`] = `
+<label
+  style={
+    Object {
+      "color": "",
+      "fontSize": "",
+      "fontWeight": "bold",
+    }
+  }
+/>
+`;

@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContractsTextTable component debe mostrar snapshot 1`] = `
+<form
+  className="mb-6"
+>
+  <div
+    className="card"
+  >
+    <br />
+    <h3>
+      Member Information
+    </h3>
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-4"
+      >
+        <Input
+          col={12}
+          label="Company"
+          placeholder="5"
+          type="text"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <Input
+          col={12}
+          label="Application"
+          placeholder="60007770"
+          type="text"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <Input
+          col={12}
+          label="Member Name"
+          placeholder="WILLIAM TORRES FLOTA"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-4"
+      >
+        <Input
+          col={12}
+          label="Office"
+          placeholder="11"
+          type="text"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <Input
+          col={12}
+          label="PLAYACAR PALACE"
+          placeholder=""
+          type="text"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <Input
+          col={12}
+          label="Project"
+          placeholder="PALACE ELITE"
+          type="text"
+        />
+      </div>
+    </div>
+    <br />
+    <br />
+    <div>
+      <Table
+        className="table"
+        columns={
+          Array [
+            Object {
+              "dataIndex": "number",
+              "key": "number",
+              "title": "Number",
+              "width": 200,
+            },
+            Object {
+              "dataIndex": "text",
+              "key": "text",
+              "title": "Text",
+              "width": 200,
+            },
+            Object {
+              "dataIndex": "status",
+              "key": "status",
+              "title": "Status",
+              "width": 200,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "number": "11",
+              "status": <Select
+                col={9}
+                option="Alta "
+              />,
+              "text": "ZAPATERIA 3 HERMANOS",
+            },
+          ]
+        }
+        emptyText={[Function]}
+        prefixCls="rc-table"
+        rowKey="key"
+      />
+    </div>
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-3"
+      >
+        <Button
+          col="5"
+          title="Log"
+          typebootstrap="secondary"
+        />
+      </div>
+      <div
+        className="col-md-3"
+      >
+        <Button
+          col="5"
+          title="Add"
+          typebootstrap="secondary"
+        />
+      </div>
+      <div
+        className="col-md-3"
+      >
+        <Button
+          col="8"
+          title="Properties"
+          typebootstrap="secondary"
+        />
+      </div>
+      <div
+        className="col-md-3"
+      >
+        <Button
+          col="6"
+          title="Close"
+          typebootstrap="primary"
+        />
+      </div>
+    </div>
+  </div>
+</form>
+`;

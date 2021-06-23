@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DemographicAreaEditing component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="h5"
+      >
+        Demographic Area Editing
+      </CardTitle>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Code
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Status
+          </Label>
+          <Input
+            id="exampleSelect"
+            name="select"
+            type="select"
+          >
+            <option>
+              Alta
+            </option>
+            <option>
+              2
+            </option>
+          </Input>
+        </Col>
+        <Col
+          md={12}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Name
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          md={4}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Amount
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          md={4}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Begining Date
+          </Label>
+          <Input
+            type="date"
+          />
+        </Col>
+        <Col
+          md={4}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Ending Date
+          </Label>
+          <Input
+            type="date"
+          />
+        </Col>
+        <Col
+          className="justify-content-end"
+          md={12}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            color="primary"
+            tag="button"
+          >
+            <i
+              className="fas fa-save"
+            />
+            Save
+          </Button>
+          <Button
+            color="primary"
+            tag="button"
+          >
+            <i
+              className="fas fa-times"
+            />
+            Cancel
+          </Button>
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

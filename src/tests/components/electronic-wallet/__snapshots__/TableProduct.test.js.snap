@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableProduct component debe mostrar snapshot 1`] = `
+<div
+  className="card border-top border-secondary mb-3"
+>
+  <SimpleTable
+    columns={
+      Array [
+        Object {
+          "dataIndex": "product",
+          "key": "product",
+          "title": "Product",
+          "width": "7%",
+        },
+        Object {
+          "dataIndex": "description",
+          "key": "description",
+          "title": "Description",
+          "width": "7%",
+        },
+        Object {
+          "dataIndex": "changes",
+          "key": "changes",
+          "title": "Changes",
+          "width": "7%",
+        },
+        Object {
+          "dataIndex": "credits",
+          "key": "credits",
+          "title": "Credits",
+          "width": "7%",
+        },
+        Object {
+          "dataIndex": "balance",
+          "key": "balance",
+          "title": "Balance",
+          "width": "7%",
+        },
+        Object {
+          "dataIndex": "log",
+          "key": "log",
+          "title": "Log",
+          "width": "7%",
+        },
+        Object {
+          "dataIndex": "logdetails",
+          "key": "logdetails",
+          "title": "Log Details",
+          "width": "7%",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "balance": "",
+          "changes": "",
+          "credits": "",
+          "description": "",
+          "log": "",
+          "logdetails": "",
+          "product": "",
+        },
+        Object {
+          "balance": "",
+          "changes": "",
+          "credits": "",
+          "description": "",
+          "log": "",
+          "logdetails": "",
+          "product": "",
+        },
+        Object {
+          "balance": "",
+          "changes": "",
+          "credits": "",
+          "description": "",
+          "log": "",
+          "logdetails": "",
+          "product": "",
+        },
+        Object {
+          "balance": "",
+          "changes": "",
+          "credits": "",
+          "description": "",
+          "log": "",
+          "logdetails": "",
+          "product": "",
+        },
+      ]
+    }
+    style={
+      Object {
+        "width": 120,
+      }
+    }
+    type="table"
+  />
+</div>
+`;

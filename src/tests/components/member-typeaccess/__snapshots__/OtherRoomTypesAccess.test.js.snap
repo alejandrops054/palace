@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OtherRoomTypesAccess component debe mostrar snapshot 1`] = `
+<div
+  className="m-3"
+>
+  <div
+    className="d-flex"
+  >
+    <InfoMembers
+      color="#fff"
+      text=" "
+      title="List Hotels :"
+    />
+  </div>
+  <Table
+    className="table"
+    columns={
+      Array [
+        Object {
+          "align": "center",
+          "dataIndex": "Code",
+          "key": "Code",
+          "title": "Code",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Description",
+          "key": "Description",
+          "title": "Description",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Total_Access",
+          "key": "Total_Access",
+          "title": "Total Access",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Authorized_Access",
+          "key": "Authorized_Access",
+          "title": "Authorized Access",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Validity",
+          "key": "Validity",
+          "title": "Validity",
+          "width": 160,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "Authorized_Access": "0",
+          "Code": "2021",
+          "Description": "0",
+          "Total_Access": "0",
+          "Validity": "0",
+        },
+        Object {
+          "Authorized_Access": "0",
+          "Code": "2021",
+          "Description": "0",
+          "Total_Access": "0",
+          "Validity": "0",
+        },
+        Object {
+          "Authorized_Access": "0",
+          "Code": "2021",
+          "Description": "0",
+          "Total_Access": "0",
+          "Validity": "0",
+        },
+        Object {
+          "Authorized_Access": "0",
+          "Code": "2021",
+          "Description": "0",
+          "Total_Access": "0",
+          "Validity": "0",
+        },
+      ]
+    }
+    emptyText={[Function]}
+    id="resume-table"
+    prefixCls="rc-table"
+    rowKey="key"
+  />
+</div>
+`;

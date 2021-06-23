@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalBeneficiaries component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Modal
+    component={<Beneficiaries />}
+    title="Beneficiaries"
+  />
+</Fragment>
+`;

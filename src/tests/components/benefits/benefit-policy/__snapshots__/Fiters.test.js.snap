@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fiters component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-12"
+      >
+        <Input
+          col={12}
+          label="Provision Type"
+          placeholder=""
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-12"
+      >
+        <Input
+          col={12}
+          label="Location of Provision"
+          placeholder=""
+          type="text"
+        />
+      </div>
+      <br />
+    </div>
+  </div>
+</Fragment>
+`;

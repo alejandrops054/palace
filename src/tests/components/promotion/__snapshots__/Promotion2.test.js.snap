@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Promotion2 component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Promotions
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="xl"
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle>
+        Promotions
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <div>
+        <ValoresPromotion />
+        <Nav
+          tabs={true}
+          tag="ul"
+          vertical={false}
+        >
+          <NavItem
+            tag="li"
+          >
+            <NavLink
+              onClick={[Function]}
+              tag="a"
+            >
+              Specifications
+            </NavLink>
+          </NavItem>
+          <NavItem
+            tag="li"
+          >
+            <NavLink
+              onClick={[Function]}
+              tag="a"
+            >
+              Benefits
+            </NavLink>
+          </NavItem>
+          <NavItem
+            tag="li"
+          >
+            <NavLink
+              onClick={[Function]}
+              tag="a"
+            >
+              Provisions Benefits
+            </NavLink>
+          </NavItem>
+        </Nav>
+        <TabContent
+          activeTab="1"
+          tag="div"
+        >
+          <TabPane
+            tabId="1"
+            tag="div"
+          >
+            <TableSpecificationType />
+          </TabPane>
+          <TabPane
+            tabId="2"
+            tag="div"
+          >
+            <TablaBenefits />
+          </TabPane>
+          <TabPane
+            tabId="3"
+            tag="div"
+          >
+            <TablaProvision />
+          </TabPane>
+        </TabContent>
+      </div>
+    </ModalBody>
+    <ModalFooter>
+      <Button
+        active={false}
+        disabled={false}
+        onClick={[Function]}
+        variant="secondary"
+      >
+        Cancel
+      </Button>
+      <Button
+        active={false}
+        disabled={false}
+        onClick={[Function]}
+        variant="secondary"
+      >
+        Salve
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

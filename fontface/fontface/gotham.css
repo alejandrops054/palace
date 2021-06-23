@@ -1,0 +1,47 @@
+/*!
+GENERAL FUNCTIONS
+Theme Name: Palace Elite
+Author: Integra IT
+Author URI: https://integraite.com.mx/
+Version: 2.0.0
+*/
+
+/* Bold */
+@font-face {
+    font-family: 'Gotham', sans-serif;
+    src: url('assets/fontface/gotham/Gotham-Bold.woff2') format('woff2'),
+         url('assets/fontface/gotham/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Medium */
+@font-face {
+    font-family: 'Gotham', sans-serif;
+    src: url('assets/fontface/gotham/Gotham-Medium.woff2') format('woff2'),
+         url('assets/fontface/gotham/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Book */
+@font-face {
+    font-family: 'Gotham', sans-serif;
+    src: url('assets/fontface/gotham/Gotham-Book.woff2') format('woff2'),
+         url('assets/fontface/gotham/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Light */
+@font-face {
+    font-family: 'Gotham', sans-serif;
+    src: url('assets/fontface/gotham/Gotham-Light.woff2') format('woff2'),
+         url('assets/fontface/gotham/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

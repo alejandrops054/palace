@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormAddNote component Debe mostrar snapshot 1`] = `
+<form
+  className="p-3"
+>
+  <div
+    className="row mb-3"
+  >
+    <div
+      className="col-6"
+    >
+      <label>
+         Code 
+      </label>
+      <div
+        className="input-group"
+      >
+        <select
+          className="form-control"
+        >
+          <option
+            key="option 1"
+            value={1}
+          >
+            option 1
+          </option>
+          <option
+            key="option 2"
+            value={2}
+          >
+            option 2
+          </option>
+          <option
+            key="option 3"
+            value={3}
+          >
+            option 3
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="col-6"
+    >
+      <label>
+         Priority 
+      </label>
+      <div
+        className="input-group"
+      >
+        <select
+          className="form-control"
+        >
+          <option
+            key="priority 1"
+            value={1}
+          >
+            priority 1
+          </option>
+          <option
+            key="priority 2"
+            value={2}
+          >
+            priority 2
+          </option>
+          <option
+            key="priority 3"
+            value={3}
+          >
+            priority 3
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex"
+  >
+    <div
+      className="col-lg-6"
+    >
+      <label
+        className="ml-3"
+      >
+        Authorization level
+      </label>
+      <div
+        className="d-flex align-items-center"
+      >
+        <div
+          className="checkbox_input mr-3"
+        >
+          <input
+            name="low"
+            onChange={[Function]}
+            type="checkbox"
+            value="low"
+          />
+          <span
+            className="checkmark"
+          />
+        </div>
+        Low
+      </div>
+      <div
+        className="d-flex align-items-center"
+      >
+        <div
+          className="checkbox_input mr-3"
+        >
+          <input
+            name="normal"
+            onChange={[Function]}
+            type="checkbox"
+            value="normal"
+          />
+          <span
+            className="checkmark"
+          />
+        </div>
+        Normal
+      </div>
+      <div
+        className="d-flex align-items-center"
+      >
+        <div
+          className="checkbox_input mr-3"
+        >
+          <input
+            name="interval"
+            onChange={[Function]}
+            type="checkbox"
+            value="interval-reinscription"
+          />
+          <span
+            className="checkmark"
+          />
+        </div>
+        Interval-reinscription
+      </div>
+      <div
+        className="d-flex align-items-center"
+      >
+        <div
+          className="checkbox_input mr-3"
+        >
+          <input
+            name="high"
+            onChange={[Function]}
+            type="checkbox"
+            value="high"
+          />
+          <span
+            className="checkmark"
+          />
+        </div>
+        High
+      </div>
+    </div>
+    <div
+      className="col-lg-6"
+    >
+      <Input
+        col={16}
+        label="Entry Date"
+        placeholder="MM/DD/YY"
+        type="Date"
+      />
+    </div>
+  </div>
+  <div
+    className="mt-3"
+  >
+    <TextArea
+      col="12"
+      label="Note"
+      placeholder="Venta pactada al 50% y pagada al 50%"
+    />
+  </div>
+  <div
+    className="ml-3"
+  >
+    <Checkbox
+      label="Is this guest Special?"
+      name="Low"
+      value="special"
+    />
+  </div>
+  <div
+    className="d-flex col-12 justify-content-end mt-3"
+  >
+    <Button
+      col={4}
+      icon="fas fa-times"
+      typebootstrap="primary"
+    />
+    <Button
+      col={4}
+      icon="fas fa-check"
+      typebootstrap="success"
+    />
+  </div>
+</form>
+`;

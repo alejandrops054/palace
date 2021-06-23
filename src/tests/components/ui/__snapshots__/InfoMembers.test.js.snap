@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba componente UI InfoMembers Debe de mostrar el componente <InfoMembers/> 1`] = `
+<div
+  className="container"
+>
+  <h7>
+    Prueba
+  </h7>
+  <p
+    className="pt-3"
+    style={
+      Object {
+        "color": "#E87E0E",
+      }
+    }
+  >
+    Prueba
+  </p>
+</div>
+`;

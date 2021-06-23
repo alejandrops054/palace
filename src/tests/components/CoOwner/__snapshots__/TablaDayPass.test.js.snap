@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TablaDayPass component debe mostrar snapshot 1`] = `
+<ForwardRef
+  bordered={true}
+  hover={true}
+  striped={true}
+>
+  <thead>
+    <tr>
+      <td>
+        folio Day Pass
+      </td>
+      <td>
+        Folio Provision
+      </td>
+      <td>
+        Description
+      </td>
+      <td>
+        Status
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        1578288
+      </td>
+      <td>
+        4
+      </td>
+      <td>
+        DAY PASS FAMILIAR PR
+      </td>
+      <td>
+        A
+      </td>
+    </tr>
+  </tbody>
+</ForwardRef>
+`;

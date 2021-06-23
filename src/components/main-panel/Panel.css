@@ -1,0 +1,30 @@
+/*Sistema Intelligence 2.0
+  Módulo Contratos
+  Versión 1.0
+  Author: IntregraIT Contratos
+  Comentarios: xxxxx
+*/
+
+
+.cartas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carta {
+    flex: 0 1 calc(50% - 1rem);
+    margin: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .cartas .carta {
+      flex: 0 1 calc(33% - 1rem);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cartas .carta{
+        flex: 0 1 calc(25% - 1rem);
+    }
+}

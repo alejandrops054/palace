@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FrmNotAccounting component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <SimpleTable
+      columns={
+        Array [
+          Object {
+            "dataIndex": "provision",
+            "key": "provision",
+            "title": "provision",
+            "width": "1%",
+          },
+          Object {
+            "dataIndex": "application",
+            "key": "application",
+            "title": "Application",
+            "width": "1%",
+          },
+          Object {
+            "dataIndex": "folio",
+            "key": "folio",
+            "title": "Folio",
+            "width": "1%",
+          },
+          Object {
+            "dataIndex": "date",
+            "key": "date",
+            "title": "Date",
+            "width": "1%",
+          },
+          Object {
+            "dataIndex": "portfolio",
+            "key": "portfolio",
+            "title": "Port Folio",
+            "width": "1%",
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "application": "",
+            "date": "",
+            "folio": "",
+            "portfolio": "",
+            "provision": "",
+          },
+        ]
+      }
+      type="table"
+    />
+  </div>
+</div>
+`;

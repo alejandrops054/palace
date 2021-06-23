@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OriginInformation component Debe mostrar snapshot 1`] = `
+<div
+  className="container card mb-4"
+>
+  <div
+    className="border-top border-secondary"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="d-flex flex-row bd-highlight mb-3"
+      >
+        <Flex
+          title="Origin information"
+        />
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-6 mb-3"
+          id="gm-group"
+        >
+          <Select />
+        </div>
+        <div
+          className="col-lg-6 mb-3"
+          id="gm-group"
+        >
+          <Select />
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-4"
+          >
+            <Input
+              col={12}
+              label="Application"
+              name="application"
+              onChange={[Function]}
+              placeholder="1234567"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="col-md-4"
+          >
+            <Input
+              col={12}
+              label="Previous application"
+              name="previusApplication"
+              onChange={[Function]}
+              placeholder="1234567"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="col-md-4"
+          >
+            <Input
+              col={12}
+              label="Next application"
+              name="nextAplication"
+              onChange={[Function]}
+              placeholder="123456"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <Link
+            className="btn btn-link"
+            to="#"
+          >
+            <i
+              className="fas fa-user-check mr-2"
+            />
+            Included by Referral
+          </Link>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

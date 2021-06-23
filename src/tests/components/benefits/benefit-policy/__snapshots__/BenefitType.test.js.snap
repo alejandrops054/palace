@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BenefitType component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <Input
+          col={12}
+          label="Benefit Type"
+          placeholder=""
+          type="text"
+        />
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <Input
+          col={12}
+          label="Polity Type"
+          placeholder=""
+          type="text"
+        />
+      </div>
+    </div>
+    <h5>
+      Seach date
+    </h5>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <Input
+          col={12}
+          label="From"
+          placeholder=""
+          type="date"
+        />
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <Input
+          col={12}
+          label="From To"
+          placeholder=""
+          type="date"
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

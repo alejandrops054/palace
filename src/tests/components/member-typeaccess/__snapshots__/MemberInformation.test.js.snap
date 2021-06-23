@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberInformation component debe mostrar snapshot 1`] = `
+<div
+  className="d-flex m-5"
+>
+  <div
+    className="row"
+  >
+    <ToggleCheck
+      label="Minimum Stay"
+      numToggle="1"
+    />
+    <ToggleCheck
+      label="Beneficiaries"
+      numToggle="2"
+    />
+    <ToggleCheck
+      label="Presindential Variable"
+      numToggle="3"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <ToggleCheck
+      label="Guest"
+      numToggle="4"
+    />
+    <ToggleCheck
+      label="Presidential Fixed"
+      numToggle="5"
+    />
+    <ToggleCheck
+      label="Referrend"
+      numToggle="6"
+    />
+  </div>
+</div>
+`;

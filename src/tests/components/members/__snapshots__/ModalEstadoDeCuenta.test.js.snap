@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalEstadoDeCuenta component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Esta de cuenta
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="lg"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <ModalHeader
+        closeButton={true}
+        closeLabel="Close"
+      >
+        <ModalTitle>
+          Esta de cuenta
+        </ModalTitle>
+      </ModalHeader>
+      <ModalBody>
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-12"
+            >
+              <Select />
+              <br />
+              <Select />
+            </div>
+          </div>
+          <br />
+          <div
+            className="row"
+          >
+            <h5>
+              Select Date
+            </h5>
+            <div
+              className="col-md-6"
+            >
+              <Input
+                col={12}
+                label="Start Date"
+                name="start_date"
+                onChange={[Function]}
+                type="date"
+                value=""
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <Input
+                col={12}
+                label="End Date"
+                name="end_date"
+                onChange={[Function]}
+                type="date"
+                value=""
+              />
+            </div>
+          </div>
+          <br />
+          <div
+            className="row"
+          >
+            <h5>
+              Program
+            </h5>
+            <div
+              className="col-md-6"
+            >
+              <Input
+                col={12}
+                label=""
+                name="dateProgram"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <Select />
+            </div>
+          </div>
+          <br />
+          <div
+            className="row"
+          >
+            <h5>
+              Select Member
+            </h5>
+            <div
+              className="col-md-6"
+            >
+              <Input
+                col={12}
+                label=""
+                name="memberProgram"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <Select />
+            </div>
+          </div>
+          <br />
+          <div
+            className="row"
+          >
+            <h5>
+              Select Account
+            </h5>
+            <div
+              className="col-md-6"
+            >
+              <Input
+                col={12}
+                label=""
+                name="accountProgram"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <Select />
+            </div>
+          </div>
+          <br />
+          <div
+            className="row"
+          >
+            <h5>
+              Select Card
+            </h5>
+            <div
+              className="col-md-6"
+            >
+              <Input
+                col={12}
+                label=""
+                name="cardProgram"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <Select />
+            </div>
+          </div>
+        </div>
+      </ModalBody>
+      <ModalFooter>
+        <Button
+          col={2}
+          onClick={[Function]}
+          title="Cerrar"
+          typebootstrap="secondary "
+        />
+        <Button
+          col={2}
+          title="Print"
+          type="submit"
+          typebootstrap="primary "
+        />
+      </ModalFooter>
+    </form>
+  </Modal>
+</Fragment>
+`;

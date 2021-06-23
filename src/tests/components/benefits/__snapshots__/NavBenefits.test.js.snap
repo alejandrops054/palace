@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBenefits component Debe mostrar snapshot 1`] = `
+<ul
+  className="nav nav-tabs mb-3"
+  id="infoTabs"
+  role="tablist"
+>
+  <LiTab
+    active="active"
+    key="Promotions"
+    selected="false"
+    title="Promotions"
+  />
+  <LiTab
+    active=""
+    data="/Provisions"
+    key="Provisions"
+    selected="false"
+    title="Provisions"
+  />
+  <LiTab
+    active=""
+    key="Discount products"
+    selected="false"
+    title="Discount products"
+  />
+  <LiTab
+    active=""
+    key="Wallet"
+    selected="false"
+    title="Wallet"
+  />
+</ul>
+`;

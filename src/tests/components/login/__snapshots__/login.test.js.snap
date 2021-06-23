@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component Debe mostrar snapshot 1`] = `
+<div
+  className="page"
+  id="page"
+>
+  <div
+    className="sso-cover"
+  >
+    <img
+      alt="Logo"
+      className="responsive"
+      src="images/jpg/sso-img-01.jpg"
+    />
+  </div>
+  <div
+    className="sso-container"
+  >
+    <main>
+      <h1>
+        <img
+          alt="Intelligence 2.0"
+          src="/images/brand/systems-logos/negros/logo-palaceelite.svg"
+        />
+      </h1>
+      <header
+        className="sso-header"
+      >
+        <h1
+          className="sso-title"
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          <img
+            alt="Logo"
+            src="images/brand/systems-logos/negros/logo-white.svg"
+          />
+        </h1>
+      </header>
+      <article
+        className="sso-form"
+      >
+        <h2
+          className="sso-form-title"
+        >
+          On your way to succeed
+        </h2>
+        <form
+          className="align-middle"
+        >
+          <h3>
+            Sign in
+          </h3>
+          <div
+            className="input-group mb-12"
+          >
+            <Input
+              aria="username"
+              icon="fas fa-user"
+              id="username"
+              placeholder="Your username or email"
+              type="email"
+            />
+          </div>
+          <div
+            className="input-group mb-12"
+          >
+            <Input
+              aria="username"
+              icon="fas fa-lock"
+              id="username"
+              placeholder="Your password"
+              type="password"
+            />
+          </div>
+          <div
+            className="pl-0 mb-3 form-check"
+          >
+            <div
+              className="checkbox_input mr-2"
+            >
+              <input
+                className="form-check-input"
+                id="exampleCheck1"
+                type="checkbox"
+              />
+              <span
+                className="checkmark"
+              />
+            </div>
+            <label
+              className="form-check-label"
+              htmlFor="exampleCheck1"
+            >
+              Keep me signed in
+            </label>
+          </div>
+          <Button
+            col="6"
+            icon="fas fa-sign-in-alt"
+            onClick={[Function]}
+            title="Login"
+            type="submit"
+            typebootstrap="primary"
+          />
+          <div
+            className="mt-3"
+          >
+            Forgot your password? 
+            <Link
+              to=""
+            >
+              Restore it here
+            </Link>
+            .
+          </div>
+        </form>
+      </article>
+    </main>
+  </div>
+</div>
+`;

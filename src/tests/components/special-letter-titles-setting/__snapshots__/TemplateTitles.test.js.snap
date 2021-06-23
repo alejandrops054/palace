@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateTitles component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Template Titles
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="lg"
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle>
+        Template Titles
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <Input
+              col={12}
+              label="Template Name"
+              placeholder=""
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+    </ModalBody>
+    <Button
+      active={false}
+      disabled={false}
+      onClick={[Function]}
+      variant="secondary"
+    >
+      Cancel
+    </Button>
+    <ModalFooter>
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Save
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

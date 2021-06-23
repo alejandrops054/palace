@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TablePerformance component debe mostrar snapshot 1`] = `
+<ForwardRef
+  bordered={true}
+  hover={true}
+  striped={true}
+>
+  <thead>
+    <tr>
+      <td>
+        Id
+      </td>
+      <td>
+        Process
+      </td>
+      <td>
+        Module
+      </td>
+      <td>
+        Action
+      </td>
+      <td>
+        User
+      </td>
+      <td>
+        Date
+      </td>
+      <td>
+        From
+      </td>
+      <td>
+        To
+      </td>
+      <td>
+        Duration (Minutes)
+      </td>
+      <td>
+        Duration (Hous)
+      </td>
+      <td>
+        Comments
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+  </tbody>
+</ForwardRef>
+`;

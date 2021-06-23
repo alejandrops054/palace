@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VatRateCoOwnerTaxNationality component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="col-4"
+  >
+    <div
+      className="form-check form-switch row"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="form-check-label"
+          for="flexSwitchCheckDefault"
+        >
+          Tax recidence manifest
+        </label>
+      </div>
+      <div
+        className="row justify-content-center"
+      >
+        <input
+          className="form-check-input"
+          id="flexSwitchCheckDefault"
+          type="checkbox"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-4"
+  >
+    <Select
+      label="Nationality"
+      option="Foreign"
+    />
+  </div>
+</Fragment>
+`;

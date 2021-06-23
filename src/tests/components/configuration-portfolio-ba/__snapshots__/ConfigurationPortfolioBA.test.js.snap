@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfigurationPortfolioBA component debe mostrar snapshot 1`] = `
+<Card
+  tag="div"
+>
+  <CardBody
+    tag="div"
+  >
+    <CardTitle
+      tag="h5"
+    >
+      Configuration Portfolio Bank Accounts
+    </CardTitle>
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Col
+        sm="4"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Merchant code
+        </Label>
+        <Input
+          type="text"
+        />
+      </Col>
+      <Col
+        sm="4"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Account
+        </Label>
+        <Input
+          type="text"
+        />
+      </Col>
+      <Col
+        sm="4"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Transaction Type
+        </Label>
+        <Input
+          id="exampleSelect"
+          name="select"
+          type="select"
+        >
+          <option>
+            1
+          </option>
+          <option>
+            2
+          </option>
+        </Input>
+      </Col>
+      <Col
+        sm="3"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Portfolio
+        </Label>
+        <Input
+          type="text"
+        />
+      </Col>
+      <Col
+        sm="3"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Room
+        </Label>
+        <Input
+          type="text"
+        />
+      </Col>
+      <Col
+        sm="3"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Currency
+        </Label>
+        <Input
+          id="exampleSelect"
+          name="select"
+          type="select"
+        >
+          <option>
+            CAD
+          </option>
+          <option>
+            2
+          </option>
+        </Input>
+      </Col>
+      <Col
+        sm="3"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Label
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Status
+        </Label>
+        <Input
+          id="exampleSelect"
+          name="select"
+          type="select"
+        >
+          <option>
+            Alta
+          </option>
+          <option>
+            2
+          </option>
+        </Input>
+      </Col>
+      <Col
+        sm="3"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          icon="fas fa-search"
+          title="Apply filter"
+          typebootstrap="primary"
+        />
+      </Col>
+      <Col
+        sm="3"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          icon="fas fa-search"
+          title="Clear filter"
+          typebootstrap="secundary"
+        />
+      </Col>
+    </Row>
+    <TableBA />
+  </CardBody>
+</Card>
+`;

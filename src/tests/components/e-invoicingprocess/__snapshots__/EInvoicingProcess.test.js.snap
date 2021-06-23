@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EInvoicingProcess component debe mostrar snapshot 1`] = `
+<Container
+  tag="div"
+>
+  <Card
+    style={
+      Object {
+        "width": 400,
+      }
+    }
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <CardTitle
+        tag="h3"
+      >
+        <p />
+        E-Invoicing Process
+      </CardTitle>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="12"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            col={12}
+            label="Movement Data"
+            type="date"
+          />
+          <Select
+            col={12}
+            colIcon={0}
+            label="Source"
+            option="Membresia club"
+          />
+          <Select
+            col={12}
+            colIcon={0}
+            option="Sale"
+          />
+        </Col>
+      </Row>
+      <div
+        className="pt-3 d-flex justify-content-center"
+      >
+        <Button
+          color="primary"
+          tag="button"
+        >
+          Load
+        </Button>
+        <Button
+          color="secondary"
+          tag="button"
+        >
+          Post
+        </Button>
+      </div>
+    </CardBody>
+  </Card>
+</Container>
+`;

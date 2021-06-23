@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalAirplaneTicket component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Airplane Ticket
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="ms"
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle>
+        Airplane Ticket
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <p>
+            Company Information
+          </p>
+          <div
+            className="col-md-12"
+          >
+            <Input
+              col={12}
+              label="Company"
+              placeholder=""
+              type="text"
+            />
+            <label
+              className="col-md-12"
+              htmlFor=""
+            >
+              Name: Compani Name
+            </label>
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <Input
+              col={12}
+              label="From date"
+              placeholder=""
+              type="date"
+            />
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <Input
+              col={12}
+              label="To date"
+              placeholder=""
+              type="date"
+            />
+          </div>
+          <div
+            className="col-md-12"
+          >
+            <Select
+              col={12}
+              label="Program goup"
+              option="Sele Date"
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          className="row"
+        >
+          <p>
+            Status
+          </p>
+          <div
+            className="col-md-6"
+          >
+            <Checkbox
+              label="Available"
+              name="checkRow3"
+            />
+            <Checkbox
+              label="Tranfered"
+              name="checkRow3"
+            />
+            <Checkbox
+              label="Owe Monthly"
+              name="checkRow3"
+            />
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <Checkbox
+              label="Used"
+              name="checkRow3"
+            />
+            <Checkbox
+              label="Cancel"
+              name="checkRow3"
+            />
+            <Checkbox
+              label="Reservation"
+              name="checkRow3"
+            />
+            <Checkbox
+              label="All"
+              name="checkRow3"
+            />
+          </div>
+        </div>
+      </div>
+    </ModalBody>
+    <ModalFooter>
+      <Button
+        active={false}
+        disabled={false}
+        variant="secondary"
+      >
+        Close
+      </Button>
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Execute
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

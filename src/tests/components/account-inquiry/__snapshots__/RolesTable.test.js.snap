@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente RolesTable  Creacion de RolesTable 1`] = `
+<Fragment>
+  <h1>
+    Roles
+  </h1>
+  <Row
+    className="mb-5"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Log
+      </Button>
+    </Col>
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Add
+      </Button>
+    </Col>
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Properties
+      </Button>
+    </Col>
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Resfresh
+      </Button>
+    </Col>
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Close
+      </Button>
+    </Col>
+  </Row>
+  <Table
+    columns={
+      Array [
+        Object {
+          "dataIndex": "code",
+          "key": "code",
+          "title": "Code",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "description",
+          "key": "description",
+          "title": "Description",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "status",
+          "key": "status",
+          "title": "Status",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "salesmen",
+          "key": "salesmen",
+          "title": "# Salesmen",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "order",
+          "key": "order",
+          "title": "Order",
+          "width": 130,
+        },
+      ]
+    }
+    emptyText={[Function]}
+    prefixCls="rc-table"
+    rowKey="key"
+  />
+</Fragment>
+`;

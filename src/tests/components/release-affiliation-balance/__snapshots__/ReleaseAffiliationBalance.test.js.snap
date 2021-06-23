@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReleaseAffiliationBalance component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Container
+    fluid={true}
+    tag="div"
+  >
+    <h2>
+      Release Affiliation Balance
+    </h2>
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <ReleaseAffiliationCriteria />
+      <ReleaseAffiliation />
+      <ReleaseAffiliationRSA />
+    </Row>
+  </Container>
+</Fragment>
+`;

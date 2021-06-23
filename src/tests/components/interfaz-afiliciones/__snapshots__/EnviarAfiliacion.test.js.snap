@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnviarAfiliacion component debe mostrar snapshot 1`] = `
+<div
+  className="mt-3"
+>
+  <Table
+    className="table"
+    columns={
+      Array [
+        Object {
+          "align": "center",
+          "dataIndex": "Select",
+          "key": "Select",
+          "title": "Select",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Company",
+          "key": "Company",
+          "title": "Company",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Application",
+          "key": "Application",
+          "title": "Application",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Name",
+          "key": "Name",
+          "title": "Name",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Purchase_date",
+          "key": "Purchase_date",
+          "title": "Purchase Date",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Nationality",
+          "key": "Nationality",
+          "title": "Nationality",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Office",
+          "key": "Office",
+          "title": "Office",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Country",
+          "key": "Country",
+          "title": "Country",
+          "width": 160,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "Application": "0",
+          "Company": "0",
+          "Country": "",
+          "Name": "0",
+          "Nationality": "",
+          "Office": "",
+          "Purchase_date": "0",
+          "Select": "2021",
+        },
+      ]
+    }
+    emptyText={[Function]}
+    id="resume-table"
+    prefixCls="rc-table"
+    rowKey="key"
+    scroll={
+      Object {
+        "x": 800,
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TablaAffiliationInquery component debe mostrar snapshot 1`] = `
+<ForwardRef
+  bordered={true}
+  hover={true}
+  striped={true}
+>
+  <thead>
+    <tr>
+      <td>
+        Id
+      </td>
+      <td>
+        Date
+      </td>
+      <td>
+        Time
+      </td>
+      <td>
+        Inv/CK#
+      </td>
+      <td>
+        Paid By
+      </td>
+      <td>
+        CD
+      </td>
+      <td>
+        ID
+      </td>
+      <td>
+        TC
+      </td>
+      <td>
+        Description
+      </td>
+      <td>
+        Amount
+      </td>
+      <td>
+        Escrow
+      </td>
+      <td>
+        Down Payment
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        1578288
+      </td>
+      <td>
+        01/11/2020
+      </td>
+      <td>
+        16:000:07
+      </td>
+      <td>
+        697519
+      </td>
+      <td />
+      <td>
+        E
+      </td>
+      <td>
+        M
+      </td>
+      <td>
+        CHK
+      </td>
+      <td>
+        MM=DT:VATT:CSS.EW-M
+      </td>
+      <td>
+        -2,000.00
+      </td>
+      <td>
+        -2,000.00
+      </td>
+      <td>
+        0.00
+      </td>
+    </tr>
+  </tbody>
+</ForwardRef>
+`;

@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormContact component debe mostrar snapshot 1`] = `
+<form>
+  <div
+    className="row g-3"
+  >
+    <Input
+      col={10}
+      label="email"
+      name="email"
+      onChange={[Function]}
+      type=""
+      value=""
+    />
+    <div
+      className="input-group-append col-2"
+    >
+      <span
+        className="input-group-text mt-4"
+      >
+        Welcome
+      </span>
+    </div>
+    <Input
+      col={6}
+      label="City"
+      name="city"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <Input
+      col={6}
+      label="State"
+      name="statecontact"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <Input
+      col={6}
+      label="Country"
+      name="country"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <Input
+      col={6}
+      label="Nationality"
+      name="nationality"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <div
+      className="col-6"
+    >
+      <Select />
+    </div>
+    <Input
+      col={6}
+      label="{ 0 }"
+      name="id0"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <TextArea
+      label="Tax Adress"
+      name="taxadress"
+      onChange={[Function]}
+      value=""
+    />
+    <Input
+      col={6}
+      label="ZIP Code"
+      name="zipcode"
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value=""
+    />
+    <Input
+      col={6}
+      label="Cell phone"
+      name="cellphone"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <Input
+      col={6}
+      label="Office"
+      name="officecontact"
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value=""
+    />
+    <Input
+      col={6}
+      label="Home"
+      name="home"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+</form>
+`;

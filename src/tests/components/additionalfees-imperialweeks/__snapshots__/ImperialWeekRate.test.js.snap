@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImperialWeekRate component debe mostrar snapshot 1`] = `
+<Container
+  className="themed-container"
+  fluid="sm"
+  tag="div"
+>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <CardTitle
+        tag="h3"
+      >
+        Imperial Week Rate
+      </CardTitle>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Input
+        col={12}
+        label="Year"
+        name="year"
+        placeholder=""
+        type="text"
+      />
+      <Select />
+      <Input
+        col={12}
+        label="Amount"
+        name="amount"
+        placeholder=""
+        type="text"
+      />
+    </CardBody>
+    <CardFooter
+      tag="div"
+    >
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col={2}
+          icon="fas fa-check"
+          title="Ok"
+          type="button"
+          typebootstrap="primary"
+        />
+        <Button
+          col={2}
+          icon="fas fa-times"
+          title="Cancel"
+          typebootstrap="secondary "
+        />
+      </div>
+    </CardFooter>
+  </Card>
+</Container>
+`;

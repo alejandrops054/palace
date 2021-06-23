@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nationalities component Debe mostrar snapshot 1`] = `
+<Container
+  fluid={true}
+  tag="div"
+>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <CardTitle
+            tag="h3"
+          >
+            Nationalities
+          </CardTitle>
+        </Col>
+        <Col
+          className=" d-flex justify-content-end tables"
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            col="1.5"
+            icon="fas fa-users"
+            title="Apply Filter"
+            type="button"
+            typebootstrap="link main"
+          />
+          <Button
+            col="1.5"
+            icon="fas fa-upload"
+            title="Clear Filter"
+            type="button"
+            typebootstrap="link"
+          />
+        </Col>
+      </Row>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="3"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Card
+            tag="div"
+          >
+            <CardSubtitle
+              tag="div"
+            >
+              Search
+            </CardSubtitle>
+            <Select />
+            <Select />
+            <Input
+              col={12}
+              label="Nationality"
+              name="id"
+              placeholder=""
+              type="text"
+            />
+          </Card>
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Table
+          className="table"
+          columns={
+            Array [
+              Object {
+                "dataIndex": "Code",
+                "key": "1",
+                "title": "Code",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Description",
+                "key": "2",
+                "title": "Description",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Language",
+                "key": "3",
+                "title": "Language",
+                "width": 200,
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "Code": "2201",
+                "Description": "",
+                "Language": "",
+              },
+              Object {
+                "Code": "2201",
+                "Description": "",
+                "Language": "",
+              },
+              Object {
+                "Code": "2201",
+                "Description": "",
+                "Language": "",
+              },
+              Object {
+                "Code": "2201",
+                "Description": "",
+                "Language": "",
+              },
+            ]
+          }
+          emptyText={[Function]}
+          id="resume-table"
+          prefixCls="rc-table"
+          rowKey="key"
+          style={
+            Object {
+              "width": "auto",
+            }
+          }
+        />
+      </Row>
+    </CardBody>
+    <CardFooter
+      tag="div"
+    >
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col={2}
+          icon="fas fa-plus"
+          title="Add"
+          typebootstrap="link "
+        />
+        <Button
+          col={2}
+          icon="fas fa-times"
+          title="Properties"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col={2}
+          icon="fas fa-sync-alt"
+          title="Refresh"
+          type="button"
+          typebootstrap="link"
+        />
+        <Button
+          col={2}
+          icon="fas fa-times"
+          title="Close"
+          typebootstrap="link "
+        />
+      </div>
+    </CardFooter>
+  </Card>
+</Container>
+`;

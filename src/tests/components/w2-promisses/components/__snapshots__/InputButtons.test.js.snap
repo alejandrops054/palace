@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputButtons component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    col={12}
+    icon="fas fa-times"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    typebootstrap="secondary"
+  />
+  <br />
+  <Button
+    col={12}
+    icon="far fa-check"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    typebootstrap="primary"
+  />
+</Fragment>
+`;

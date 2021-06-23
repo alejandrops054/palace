@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainMenu component Debe mostrar snapshot 1`] = `
+<header
+  className="app-header menu-bar"
+>
+  <div
+    className="page"
+  >
+    <header
+      className="app-header menu-bar"
+    >
+      <div
+        className="app-branding"
+      >
+        <Link
+          to=""
+        >
+          <img
+            alt="contracts"
+            className="custom-logo"
+            src="contracts.svg"
+          />
+        </Link>
+      </div>
+      <div
+        className="user-profile"
+      >
+        <Link
+          className="user-photo"
+          to=""
+        >
+          <img
+            alt="unknowUser"
+            className="custom-profile"
+            src="unknown-user.svg"
+          />
+        </Link>
+      </div>
+      <div
+        className="app-notifications"
+      >
+        <ul
+          className="menu"
+        >
+          <li>
+            <Link
+              alt="Notifications"
+              title="Notifications"
+              to=""
+            >
+              <i
+                className="fas fa-bell"
+              />
+              <span
+                className="link-name"
+              >
+                Notifications
+              </span>
+              <span
+                className="badge"
+              >
+                3
+              </span>
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <NavBar />
+    </header>
+  </div>
+</header>
+`;

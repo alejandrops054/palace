@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BinBankCreditCard component Debe mostrar snapshot 1`] = `
+<Container
+  tag="div"
+>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h3>
+          Bin Bank Credit Card
+        </h3>
+      </CardTitle>
+      <CardSubtitle
+        tag="div"
+      >
+        Search
+      </CardSubtitle>
+      <div
+        className="col-lg-12 d-flex justify-content-end tables"
+      >
+        <Button
+          col="1.5"
+          icon="fas fa-filter"
+          title="Apply Filter"
+          type="button"
+          typebootstrap="link main"
+        />
+        <Button
+          col="1.5"
+          icon="fas fa-filter"
+          title="Clear Filter"
+          type="button"
+          typebootstrap="link"
+        />
+      </div>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <ToggleCheck
+            label="Number Bin"
+          />
+        </Col>
+        <Col
+          lg="3"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+             Number Bin
+          </Label>
+          <Input
+            name="bin"
+            type="text"
+          />
+        </Col>
+      </Row>
+      <hr />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <ToggleCheck
+            label="Name Bank"
+          />
+        </Col>
+        <Col
+          lg="3"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+             Name Bank
+          </Label>
+          <Input
+            name="bin"
+            type="text"
+          />
+        </Col>
+        <Col
+          lg="3"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Select
+            col={12}
+            label="Contry"
+            option="México"
+          />
+        </Col>
+      </Row>
+      <div
+        className="pt-3 "
+      >
+        <Table
+          className="table"
+          columns={
+            Array [
+              Object {
+                "dataIndex": "Code",
+                "key": "1",
+                "title": "Code",
+                "width": 200,
+              },
+              Object {
+                "dataIndex": "Description",
+                "key": "2",
+                "title": "Description",
+                "width": 200,
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "Code": "3400-0000-0000-00009",
+                "Description": "American Express",
+              },
+            ]
+          }
+          emptyText={[Function]}
+          id="resume-table"
+          prefixCls="rc-table"
+          rowKey="key"
+        />
+      </div>
+    </CardBody>
+  </Card>
+</Container>
+`;

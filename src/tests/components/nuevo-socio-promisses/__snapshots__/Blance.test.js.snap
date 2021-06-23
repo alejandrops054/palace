@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blance component Debe mostrar snapshot 1`] = `
+<div
+  className="border-right border-secondary"
+>
+  <div>
+    <h1>
+      Blacen Financing
+    </h1>
+    <h1>
+      $ 
+      <span
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        0.00 
+      </span>
+       
+    </h1>
+  </div>
+</div>
+`;

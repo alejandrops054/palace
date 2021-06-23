@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddtionalInformation component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="card-header"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-6"
+          >
+            <h3>
+              Additional information
+            </h3>
+          </div>
+          <div
+            className="col-lg-6 d-flex justify-content-end tables"
+          >
+            <Button
+              col="0.2"
+              icon="fas fa-times"
+              title="Cancel affiliation"
+              type="button"
+              typebootstrap="link"
+            />
+            <Button
+              col="0.2"
+              icon="fas fa-times"
+              title="Cancel log"
+              type="button"
+              typebootstrap="link"
+            />
+            <Button
+              col="0.2"
+              icon="fas fa-times"
+              title="Asm home assign"
+              type="button"
+              typebootstrap="link"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <Input
+            col={12}
+            label="Purchase"
+            placeholder=""
+            type="date"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <Input
+            col={12}
+            label="Reinstate"
+            placeholder=""
+            type="date"
+          />
+        </div>
+      </div>
+      <br />
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <Input
+            col={12}
+            label="Cancel"
+            placeholder=""
+            type="date"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <Input
+            col={12}
+            label="Cancel code"
+            placeholder=""
+            type="date"
+          />
+        </div>
+      </div>
+      <br />
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <Input
+            col={12}
+            label="Deposit"
+            placeholder=""
+            type="date"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <Input
+            col={12}
+            label="Previous cancel"
+            placeholder=""
+            type="date"
+          />
+        </div>
+      </div>
+      <br />
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <Select
+            label="Program goup"
+            placeholder="EXIT"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <Input
+            col={12}
+            label="Exchange rate"
+            placeholder="$0.00"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <Select
+            label="Program goup"
+            placeholder="EXIT"
+          />
+          <Checkbox
+            label="Pack sale"
+            name="checkRow3"
+          />
+          <Checkbox
+            label="Pend welcome kit"
+            name="checkRow3"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <Checkbox
+            label="Receive Authorized"
+            name="checkRow3"
+          />
+          <Checkbox
+            label="Scanned contract has been received"
+            name="checkRow3"
+          />
+          <Checkbox
+            label="Cancel cluse"
+            name="checkRow3"
+          />
+          <Checkbox
+            label="Sale by phone"
+            name="checkRow3"
+          />
+          <Checkbox
+            label="Sed statement"
+            name="checkRow3"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

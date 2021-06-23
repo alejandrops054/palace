@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba componente UI <EditorComponent/> Componente recibe props label:String, price:Number y col:Number 1`] = `
+<div
+  className="col-lg-6 mb-3"
+>
+  <Editor
+    cloudChannel="5"
+    init={
+      Object {
+        "height": 500,
+        "menubar": false,
+        "plugins": Array [
+          "advlist autolink lists link image charmap print preview anchor",
+          "searchreplace visualblocks code fullscreen",
+          "insertdatetime media table paste code help wordcount",
+        ],
+        "toolbar": "undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help",
+      }
+    }
+    initialValue="Inicial"
+  />
+</div>
+`;

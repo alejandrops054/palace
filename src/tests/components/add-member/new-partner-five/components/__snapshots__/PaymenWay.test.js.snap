@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymenWay component debe mostrar snapshot 1`] = `
+<Fragment>
+  <h4 />
+  <div
+    className="row table-line"
+  >
+    <h6
+      className="col-lg-3 text-left"
+    >
+      Item
+    </h6>
+    <h6
+      className="col-lg-3 text-left"
+    >
+      Currency
+    </h6>
+    <h6
+      className="col-lg-2 text-left"
+    >
+      Initial down p.
+    </h6>
+    <h6
+      className="col-lg-2 text-left"
+    >
+      Promissory  down p.
+    </h6>
+    <h6
+      className="col-lg-2 text-left"
+    >
+      Monthly payment
+    </h6>
+  </div>
+  <div
+    className="row table-line"
+  >
+    <div
+      className="col-lg-3 text-left"
+    >
+      Credit Card
+    </div>
+    <div
+      className="col-lg-3 text-left"
+    >
+      US Dollar
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow1"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow2"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow3"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="row table-line"
+  >
+    <div
+      className="col-lg-3 text-left"
+    >
+      Credit Card
+    </div>
+    <div
+      className="col-lg-3 text-left"
+    >
+      US Dollar
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow1"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow2"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow3"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="row table-line"
+  >
+    <div
+      className="col-lg-3 text-left"
+    >
+      Cash
+    </div>
+    <div
+      className="col-lg-3 text-left"
+    >
+      US Dollar
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow1"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow2"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow3"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="row table-line"
+  >
+    <div
+      className="col-lg-3 text-left"
+    >
+      Bank Transfer
+    </div>
+    <div
+      className="col-lg-3 text-left"
+    >
+      US Dollar
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow1"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow2"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow3"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="row table-line"
+  >
+    <div
+      className="col-lg-3 text-left"
+    >
+      Web Payment
+    </div>
+    <div
+      className="col-lg-3 text-left"
+    >
+      US Dollar
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow1"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow2"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+    <div
+      className="col-lg-2 text-left"
+    >
+      <div
+        className="checkbox_input"
+      >
+        <input
+          name="checkRow3"
+          type="checkbox"
+        />
+        <span
+          className="checkmark"
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Financi component debe mostrar snapshot 1`] = `
+<form>
+  <Modal
+    component={<UNDEFINED />}
+    title="Financing promises"
+  />
+</form>
+`;

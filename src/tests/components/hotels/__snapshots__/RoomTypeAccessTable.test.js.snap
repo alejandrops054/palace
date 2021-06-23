@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoomTypesAccessTable component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Table
+    columns={
+      Array [
+        Object {
+          "dataIndex": "codeRoomTyp",
+          "key": "codeRoomType",
+          "title": "Code Room Type",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "roomTypeAccess",
+          "key": "roomTypeAccess",
+          "title": "Room Type Access",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "quantity",
+          "key": "quiantity",
+          "title": "Quantity",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "minFloor",
+          "key": "minFloor",
+          "render": [Function],
+          "title": "Min Floor",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "roomTypesAccess",
+          "key": "roomTypesAccess",
+          "render": [Function],
+          "title": "Room Types Access",
+          "width": 130,
+        },
+        Object {
+          "dataIndex": "roomTypesAccessCabo",
+          "key": "roomTypesAccessCabo",
+          "render": [Function],
+          "title": "Room Type Access + Cabo",
+          "width": 130,
+        },
+      ]
+    }
+    emptyText={[Function]}
+    prefixCls="rc-table"
+    rowKey="key"
+  />
+</Fragment>
+`;

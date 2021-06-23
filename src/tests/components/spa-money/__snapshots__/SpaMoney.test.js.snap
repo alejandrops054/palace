@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpaMoney component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="card mb-4"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-lg-6 mb-3"
+      >
+        <div
+          className="mb-3"
+        >
+          <Input
+            col={12}
+            label="Psm"
+            type="text"
+          />
+          <div
+            className="mt-1"
+          >
+            <Button
+              col="6"
+              title="Print Detail"
+              typebootstrap="primary"
+            />
+          </div>
+        </div>
+        <Input
+          col={12}
+          label="Purchased"
+          placeholder=""
+          type="text"
+        />
+        <Input
+          col={12}
+          label="Eamed"
+          placeholder="0"
+          type="text"
+        />
+        <Input
+          col={12}
+          label="Used"
+          type="text"
+        />
+      </div>
+      <div
+        className="col-lg-6 mb-3"
+        id="gm-group"
+      >
+        <Input
+          col={12}
+          label="Psm Mpays"
+          type="text"
+        />
+        <div
+          className="mt-5 pt-4"
+        >
+          <Input
+            col={12}
+            label="Diputed Amount"
+            type="text"
+          />
+          <Input
+            col={12}
+            label="Available"
+            type="text"
+          />
+          <Input
+            col={12}
+            label="Refunded Amount"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

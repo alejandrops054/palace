@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortafolioCompanies component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h3>
+          Portafolio companies
+        </h3>
+      </CardTitle>
+      <br />
+      <span>
+        Catalog of portafolio companies
+      </span>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="12"
+        >
+          <Table
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "code",
+                  "key": "code",
+                  "title": "Code",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "name",
+                  "key": "name",
+                  "title": "Name",
+                  "width": 150,
+                },
+                Object {
+                  "dataIndex": "number",
+                  "key": "number",
+                  "title": "Number Identification Fiscal",
+                  "width": 100,
+                },
+              ]
+            }
+            dataSource={
+              Array [
+                Object {
+                  "code": "CIHC",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "number": "CIHC121455",
+                },
+                Object {
+                  "code": "CIHC",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "number": "CIHC121455",
+                },
+                Object {
+                  "code": "CIHC",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "number": "CIHC121455",
+                },
+                Object {
+                  "code": "CIHC",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "number": "CIHC121455",
+                },
+                Object {
+                  "code": "CIHC",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "number": "CIHC121455",
+                },
+                Object {
+                  "code": "CIHC",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "number": "CIHC121455",
+                },
+                Object {
+                  "code": "CIHC",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "number": "CIHC121455",
+                },
+                Object {
+                  "code": "CIHC",
+                  "name": "CONTROLADORA IHC S.A DE C.V",
+                  "number": "CIHC121455",
+                },
+              ]
+            }
+            rowKey="key"
+          />
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="7"
+        />
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="5"
+        >
+          <ButtonGroup
+            role="group"
+            tag="div"
+          >
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Log
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Add
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Properties
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Add Like
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Refresh
+            </Button>
+            <Button
+              color="primary"
+              tag="button"
+            >
+              Close
+            </Button>
+          </ButtonGroup>
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

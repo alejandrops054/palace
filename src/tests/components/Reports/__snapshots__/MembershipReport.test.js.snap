@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MembershipReport component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container mt-5 pt-5"
+  >
+    <div
+      className="text-center mt-5 pt-5"
+    >
+      <Spinner2
+        title="Please Wait"
+      />
+    </div>
+  </div>
+</Fragment>
+`;

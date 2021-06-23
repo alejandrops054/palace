@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReleaseAffiliationCriteria component debe mostrar snapshot 1`] = `
+<Fragment>
+  <span>
+    Criteria
+  </span>
+  <Row
+    className="border"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      className=" "
+      lg={
+        Object {
+          "size": 2,
+        }
+      }
+      md={
+        Object {
+          "size": 2,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Label
+        check={true}
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Input
+          name="radio1"
+          type="radio"
+        />
+         Application
+      </Label>
+    </Col>
+    <Col
+      className=" "
+      lg={
+        Object {
+          "size": 2,
+        }
+      }
+      md={
+        Object {
+          "size": 2,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Label
+        check={true}
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Input
+          name="radio1"
+          type="radio"
+        />
+         Source
+      </Label>
+    </Col>
+    <Col
+      className=" "
+      lg={
+        Object {
+          "size": 2,
+        }
+      }
+      md={
+        Object {
+          "size": 2,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Label
+        check={true}
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Input
+          name="radio1"
+          type="radio"
+        />
+         Excel File
+      </Label>
+    </Col>
+  </Row>
+</Fragment>
+`;

@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente TablaUno  Creacion de snapashot 1`] = `
+<div
+  className="border-top border-secondary"
+>
+  <br />
+  <br />
+  <div
+    className="d-flex flex-row bd-highlight "
+  >
+    <h5
+      className="p-2 flex-grow-1 bd-highlight"
+    >
+       Promises 
+      <span
+        style={
+          Object {
+            "color": "#00af9f",
+          }
+        }
+      >
+        $000.000.000.00
+      </span>
+    </h5>
+    <Link
+      to="/FinancingPromises"
+    >
+      <h5
+        style={
+          Object {
+            "color": "#00af9f",
+          }
+        }
+      >
+        <i
+          className="fas fa-plus p-2 bd-highlight"
+        />
+         Add promise
+      </h5>
+    </Link>
+    <h5
+      className="p-2 bd-highlight "
+      style={
+        Object {
+          "color": "#9BA2C6",
+        }
+      }
+    >
+      <i
+        className="fas fa-plus "
+      />
+       Add credit card
+    </h5>
+    <h5
+      className="p-2 bd-highlight "
+      style={
+        Object {
+          "color": "#9BA2C6",
+        }
+      }
+    >
+      <i
+        className="fas fa-trash "
+      />
+       Add Delete credit card
+    </h5>
+    <h5
+      className="p-2 bd-highlight "
+      style={
+        Object {
+          "color": "#9BA2C6",
+        }
+      }
+    >
+      <i
+        className="fas fa-book "
+      />
+       Log
+    </h5>
+    <h5
+      className="p-2 bd-highlight "
+      style={
+        Object {
+          "color": "#9BA2C6",
+        }
+      }
+    >
+      <i
+        className="fas fa-sync "
+      />
+       Replace
+    </h5>
+  </div>
+  <div
+    className="table-responsive-lg"
+  >
+    <table
+      className="table"
+    >
+      <thead>
+        <tr>
+          <th>
+            <div
+              className="checkbox_input"
+            >
+              <input
+                checked={true}
+                name="checkRow3"
+                type="checkbox"
+              />
+              <span
+                className="checkmark"
+              />
+            </div>
+          </th>
+          <th
+            scope="col"
+          >
+            Priority
+          </th>
+          <th
+            scope="col"
+          >
+             Payment ID
+          </th>
+          <th
+            scope="col"
+          >
+            Amount
+          </th>
+          <th
+            scope="col"
+          >
+            Down
+          </th>
+          <th
+            scope="col"
+          >
+            Admin Fee
+          </th>
+          <th
+            scope="col"
+          >
+            Date
+          </th>
+          <th
+            scope="col"
+          >
+            Status
+          </th>
+          <th
+            scope="col"
+          >
+            <button
+              className="btn btn-link"
+            >
+              <i
+                className="fas fa-ellipsis-v"
+              />
+            </button>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div
+              className="checkbox_input"
+            >
+              <input
+                name="checkRow3"
+                type="checkbox"
+              />
+              <span
+                className="checkmark"
+              />
+            </div>
+          </td>
+          <th
+            scope="row"
+          >
+            0
+          </th>
+          <td>
+            1
+          </td>
+          <td>
+            $2.50.00
+          </td>
+          <td>
+            $2.50.00
+          </td>
+          <td>
+            $0.00
+          </td>
+          <td>
+            12/25-2020
+          </td>
+          <td>
+            Alta
+          </td>
+          <th
+            scope="col"
+          >
+            <button
+              className="btn btn-link"
+            >
+              <i
+                className="fas fa-ellipsis-v"
+              />
+            </button>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <div
+              className="checkbox_input"
+            >
+              <input
+                name="checkRow3"
+                type="checkbox"
+              />
+              <span
+                className="checkmark"
+              />
+            </div>
+          </td>
+          <th
+            scope="row"
+          >
+            0
+          </th>
+          <td>
+            2
+          </td>
+          <td>
+            $2.50.00
+          </td>
+          <td>
+            $2.50.00
+          </td>
+          <td>
+            $0.00
+          </td>
+          <td>
+            12/25-2020
+          </td>
+          <td>
+            Alta
+          </td>
+          <th
+            scope="col"
+          >
+            <button
+              className="btn btn-link"
+            >
+              <i
+                className="fas fa-ellipsis-v"
+              />
+            </button>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <div
+              className="checkbox_input"
+            >
+              <input
+                name="checkRow3"
+                type="checkbox"
+              />
+              <span
+                className="checkmark"
+              />
+            </div>
+          </td>
+          <th
+            scope="row"
+          >
+            0
+          </th>
+          <td>
+            3
+          </td>
+          <td>
+            $2.50.00
+          </td>
+          <td>
+            $2.50.00
+          </td>
+          <td>
+            $0.00
+          </td>
+          <td>
+            12/25-2020
+          </td>
+          <td>
+            Alta
+          </td>
+          <th
+            scope="col"
+          >
+            <button
+              className="btn btn-link"
+            >
+              <i
+                className="fas fa-ellipsis-v"
+              />
+            </button>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

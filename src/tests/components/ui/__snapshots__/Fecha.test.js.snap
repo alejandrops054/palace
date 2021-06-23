@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <Fecha/> Debe renderizar label con fecha y props que recibe 1`] = `
+<div
+  className="col-lg-undefined mb-3"
+>
+  <label
+    style={
+      Object {
+        "font-weighy": "normal",
+        "fontColor:": "white",
+        "fontSize": "1rem",
+      }
+    }
+  >
+    Etiqueta Prueba
+  </label>
+</div>
+`;

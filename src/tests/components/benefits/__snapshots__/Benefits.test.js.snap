@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Benefits component Debe mostrar snapshot 1`] = `
+<form>
+  <div
+    className="row col-lg-12"
+  >
+    <TablePromotions />
+    <DiscountProductsTable />
+    <Certificates />
+    <RefProgram />
+  </div>
+</form>
+`;

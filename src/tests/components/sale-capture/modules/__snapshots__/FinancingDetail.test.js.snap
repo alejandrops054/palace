@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FinancingDetail component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <h3>
+      Financing detail
+    </h3>
+    <div
+      className="row"
+    >
+      <div
+        className="col-6"
+      >
+        <Select />
+      </div>
+      <div
+        className="col-6"
+      >
+        <Select />
+      </div>
+      <Input
+        label="Discount (%)"
+        name="discount"
+        onChange={[Function]}
+        placeholder="0"
+      />
+      <Input
+        label="Date"
+        name="date"
+        onChange={[Function]}
+        placeholder="26/11/2020"
+        type="date"
+      />
+      <Input
+        label="DG 100%"
+        name="dg"
+        onChange={[Function]}
+        placeholder=""
+      />
+      <div
+        className="col-lg-3 "
+      >
+        <Checkbox
+          key="Closed by 'Exit Closer'"
+          label="Closed by 'Exit Closer'"
+          name="closedByExitCloser"
+          onChange={[Function]}
+        />
+        <Checkbox
+          key="Mexican"
+          label="Mexican"
+          name="mexican"
+          onChange={[Function]}
+        />
+        <Checkbox
+          key="Deposit "
+          label="Deposit "
+          name="deposit"
+          onChange={[Function]}
+        />
+        <Checkbox
+          key="Rci"
+          label="Rci"
+          name="rci"
+          onChange={[Function]}
+        />
+        <Checkbox
+          key="Rci Plus"
+          label="Rci Plus"
+          name="rciPlus"
+          onChange={[Function]}
+        />
+        <Checkbox
+          key="Rci Platinum"
+          label="Rci Platinum"
+          name="rciPlatinum"
+          onChange={[Function]}
+        />
+        <Checkbox
+          key="Processable"
+          label="Processable"
+          name="processable"
+          onChange={[Function]}
+        />
+        <Checkbox
+          key="Wholesaler"
+          label="Wholesaler"
+          name="wholesaler"
+          onChange={[Function]}
+        />
+      </div>
+      <div
+        className="col-lg-3 "
+      >
+        <Checkbox
+          key="Regen"
+          label="Regen"
+          name="regen"
+          onChange={[Function]}
+        />
+        <Checkbox
+          key="Interval"
+          label="Interval"
+          name="interval"
+          onChange={[Function]}
+        />
+        <Checkbox
+          key="Interval Platinum"
+          label="Interval Platinum"
+          name="intervalPlatinum"
+          onChange={[Function]}
+        />
+        <Checkbox
+          key="Interval Previous"
+          label="Interval Previous"
+          name="intervalPrevious"
+          onChange={[Function]}
+        />
+      </div>
+      <div
+        className="col-lg-6"
+      >
+        <Input
+          col="12"
+          label="Interval number"
+          name="intervalNumber"
+          onChange={[Function]}
+          placeholder="Interval number"
+        />
+      </div>
+    </div>
+  </form>
+</Fragment>
+`;

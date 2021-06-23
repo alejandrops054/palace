@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GuestInformationTable component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-4"
+    >
+      <Input
+        col={12}
+        label="Guest Id"
+        name="guestID"
+        placeholder="9204103"
+        type="text"
+      />
+      <Input
+        col={12}
+        label="First Name "
+        type="text"
+      />
+      <Input
+        col={12}
+        label="Last Name"
+        type="text"
+      />
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <Input
+        col={12}
+        label="Hotel"
+        type="text"
+      />
+      <Input
+        col={12}
+        label="Folio Inhouse"
+        type="text"
+      />
+      <Input
+        col={12}
+        label="Folio Outhouse"
+        type="text"
+      />
+    </div>
+    <div
+      className="col-md-2"
+    >
+      <Input
+        col={12}
+        label="Arrival Date From :"
+        type="Date"
+      />
+      <Input
+        col={12}
+        label="Show Date From :"
+        type="Date"
+      />
+    </div>
+    <div
+      className="col-md-2"
+    >
+      <Input
+        col={12}
+        label="To :"
+        type="Date"
+      />
+      <Input
+        col={12}
+        label="To :"
+        type="Date"
+      />
+      <Button
+        col="12"
+        title="Search"
+        typebootstrap="secondary"
+      />
+    </div>
+  </div>
+  <br />
+  <div>
+    <Table
+      columns={
+        Array [
+          Object {
+            "dataIndex": "Guest",
+            "key": "Guest",
+            "title": "Guest id",
+            "width": 200,
+          },
+          Object {
+            "dataIndex": "name",
+            "key": "name",
+            "title": "First Name",
+            "width": 200,
+          },
+          Object {
+            "dataIndex": "lastname",
+            "key": "lastname",
+            "title": "Last Name",
+            "width": 200,
+          },
+          Object {
+            "dataIndex": "name2",
+            "key": "name2",
+            "title": "First Name 2",
+            "width": 200,
+          },
+          Object {
+            "dataIndex": "lastname2",
+            "key": "lastname2",
+            "title": "Last Name 2",
+            "width": 200,
+          },
+          Object {
+            "dataIndex": "program",
+            "key": "program",
+            "title": "Program",
+            "width": 200,
+          },
+          Object {
+            "dataIndex": "invitation",
+            "key": "inivitation",
+            "title": "Invitation Type",
+            "width": 200,
+          },
+          Object {
+            "dataIndex": "hotel",
+            "key": "hotel",
+            "title": "Hotel",
+            "width": 200,
+          },
+          Object {
+            "dataIndex": "sales",
+            "key": "sales",
+            "title": "Sales Room",
+            "width": 200,
+          },
+          Object {
+            "dataIndex": "folioi",
+            "key": "folioi",
+            "title": "Folio Inhouse",
+            "width": 200,
+          },
+          Object {
+            "dataIndex": "folioo",
+            "key": "folioo",
+            "title": "Folio Outhouse",
+            "width": 200,
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "address": "some where",
+            "age": 28,
+            "key": "1",
+            "name": "Jack",
+          },
+          Object {
+            "address": "some where",
+            "age": 36,
+            "key": "2",
+            "name": "Rose",
+          },
+        ]
+      }
+      emptyText={[Function]}
+      prefixCls="rc-table"
+      rowKey="key"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnlimitedForm component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <form>
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <Select
+          label="Payment amount"
+        />
+      </div>
+      <div
+        className="col"
+      >
+        <Select
+          label="Max persons"
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <Checkbox
+          className="mr-sm-2"
+          label="Pay"
+          name="pay"
+          value=""
+        />
+      </div>
+      <div
+        className="col"
+      >
+        <Checkbox
+          className="mr-sm-2"
+          label="Free"
+          name="free"
+          value=""
+        />
+      </div>
+    </div>
+  </form>
+</Fragment>
+`;

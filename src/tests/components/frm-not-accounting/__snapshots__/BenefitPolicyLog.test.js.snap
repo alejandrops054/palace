@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BenefitPolicyLog component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="h5"
+      >
+        Benefit Policy Log
+      </CardTitle>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          sm="3"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            From
+          </Label>
+          <Input
+            type="date"
+          />
+        </Col>
+        <Col
+          sm="3"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            To
+          </Label>
+          <Input
+            type="date"
+          />
+        </Col>
+        <Col
+          sm="3"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Policy Code
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          sm="3"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <FormGroup
+            check={true}
+            tag="div"
+          >
+            <Label
+              check={true}
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                name="radio1"
+                type="radio"
+              />
+              All
+            </Label>
+          </FormGroup>
+          <FormGroup
+            check={true}
+            tag="div"
+          >
+            <Label
+              check={true}
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                name="radio1"
+                type="radio"
+              />
+              Only Success
+            </Label>
+          </FormGroup>
+          <FormGroup
+            check={true}
+            tag="div"
+          >
+            <Label
+              check={true}
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                name="radio1"
+                type="radio"
+              />
+              Only Errors
+            </Label>
+          </FormGroup>
+        </Col>
+        <Col
+          sm="4"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <FormGroup
+            check={true}
+            tag="div"
+          >
+            <Label
+              check={true}
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                type="checkbox"
+              />
+              Search by Policy Date
+            </Label>
+          </FormGroup>
+        </Col>
+        <Col
+          sm="3"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            icon="fas fa-search"
+            title="Search"
+            typebootstrap="primary"
+          />
+        </Col>
+        <Col
+          sm="3"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            icon="fas fa-search"
+            title="Show XML"
+            typebootstrap="secundary"
+          />
+        </Col>
+      </Row>
+      <TableSuccess />
+      <TableConsecutive />
+    </CardBody>
+  </Card>
+</Fragment>
+`;

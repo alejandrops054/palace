@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberLog component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h3>
+          Member Log
+        </h3>
+      </CardTitle>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Date From
+          </Label>
+          <Input
+            type="Date"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        />
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Field Name 
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <br />
+          <Button
+            color="primary"
+            tag="button"
+          >
+            Apply Filter
+          </Button>
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Date To 
+          </Label>
+          <Input
+            type="Date"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            User 
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+             Value
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <br />
+          <Button
+            color="primary"
+            tag="button"
+          >
+            Clear Filter
+          </Button>
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="12"
+        >
+          <Table
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "user",
+                  "key": "user",
+                  "title": "User ",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "date",
+                  "key": "date",
+                  "title": "Date/Time",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "module",
+                  "key": "module",
+                  "title": "Module ",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "action",
+                  "key": "action",
+                  "title": "Action ",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "original",
+                  "key": "original",
+                  "title": "Original ",
+                  "width": 150,
+                },
+                Object {
+                  "dataIndex": "changes",
+                  "key": "changes",
+                  "title": "Changes ",
+                  "width": 150,
+                },
+              ]
+            }
+            dataSource={
+              Array [
+                Object {
+                  "action": "Delete Saleman",
+                  "changes": "RECNUM-4421",
+                  "date": "1/12/12 ",
+                  "module": "Membership Inpu",
+                  "original": "RECTNUM-63212",
+                  "user": "Willian Jesus Torres",
+                },
+                Object {
+                  "action": "Delete Saleman",
+                  "changes": "RECNUM-4421",
+                  "date": "1/12/12 ",
+                  "module": "Membership Inpu",
+                  "original": "RECTNUM-63212",
+                  "user": "Willian Jesus Torres",
+                },
+                Object {
+                  "action": "Delete Saleman",
+                  "changes": "RECNUM-4421",
+                  "date": "1/12/12 ",
+                  "module": "Membership Inpu",
+                  "original": "RECTNUM-63212",
+                  "user": "Willian Jesus Torres",
+                },
+              ]
+            }
+            rowKey="key"
+          />
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="9"
+        />
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Button
+            color="primary"
+            tag="button"
+          >
+            Details
+          </Button>
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

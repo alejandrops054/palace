@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdjustMovements component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Adjust Movements
+  </Button>
+  <Modal
+    animation={false}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="lg"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <ModalHeader
+        closeButton={true}
+        closeLabel="Close"
+      >
+        <ModalTitle>
+          Adjust Movements
+          <br />
+          71 -PVP MONEY
+        </ModalTitle>
+      </ModalHeader>
+      <ModalBody>
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-4"
+            >
+              <h5>
+                Movement
+              </h5>
+              <Checkbox
+                label="Credit"
+                name="credit"
+                onChange={[Function]}
+                value={false}
+              />
+              <Checkbox
+                label="Charge"
+                name="chargecheck"
+                onChange={[Function]}
+                value={false}
+              />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <h5>
+                Expiration
+              </h5>
+              <Checkbox
+                label="18 Months"
+                name="months18"
+                onChange={[Function]}
+                value={false}
+              />
+              <Checkbox
+                label="24 Months"
+                name="months24"
+                onChange={[Function]}
+                value={false}
+              />
+              <Checkbox
+                label="36 Months"
+                name="months36"
+                onChange={[Function]}
+                value={false}
+              />
+              <Checkbox
+                label="46 Months"
+                name="months46"
+                onChange={[Function]}
+                value={false}
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <Input
+                col={12}
+                label="Concept"
+                name="concept"
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+              <Input
+                col={12}
+                label="Amount"
+                name="amount1"
+                onChange={[Function]}
+                placeholder="$0.00"
+                type="text"
+                value=""
+              />
+              <Checkbox
+                col={4}
+                label="Charge"
+                name="charge1"
+              />
+              <Checkbox
+                col={4}
+                label="Charge"
+                name="charge2"
+              />
+              <br />
+              <Input
+                col={12}
+                label="Amount"
+                name="amount2"
+                onChange={[Function]}
+                placeholder="$0.00"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <br />
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-6"
+            >
+              <Select />
+              <Input
+                col={12}
+                label="Hotel"
+                name="hotel"
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <Select />
+              <Input
+                col={12}
+                label="Folio"
+                name="folio"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </ModalBody>
+      <ModalFooter>
+        <Button
+          active={false}
+          disabled={false}
+          onClick={[Function]}
+          variant="secondary"
+        >
+          Search reserve
+        </Button>
+        <Button
+          active={false}
+          disabled={false}
+          onClick={[Function]}
+          variant="secondary"
+        >
+          Cancelar
+        </Button>
+        <Button
+          col={2}
+          title="Aceptar"
+          type="submit"
+          typebootstrap="primary "
+        />
+      </ModalFooter>
+    </form>
+  </Modal>
+</Fragment>
+`;

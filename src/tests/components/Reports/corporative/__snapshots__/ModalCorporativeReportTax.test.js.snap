@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalCorporativeReportTax component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Corporative ReportTax
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="ms"
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle>
+        Corporative ReportTax
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <Input
+              col={12}
+              label="From date"
+              placeholder=""
+              type="date"
+            />
+            <Input
+              col={12}
+              label="To date"
+              placeholder=""
+              type="date"
+            />
+            <Select
+              col={12}
+              label="Office"
+              option="All SALE"
+            />
+            <Checkbox
+              col={12}
+              label="Do you to open the report?"
+              name="checkRow3"
+            />
+          </div>
+        </div>
+      </div>
+    </ModalBody>
+    <ModalFooter>
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Download Dinamyc Report
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

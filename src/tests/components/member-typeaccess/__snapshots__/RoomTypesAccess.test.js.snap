@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoomTypesAccess component debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <div
+        className="card-title"
+      >
+        <h3>
+          Member Room Types Access
+        </h3>
+      </div>
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className=" d-flex justify-content-end"
+      >
+        <Button
+          col="1.5"
+          title="Reassion rates"
+          type="button"
+          typebootstrap="link"
+        />
+      </div>
+      <div
+        className="row d-flex"
+      >
+        <Input
+          col={2}
+          label="Application"
+          type="text"
+        />
+        <Input
+          col={4}
+          label="Name"
+          type="text"
+        />
+        <Input
+          col={2}
+          label="Expiration"
+          type="text"
+        />
+        <Select
+          col={2}
+          colIcon={0}
+          label="Scheme"
+          option="Fixed"
+        />
+        <Select
+          col={2}
+          colIcon={0}
+          label="Rate type"
+          option="High"
+        />
+      </div>
+      <Hr />
+      <Nav
+        tabs={true}
+        tag="ul"
+        vertical={false}
+      >
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            onClick={[Function]}
+            tag="a"
+          >
+            Member Room Types Access
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            className=""
+            onClick={[Function]}
+            tag="a"
+          >
+            Member Room Types Access Details
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            className=""
+            onClick={[Function]}
+            tag="a"
+          >
+            Member Information
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            className=""
+            onClick={[Function]}
+            tag="a"
+          >
+            Other Room Types Access
+          </NavLink>
+        </NavItem>
+      </Nav>
+      <TabContent
+        activeTab="1"
+        tag="div"
+      >
+        <TabPane
+          tabId="1"
+          tag="div"
+        >
+          <MemberRoomTypeAccess />
+        </TabPane>
+        <TabPane
+          tabId="2"
+          tag="div"
+        >
+          <MemberRoomTypesAccessDetails />
+        </TabPane>
+        <TabPane
+          tabId="3"
+          tag="div"
+        >
+          <MemberInformation />
+        </TabPane>
+        <TabPane
+          tabId="4"
+          tag="div"
+        >
+          <OtherRoomTypesAccess />
+        </TabPane>
+      </TabContent>
+      <div
+        className="row d-flex justify-content-end"
+      >
+        <Button
+          col={2}
+          title="Log"
+          type="button"
+          typebootstrap="secondary"
+        />
+        <Button
+          col={3}
+          title="Save changes"
+          type="button"
+          typebootstrap="primary "
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

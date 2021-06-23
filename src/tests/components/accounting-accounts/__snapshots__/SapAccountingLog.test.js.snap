@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente SapAccountingLog  Creacion de SapAccountingLog 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h3>
+          E-Invoicing by Affilation
+        </h3>
+      </CardTitle>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            From
+          </Label>
+          <Input
+            type="date"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            To
+          </Label>
+          <Input
+            type="date"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Police Code
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="3"
+        >
+          <Button
+            color="primary"
+            tag="button"
+          >
+            Search
+          </Button>
+        </Col>
+      </Row>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="8"
+        >
+          <Table
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "type",
+                  "key": "type",
+                  "title": "Type ",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "trans",
+                  "key": "trans",
+                  "title": "Trans.date",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "code",
+                  "key": "code",
+                  "title": "Code/Sale Type",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "salesarea",
+                  "key": "salesarea",
+                  "title": "Sales Area",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "where",
+                  "key": "where",
+                  "title": "Where",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "invoice",
+                  "key": "invoice",
+                  "title": "Invoice",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "status",
+                  "key": "status",
+                  "title": "Status",
+                  "width": 100,
+                },
+                Object {
+                  "dataIndex": "document",
+                  "key": "document",
+                  "title": "Document",
+                  "width": 100,
+                },
+              ]
+            }
+            dataSource={
+              Array [
+                Object {},
+              ]
+            }
+            rowKey="key"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="4"
+        >
+          <Button
+            color="primary"
+            tag="button"
+          >
+            Show XML
+          </Button>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Label
+              check={true}
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <br />
+              <Input
+                type="checkbox"
+              />
+              Only Errors
+            </Label>
+          </Row>
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

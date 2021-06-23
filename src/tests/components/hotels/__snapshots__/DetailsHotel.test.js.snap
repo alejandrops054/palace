@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsHotel component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Code
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Description
+          </Label>
+          <Input
+            id="exampleText"
+            name="text"
+            type="textarea"
+          />
+        </Col>
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Status
+          </Label>
+          <Input
+            id="exampleSelect"
+            name="select"
+            type="select"
+          >
+            <option>
+              1
+            </option>
+            <option>
+              2
+            </option>
+          </Input>
+        </Col>
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Zone
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Country
+          </Label>
+          <Input
+            id="exampleSelect"
+            name="select"
+            type="select"
+          >
+            <option>
+              1
+            </option>
+            <option>
+              2
+            </option>
+          </Input>
+        </Col>
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Order
+          </Label>
+          <Input
+            type="text"
+          />
+        </Col>
+        <Col
+          md={3}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            check={true}
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Input
+              type="checkbox"
+            />
+             Only Adults
+          </Label>
+        </Col>
+        <SimpleTable
+          columns={
+            Array [
+              Object {
+                "align": "center",
+                "dataIndex": "roomtype",
+                "key": "roomtype",
+                "title": "Room type",
+                "width": "1%",
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "roomtype": "Prueba",
+              },
+              Object {
+                "roomtype": "Prueba",
+              },
+              Object {
+                "roomtype": "Prueba",
+              },
+              Object {
+                "roomtype": "Prueba",
+              },
+            ]
+          }
+          type="table"
+        />
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pueba en <Checkbox/> Debe renderizar el Checkbox  1`] = `
+<div
+  className="col-lg-undefined  d-flex align-items-center"
+>
+  <div
+    className="checkbox_input mr-3"
+  >
+    <input
+      name="Checkbox"
+      type="checkbox"
+      value="true"
+    />
+    <span
+      className="checkmark"
+    />
+  </div>
+  Pago inicial en efectivo
+</div>
+`;

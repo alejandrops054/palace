@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AffiliationInformation component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      Affiliation Information
+    </h5>
+    <div
+      className="row"
+    >
+      <Input
+        col={6}
+        label="Rel Applic#"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Interval#"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Season"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Unit"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Perv. Memb T"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Memb. Type"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Memb Level"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Wk52#"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={12}
+        label="SubPgm"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="2E.Cta"
+        placeholder=""
+        type="text"
+      />
+      <Input
+        col={6}
+        label="Ra"
+        placeholder=""
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;

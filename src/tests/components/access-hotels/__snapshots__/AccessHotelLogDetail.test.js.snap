@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccessHotelLogDetail component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <LogDetail
+        column={
+          Array [
+            Object {
+              "dataIndex": "order",
+              "key": "order",
+              "title": "Order",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "fieldname",
+              "key": "fieldname",
+              "title": "Field Name",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "original",
+              "key": "original",
+              "title": "Original",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "change",
+              "key": "change",
+              "title": "Change",
+              "width": "1%",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "change": "",
+              "fieldname": "",
+              "order": "",
+              "original": "",
+            },
+            Object {
+              "change": "",
+              "fieldname": "",
+              "order": "",
+              "original": "",
+            },
+            Object {
+              "change": "",
+              "fieldname": "",
+              "order": "",
+              "original": "",
+            },
+            Object {
+              "change": "",
+              "fieldname": "",
+              "order": "",
+              "original": "",
+            },
+            Object {
+              "change": "",
+              "fieldname": "",
+              "order": "",
+              "original": "",
+            },
+            Object {
+              "change": "",
+              "fieldname": "",
+              "order": "",
+              "original": "",
+            },
+            Object {
+              "change": "",
+              "fieldname": "",
+              "order": "",
+              "original": "",
+            },
+            Object {
+              "change": "",
+              "fieldname": "",
+              "order": "",
+              "original": "",
+            },
+          ]
+        }
+        title="Access Hotel Log Detail"
+      />
+    </CardBody>
+  </Card>
+</Fragment>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VatRateCoOwnerReasons component debe mostrar snapshot 1`] = `
+<Fragment>
+  <h4>
+    Reasons
+  </h4>
+  <Checkbox
+    label="Pago inicial en efectivo"
+  />
+  <Checkbox
+    label="Pago con tarjeta de crédito y/o débito nacional"
+  />
+  <Checkbox
+    label="Identificación y/o pasaporte nacional"
+  />
+</Fragment>
+`;

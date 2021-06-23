@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewProvision component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="form-group"
+  >
+    <div
+      className="row"
+    >
+      <h6>
+        Basic information
+      </h6>
+    </div>
+    <div
+      className="row"
+    >
+      <Input
+        icon="search"
+        label="Search permmission"
+        placeholder="Value-Add Tax (%)"
+        type="text"
+      />
+      <Select
+        col={4}
+        label="Search permmission"
+        type="text"
+      />
+      <Select
+        col={4}
+        label="Search permmission"
+        type="text"
+      />
+    </div>
+    <hr
+      className="path"
+    />
+  </div>
+</Fragment>
+`;

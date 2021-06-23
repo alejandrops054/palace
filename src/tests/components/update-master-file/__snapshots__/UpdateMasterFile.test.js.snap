@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdateMasterFile component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="h5"
+      >
+        Update Master File
+      </CardTitle>
+      <Nav
+        tabs={true}
+        tag="ul"
+        vertical={false}
+      >
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            onClick={[Function]}
+            tag="a"
+          >
+            Process
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            onClick={[Function]}
+            tag="a"
+          >
+            Pending
+          </NavLink>
+        </NavItem>
+      </Nav>
+      <TabContent
+        activeTab="1"
+        tag="div"
+      >
+        <TabPane
+          tabId="1"
+          tag="div"
+        >
+          <Process />
+        </TabPane>
+        <TabPane
+          tabId="2"
+          tag="div"
+        >
+          <Pending />
+        </TabPane>
+      </TabContent>
+      <Nav
+        tabs={true}
+        tag="ul"
+        vertical={false}
+      >
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            onClick={[Function]}
+            tag="a"
+          >
+            Errors
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            onClick={[Function]}
+            tag="a"
+          >
+            Warnings
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            onClick={[Function]}
+            tag="a"
+          >
+            Performance
+          </NavLink>
+        </NavItem>
+      </Nav>
+      <TabContent
+        activeTab="1"
+        tag="div"
+      >
+        <TabPane
+          tabId="1"
+          tag="div"
+        >
+          <Errors />
+        </TabPane>
+        <TabPane
+          tabId="2"
+          tag="div"
+        />
+        <TabPane
+          tabId="3"
+          tag="div"
+        />
+      </TabContent>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

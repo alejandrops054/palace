@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente TablaTemplateTitles Creacion de TablaTemplateTitles 1`] = `
+<ForwardRef
+  bordered={true}
+  hover={true}
+  striped={true}
+>
+  <thead>
+    <tr>
+      <td>
+        ID
+      </td>
+      <td>
+        TEMPLATE NAME
+      </td>
+      <td>
+        STATUS
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      key="1"
+    >
+      <td />
+      <td />
+      <td />
+    </tr>
+    <tr
+      key="2"
+    >
+      <td />
+      <td />
+      <td />
+    </tr>
+    <tr
+      key="2"
+    >
+      <td />
+      <td />
+      <td />
+    </tr>
+  </tbody>
+</ForwardRef>
+`;

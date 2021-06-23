@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberSalesmenData component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <h2>
+    Member Salesmen
+  </h2>
+  <Row
+    className="mb-2"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "size": 4,
+        }
+      }
+      md={
+        Object {
+          "size": 5,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "size": 6,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Number
+      </Label>
+      <Input
+        type="number"
+      />
+    </Col>
+  </Row>
+  <Row
+    className="mb-2"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "size": 4,
+        }
+      }
+      md={
+        Object {
+          "size": 5,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "size": 6,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Job
+      </Label>
+      <InputGroup
+        tag="div"
+      >
+        <Input
+          type="text"
+        />
+        <InputGroupAddon
+          addonType="append"
+          tag="div"
+        >
+          <InputGroupText
+            tag="span"
+          >
+            <i
+              className="fas fa-search"
+            />
+          </InputGroupText>
+        </InputGroupAddon>
+      </InputGroup>
+    </Col>
+  </Row>
+  <Row
+    className="mb-2"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "size": 4,
+        }
+      }
+      md={
+        Object {
+          "size": 5,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "size": 6,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Salesman
+      </Label>
+      <InputGroup
+        tag="div"
+      >
+        <Input
+          type="text"
+        />
+        <InputGroupAddon
+          addonType="append"
+          tag="div"
+        >
+          <InputGroupText
+            tag="span"
+          >
+            <i
+              className="fas fa-search"
+            />
+          </InputGroupText>
+        </InputGroupAddon>
+      </InputGroup>
+    </Col>
+  </Row>
+  <Row
+    className="mb-2"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Name
+      </Label>
+      <Input
+        type="text"
+      />
+    </Col>
+  </Row>
+  <Row
+    className="mb-2"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "size": 4,
+        }
+      }
+      md={
+        Object {
+          "size": 5,
+        }
+      }
+      sm={
+        Object {
+          "size": 6,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs={
+        Object {
+          "size": 6,
+        }
+      }
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        Status
+      </Label>
+      <Input
+        type="select"
+      >
+        <option>
+          Alta
+        </option>
+      </Input>
+    </Col>
+  </Row>
+  <Row
+    className="mb-2"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      className="mt-5"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Save
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Close
+      </Button>
+    </Col>
+  </Row>
+</Fragment>
+`;

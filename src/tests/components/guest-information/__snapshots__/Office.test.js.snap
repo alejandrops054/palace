@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Office component debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="normal"
+      color="grey"
+      etiqueta="Office"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="bold"
+      color="white"
+      etiqueta="Sunrise"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      color="grey"
+      etiqueta="Project"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta="Palace Elit"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      col={9}
+      color="grey"
+      etiqueta="Application"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta="1234567"
+      tamanio={18}
+    />
+  </div>
+  <Hr
+    col={12}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Etiqueta
+      bold="false"
+      col={9}
+      color="grey"
+      etiqueta="Previous aplication"
+      tamanio={18}
+    />
+    <Etiqueta
+      bold="true"
+      col={2}
+      color="white"
+      etiqueta=" - "
+      tamanio={18}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalBenefitPolicy component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Benefit Policy
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="xl"
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle>
+        Benefit Policy
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <SeachNav
+              col={12}
+              label="Seach"
+            />
+          </div>
+          <div
+            className="col-6"
+          >
+            <BenefitType />
+          </div>
+          <br />
+          <div
+            className="col-md-6"
+          >
+            <Fiters />
+          </div>
+          <div
+            className="col-md-12"
+          >
+            <br />
+          </div>
+          <div
+            className="col-md-12"
+          >
+            <TablaBenefitPolicy />
+          </div>
+        </div>
+      </div>
+    </ModalBody>
+    <ModalFooter>
+      <Button
+        active={false}
+        disabled={false}
+        variant="secondary"
+      >
+        Export to excel
+      </Button>
+      <Button
+        active={false}
+        disabled={false}
+        variant="secondary"
+      >
+        Blooking Costs
+      </Button>
+      <Button
+        active={false}
+        disabled={false}
+        variant="secondary"
+      >
+        Show Log
+      </Button>
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Send to SAP
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

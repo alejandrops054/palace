@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanyLog component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Log
+    title="Company Log"
+  />
+</Fragment>
+`;

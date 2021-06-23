@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DigitalInvoicing component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <h5>
+        Digital Invoicing
+      </h5>
+      <div
+        className="col-md-6"
+      >
+        <Input
+          col={12}
+          label="Provider"
+          placeholder=""
+          type="text"
+        />
+        <Input
+          col={12}
+          label="Serie"
+          placeholder=""
+          type="text"
+        />
+        <br />
+        <Input
+          col={12}
+          label="FD Date"
+          placeholder=""
+          type="date"
+        />
+        <Input
+          col={12}
+          label="FD UID Parent"
+          placeholder=""
+          type="text"
+        />
+        <Checkbox
+          label="Facturacion por cambio de importe"
+          name="checkRow3"
+        />
+        <Checkbox
+          label="Facturacion por susitucion"
+          name="checkRow3"
+        />
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <Input
+          col={12}
+          label="FD Matriz"
+          placeholder=""
+          type="text"
+        />
+        <Input
+          col={12}
+          label="Folio"
+          placeholder=""
+          type="text"
+        />
+        <Input
+          col={12}
+          label="UID"
+          placeholder=""
+          type="text"
+        />
+        <Input
+          col={12}
+          label="Amount"
+          placeholder=""
+          type="text"
+        />
+        <Checkbox
+          label="Facturacion por portfolio"
+          name="checkRow3"
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

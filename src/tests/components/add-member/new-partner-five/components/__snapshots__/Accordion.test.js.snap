@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion component debe mostrar snapshot 1`] = `
+<Fragment>
+  <div
+    className="mb-5"
+  >
+    <div
+      className="accordion"
+    >
+      <div
+        className="accordion-item"
+      >
+        <h5
+          className="accordion-header"
+          id="headingOne"
+        >
+          <button
+            aria-controls="collapseOne"
+            aria-expanded="true"
+            className="accordion-button"
+            data-bs-target="#collapseOne"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <h3>
+              John Doe
+            </h3>
+            <span
+              className="owner"
+            >
+              Owner
+            </span>
+          </button>
+        </h5>
+        <div
+          aria-labelledby="headingOne"
+          className="accordion-collapse collapse show"
+          data-bs-parent="#accordionExample"
+        >
+          <div
+            className="accordion-body"
+          >
+            <Owner />
+          </div>
+        </div>
+      </div>
+      <div
+        className="accordion-item"
+      >
+        <h5
+          className="accordion-header"
+        >
+          <button
+            aria-controls="collapseTwo"
+            aria-expanded="false"
+            className="accordion-button collapsed"
+            data-bs-target="#collapseTwo"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <h3>
+              Jane Doe
+            </h3>
+            <span
+              className="owner"
+            >
+              CoOwner
+            </span>
+          </button>
+        </h5>
+        <div
+          aria-labelledby="headingTwo"
+          className="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div
+            className="accordion-body"
+          >
+            <strong>
+              This is the second item's accordion body.
+            </strong>
+             It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the 
+            <code>
+              .accordion-body
+            </code>
+            , though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div
+        className="accordion-item"
+      >
+        <h5
+          className="accordion-header"
+        >
+          <button
+            aria-controls="collapseThree"
+            aria-expanded="false"
+            className="accordion-button collapsed"
+            data-bs-target="#collapseThree"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <h3>
+              Dorothy Lane
+            </h3>
+            <span
+              className="owner"
+            >
+              Beneficiary
+            </span>
+          </button>
+        </h5>
+        <div
+          aria-labelledby="headingThree"
+          className="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+          id="collapseThree"
+        >
+          <div
+            className="accordion-body"
+          >
+            <strong>
+              This is the third item's accordion body.
+            </strong>
+             It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the 
+            <code>
+              .accordion-body
+            </code>
+            , though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

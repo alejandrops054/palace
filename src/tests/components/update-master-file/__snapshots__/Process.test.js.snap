@@ -1,0 +1,1010 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Process component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <FormGroup
+            check={true}
+            inline={true}
+            tag="div"
+          >
+            <Label
+              check={true}
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                type="checkbox"
+              />
+               Application
+            </Label>
+          </FormGroup>
+          <FormGroup
+            check={true}
+            inline={true}
+            tag="div"
+          >
+            <Label
+              check={true}
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                type="checkbox"
+              />
+               Date
+            </Label>
+          </FormGroup>
+          <FormGroup
+            check={true}
+            inline={true}
+            tag="div"
+          >
+            <Label
+              check={true}
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Input
+                type="checkbox"
+              />
+               Excel File
+            </Label>
+          </FormGroup>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <h5>
+              From
+            </h5>
+            <Col
+              md={4}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Affiliation
+              </Label>
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              md={8}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Name
+              </Label>
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              md={3}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                From Date
+              </Label>
+              <Input
+                type="date"
+              />
+            </Col>
+            <Col
+              md={3}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Company
+              </Label>
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              md={3}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Purchase
+              </Label>
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              md={3}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Total
+              </Label>
+              <Input
+                type="text"
+              />
+            </Col>
+            <h5>
+              To
+            </h5>
+            <Col
+              md={4}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Affiliation
+              </Label>
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              md={8}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Name
+              </Label>
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              md={3}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                To Date
+              </Label>
+              <Input
+                type="date"
+              />
+            </Col>
+            <Col
+              md={3}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Company
+              </Label>
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              md={3}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Purchase
+              </Label>
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              md={3}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Total
+              </Label>
+              <Input
+                type="text"
+              />
+            </Col>
+            <h5>
+              Member Status
+            </h5>
+            <Col
+              md={6}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <SimpleTable
+                columns={
+                  Array [
+                    Object {
+                      "dataIndex": "selected",
+                      "key": "selected",
+                      "render": [Function],
+                      "title": "Selected",
+                      "width": "1%",
+                    },
+                    Object {
+                      "dataIndex": "status",
+                      "key": "status",
+                      "title": "Status",
+                      "width": "1%",
+                    },
+                  ]
+                }
+                data={
+                  Array [
+                    Object {
+                      "selected": "",
+                      "status": "Active",
+                    },
+                    Object {
+                      "selected": "",
+                      "status": "Definitely Canceled",
+                    },
+                    Object {
+                      "selected": "",
+                      "status": "",
+                    },
+                  ]
+                }
+                type="table"
+              />
+            </Col>
+            <Col
+              md={6}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Row
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Col
+                  md={12}
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  <Label
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    Fully Paid
+                  </Label>
+                  <Input
+                    id="exampleSelect"
+                    name="select"
+                    type="select"
+                  >
+                    <option>
+                      All
+                    </option>
+                    <option>
+                      2
+                    </option>
+                  </Input>
+                </Col>
+                <Col
+                  md={6}
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  <Label
+                    check={true}
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <Input
+                      type="checkbox"
+                    />
+                     Update Member
+                  </Label>
+                </Col>
+                <Col
+                  md={6}
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  <Label
+                    check={true}
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <Input
+                      type="checkbox"
+                    />
+                     Performance
+                  </Label>
+                </Col>
+                <Col
+                  md={6}
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  <Label
+                    check={true}
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <Input
+                      type="checkbox"
+                    />
+                     Update Payment Promises
+                  </Label>
+                </Col>
+                <Col
+                  md={6}
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  <Label
+                    check={true}
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <Input
+                      type="checkbox"
+                    />
+                     Delete Payments Conciliations
+                  </Label>
+                </Col>
+                <Col
+                  md={12}
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  <Label
+                    check={true}
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <Input
+                      type="checkbox"
+                    />
+                     Release Benefits (Elite Products & Provisions)
+                  </Label>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Col>
+        <Col
+          md={6}
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              md={12}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <h5>
+                Total affiliations found: total
+              </h5>
+            </Col>
+            <Col
+              md={12}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <h5>
+                Detail
+              </h5>
+            </Col>
+            <SimpleTable
+              columns={
+                Array [
+                  Object {
+                    "dataIndex": "company",
+                    "key": "company",
+                    "title": "Company",
+                    "width": "1%",
+                  },
+                  Object {
+                    "dataIndex": "noaffiliations",
+                    "key": "noaffiliations",
+                    "title": "No. affiliations",
+                    "width": "1%",
+                  },
+                ]
+              }
+              data={
+                Array [
+                  Object {
+                    "company": "",
+                    "noaffiliations": "",
+                  },
+                  Object {
+                    "company": "",
+                    "noaffiliations": "",
+                  },
+                  Object {
+                    "company": "",
+                    "noaffiliations": "",
+                  },
+                  Object {
+                    "company": "",
+                    "noaffiliations": "",
+                  },
+                  Object {
+                    "company": "",
+                    "noaffiliations": "",
+                  },
+                  Object {
+                    "company": "",
+                    "noaffiliations": "",
+                  },
+                  Object {
+                    "company": "",
+                    "noaffiliations": "",
+                  },
+                  Object {
+                    "company": "",
+                    "noaffiliations": "",
+                  },
+                  Object {
+                    "company": "",
+                    "noaffiliations": "",
+                  },
+                  Object {
+                    "company": "",
+                    "noaffiliations": "",
+                  },
+                ]
+              }
+              type="table"
+            />
+            <h5>
+              By Excel File
+            </h5>
+            <Col
+              md={6}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Path
+              </Label>
+              <Input
+                type="text"
+              />
+            </Col>
+            <Col
+              md={2}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Button
+                col={12}
+                icon="fas fa-times"
+                type="button"
+                typebootstrap="secondary"
+              />
+            </Col>
+            <Col
+              md={3}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Button
+                col={12}
+                title="Load"
+                type="button"
+                typebootstrap="secondary"
+              />
+            </Col>
+            <Col
+              md={12}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Label
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Records to process: 0
+              </Label>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

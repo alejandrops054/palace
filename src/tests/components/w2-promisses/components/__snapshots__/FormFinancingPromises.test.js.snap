@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormFinancingPromises component debe mostrar snapshot 1`] = `
+<form>
+  <div
+    className="row g-3"
+  >
+    <Input
+      col={12}
+      label="Type refinancing"
+      type=""
+    />
+    <br />
+    <p
+      className="card-text col-12"
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+    >
+      Create financing promises
+    </p>
+    <Input
+      col={6}
+      label="Financing type"
+      type="Number"
+    />
+    <Input
+      col={6}
+      label="Payment way"
+      type="Number"
+    />
+    <Input
+      col={6}
+      label="Total Payments"
+      type="Number"
+    />
+    <Input
+      col={6}
+      label="Periodicity"
+      type="Number"
+    />
+    <Input
+      col={6}
+      label="Initial month to pay"
+      type="Number"
+    />
+    <Input
+      col={6}
+      label="First payment"
+      type="Date"
+    />
+    <Input
+      col={6}
+      label="Periodicity number"
+      placeholder="0"
+      type="Number"
+    />
+    <Input
+      col={6}
+      label="Budget"
+      type="Number"
+    />
+  </div>
+  <div
+    className="d-flex justify-content-end mt-5"
+  >
+    <InputButtons />
+  </div>
+</form>
+`;

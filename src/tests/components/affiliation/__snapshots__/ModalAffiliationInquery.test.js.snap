@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalAffiliationInquery component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Affiliation Inquity
+  </Button>
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+    size="xl"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <ModalHeader
+        closeButton={true}
+        closeLabel="Close"
+      >
+        <ModalTitle>
+          Affiliation Inquity
+        </ModalTitle>
+      </ModalHeader>
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-4"
+          >
+            <Input
+              label="Company"
+              type="text"
+            />
+          </div>
+          <div
+            className="col-md-4"
+          >
+            <Input
+              col={12}
+              icon="fas fa-search"
+              label="Affiliation"
+              name="affiliationSearch"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="col-md-4"
+          >
+            <Input
+              col={12}
+              label="Historical"
+              name="historical"
+              onChange={[Function]}
+              type="date"
+              value=""
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-4"
+          >
+            <Input
+              col={12}
+              label="Date From"
+              name="dateFrom"
+              onChange={[Function]}
+              type="date"
+              value=""
+            />
+          </div>
+          <div
+            className="col-md-4"
+          >
+            <Input
+              col={12}
+              label="Tuesday"
+              name="tuesday"
+              onChange={[Function]}
+              type="date"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <ModalBody>
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <TablaAffiliationInquery />
+          </div>
+        </div>
+      </ModalBody>
+      <ModalFooter>
+        <Button
+          col={2}
+          onClick={[Function]}
+          title="Cerrar"
+          typebootstrap="secondary "
+        />
+        <Button
+          col={2}
+          title="Print"
+          type="submit"
+          typebootstrap="primary "
+        />
+      </ModalFooter>
+    </form>
+  </Modal>
+</Fragment>
+`;

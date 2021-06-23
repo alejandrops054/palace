@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalNewCreditCard component Debe mostrar snapshot 1`] = `
+<Modal
+  component={<NewCreditCard />}
+  title="New credit card"
+/>
+`;

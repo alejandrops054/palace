@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoomTypes component debe mostrar snapshot 1`] = `
+<Container
+  fluid={true}
+  tag="div"
+>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <h1>
+      Room Types
+    </h1>
+    <Col
+      lg={
+        Object {
+          "offset": 2,
+          "size": 7,
+        }
+      }
+      md={
+        Object {
+          "offset": 2,
+          "size": 7,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Row
+        className="border mr-1"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+             
+            Code: 
+            <Input
+              type="text"
+            />
+             
+          </Label>
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+             
+            Description: 
+            <Input
+              type="text"
+            />
+             
+          </Label>
+        </Col>
+      </Row>
+    </Col>
+    <Col
+      lg={
+        Object {
+          "size": 2,
+        }
+      }
+      md={
+        Object {
+          "size": 2,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="secondary"
+          tag="button"
+        >
+          Apply Filter
+        </Button>
+      </Row>
+      <Row
+        className="mt-2"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="secondary"
+          tag="button"
+        >
+          Clear Filter
+        </Button>
+      </Row>
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        OrderSection
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Order
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Log
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Add
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Properties
+      </Button>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Refresh
+      </Button>
+    </Col>
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Table
+      columns={
+        Array [
+          Object {
+            "dataIndex": "code",
+            "key": "code",
+            "title": "Code",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "desc",
+            "key": "desc",
+            "title": "Description",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "status",
+            "key": "status",
+            "title": "Status",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "group",
+            "key": "group",
+            "title": "Group",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "subGroup",
+            "key": "subGroup",
+            "title": "Sub Group",
+            "width": 130,
+          },
+        ]
+      }
+      emptyText={[Function]}
+      prefixCls="rc-table"
+      rowKey="key"
+    />
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      lg={
+        Object {
+          "offset": 10,
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Close
+      </Button>
+    </Col>
+  </Row>
+</Container>
+`;

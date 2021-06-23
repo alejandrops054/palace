@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jobs component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="div"
+      >
+        <h3>
+          Jobs
+        </h3>
+      </CardTitle>
+      <br />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="12"
+        >
+          <Table
+            columns={
+              Array [
+                Object {
+                  "dataIndex": "id",
+                  "key": "id",
+                  "title": "Id",
+                  "width": 50,
+                },
+                Object {
+                  "dataIndex": "descripcion",
+                  "key": "descripcion",
+                  "title": "Descripcion",
+                  "width": 100,
+                },
+              ]
+            }
+            dataSource={
+              Array [
+                Object {
+                  "descripcion": "Call Center Rep",
+                  "id": "CCREP",
+                },
+                Object {
+                  "descripcion": "Ejecutivo Asm",
+                  "id": "ASM",
+                },
+                Object {
+                  "descripcion": "Legal Representative",
+                  "id": "LR",
+                },
+                Object {
+                  "descripcion": "VLO",
+                  "id": "VLO",
+                },
+              ]
+            }
+            rowKey="key"
+          />
+        </Col>
+      </Row>
+    </CardBody>
+  </Card>
+</Fragment>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasicInfoForm component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <form>
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <Input
+          icon="fas fa-search"
+          label="Search provision"
+          type="text"
+        />
+      </div>
+      <div
+        className="col"
+      >
+        <Select
+          label="Provision ID"
+        />
+      </div>
+      <div
+        className="col"
+      >
+        <Select
+          label="Quantity"
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <Checkbox
+          className="mr-sm-2"
+          label="Replacement cost by cost"
+          name="replacement"
+          value=""
+        />
+      </div>
+    </div>
+  </form>
+</Fragment>
+`;

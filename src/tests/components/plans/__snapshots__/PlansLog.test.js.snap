@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlansLog component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <Log
+        columns={
+          Array [
+            Object {
+              "dataIndex": "user",
+              "key": "user",
+              "title": "User",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "datetime",
+              "key": "datetime",
+              "title": "Date / Time",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "module",
+              "key": "module",
+              "title": "Module",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "action",
+              "key": "action",
+              "title": "Action",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "original",
+              "key": "original",
+              "title": "Original",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "changes",
+              "key": "changes",
+              "title": "Changes",
+              "width": "1%",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "action": "",
+              "changes": "",
+              "datetime": "",
+              "module": "",
+              "original": "",
+              "user": "",
+            },
+            Object {
+              "action": "",
+              "changes": "",
+              "datetime": "",
+              "module": "",
+              "original": "",
+              "user": "",
+            },
+            Object {
+              "action": "",
+              "changes": "",
+              "datetime": "",
+              "module": "",
+              "original": "",
+              "user": "",
+            },
+            Object {
+              "action": "",
+              "changes": "",
+              "datetime": "",
+              "module": "",
+              "original": "",
+              "user": "",
+            },
+            Object {
+              "action": "",
+              "changes": "",
+              "datetime": "",
+              "module": "",
+              "original": "",
+              "user": "",
+            },
+            Object {
+              "action": "",
+              "changes": "",
+              "datetime": "",
+              "module": "",
+              "original": "",
+              "user": "",
+            },
+            Object {
+              "action": "",
+              "changes": "",
+              "datetime": "",
+              "module": "",
+              "original": "",
+              "user": "",
+            },
+            Object {
+              "action": "",
+              "changes": "",
+              "datetime": "",
+              "module": "",
+              "original": "",
+              "user": "",
+            },
+          ]
+        }
+        title="Plan Log"
+      />
+    </CardBody>
+  </Card>
+</Fragment>
+`;

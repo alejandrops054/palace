@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableMemberProvisionSL component debe mostrar snapshot 1`] = `
+<SimpleTable
+  columns={
+    Array [
+      Object {
+        "dataIndex": "company",
+        "key": "company",
+        "title": "Company",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "application",
+        "key": "application",
+        "title": "Application",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "type",
+        "key": "type",
+        "title": "Type",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "folio",
+        "key": "folio",
+        "title": "Folio",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "previousstatus",
+        "key": "previousstatus",
+        "title": "Previous Status",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "currentstatus",
+        "key": "currentstatus",
+        "title": "Current Status",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "date",
+        "key": "date",
+        "title": "Date",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "time",
+        "key": "time",
+        "title": "Time",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "login",
+        "key": "login",
+        "title": "Login",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "terminal",
+        "key": "terminal",
+        "title": "Terminal",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "module",
+        "key": "module",
+        "title": "Module",
+        "width": "1%",
+      },
+      Object {
+        "dataIndex": "origin",
+        "key": "origin",
+        "title": "Origin",
+        "width": "1%",
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "application": "",
+        "company": "",
+        "currentstatus": "",
+        "date": "",
+        "folio": "",
+        "login": "",
+        "module": "",
+        "origin": "",
+        "previousstatus": "",
+        "terminal": "",
+        "time": "",
+        "type": "",
+      },
+    ]
+  }
+  type="table"
+/>
+`;

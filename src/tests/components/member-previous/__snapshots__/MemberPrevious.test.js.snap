@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberPrevious component debe mostrar snapshot 1`] = `
+<div>
+  <h1>
+    Member Previous
+  </h1>
+  <Form
+    tag="form"
+  >
+    <h2>
+      Member Information
+    </h2>
+    <FormGroup
+      className="mb-2 mr-sm-2 mb-sm-0"
+      tag="div"
+    >
+      <Label
+        tag="label"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        User Name
+      </Label>
+      <Input
+        type="text"
+      />
+    </FormGroup>
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <FormGroup
+          tag="div"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Company
+          </Label>
+          <Input
+            style={
+              Object {
+                "width": "40%",
+              }
+            }
+            type="text"
+          />
+        </FormGroup>
+      </Col>
+      <Col
+        md={3}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <FormGroup
+          tag="div"
+        >
+          <Label
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Application
+          </Label>
+          <Input
+            style={
+              Object {
+                "width": "40%",
+              }
+            }
+            type="number"
+          />
+        </FormGroup>
+      </Col>
+      <Col
+        md={6}
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <FormGroup
+          style={
+            Object {
+              "padding": "4%",
+            }
+          }
+          tag="div"
+        >
+          <Button
+            color="primary"
+            tag="button"
+          >
+            Spacify member
+          </Button>
+        </FormGroup>
+      </Col>
+    </Row>
+    <Row
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Table
+          responsiveTag="div"
+          striped={true}
+          tag="table"
+        >
+          <thead>
+            <tr>
+              <th>
+                Main
+              </th>
+              <th>
+                Company
+              </th>
+              <th>
+                Club
+              </th>
+              <th>
+                Application
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Date
+              </th>
+              <th>
+                Amount
+              </th>
+              <th>
+                Exch. Rate
+              </th>
+              <th>
+                Sale in USD
+              </th>
+              <th>
+                Amount Paid in USD
+              </th>
+              <th>
+                Remainder in USD
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <Input
+                  type="checkbox"
+                />
+              </td>
+              <td>
+                5
+              </td>
+              <td>
+                Elite
+              </td>
+              <td>
+                4037050
+              </td>
+              <td>
+                DERLY LILIBETH LOPEZ
+              </td>
+              <td>
+                5/15/2018
+              </td>
+              <td>
+                $35,375.00
+              </td>
+              <td>
+                $0.00
+              </td>
+              <td>
+                $35,375.00
+              </td>
+              <td>
+                $21,407.21
+              </td>
+              <td>
+                $13,967.00
+              </td>
+            </tr>
+          </tbody>
+        </Table>
+      </FormGroup>
+    </Row>
+    <FormGroup
+      tag="div"
+    >
+      <Col
+        sm={
+          Object {
+            "offset": 10,
+            "size": 10,
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Button
+          color="primary"
+          tag="button"
+        >
+          Save changes
+        </Button>
+         
+        <Button
+          color="primary"
+          tag="button"
+        >
+          Cancel
+        </Button>
+         
+        <Button
+          color="secondary"
+          tag="button"
+        >
+          Close
+        </Button>
+      </Col>
+    </FormGroup>
+  </Form>
+</div>
+`;

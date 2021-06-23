@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MembersProfileTable component debe mostrar snapshot 1`] = `
+<form
+  className="mb-6"
+>
+  <div
+    className="card"
+  >
+    <br />
+    <h3>
+      Member Information
+    </h3>
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <Input
+          col={12}
+          label="Member Name "
+          placeholder="JAMES FREDRICK THOMAS"
+          type="text"
+        />
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-4"
+        >
+          <Input
+            col={12}
+            label="Company"
+            placeholder="5"
+            type="text"
+          />
+        </div>
+        <div
+          className="col-md-4"
+        >
+          <Input
+            col={12}
+            label="Application"
+            placeholder="40212121"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+    <br />
+    <h3>
+      Select the Owner
+    </h3>
+    <br />
+    <div>
+      <Table
+        className="table table-bordered"
+        columns={
+          Array [
+            Object {
+              "dataIndex": "priority",
+              "key": "priority",
+              "title": "Priority",
+              "width": 200,
+            },
+            Object {
+              "dataIndex": "relationship",
+              "key": "relationship",
+              "title": "Relationship",
+              "width": 200,
+            },
+            Object {
+              "dataIndex": "profile",
+              "key": "profile",
+              "title": "Profile Id",
+              "width": 200,
+            },
+            Object {
+              "dataIndex": "idprofile",
+              "key": "idprofile",
+              "title": "IdProfileOperaJS",
+              "width": 200,
+            },
+            Object {
+              "dataIndex": "name",
+              "key": "name",
+              "title": "Name",
+              "width": 200,
+            },
+            Object {
+              "align": "center",
+              "dataIndex": "company",
+              "key": "company",
+              "title": "Company",
+              "width": 200,
+            },
+            Object {
+              "dataIndex": "application",
+              "key": "application",
+              "title": "Application",
+              "width": 200,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "application": "40544305",
+              "company": "5",
+              "idprofile": "",
+              "name": "James Sanches Gutierrez",
+              "priority": <Select
+                col={6}
+                option="1"
+              />,
+              "profile": "17129292",
+              "relationship": <Select
+                col={9}
+                option="Owner "
+              />,
+            },
+            Object {
+              "application": "40544305",
+              "company": "2",
+              "idprofile": "",
+              "name": "Adrian Sanches Samira",
+              "priority": <Select
+                col={6}
+                option="2"
+              />,
+              "profile": "12121211",
+              "relationship": <Select
+                col={9}
+                option="Co Owner"
+              />,
+            },
+            Object {
+              "application": "40544305",
+              "company": "4",
+              "idprofile": "",
+              "name": "Harley Hunt Daves",
+              "priority": <Select
+                col={6}
+                option="3"
+              />,
+              "profile": "13212452",
+              "relationship": <Select
+                col={9}
+                option="Beneficiary"
+              />,
+            },
+            Object {
+              "application": "40544305",
+              "company": "1",
+              "idprofile": "",
+              "name": "Robert Alan Devidson",
+              "priority": <Select
+                col={6}
+                option="1"
+              />,
+              "profile": "12523323",
+              "relationship": <Select
+                col={9}
+                option="Beneficiary"
+              />,
+            },
+            Object {
+              "application": "40544305",
+              "company": "3",
+              "idprofile": "",
+              "name": "Carlos Sanches Gutierrez",
+              "priority": <Select
+                col={6}
+                option="2"
+              />,
+              "profile": "644323232",
+              "relationship": <Select
+                col={9}
+                option="Beneficiary"
+              />,
+            },
+          ]
+        }
+        emptyText={[Function]}
+        prefixCls="rc-table"
+        rowKey="key"
+      />
+    </div>
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <Button
+          col="5"
+          title="Edit Relationship"
+          typebootstrap="secondary"
+        />
+      </div>
+      <div
+        className="col-md-3"
+      >
+        <Button
+          col="4"
+          title="Ok"
+          typebootstrap="secondary"
+        />
+      </div>
+      <div
+        className="col-md-3"
+      >
+        <Button
+          col="6"
+          title="Cancel"
+          typebootstrap="primary"
+        />
+      </div>
+    </div>
+  </div>
+</form>
+`;

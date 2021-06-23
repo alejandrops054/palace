@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConsultarAfiliacion component debe mostrar snapshot 1`] = `
+<div
+  className="mt-3"
+>
+  <Table
+    className="table"
+    columns={
+      Array [
+        Object {
+          "align": "center",
+          "dataIndex": "Send",
+          "key": "Send",
+          "title": "No. Send",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Shipping",
+          "key": "Shipping",
+          "title": "Shipping date",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Office",
+          "key": "Office",
+          "title": "Office",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Batch",
+          "key": "Batch",
+          "title": "Batch Sequence Number",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Total_Send",
+          "key": "Total_Send",
+          "title": "Total Send",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Total_Approved",
+          "key": "Total_Approved",
+          "title": "Total Approved",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "Total_Rejected",
+          "key": "Total_Rejected",
+          "title": "Total Rejected",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "XML_Name",
+          "key": "XML_Name",
+          "title": "XML Name",
+          "width": 160,
+        },
+        Object {
+          "dataIndex": "XML",
+          "key": "XML",
+          "title": "XML ",
+          "width": 160,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "Batch": "0",
+          "Office": "0",
+          "Send": "2021",
+          "Shipping": "0",
+          "Total_Approved": "",
+          "Total_Rejected": "",
+          "Total_Send": "0",
+          "XML": "",
+          "XML_Name": "",
+        },
+      ]
+    }
+    emptyText={[Function]}
+    id="resume-table"
+    prefixCls="rc-table"
+    rowKey="key"
+    scroll={
+      Object {
+        "x": 800,
+      }
+    }
+  />
+</div>
+`;

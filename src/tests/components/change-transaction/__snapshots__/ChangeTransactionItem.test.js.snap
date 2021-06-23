@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangeTransactionItem component Debe mostrar snapshot 1`] = `
+<Container
+  tag="div"
+>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <CardTitle
+        tag="h3"
+      >
+        Change Transaction Item
+      </CardTitle>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <CardSubtitle
+          tag="div"
+        >
+          Member Information
+        </CardSubtitle>
+        <div
+          className=" d-flex justify-content-end tables"
+        >
+          <Button
+            col="1.5"
+            title="Specify Member"
+            type="button"
+            typebootstrap="link main"
+          />
+        </div>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="4"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <InfoMembers
+            text="Name"
+            title="Member Name"
+          />
+          <InfoMembers
+            text="Company"
+            title="Company"
+          />
+        </Col>
+        <Col
+          lg="4"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            col={12}
+            label="Application"
+            type="text"
+          />
+        </Col>
+        <Col
+          lg="4"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <InfoMembers
+            text="Portafolio"
+            title="Portafolio"
+          />
+        </Col>
+      </Row>
+      <hr />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className="d-flex"
+        >
+          <Input
+            col={4}
+            label="Transaction Date"
+            type="date"
+          />
+          <Input
+            col={4}
+            label="Status"
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Invoice check #"
+            type="text"
+          />
+        </div>
+        <div
+          className="d-flex"
+        >
+          <Input
+            col={3}
+            label="Transaction Type"
+            type="date"
+          />
+          <Input
+            col={3}
+            label="Description code"
+            type="text"
+          />
+          <Input
+            col={3}
+            label="Code"
+            type="text"
+          />
+          <Input
+            col={3}
+            label="Id"
+            type="text"
+          />
+        </div>
+        <div
+          className="d-flex"
+        >
+          <Input
+            col={4}
+            label="Reference"
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Sales Man"
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Credit Code"
+            type="text"
+          />
+        </div>
+        <div
+          className="d-flex"
+        >
+          <Input
+            col={4}
+            label="Sales Man"
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Credit Code"
+            type="text"
+          />
+          <Select
+            col={4}
+            colIcon={0}
+            label="Bank"
+            option="Unassigned"
+          />
+        </div>
+      </Row>
+      <hr />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className="d-flex"
+        >
+          <Input
+            col={4}
+            label="Amount"
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Balance Unpaid"
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Transaction #"
+            type="text"
+          />
+        </div>
+        <div
+          className="d-flex"
+        >
+          <Input
+            col={4}
+            label="Down"
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Monthly Amount"
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Escrow"
+            type="text"
+          />
+        </div>
+        <div
+          className="d-flex"
+        >
+          <Input
+            col={4}
+            label="Prin"
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Interest"
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Suspense"
+            type="text"
+          />
+        </div>
+        <div
+          className="d-flex"
+        >
+          <Input
+            col={4}
+            label="Other"
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Late Fee"
+            type="text"
+          />
+          <Input
+            col={4}
+            label="Refinancing Fee"
+            type="text"
+          />
+        </div>
+      </Row>
+      <hr />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="8"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            col={12}
+            label="Description"
+            type="text"
+          />
+        </Col>
+        <Col
+          lg="4"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            col={12}
+            label="Entry Date"
+            type="date"
+          />
+          <Input
+            col={12}
+            label="Cashier"
+            type="text"
+          />
+        </Col>
+      </Row>
+    </CardBody>
+    <CardFooter
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          className="d-flex justify-content-start"
+          lg="8"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            color="secondary"
+            tag="button"
+          >
+            Previous
+          </Button>
+          <Button
+            color="secondary"
+            tag="button"
+          >
+            Next
+          </Button>
+        </Col>
+        <Col
+          className="justify-content-end"
+          lg="4"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            color="primary"
+            tag="button"
+          >
+            <i
+              className="fas fa-clipboard-list"
+            />
+            Log
+          </Button>
+          <Button
+            color="primary"
+            tag="button"
+          >
+            <i
+              className="fas fa-trash"
+            />
+            Delete
+          </Button>
+          <Button
+            color="primary"
+            tag="button"
+          >
+            <i
+              className="fas fa-save"
+            />
+            Save
+          </Button>
+          <Button
+            color="primary"
+            tag="button"
+          >
+            <i
+              className="fas fa-times"
+            />
+            Close
+          </Button>
+        </Col>
+      </Row>
+    </CardFooter>
+  </Card>
+</Container>
+`;

@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreakdownElectronicWallet component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <h1>
+    Breakdown of electronic wallet
+  </h1>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <BreakdownElectronicWalletPI />
+    <BreakdownElectronicWalletEPD />
+  </Row>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Table
+      columns={
+        Array [
+          Object {
+            "dataIndex": "",
+            "key": "",
+            "title": "",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "stock",
+            "key": "stock",
+            "title": "Stock",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "item",
+            "key": "item",
+            "title": "Item",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "date",
+            "key": "date",
+            "title": "Date",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "desc",
+            "key": "desc",
+            "title": "Description",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "ref",
+            "key": "ref",
+            "title": "Reference",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "amount",
+            "key": "amount",
+            "title": "Amount",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "",
+            "key": "",
+            "title": "",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "activate",
+            "key": "activate",
+            "title": "Activate",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "exp",
+            "key": "exp",
+            "title": "Expiration",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "payments",
+            "key": "payment",
+            "title": "Payments",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "financing",
+            "key": "financing",
+            "title": "Financing Type",
+            "width": 130,
+          },
+          Object {
+            "dataIndex": "cash",
+            "key": "cash",
+            "title": "5% Cash",
+            "width": 130,
+          },
+        ]
+      }
+      emptyText={[Function]}
+      prefixCls="rc-table"
+      rowKey="key"
+    />
+  </Row>
+</Fragment>
+`;

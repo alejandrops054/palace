@@ -1,0 +1,1040 @@
+ Volume in drive C has no label.
+ Volume Serial Number is FAE4-B819
+
+ Directory of C:\workspaceContratos\contratosonline\node_modules\airbnb-prop-types\test
+
+26/10/1985  02:15 a. m.             3,442 and.jsx
+26/10/1985  02:15 a. m.             5,415 between.jsx
+26/10/1985  02:15 a. m.             3,708 booleanSome.jsx
+26/10/1985  02:15 a. m.             3,708 childrenHavePropXorChildren.jsx
+26/10/1985  02:15 a. m.             6,540 childrenOf.jsx
+26/10/1985  02:15 a. m.             9,038 childrenOfType.jsx
+26/10/1985  02:15 a. m.             9,213 childrenSequenceOf.jsx
+26/10/1985  02:15 a. m.            15,353 componentWithName.jsx
+26/10/1985  02:15 a. m.             1,964 disallowedIf.jsx
+26/10/1985  02:15 a. m.             8,764 elementType.jsx
+26/10/1985  02:15 a. m.             2,002 empty.jsx
+26/10/1985  02:15 a. m.             2,338 explicitNull.jsx
+26/10/1985  02:15 a. m.             2,582 forbidExtraProps.jsx
+26/10/1985  02:15 a. m.             1,898 integer.jsx
+26/10/1985  02:15 a. m.             1,863 keysOf.jsx
+26/10/1985  02:15 a. m.             3,568 mutuallyExclusiveProps.jsx
+26/10/1985  02:15 a. m.             3,893 mutuallyExclusiveTrueProps.jsx
+26/10/1985  02:15 a. m.             2,280 nChildren.jsx
+26/10/1985  02:15 a. m.             2,085 nonNegativeInteger.jsx
+26/10/1985  02:15 a. m.             2,663 nonNegativeNumber.jsx
+26/10/1985  02:15 a. m.             3,308 numericString.jsx
+26/10/1985  02:15 a. m.             1,997 object.jsx
+26/10/1985  02:15 a. m.             5,985 or.jsx
+26/10/1985  02:15 a. m.             2,379 predicate.jsx
+26/10/1985  02:15 a. m.             1,722 range.jsx
+26/10/1985  02:15 a. m.             3,145 ref.jsx
+26/10/1985  02:15 a. m.             3,058 requiredBy.jsx
+26/10/1985  02:15 a. m.             2,439 restrictedProp.jsx
+26/10/1985  02:15 a. m.             7,262 sequenceOf.jsx
+26/10/1985  02:15 a. m.             2,671 shape.jsx
+26/10/1985  02:15 a. m.             2,880 stringEndsWith.jsx
+26/10/1985  02:15 a. m.             2,894 stringStartsWith.jsx
+26/10/1985  02:15 a. m.             1,461 uniqueArray.jsx
+26/10/1985  02:15 a. m.             5,900 uniqueArrayOf.jsx
+26/10/1985  02:15 a. m.             3,839 valuesOf.jsx
+26/10/1985  02:15 a. m.             2,765 withShape.jsx
+              36 File(s)        146,022 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\node_modules\enzyme-adapter-utils\src
+
+26/10/1985  02:15 a. m.             4,125 createMountWrapper.jsx
+26/10/1985  02:15 a. m.               337 createRenderWrapper.jsx
+26/10/1985  02:15 a. m.               304 RootFinder.jsx
+26/10/1985  02:15 a. m.               912 wrapWithSimpleWrapper.jsx
+               4 File(s)          5,678 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\node_modules\prop-types-exact\test
+
+26/10/1985  02:15 a. m.             3,898 index.jsx
+26/10/1985  02:15 a. m.               520 sloppy.jsx
+               2 File(s)          4,418 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\account-bank
+
+22/01/2021  10:23 p. m.             3,150 AccountBank.jsx
+22/01/2021  10:23 p. m.             3,886 AccountBankDetail.jsx
+22/01/2021  10:23 p. m.             2,101 Bank.jsx
+22/01/2021  10:23 p. m.             2,804 BankDetail.jsx
+               4 File(s)         11,941 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\account-inquiry
+
+22/01/2021  10:23 p. m.             1,494 ReportAccountInquiry.jsx
+22/01/2021  10:23 p. m.             1,120 ReportAccountInquiryMI.jsx
+22/01/2021  10:23 p. m.               368 ReportAccountInquiryModal.jsx
+22/01/2021  10:23 p. m.             1,250 RolesTable.jsx
+               4 File(s)          4,232 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\accounting-accounts
+
+22/01/2021  10:23 p. m.             1,723 AccountingAccountsCatalog.jsx
+22/01/2021  10:23 p. m.             2,183 SapAccounting.jsx
+22/01/2021  10:23 p. m.             3,623 SapAccountingLog.jsx
+22/01/2021  10:23 p. m.             1,601 SapAccountingSideBar.jsx
+               4 File(s)          9,130 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\ach-payment
+
+22/01/2021  10:23 p. m.             1,010 ACHPayment.jsx
+               1 File(s)          1,010 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\add-access-golf-course
+
+22/01/2021  10:23 p. m.             1,594 AddAccessModal.jsx
+               1 File(s)          1,594 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\add-member
+
+22/01/2021  10:23 p. m.             2,111 AddMember.jsx
+22/01/2021  10:23 p. m.             3,850 financingPromises.jsx
+               2 File(s)          5,961 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\add-member\new-partner-five
+
+22/01/2021  10:23 p. m.               570 NewPartnerFive.jsx
+               1 File(s)            570 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\add-member\new-partner-five\components
+
+22/01/2021  10:23 p. m.             3,918 Accordion.jsx
+22/01/2021  10:23 p. m.             2,478 Owner.jsx
+22/01/2021  10:23 p. m.             2,158 PaymenWay.jsx
+22/01/2021  10:23 p. m.             1,522 Search.jsx
+               4 File(s)         10,076 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\add-member\w4
+
+22/01/2021  10:23 p. m.             1,573 PackageAcces.jsx
+               1 File(s)          1,573 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\additional-information
+
+22/01/2021  10:23 p. m.             3,105 Cancellationlog.jsx
+               1 File(s)          3,105 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\admin-fee
+
+22/01/2021  10:23 p. m.             2,440 AdminFee.jsx
+               1 File(s)          2,440 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\affiliation
+
+22/01/2021  10:23 p. m.             1,497 MemberWeeksInquiry.jsx
+22/01/2021  10:23 p. m.             1,608 MemberWeeksInquiryAmount.jsx
+22/01/2021  10:23 p. m.             1,338 MemberWeeksInquiryData.jsx
+22/01/2021  10:23 p. m.             3,515 ModalAffiliationInquery.jsx
+22/01/2021  10:23 p. m.             3,483 ModalAffiliationUtility.jsx
+22/01/2021  10:23 p. m.             2,166 TablaAffiliationInquery.jsx
+               6 File(s)         13,607 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\ajust-movements
+
+22/01/2021  10:23 p. m.             4,766 AdjustMovements.jsx
+               1 File(s)          4,766 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\asm
+
+22/01/2021  10:23 p. m.             1,414 Asm.jsx
+22/01/2021  10:23 p. m.             1,437 DataAsm.jsx
+               2 File(s)          2,851 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\assignment
+
+22/01/2021  10:23 p. m.             2,050 AssignmentOfDiamindClassifications.jsx
+               1 File(s)          2,050 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\authentication-necesary
+
+22/01/2021  10:23 p. m.               446 Authentication.jsx
+22/01/2021  10:23 p. m.             2,367 ContentAuthentication.jsx
+               2 File(s)          2,813 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\beneficiaries
+
+22/01/2021  10:23 p. m.            10,225 Beneficiaries.jsx
+22/01/2021  10:23 p. m.             1,430 DataBeneficiaries.jsx
+               2 File(s)         11,655 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\beneficiaries-modal
+
+22/01/2021  10:23 p. m.             3,384 BeneficiariesModal.jsx
+               1 File(s)          3,384 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\benefits
+
+22/01/2021  10:23 p. m.               595 Benefits.jsx
+22/01/2021  10:23 p. m.             1,298 Certificates.jsx
+22/01/2021  10:23 p. m.             2,474 ModalBenefitPolicy.jsx
+22/01/2021  10:23 p. m.             1,017 NavBenefits.jsx
+22/01/2021  10:23 p. m.             1,616 Promotions.jsx
+22/01/2021  10:23 p. m.             2,568 Provisions.jsx
+22/01/2021  10:23 p. m.               983 ReferralProgram.jsx
+22/01/2021  10:23 p. m.             2,605 TablePromotions.jsx
+               8 File(s)         13,156 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\benefits\benefit-policy
+
+22/01/2021  10:23 p. m.             2,052 BenefitType.jsx
+22/01/2021  10:23 p. m.             1,150 Fiters.jsx
+22/01/2021  10:23 p. m.             1,037 TablaBenefitPolicy.jsx
+               3 File(s)          4,239 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\benefits\breakdown-electronic-wallet
+
+22/01/2021  10:23 p. m.             1,948 BreakdownElectronicWallet.jsx
+22/01/2021  10:23 p. m.               989 BreakdownElectronicWalletEPD.jsx
+22/01/2021  10:23 p. m.               955 BreakdownElectronicWalletPI.jsx
+               3 File(s)          3,892 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\bitacora-smart
+
+22/01/2021  10:23 p. m.             3,858 BitacoraSmart.jsx
+               1 File(s)          3,858 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\catalogo-views
+
+22/01/2021  10:23 p. m.             3,378 CatalogoViews.jsx
+22/01/2021  10:23 p. m.             3,971 View.jsx
+               2 File(s)          7,349 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\cell-phone
+
+22/01/2021  10:23 p. m.               808 CellPhone.jsx
+               1 File(s)            808 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\change-transaction
+
+22/01/2021  10:23 p. m.             5,358 ChangeTransactionItem.jsx
+               1 File(s)          5,358 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\clean-suspense
+
+22/01/2021  10:23 p. m.             3,295 CleanSuspense.jsx
+               1 File(s)          3,295 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\companies
+
+22/01/2021  10:23 p. m.             1,778 ModalPortafolioCompanies.jsx
+               1 File(s)          1,778 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\companies\componetes
+
+22/01/2021  10:23 p. m.             1,527 TablaPortafolioCompanies.jsx
+               1 File(s)          1,527 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\concord-notes
+
+22/01/2021  10:23 p. m.             1,217 ConcordNotes.jsx
+               1 File(s)          1,217 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\configuration-portfolio-ba
+
+22/01/2021  10:23 p. m.             1,235 BankAccountsLog.jsx
+22/01/2021  10:23 p. m.             1,692 BankAccountsLogDetail.jsx
+22/01/2021  10:23 p. m.             1,249 BankAccountsLogFilters.jsx
+22/01/2021  10:23 p. m.             2,594 ConfigurationPortfolioBA.jsx
+22/01/2021  10:23 p. m.             5,327 PortfolioBankAccount.jsx
+22/01/2021  10:23 p. m.             2,059 TableBA.jsx
+               6 File(s)         14,156 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\coOwner
+
+22/01/2021  10:40 p. m.            18,934 CoOwner.jsx
+22/01/2021  10:23 p. m.               751 CoOwnerSM.jsx
+22/01/2021  10:23 p. m.             1,341 DataCoOwner.jsx
+22/01/2021  10:23 p. m.             1,771 DayPass.jsx
+22/01/2021  10:23 p. m.             1,067 ModalCoOwnerSM.jsx
+22/01/2021  10:23 p. m.             1,264 TablaDayPass.jsx
+               6 File(s)         25,128 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\custome-search
+
+22/01/2021  10:23 p. m.             1,744 CustomerSearch.jsx
+               1 File(s)          1,744 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\deposits-maintenance
+
+22/01/2021  10:23 p. m.             6,800 DespositsMaintenance.jsx
+               1 File(s)          6,800 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\e-invoice-cancellation
+
+22/01/2021  10:23 p. m.             1,242 EInvoiceCancellation.jsx
+               1 File(s)          1,242 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\e-invoicing
+
+22/01/2021  10:23 p. m.               990 EInvoicing.jsx
+22/01/2021  10:23 p. m.             1,758 NavEInvoicing.jsx
+22/01/2021  10:23 p. m.             2,695 TableInProcess.jsx
+22/01/2021  10:23 p. m.             2,687 TableProcessed.jsx
+               4 File(s)          8,130 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\e-InvoicingAffiliation
+
+22/01/2021  10:23 p. m.             5,187 EInvoicingAffilation.jsx
+               1 File(s)          5,187 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\e-invoicingprocess
+
+22/01/2021  10:23 p. m.             1,276 EInvoicingProcess.jsx
+               1 File(s)          1,276 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\electronic-wallet
+
+22/01/2021  10:23 p. m.             2,923 Account.jsx
+22/01/2021  10:23 p. m.             3,486 Cards.jsx
+22/01/2021  10:23 p. m.               533 ElectronicWallet.jsx
+22/01/2021  10:23 p. m.             2,801 MemberElectronicDetailLog.jsx
+22/01/2021  10:23 p. m.             2,553 ModalElectronicWallet.jsx
+22/01/2021  10:23 p. m.             3,060 ProvitionalQuery.jsx
+22/01/2021  10:23 p. m.             1,929 TableProduct.jsx
+22/01/2021  10:23 p. m.             6,099 TableReference.jsx
+               8 File(s)         23,384 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\frm-not-accounting
+
+22/01/2021  10:23 p. m.             2,934 BenefitPolicyLog.jsx
+22/01/2021  10:23 p. m.             1,339 FrmNotAccounting.jsx
+22/01/2021  10:23 p. m.             2,183 TableConsecutive.jsx
+22/01/2021  10:23 p. m.             2,349 TableSuccess.jsx
+               4 File(s)          8,805 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\guest-information
+
+22/01/2021  10:23 p. m.             1,583 AccordionnInformation.jsx
+22/01/2021  10:23 p. m.             2,246 Contact.jsx
+22/01/2021  10:23 p. m.               303 ContactForm.jsx
+22/01/2021  10:23 p. m.             3,036 ElementosCard.jsx
+22/01/2021  10:23 p. m.             3,956 FormContact.jsx
+22/01/2021  10:23 p. m.             2,236 Gest.jsx
+22/01/2021  10:23 p. m.               469 GuestInformation.jsx
+22/01/2021  10:23 p. m.             1,395 Office.jsx
+22/01/2021  10:23 p. m.               666 VatRateGuestInformation.jsx
+               9 File(s)         15,890 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\guestInformationTable
+
+22/01/2021  10:23 p. m.             2,700 ContractsTextTable.jsx
+22/01/2021  10:23 p. m.             5,889 GeographiLocationTable.jsx
+22/01/2021  10:23 p. m.             2,673 GuestInformationTable.jsx
+22/01/2021  10:23 p. m.             6,450 IncludePackages.jsx
+22/01/2021  10:23 p. m.             6,687 MemberDiscountProducts.jsx
+22/01/2021  10:23 p. m.             3,407 MemberReservationRates.jsx
+22/01/2021  10:23 p. m.             3,869 MembersProfileTable.jsx
+22/01/2021  10:23 p. m.             3,182 Promotions.jsx
+               8 File(s)         34,857 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\hotels
+
+22/01/2021  10:23 p. m.             2,613 DetailsHotel.jsx
+22/01/2021  10:23 p. m.             3,013 Hotels.jsx
+               2 File(s)          5,626 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\info-members
+
+22/01/2021  10:23 p. m.               462 InfoMembers.jsx
+22/01/2021  10:23 p. m.               591 InfoMembersNoContainer.jsx
+               2 File(s)          1,053 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\initialize
+
+22/01/2021  10:23 p. m.             1,892 Initialize.jsx
+               1 File(s)          1,892 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\interfaz-afiliciones
+
+22/01/2021  10:23 p. m.             1,982 ConsultarAfiliacion.jsx
+22/01/2021  10:23 p. m.             1,771 EnviarAfiliacion.jsx
+22/01/2021  10:23 p. m.             2,899 InterfazAfilicianes.jsx
+22/01/2021  10:23 p. m.             1,676 VerAfiliacion.jsx
+               4 File(s)          8,328 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\invoicing-info
+
+22/01/2021  10:23 p. m.             1,875 AddressInvoicing.jsx
+22/01/2021  10:23 p. m.             1,540 InvoicingInfo.jsx
+               2 File(s)          3,415 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\job
+
+22/01/2021  10:23 p. m.             1,874 DetailsJob.jsx
+               1 File(s)          1,874 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\listof-benefits
+
+22/01/2021  10:23 p. m.             1,418 DataListOfBenefits.jsx
+22/01/2021  10:23 p. m.             2,538 ListOfBenefits.jsx
+               2 File(s)          3,956 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\loading
+
+22/01/2021  10:23 p. m.               704 Loading.jsx
+               1 File(s)            704 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\login
+
+22/01/2021  10:23 p. m.             3,679 login.jsx
+               1 File(s)          3,679 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\main-menu
+
+22/01/2021  10:23 p. m.             1,198 LiNavbar.jsx
+22/01/2021  10:23 p. m.             1,955 MainMenu.jsx
+22/01/2021  10:23 p. m.             1,433 NavBar.jsx
+               3 File(s)          4,586 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\main-menu\DataSideBar
+
+22/01/2021  10:23 p. m.               281 CatalogsData.jsx
+22/01/2021  10:23 p. m.               278 CreditsData.jsx
+22/01/2021  10:23 p. m.               713 MembersData.jsx
+22/01/2021  10:23 p. m.               776 ReportsData.jsx
+22/01/2021  10:23 p. m.               913 SettingsData.jsx
+               5 File(s)          2,961 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\main-panel
+
+22/01/2021  10:23 p. m.               891 Menusocios.jsx
+22/01/2021  10:23 p. m.             3,572 Panel.jsx
+               2 File(s)          4,463 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\manage-participants
+
+22/01/2021  10:23 p. m.             2,838 ManagaParticipants.jsx
+22/01/2021  10:23 p. m.             3,503 Participants.jsx
+               2 File(s)          6,341 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\management-benefit
+
+22/01/2021  10:23 p. m.             1,582 CreateBenefit.jsx
+22/01/2021  10:23 p. m.               653 CreateBenefits.jsx
+22/01/2021  10:23 p. m.             2,144 CreateBenefitType.jsx
+22/01/2021  10:23 p. m.             1,960 ManagementBenefit.jsx
+22/01/2021  10:23 p. m.             2,510 SearchBenefits.jsx
+               5 File(s)          8,849 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\management-reports
+
+22/01/2021  10:23 p. m.               993 ManagementReports.jsx
+               1 File(s)            993 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\markets
+
+22/01/2021  10:23 p. m.             2,425 MembersMarkets.jsx
+               1 File(s)          2,425 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\member-commissions-details
+
+22/01/2021  10:23 p. m.             1,332 MemberCommissionsDetails.jsx
+               1 File(s)          1,332 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\member-inquiry
+
+22/01/2021  10:23 p. m.             7,470 AccountDetails.jsx
+22/01/2021  10:23 p. m.             4,198 Conciliations.jsx
+22/01/2021  10:23 p. m.             3,006 MemberInquiry.jsx
+22/01/2021  10:23 p. m.             4,068 Promises.jsx
+               4 File(s)         18,742 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\member-inquiry\components
+
+22/01/2021  10:23 p. m.               796 BreadCrumbsMemberInquiry.jsx
+22/01/2021  10:23 p. m.             1,014 MemberInquiryData.jsx
+22/01/2021  10:23 p. m.             7,341 TableMemberInquiry.jsx
+               3 File(s)          9,151 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\member-notes
+
+22/01/2021  10:23 p. m.             1,527 AddNote.jsx
+22/01/2021  10:23 p. m.               998 DataNotes.jsx
+22/01/2021  10:23 p. m.             2,032 MemberNotes.jsx
+22/01/2021  10:23 p. m.             1,965 Note.jsx
+               4 File(s)          6,522 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\member-previous
+
+22/01/2021  10:23 p. m.             3,576 MemberPrevious.jsx
+               1 File(s)          3,576 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\member-profiles-related
+
+22/01/2021  10:23 p. m.             2,908 MemberProfilesRelated.jsx
+               1 File(s)          2,908 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\member-provision-status-log
+
+22/01/2021  10:23 p. m.             1,258 MemberProvisionSL.jsx
+22/01/2021  10:23 p. m.             2,337 TableMemberProvisionSL.jsx
+               2 File(s)          3,595 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\member-reports-for
+
+22/01/2021  10:23 p. m.             1,913 MemberReportsFor.jsx
+               1 File(s)          1,913 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\member-room-types-access
+
+22/01/2021  10:23 p. m.             1,193 MemberRoomTypesAccess.jsx
+               1 File(s)          1,193 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\member-typeaccess
+
+22/01/2021  10:23 p. m.               748 MemberInformation.jsx
+22/01/2021  10:23 p. m.             3,454 MemberRoomTypeAccess.jsx
+22/01/2021  10:23 p. m.             2,207 MemberRoomTypesAccessDetails.jsx
+22/01/2021  10:23 p. m.             1,735 OtherRoomTypesAccess.jsx
+22/01/2021  10:23 p. m.             3,286 RoomTypesAccess.jsx
+               5 File(s)         11,430 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\members
+
+22/01/2021  10:23 p. m.             1,686 AddressMemberByCreditCard.jsx
+22/01/2021  10:23 p. m.             6,317 AddtionalInformation.jsx
+22/01/2021  10:23 p. m.             1,260 DiamondClassifications.jsx
+22/01/2021  10:23 p. m.             1,472 DowPayment.jsx
+22/01/2021  10:23 p. m.             1,347 MemberReservationRates.jsx
+22/01/2021  10:23 p. m.               866 MemberReservationRatesMI.jsx
+22/01/2021  10:23 p. m.               754 MemberReservationRatesYA.jsx
+22/01/2021  10:23 p. m.             2,211 members.jsx
+22/01/2021  10:23 p. m.             1,612 MembersLikend.jsx
+22/01/2021  10:23 p. m.             1,874 MembersPrevious.jsx
+22/01/2021  10:23 p. m.             5,804 ModalEstadoDeCuenta.jsx
+              11 File(s)         25,203 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\members-linked
+
+22/01/2021  10:23 p. m.             1,756 DataMembersLinked.jsx
+22/01/2021  10:23 p. m.             1,892 MembersLinked.jsx
+               2 File(s)          3,648 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\members-resume
+
+22/01/2021  10:23 p. m.             3,611 MembersResume.jsx
+               1 File(s)          3,611 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\membership-input
+
+22/01/2021  10:23 p. m.               397 Financi.jsx
+22/01/2021  10:23 p. m.             2,046 FinancingPromesis.jsx
+22/01/2021  10:23 p. m.             5,102 GuestInformationDates.jsx
+               3 File(s)          7,545 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\modal-add-note
+
+22/01/2021  10:23 p. m.               307 AddNote.jsx
+               1 File(s)            307 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\modal-add-note\modules
+
+22/01/2021  10:23 p. m.             4,911 FormAddNote.jsx
+               1 File(s)          4,911 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\modal-saving
+
+22/01/2021  10:23 p. m.               448 Saved.jsx
+22/01/2021  10:23 p. m.               780 Saving.jsx
+               2 File(s)          1,228 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\monthly-stock
+
+22/01/2021  10:23 p. m.             2,539 MonthlyStock.jsx
+22/01/2021  10:23 p. m.             5,299 RaffleWeeks.jsx
+               2 File(s)          7,838 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\new-credit-card
+
+22/01/2021  10:23 p. m.               412 ModalNewCreditCard.jsx
+22/01/2021  10:23 p. m.             2,456 NewCreditCard.jsx
+               2 File(s)          2,868 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\new-credit-card\newCreditCard
+
+22/01/2021  10:23 p. m.               412 ModalNewCreditCard.jsx
+22/01/2021  10:23 p. m.             2,456 NewCreditCard.jsx
+               2 File(s)          2,868 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\new-deposit
+
+22/01/2021  10:23 p. m.             2,934 BinBankCreditCard.jsx
+22/01/2021  10:23 p. m.             1,791 CreditCard.jsx
+22/01/2021  10:23 p. m.             2,543 DownPayments.jsx
+22/01/2021  10:23 p. m.             3,721 InfoCard.jsx
+22/01/2021  10:23 p. m.               998 NewDeposit.jsx
+               5 File(s)         11,987 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\new-partner
+
+22/01/2021  10:23 p. m.             1,325 BasicInfoForm.jsx
+22/01/2021  10:23 p. m.             1,383 UnlimitedForm.jsx
+22/01/2021  10:23 p. m.               617 W3-AddProvision.jsx
+22/01/2021  10:23 p. m.             4,032 W5-AddNote.jsx
+               4 File(s)          7,357 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\new-socio-processing
+
+22/01/2021  10:23 p. m.               610 NewSocioProcessing.jsx
+               1 File(s)            610 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\notes-menu
+
+22/01/2021  10:23 p. m.             2,105 NotesMenu.jsx
+               1 File(s)          2,105 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\nuevo-socio-promisses
+
+22/01/2021  10:23 p. m.             3,024 AccDet.jsx
+22/01/2021  10:23 p. m.               480 Blance.jsx
+22/01/2021  10:23 p. m.             1,876 Company.jsx
+22/01/2021  10:23 p. m.               884 GetExistingF.jsx
+22/01/2021  10:23 p. m.             5,105 NuevoSocioPromisses.jsx
+               5 File(s)         11,369 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\origin
+
+22/01/2021  10:23 p. m.             3,968 OriginInformation.jsx
+               1 File(s)          3,968 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\owner-email
+
+22/01/2021  10:23 p. m.             1,723 DataOwnerEmail.jsx
+22/01/2021  10:23 p. m.             1,865 OwnerEmail.jsx
+               2 File(s)          3,588 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\palace-elite-golf
+
+22/01/2021  10:23 p. m.             2,362 PalaceEliteGolf.jsx
+               1 File(s)          2,362 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\paymentPosting
+
+22/01/2021  10:23 p. m.            14,434 PaymentPosting.jsx
+               1 File(s)         14,434 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\performance
+
+22/01/2021  10:23 p. m.             3,405 ModalPerformance.jsx
+22/01/2021  10:23 p. m.             1,903 TablePerformance.jsx
+               2 File(s)          5,308 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\personal-information
+
+22/01/2021  10:23 p. m.             1,435 AffiliationInformation.jsx
+22/01/2021  10:23 p. m.             2,144 PersonalInformation.jsx
+               2 File(s)          3,579 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\portfolio-sales
+
+22/01/2021  10:23 p. m.             1,489 portfolioSales.jsx
+22/01/2021  10:23 p. m.               281 PortfolioSalesModal.jsx
+               2 File(s)          1,770 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\promotion
+
+22/01/2021  10:23 p. m.             3,442 PromotionBenefitDetail.jsx
+22/01/2021  10:23 p. m.             1,833 PromotionSpecificationDetail.jsx
+22/01/2021  10:23 p. m.             2,334 ProvisionBenefitDetail.jsx
+               3 File(s)          7,609 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\provision
+
+22/01/2021  10:23 p. m.             2,590 DataTablesProvision.jsx
+22/01/2021  10:23 p. m.            12,425 Provision.jsx
+               2 File(s)         15,015 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\provisions
+
+22/01/2021  10:23 p. m.             5,171 Provisions.jsx
+               1 File(s)          5,171 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\quantity-provisions
+
+22/01/2021  10:23 p. m.             2,093 QuantityProvisons.jsx
+               1 File(s)          2,093 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\release-affiliation-balance
+
+22/01/2021  10:23 p. m.             1,133 AccountsReceivable.jsx
+22/01/2021  10:23 p. m.             1,806 AccountsReceivableFilters.jsx
+22/01/2021  10:23 p. m.             2,689 AirplaneTicket.jsx
+22/01/2021  10:23 p. m.             2,068 ReleaseAffiliation.jsx
+22/01/2021  10:23 p. m.               767 ReleaseAffiliationBalance.jsx
+22/01/2021  10:23 p. m.               973 ReleaseAffiliationCriteria.jsx
+22/01/2021  10:23 p. m.             2,173 ReleaseAffiliationRSA.jsx
+               7 File(s)         11,609 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\release-electronicpurse
+
+22/01/2021  10:23 p. m.             5,657 ReleaseElectronicPurseProducts.jsx
+               1 File(s)          5,657 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\report-down
+
+22/01/2021  10:23 p. m.             4,708 ReportDownPaymentsRemaining.jsx
+22/01/2021  10:23 p. m.             2,238 ReportElectronicPurseDetail.jsx
+               2 File(s)          6,946 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\report-editor
+
+22/01/2021  10:23 p. m.             1,015 AddEditPostForm.jsx
+22/01/2021  10:23 p. m.             1,154 EditorComponent.jsx
+               2 File(s)          2,169 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\report-raffle-week
+
+22/01/2021  10:23 p. m.             1,103 ReportRaffleWeek.jsx
+               1 File(s)          1,103 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\reports
+
+22/01/2021  10:23 p. m.             6,997 AccountStatement.jsx
+22/01/2021  10:23 p. m.             3,705 MembershipReport.jsx
+22/01/2021  10:23 p. m.             2,150 ReportBarclays.jsx
+22/01/2021  10:23 p. m.             2,774 ReportCycleMonthlyDeling.jsx
+22/01/2021  10:23 p. m.             1,973 ReportSalesCancellation.jsx
+22/01/2021  10:23 p. m.             1,788 ReportUniversalCredit.jsx
+               6 File(s)         19,387 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\reports\airolane
+
+22/01/2021  10:23 p. m.             3,771 ModalAirplaneTicket.jsx
+22/01/2021  10:23 p. m.             4,298 ModalCancellationReport.jsx
+22/01/2021  10:23 p. m.             2,739 ModalComparePortafolio.jsx
+               3 File(s)         10,808 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\reports\corporative
+
+22/01/2021  10:23 p. m.             2,599 ModalCorporativeReportTax.jsx
+22/01/2021  10:23 p. m.             3,764 ModalRef500.jsx
+               2 File(s)          6,363 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\reports\daily
+
+22/01/2021  10:23 p. m.             1,995 ModalDailyInvoing.jsx
+22/01/2021  10:23 p. m.             3,499 ModalDailySale.jsx
+22/01/2021  10:23 p. m.             2,065 ModalPrintDailyCollections.jsx
+22/01/2021  10:23 p. m.             3,856 ModalReportDespositBatchListing.jsx
+22/01/2021  10:23 p. m.             1,695 ModalSelectBacnkAccount.jsx
+               5 File(s)         13,110 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\reports\daily\Componentes
+
+22/01/2021  10:23 p. m.             4,612 DailyInvoing.jsx
+22/01/2021  10:23 p. m.             3,138 DigitalInvoicing.jsx
+22/01/2021  10:23 p. m.             3,738 InformationAdicional.jsx
+22/01/2021  10:23 p. m.             1,142 OtherInfo.jsx
+22/01/2021  10:23 p. m.             3,000 PrintDailyCodeType.jsx
+22/01/2021  10:23 p. m.             2,001 PrintDailyExclude.jsx
+22/01/2021  10:23 p. m.             2,853 PrintDailyLocation.jsx
+22/01/2021  10:23 p. m.             3,536 PrintDailyNational.jsx
+22/01/2021  10:23 p. m.             1,351 TablaSelectBankAccount.jsx
+               9 File(s)         25,371 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\reports\modal-beneficiaries
+
+22/01/2021  10:23 p. m.             1,277 Beneficiaries.jsx
+22/01/2021  10:23 p. m.               465 ModalBeneficiaries.jsx
+               2 File(s)          1,742 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\reports\provisions
+
+22/01/2021  10:23 p. m.             2,840 ModalProvisionsAndCosts.jsx
+               1 File(s)          2,840 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\reports\report-editor-home
+
+22/01/2021  10:23 p. m.             4,627 TreeView.jsx
+               1 File(s)          4,627 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\reports-member
+
+22/01/2021  10:23 p. m.             4,397 MemberShipsReport.jsx
+22/01/2021  10:23 p. m.             3,095 ReportsMember.jsx
+               2 File(s)          7,492 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\reports-mr
+
+22/01/2021  10:23 p. m.             1,966 AffilitationUtilities.jsx
+               1 File(s)          1,966 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\requerimento-autorizaciones
+
+22/01/2021  10:23 p. m.             2,625 RequerimentoAutorizaciones.jsx
+               1 File(s)          2,625 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\room-type-access
+
+22/01/2021  10:23 p. m.             1,250 CallCenterTA.jsx
+22/01/2021  10:23 p. m.             1,718 ClausesTA.jsx
+22/01/2021  10:23 p. m.             3,740 DetailsRoomTypeAccess.jsx
+22/01/2021  10:23 p. m.             2,077 EditSection.jsx
+22/01/2021  10:23 p. m.             4,019 GeneralTA.jsx
+22/01/2021  10:23 p. m.             1,951 ProvisionRoomTypePromotional.jsx
+22/01/2021  10:23 p. m.             2,531 RoomTypesAcces.jsx
+               7 File(s)         17,286 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\room-type-access\components
+
+22/01/2021  10:23 p. m.             1,121 TablaEditSection.jsx
+22/01/2021  10:23 p. m.             1,950 TablaProvisionRoomTypePromotional.jsx
+22/01/2021  10:23 p. m.             1,647 TablaRoomTypeAccess.jsx
+               3 File(s)          4,718 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\sale-capture
+
+22/01/2021  10:23 p. m.               935 SaleCapture.jsx
+               1 File(s)            935 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\sale-capture\modules
+
+22/01/2021  10:23 p. m.             4,268 CreditCard.jsx
+22/01/2021  10:23 p. m.             7,553 FinancingDetail.jsx
+22/01/2021  10:23 p. m.             1,909 SaleDetail.jsx
+22/01/2021  10:23 p. m.             2,507 StayDetail.jsx
+               4 File(s)         16,237 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\salesmen
+
+22/01/2021  10:23 p. m.             1,318 Jobs.jsx
+22/01/2021  10:23 p. m.             3,574 MemberLog.jsx
+22/01/2021  10:23 p. m.             2,765 MemberLogDetail.jsx
+22/01/2021  10:23 p. m.             1,520 MemberSalesmen.jsx
+22/01/2021  10:23 p. m.             2,310 MemberSalesmenData.jsx
+22/01/2021  10:23 p. m.             1,193 MemberSalesmenInfo.jsx
+22/01/2021  10:23 p. m.             3,615 MemberSalesmenLog.jsx
+22/01/2021  10:23 p. m.             2,826 MemberSalesmenLogDetail.jsx
+22/01/2021  10:23 p. m.             2,208 SalesMen.jsx
+               9 File(s)         21,329 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\select-price-level
+
+22/01/2021  10:23 p. m.             1,519 DataOneSelectPriceLevel.jsx
+22/01/2021  10:23 p. m.             1,210 DataTwoSelectPriceLevel.jsx
+22/01/2021  10:23 p. m.             1,234 SelectPriceLevel.jsx
+               3 File(s)          3,963 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\spa-money
+
+22/01/2021  10:23 p. m.             1,194 SpaMoney.jsx
+               1 File(s)          1,194 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\special-letter
+
+22/01/2021  10:23 p. m.             2,710 BenefitTitles.jsx
+22/01/2021  10:23 p. m.             2,127 BenefitType.jsx
+22/01/2021  10:23 p. m.             2,136 CategoryTitles.jsx
+22/01/2021  10:23 p. m.             1,475 Jobs.jsx
+22/01/2021  10:23 p. m.             2,895 TemplateTitle.jsx
+22/01/2021  10:23 p. m.             1,715 TemplateTitles.jsx
+               6 File(s)         13,058 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\special-letter\componentes
+
+22/01/2021  10:23 p. m.             1,291 TablaBenefitTitles.jsx
+22/01/2021  10:23 p. m.             1,317 TablaBenefitType.jsx
+22/01/2021  10:23 p. m.             1,414 TablaCategoryTitle.jsx
+22/01/2021  10:23 p. m.             1,300 TablaTemplateTitles.jsx
+22/01/2021  10:23 p. m.             1,444 TableJobs.jsx
+               5 File(s)          6,766 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\special-letter-titles-setting
+
+22/01/2021  10:23 p. m.             8,458 RoomType.jsx
+22/01/2021  10:23 p. m.             2,211 RoomTypes.jsx
+               2 File(s)         10,669 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\special-letter-titles-setting\tables
+
+22/01/2021  10:23 p. m.             1,038 ClausesEliteBenefits.jsx
+22/01/2021  10:23 p. m.             1,453 ClausesReservationsRates.jsx
+22/01/2021  10:23 p. m.               393 Hotels.jsx
+22/01/2021  10:23 p. m.               478 Language.jsx
+               4 File(s)          3,362 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\sso
+
+22/01/2021  10:23 p. m.             1,237 SplashScreenA.jsx
+               1 File(s)          1,237 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\stockSaleRoom
+
+22/01/2021  10:23 p. m.             4,207 StockSaleRoom.jsx
+               1 File(s)          4,207 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\tab
+
+22/01/2021  10:23 p. m.             3,539 Tabs.jsx
+               1 File(s)          3,539 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\tag-detail
+
+22/01/2021  10:23 p. m.             3,794 TagDetail.jsx
+               1 File(s)          3,794 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\tag-management
+
+22/01/2021  10:23 p. m.             3,359 TagManagement.jsx
+               1 File(s)          3,359 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\type-benefitrules
+
+22/01/2021  10:23 p. m.             3,384 SearchRule.jsx
+22/01/2021  10:23 p. m.             2,214 TypeBenefit.jsx
+22/01/2021  10:23 p. m.             1,622 TypeBenefitRules.jsx
+               3 File(s)          7,220 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\ui
+
+22/01/2021  10:23 p. m.               916 Accordionn.jsx
+22/01/2021  10:23 p. m.               319 BenefitsCurrent.jsx
+22/01/2021  10:23 p. m.               876 Button.jsx
+22/01/2021  10:23 p. m.               742 Card.jsx
+22/01/2021  10:23 p. m.               832 CardIcon.jsx
+22/01/2021  10:23 p. m.               959 Chart.jsx
+22/01/2021  10:23 p. m.               547 Checkbox.jsx
+22/01/2021  10:23 p. m.             4,754 CustomerData.jsx
+22/01/2021  10:23 p. m.               941 CustomerResult.jsx
+22/01/2021  10:23 p. m.               940 Download.jsx
+22/01/2021  10:23 p. m.               401 Fecha.jsx
+22/01/2021  10:23 p. m.               246 Flex.jsx
+22/01/2021  10:23 p. m.               771 Header.jsx
+22/01/2021  10:23 p. m.               205 Hr.jsx
+22/01/2021  10:23 p. m.               355 InfoMembers.jsx
+22/01/2021  10:23 p. m.               757 Input.jsx
+22/01/2021  10:23 p. m.               451 Label.jsx
+22/01/2021  10:23 p. m.               368 Label2.jsx
+22/01/2021  10:23 p. m.               539 LiTab.jsx
+22/01/2021  10:23 p. m.               576 Modal.jsx
+22/01/2021  10:23 p. m.             2,019 ModalReactstrap.jsx
+22/01/2021  10:23 p. m.             1,553 Note.jsx
+22/01/2021  10:23 p. m.               978 Notification.jsx
+22/01/2021  10:23 p. m.               339 Payment.jsx
+22/01/2021  10:23 p. m.               720 RadioButon.jsx
+22/01/2021  10:23 p. m.             1,036 search.jsx
+22/01/2021  10:23 p. m.             1,588 Select.jsx
+22/01/2021  10:23 p. m.               350 SimpleTable.jsx
+22/01/2021  10:23 p. m.               564 Spinner.jsx
+22/01/2021  10:23 p. m.               861 Spinner2.jsx
+22/01/2021  10:23 p. m.             4,231 TablaUno.jsx
+22/01/2021  10:23 p. m.               875 TableLine.jsx
+22/01/2021  10:23 p. m.               433 TextArea.jsx
+22/01/2021  10:23 p. m.               597 ToggleCheck.jsx
+22/01/2021  10:23 p. m.               312 Tr.jsx
+              35 File(s)         32,951 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\users
+
+22/01/2021  10:23 p. m.             2,269 UsersClass.jsx
+               1 File(s)          2,269 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\vat-rate
+
+22/01/2021  10:23 p. m.             1,820 Vat-Rate.jsx
+               1 File(s)          1,820 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\vat-rate-coOwner
+
+22/01/2021  10:23 p. m.             1,207 RcTable.jsx
+22/01/2021  10:23 p. m.             1,020 VatRateCoOwner.jsx
+               2 File(s)          2,227 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\vat-rate-coOwner\components
+
+22/01/2021  10:23 p. m.             1,246 VatRateCoOwnerIdentifications.jsx
+22/01/2021  10:23 p. m.               410 VatRateCoOwnerReasons.jsx
+22/01/2021  10:23 p. m.               821 VatRateCoOwnerTaxNationality.jsx
+               3 File(s)          2,477 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\w2-promisses
+
+22/01/2021  10:23 p. m.               625 W2Promisses.jsx
+               1 File(s)            625 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\w2-promisses\components
+
+22/01/2021  10:23 p. m.               523 FinancingPromisesInfo.jsx
+22/01/2021  10:23 p. m.             1,142 FormFinancingPromises.jsx
+22/01/2021  10:23 p. m.               397 InputButtons.jsx
+               3 File(s)          2,062 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\components\wizard
+
+22/01/2021  10:23 p. m.             1,653 Wizard.jsx
+               1 File(s)          1,653 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\routes
+
+22/01/2021  10:23 p. m.               821 DocumentsRoutes.jsx
+22/01/2021  10:23 p. m.               501 NewMembersRoutes.jsx
+22/01/2021  10:23 p. m.             1,435 ReportsRoutes.jsx
+22/01/2021  10:23 p. m.               403 VerificationRoutes.jsx
+               4 File(s)          3,160 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\views
+
+22/01/2021  10:23 p. m.            23,479 ComponentesUI.jsx
+               1 File(s)         23,479 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\views\Documentos
+
+22/01/2021  10:23 p. m.                97 Documentos.jsx
+22/01/2021  10:23 p. m.             3,338 ReportEditorView.jsx
+22/01/2021  10:23 p. m.             3,153 SpecialLetterEditor.jsx
+               3 File(s)          6,588 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\views\New-Member
+
+22/01/2021  10:23 p. m.             3,688 MasterPageAddMember.jsx
+22/01/2021  10:23 p. m.             2,335 NewProvision.jsx
+               2 File(s)          6,023 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\views\New-Member\CancelAffiliation
+
+22/01/2021  10:23 p. m.             1,499 CancelAffiliation.jsx
+               1 File(s)          1,499 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\views\New-Member\CancelAffiliation\components
+
+22/01/2021  10:23 p. m.             2,040 CancelAffiliationInfo.jsx
+22/01/2021  10:23 p. m.             2,979 CancelAffiliationRefund.jsx
+22/01/2021  10:23 p. m.             3,914 CancelAffiliationType.jsx
+               3 File(s)          8,933 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\views\New-Member\modules
+
+22/01/2021  10:23 p. m.             1,651 ExcelentJob.jsx
+22/01/2021  10:23 p. m.             1,715 GuestInformationView.jsx
+22/01/2021  10:23 p. m.             1,356 SaleCaptureView.jsx
+               3 File(s)          4,722 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\views\Reportes
+
+22/01/2021  10:23 p. m.             1,356 Reportes.jsx
+               1 File(s)          1,356 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\views\Reportes\modules\affiliation-utility
+
+22/01/2021  10:23 p. m.               779 AffiliationUtility.jsx
+22/01/2021  10:23 p. m.               770 AffiliationUtilityResult.jsx
+               2 File(s)          1,549 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\views\Reportes\modules\membershipReportsFor
+
+22/01/2021  10:23 p. m.               807 memberReportFor.jsx
+22/01/2021  10:23 p. m.             1,638 SavingMemberReportsFor.jsx
+               2 File(s)          2,445 bytes
+
+ Directory of C:\workspaceContratos\contratosonline\src\views\Verificacion-Datos
+
+22/01/2021  10:23 p. m.             1,201 VerificacionDatos.jsx
+               1 File(s)          1,201 bytes
+
+     Total Files Listed:
+             442 File(s)      1,075,538 bytes
+               0 Dir(s)  436,763,762,688 bytes free

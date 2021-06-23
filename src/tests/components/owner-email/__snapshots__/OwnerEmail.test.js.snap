@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OwnerEmail component debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-6"
+        >
+          <h3>
+            Owner emails
+          </h3>
+          <p>
+            List of emails from Owner
+          </p>
+        </div>
+        <div
+          className="col-md-12 d-flex justify-content-end tables"
+        >
+          <Button
+            col="1.5"
+            icon="fas fa-paper-plane"
+            title="Set Principal Owner"
+            type="button"
+            typebootstrap="link main"
+          />
+          <Button
+            col="1.5"
+            icon="fas fa-paper-plane"
+            title="Set Principal"
+            type="button"
+            typebootstrap="link"
+          />
+          <Button
+            col="1.5"
+            icon="fas fa-trash"
+            title="Delete"
+            type="button"
+            typebootstrap="link"
+          />
+          <Button
+            col="1.5"
+            icon="fas fa-plus"
+            title="Add"
+            type="button"
+            typebootstrap="link"
+          />
+          <Button
+            col="1.5"
+            icon="fas fa-times"
+            title="Close"
+            type="button"
+            typebootstrap="link "
+          />
+          <Button
+            col="1.5"
+            icon="fas fa-clipboard-list"
+            title="Log"
+            type="button"
+            typebootstrap="link "
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="card-body"
+    >
+      <Table
+        className="table"
+        columns={
+          Array [
+            Object {
+              "align": "center",
+              "dataIndex": "Profile_Id",
+              "key": "1",
+              "title": "Profile Id",
+              "width": 130,
+            },
+            Object {
+              "dataIndex": "Relationship",
+              "key": "Relationship",
+              "title": "Relationship",
+              "width": 130,
+            },
+            Object {
+              "dataIndex": "Email",
+              "key": "Email",
+              "title": "Email",
+              "width": 280,
+            },
+            Object {
+              "dataIndex": "Principal",
+              "key": "Principal",
+              "title": "Principal",
+              "width": 180,
+            },
+            Object {
+              "dataIndex": "AnexoA",
+              "key": "AnexoA",
+              "title": "AnexoA",
+              "width": 130,
+            },
+            Object {
+              "dataIndex": "Send_Promotions",
+              "key": "Send_Promotions",
+              "title": "Send Promotions",
+              "width": 140,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "AnexoA": <Checkbox />,
+              "Email": "adrian.hurtdavies@gmail.com",
+              "Principal": <Checkbox />,
+              "Profile_Id": "17183544",
+              "Relationship": "Owner",
+              "Send_Promotions": <Checkbox />,
+            },
+            Object {
+              "AnexoA": <Checkbox />,
+              "Email": "adrian.hurtdavies@gmail.com",
+              "Principal": <Checkbox />,
+              "Profile_Id": "17183544",
+              "Relationship": "Owner",
+              "Send_Promotions": <Checkbox />,
+            },
+            Object {
+              "AnexoA": <Checkbox />,
+              "Email": "adrian.hurtdavies@gmail.com",
+              "Principal": <Checkbox />,
+              "Profile_Id": "17183544",
+              "Relationship": "Owner",
+              "Send_Promotions": <Checkbox />,
+            },
+            Object {
+              "AnexoA": <Checkbox />,
+              "Email": "adrian.hurtdavies@gmail.com",
+              "Principal": <Checkbox />,
+              "Profile_Id": "17183544",
+              "Relationship": "Owner",
+              "Send_Promotions": <Checkbox />,
+            },
+          ]
+        }
+        emptyText={[Function]}
+        id="resume-table"
+        prefixCls="rc-table"
+        rowKey="key"
+      />
+    </div>
+  </div>
+</div>
+`;

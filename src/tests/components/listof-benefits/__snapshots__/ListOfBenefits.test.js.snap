@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListOfBenefits component debe mostrar snapshot 1`] = `
+<Container
+  tag="div"
+>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <CardTitle
+        tag="h3"
+      >
+        List of Benefits
+      </CardTitle>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Select />
+          <div
+            className="d-flex pt-3"
+          >
+            <InfoMembers
+              text="6007770"
+              title="Membership"
+            />
+            <InfoMembers
+              text="WILLIAM JESUS TORRES FLOTA"
+              title="Member"
+            />
+          </div>
+        </Col>
+        <Col
+          lg="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Button
+            col={6}
+            title="Assignments Benefits"
+            type="submit"
+            typebootstrap="primary "
+          />
+        </Col>
+      </Row>
+      <CardHeader
+        tag="div"
+      >
+        <CardTitle
+          tag="h4"
+        >
+          <i
+            className="fas fa-copy"
+          />
+           List of Benefits
+        </CardTitle>
+      </CardHeader>
+      <CardBody
+        tag="div"
+      >
+        <p>
+          Total 
+          <strong>
+            4
+          </strong>
+           Elementos. 
+        </p>
+        <Table
+          className="table"
+          columns={
+            Array [
+              Object {
+                "align": "center",
+                "dataIndex": "previous",
+                "key": "1",
+                "title": "Previous Application",
+                "width": "auto",
+              },
+              Object {
+                "align": "center",
+                "dataIndex": "current",
+                "key": "2",
+                "title": "Current Application",
+                "width": 200,
+              },
+              Object {
+                "align": "center",
+                "dataIndex": "description",
+                "key": "3",
+                "title": "Description Template Document",
+                "width": "auto",
+              },
+              Object {
+                "align": "center",
+                "dataIndex": "validity",
+                "key": "4",
+                "title": "Validity",
+                "width": 200,
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "current": "6007770",
+                "description": "PRIVATE TRANSPORTATION",
+                "previous": "(no definido)",
+                "validity": "From 09/Sep/2020 to 09/Sep/2021  ",
+              },
+              Object {
+                "current": "6007770",
+                "description": "PS NEGOTIATION-CREDIT EXTENSION",
+                "previous": "(no definido)",
+                "validity": "From 09/Sep/2020 to 09/Sep/2021  ",
+              },
+              Object {
+                "current": "6007770",
+                "description": "DEACTIVATION OF PREVIOUS MEMBERSHIP IN UPGRADE SALES",
+                "previous": "(no definido)",
+                "validity": "From 09/Sep/2020 to 09/Sep/2021  ",
+              },
+              Object {
+                "current": "6007770",
+                "description": "ADDITIONAL PAX",
+                "previous": "(no definido)",
+                "validity": "From 09/Sep/2020 to 09/Sep/2021  ",
+              },
+            ]
+          }
+          emptyText={[Function]}
+          id="resume-table"
+          prefixCls="rc-table"
+          rowKey="key"
+          style={
+            Object {
+              "width": "auto",
+            }
+          }
+        />
+      </CardBody>
+    </CardBody>
+  </Card>
+  <Card
+    tag="div"
+  >
+    <CardHeader
+      tag="div"
+    >
+      <CardTitle
+        tag="h3"
+      >
+        <i
+          className="fas fa-file"
+        />
+         Preview
+      </CardTitle>
+    </CardHeader>
+    <CardBody
+      tag="div"
+    >
+      <Button
+        col={3}
+        icon="fas fa-eye-slash"
+        title="Close"
+        type="submit"
+        typebootstrap="primary "
+      />
+    </CardBody>
+  </Card>
+</Container>
+`;

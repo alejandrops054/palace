@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FinancingPromesis component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-6 mb-3"
+      id="gm-group"
+    >
+      <Payment
+        label="Down payment remaining "
+        price={82500}
+      />
+    </div>
+    <div
+      className="col-lg-6 mb-3"
+      id="gm-group"
+    >
+      <Payment
+        label="Principal remaining "
+        price={38500}
+      />
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-12 mb-3"
+      id="gm-group"
+    >
+      <Select
+        col={12}
+        label="Type refinancing"
+        option=""
+      />
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="input-group"
+    >
+      <label>
+        Creating financing promesis
+      </label>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-6 mb-3"
+      id="gm-group"
+    >
+      <Select
+        col={12}
+        label="Finacing Type"
+        option=""
+      />
+      <Select
+        col={12}
+        label="Total payments"
+        option="1"
+      />
+      <Select
+        col={12}
+        label="Initial month to pay"
+        option=""
+      />
+      <Select
+        col={12}
+        label="Periodicity number"
+        option=""
+      />
+    </div>
+    <div
+      className="col-lg-6 mb-3"
+      id="gm-group"
+    >
+      <Select
+        col={12}
+        label="Payment way"
+        option=""
+      />
+      <Select
+        col={12}
+        label="Periodicity"
+        option=""
+      />
+      <Input
+        col={12}
+        label="First payment"
+        option=""
+        type="date"
+      />
+      <Select
+        col={12}
+        label="Budget"
+        option=""
+      />
+    </div>
+  </div>
+  <div
+    className="col-lg-12 mb-3"
+    id="gm-group"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm"
+        />
+        <div
+          className="col-sm"
+        >
+          <Button
+            icon="fas fa-times mr-2"
+          />
+        </div>
+        <div
+          className="col-sm"
+        >
+          <Button
+            icon="fas fa-check"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

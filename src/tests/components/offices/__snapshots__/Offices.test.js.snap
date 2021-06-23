@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Offices component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="h5"
+      >
+        Offices
+      </CardTitle>
+      <SimpleTable
+        columns={
+          Array [
+            Object {
+              "dataIndex": "code",
+              "key": "code",
+              "title": "Code",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "description",
+              "key": "description",
+              "title": "Description",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "project",
+              "key": "project",
+              "title": "Project",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "zone",
+              "key": "zone",
+              "title": "Zone",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "status",
+              "key": "status",
+              "title": "Status",
+              "width": "1%",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "code": "",
+              "description": "",
+              "project": "",
+              "status": "",
+              "zone": "",
+            },
+            Object {
+              "code": "",
+              "description": "",
+              "project": "",
+              "status": "",
+              "zone": "",
+            },
+            Object {
+              "code": "",
+              "description": "",
+              "project": "",
+              "status": "",
+              "zone": "",
+            },
+            Object {
+              "code": "",
+              "description": "",
+              "project": "",
+              "status": "",
+              "zone": "",
+            },
+            Object {
+              "code": "",
+              "description": "",
+              "project": "",
+              "status": "",
+              "zone": "",
+            },
+            Object {
+              "code": "",
+              "description": "",
+              "project": "",
+              "status": "",
+              "zone": "",
+            },
+            Object {
+              "code": "",
+              "description": "",
+              "project": "",
+              "status": "",
+              "zone": "",
+            },
+            Object {
+              "code": "",
+              "description": "",
+              "project": "",
+              "status": "",
+              "zone": "",
+            },
+            Object {
+              "code": "",
+              "description": "",
+              "project": "",
+              "status": "",
+              "zone": "",
+            },
+            Object {
+              "code": "",
+              "description": "",
+              "project": "",
+              "status": "",
+              "zone": "",
+            },
+          ]
+        }
+        type="table"
+      />
+    </CardBody>
+  </Card>
+</Fragment>
+`;

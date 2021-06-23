@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConcordNotes component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      CONCORD Notes
+    </h5>
+    <div
+      className="row"
+    >
+      <TextArea
+        col={12}
+        label="File path"
+      />
+      <Button
+        col={12}
+        icon="fas fa-folder-plus"
+        title="Open file"
+        typebootstrap="secondary"
+      />
+      <div
+        className="row"
+      >
+        <Etiqueta
+          col={4}
+          etiqueta="Records to process: 0"
+        />
+        <Etiqueta
+          col={2}
+          etiqueta="Progress"
+        />
+        <Etiqueta
+          col={2}
+          etiqueta="0 %"
+        />
+        <Input
+          col={4}
+          label=""
+        />
+      </div>
+      <Button
+        col={3}
+        icon="fas fa-cog"
+        title="Process"
+        typebootstrap="primary"
+      />
+      <Button
+        col={3}
+        icon="fas fa-times"
+        title="Cancel"
+        typebootstrap="secondary"
+      />
+    </div>
+  </div>
+</div>
+`;

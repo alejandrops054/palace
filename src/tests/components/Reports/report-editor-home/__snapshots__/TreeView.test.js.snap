@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TreeView component debe mostrar snapshot 1`] = `
+<TreeBeard
+  animations={
+    Object {
+      "drawer": [Function],
+      "toggle": [Function],
+    }
+  }
+  data={
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "name": "child1",
+            },
+            Object {
+              "name": "child2",
+            },
+          ],
+          "name": "Anexo A",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Promesas de pago",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "name": "nested child 1",
+                },
+                Object {
+                  "name": "nested child 2",
+                },
+              ],
+              "name": "nested parent",
+            },
+          ],
+          "name": "Beneficios elite",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "name": "Introducción",
+                },
+                Object {
+                  "name": "Provisiones",
+                },
+                Object {
+                  "name": "Especificaciones",
+                },
+                Object {
+                  "name": "Semanas imperiales - Introducción",
+                },
+                Object {
+                  "name": "Semanas imperiales - PEF",
+                },
+                Object {
+                  "name": "Semanas imperiales - PEFG",
+                },
+                Object {
+                  "name": "Semanas imperiales - PER",
+                },
+                Object {
+                  "name": "Semanas imperiales - PERG",
+                },
+                Object {
+                  "name": "Semanas imperiales - PEL",
+                },
+                Object {
+                  "name": "Semanas imperiales - PELG",
+                },
+                Object {
+                  "name": "Semanas imperiales - PEL Cabos",
+                },
+                Object {
+                  "name": "Semanas imperiales - PEL Cabos Plus",
+                },
+                Object {
+                  "name": "Semanas imperiales - PEL Silver",
+                },
+              ],
+              "name": "Secciones",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "name": "nested child 1",
+                },
+                Object {
+                  "name": "nested child 2",
+                },
+              ],
+              "name": "Textos auxiliares",
+            },
+          ],
+          "name": "Incentivos Elite",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Incentivos Elite Golf",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Cláusulas del contrato",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Certificado de Spa Money",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Promociones Elite",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Day Pass",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Promociones de referidos",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Seguro de vida",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Tarifas de reservaciones",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Palace Rewards",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Verificación ágil",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Semana de rifa",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "RCI",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Interval",
+        },
+        Object {
+          "children": Array [],
+          "loading": true,
+          "name": "Monedero electrónico",
+        },
+      ],
+      "name": "Reportes",
+      "toggled": true,
+    }
+  }
+  decorators={
+    Object {
+      "Container": [Function],
+      "Header": [Function],
+      "Loading": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": [Function],
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          [Function],
+        ],
+        "defaultProps": undefined,
+        "propTypes": Object {
+          "style": [Function],
+        },
+        "render": [Function],
+        "withComponent": [Function],
+      },
+      "Toggle": [Function],
+    }
+  }
+  onToggle={[Function]}
+  style={
+    Object {
+      "tree": Object {
+        "base": Object {
+          "backgroundColor": "#21252B",
+          "color": "#9DA5AB",
+          "fontFamily": "lucida grande ,tahoma,verdana,arial,sans-serif",
+          "fontSize": "14px",
+          "listStyle": "none",
+          "margin": 0,
+          "padding": 0,
+        },
+        "node": Object {
+          "activeLink": Object {
+            "background": "#31363F",
+          },
+          "base": Object {
+            "position": "relative",
+          },
+          "header": Object {
+            "base": Object {
+              "color": "#9DA5AB",
+              "display": "inline-block",
+              "verticalAlign": "top",
+            },
+            "connector": Object {
+              "borderBottom": "solid 2px black",
+              "borderLeft": "solid 2px black",
+              "height": "12px",
+              "left": "-21px",
+              "position": "absolute",
+              "top": "0px",
+              "width": "2px",
+            },
+            "title": Object {
+              "lineHeight": "24px",
+              "verticalAlign": "middle",
+            },
+          },
+          "link": Object {
+            "cursor": "pointer",
+            "display": "block",
+            "padding": "0px 5px",
+            "position": "relative",
+          },
+          "loading": Object {
+            "color": "#E2C089",
+          },
+          "subtree": Object {
+            "listStyle": "none",
+            "paddingLeft": "19px",
+          },
+          "toggle": Object {
+            "arrow": Object {
+              "fill": "#9DA5AB",
+              "strokeWidth": 0,
+            },
+            "base": Object {
+              "display": "inline-block",
+              "height": "24px",
+              "marginLeft": "-5px",
+              "position": "relative",
+              "verticalAlign": "top",
+              "width": "24px",
+            },
+            "height": 14,
+            "width": 14,
+            "wrapper": Object {
+              "height": "14px",
+              "left": "50%",
+              "margin": "-7px 0 0 -7px",
+              "position": "absolute",
+              "top": "50%",
+            },
+          },
+        },
+      },
+    }
+  }
+/>
+`;

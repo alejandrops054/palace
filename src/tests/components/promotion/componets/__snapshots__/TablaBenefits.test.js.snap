@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TablaBenefits component Debe mostrar snapshot 1`] = `
+<Fragment>
+  <div>
+    <ForwardRef
+      bordered={true}
+      className="table table-hover"
+      hover={true}
+      striped={true}
+    >
+      <thead>
+        <tr>
+          <td
+            className="text-align-justify"
+          >
+            Id
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Market
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Market Defined stay
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Referral regular stay
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Bonus sttay/ Univesal credit
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Benefit to be award
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Number Couples
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td
+            className="text-align-justify"
+          >
+            1
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            USA
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            7
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            7
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            1
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Bonus Week
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            2
+          </td>
+        </tr>
+        <tr>
+          <td
+            className="text-align-justify"
+          >
+            2
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            MEX
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            7
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            7
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            2
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Bonus Week
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            2
+          </td>
+        </tr>
+        <tr>
+          <td
+            className="text-align-justify"
+          >
+            3
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            CANADA
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            4
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            1
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            3
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            Bonus Week
+          </td>
+          <td
+            className="text-align-justify"
+          >
+            2
+          </td>
+        </tr>
+      </tbody>
+    </ForwardRef>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hotels component debe mostrar snapshot 1`] = `
+<Fragment>
+  <Card
+    tag="div"
+  >
+    <CardBody
+      tag="div"
+    >
+      <CardTitle
+        tag="h5"
+      >
+        Hotels
+      </CardTitle>
+      <SimpleTable
+        columns={
+          Array [
+            Object {
+              "dataIndex": "code",
+              "key": "code",
+              "title": "Code",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "description",
+              "key": "description",
+              "title": "Description",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "zone",
+              "key": "zone",
+              "title": "Zone",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "status",
+              "key": "status",
+              "title": "Status",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "order",
+              "key": "order",
+              "title": "Order",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "country",
+              "key": "country",
+              "title": "Country",
+              "width": "1%",
+            },
+            Object {
+              "dataIndex": "but",
+              "key": "but",
+              "title": "Go",
+              "width": "1%",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "but": <Button
+                col="1.5"
+                icon="fas fa-plus"
+                onClick={[Function]}
+                type="button"
+                typebootstrap="link main"
+              />,
+              "code": "1",
+              "country": "",
+              "description": "",
+              "order": "1",
+              "status": "1",
+              "zone": "1",
+            },
+          ]
+        }
+        type="table"
+      />
+    </CardBody>
+  </Card>
+  <Modal
+    autoFocus={true}
+    backdrop={true}
+    backdropTransition={
+      Object {
+        "mountOnEnter": true,
+        "timeout": 150,
+      }
+    }
+    centered={false}
+    container="body"
+    fade={true}
+    isOpen={false}
+    keyboard={true}
+    modalTransition={
+      Object {
+        "timeout": 300,
+      }
+    }
+    onClosed={[Function]}
+    onOpened={[Function]}
+    returnFocusAfterClose={true}
+    role="dialog"
+    scrollable={false}
+    size="lg"
+    toggle={[Function]}
+    unmountOnClose={true}
+    zIndex={1050}
+  >
+    <ModalHeader
+      charCode={215}
+      closeAriaLabel="Close"
+      tag="h5"
+      wrapTag="div"
+    >
+      Hotel
+    </ModalHeader>
+    <ModalBody
+      className="p-0 "
+      tag="div"
+    >
+      <DetailsHotel />
+    </ModalBody>
+    <ModalFooter
+      tag="div"
+    >
+      <div
+        className="d-flex justify-content-end"
+      >
+        <Button
+          col={12}
+          title="Save"
+          type="submit"
+          typebootstrap="primary "
+        />
+        <Button
+          col={12}
+          onClick={[Function]}
+          title="Close"
+          type="button"
+          typebootstrap="secondary"
+        />
+      </div>
+    </ModalFooter>
+  </Modal>
+</Fragment>
+`;

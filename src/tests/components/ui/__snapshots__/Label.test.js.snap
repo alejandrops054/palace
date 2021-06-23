@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba componente UI Label Debe de mostrar el componente <Label/> 1`] = `
+<label
+  className="col-md- text-"
+  style={
+    Object {
+      "color": "",
+      "fontSize": "",
+      "fontWeight": "bold",
+    }
+  }
+/>
+`;

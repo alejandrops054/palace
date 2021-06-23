@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportRaffleWeek component debe mostrar snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      Management Reports
+    </h5>
+    <div
+      className="row"
+    >
+      <Input
+        col={6}
+        label="Project"
+        type="text"
+      />
+      <Select
+        col={6}
+        option="PALACE ELITE"
+      />
+      <Input
+        col={6}
+        label="Office"
+        type="text"
+      />
+      <Select
+        col={6}
+        option="PLAYACAR PALACE"
+      />
+      <Input
+        col={6}
+        label="Folio"
+        type="text"
+      />
+      <Select
+        col={6}
+        label="Language"
+        option=""
+      />
+      <Button
+        col={3}
+        title="Print"
+        type="primary"
+        typebootstrap="primary"
+      />
+      <Button
+        col={3}
+        title="Close"
+        type="primary"
+        typebootstrap="primary"
+      />
+    </div>
+  </div>
+</div>
+`;

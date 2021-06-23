@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewPartnerFive component debe mostrar snapshot 1`] = `
+<div
+  className="view"
+>
+  <SubTitle
+    subTitle="Member Information"
+  />
+  <Search />
+  <Accordion />
+</div>
+`;

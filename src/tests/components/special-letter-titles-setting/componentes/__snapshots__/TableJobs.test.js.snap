@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente TableJobs Creacion de TableJobs 1`] = `
+<ForwardRef
+  bordered={true}
+  hover={true}
+  striped={true}
+>
+  <thead>
+    <tr>
+      <td>
+        CODE
+      </td>
+      <td>
+        DESCRIPTION
+      </td>
+      <td>
+        STATUS
+      </td>
+      <td>
+        ROLE
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      key="CCREP"
+    >
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+    <tr
+      key="CLOS"
+    >
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+    <tr
+      key="ASM"
+    >
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+  </tbody>
+</ForwardRef>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewSocioProcessing component Debe mostrar snapshot 1`] = `
+<div>
+  <div
+    className="d-flex align-items-center justify-content-center"
+    style={
+      Object {
+        "display": "block",
+        "height": "500px",
+        "margin": "0 auto",
+      }
+    }
+  >
+    <div
+      className="spinner-border text-primary"
+      role="status"
+    >
+      <span
+        className="visually-hidden"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+  <h2
+    className="d-flex justify-content-center"
+  >
+    We are processing the data pleace wait
+  </h2>
+</div>
+`;

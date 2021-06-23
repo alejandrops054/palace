@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RcTable component debe mostrar snapshot 1`] = `
+<Table
+  columns={
+    Array [
+      Object {
+        "dataIndex": "item",
+        "key": "item",
+        "title": "Item",
+        "width": 130,
+      },
+      Object {
+        "dataIndex": "currency",
+        "key": "currency",
+        "title": "Currency",
+        "width": 130,
+      },
+      Object {
+        "dataIndex": "initial",
+        "key": "initial",
+        "render": [Function],
+        "title": "Initial down p.",
+        "width": 130,
+      },
+      Object {
+        "dataIndex": "promissory",
+        "key": "promissory",
+        "render": [Function],
+        "title": "Promissory down p.",
+        "width": 130,
+      },
+      Object {
+        "dataIndex": "monthly-p",
+        "key": "monthly-p",
+        "render": [Function],
+        "title": "Monthly payment",
+        "width": 130,
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "currency": "US Dollar",
+        "item": "Credit Card",
+      },
+      Object {
+        "currency": "US Dollar",
+        "item": "Cash",
+      },
+      Object {
+        "currency": "US Dollar",
+        "item": "Bank tranfer",
+      },
+      Object {
+        "currency": "US Dollar",
+        "item": "Web Payment",
+      },
+    ]
+  }
+  emptyText={[Function]}
+  prefixCls="rc-table"
+  rowKey="key"
+/>
+`;

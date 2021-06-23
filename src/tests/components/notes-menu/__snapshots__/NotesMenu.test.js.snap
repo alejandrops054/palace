@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotesMenu component Debe mostrar snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="pt-3 "
+  >
+    <Table
+      className="table"
+      columns={
+        Array [
+          Object {
+            "dataIndex": "Note",
+            "key": "1",
+            "title": "Note",
+            "width": 350,
+          },
+          Object {
+            "dataIndex": "By",
+            "key": "2",
+            "title": "By",
+            "width": 200,
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "By": "WT",
+            "Note": "VIRTUAL RSV FOLIO:ICPL4 OUT-H AFFILIATE",
+          },
+          Object {
+            "By": "WT",
+            "Note": "VIRTUAL RSV FOLIO:ICPL4 OUT-H AFFILIATE",
+          },
+          Object {
+            "By": "WT",
+            "Note": "VIRTUAL RSV FOLIO:ICPL4 OUT-H AFFILIATE",
+          },
+          Object {
+            "By": "WT",
+            "Note": "VIRTUAL RSV FOLIO:ICPL4 OUT-H AFFILIATE",
+          },
+          Object {
+            "By": "WT",
+            "Note": "VIRTUAL RSV FOLIO:ICPL4 OUT-H AFFILIATE",
+          },
+          Object {
+            "By": "WT",
+            "Note": "VIRTUAL RSV FOLIO:ICPL4 OUT-H AFFILIATE",
+          },
+        ]
+      }
+      emptyText={[Function]}
+      id="resume-table"
+      prefixCls="rc-table"
+      rowKey="key"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="d-flex col-lg-6"
+    >
+      <Button
+        col="6"
+        title="Manage Notes"
+        type="button"
+        typebootstrap="primary"
+      />
+      <Button
+        col="6"
+        title="Manage Notes"
+        type="button"
+        typebootstrap="primary"
+      />
+    </div>
+  </div>
+  <div
+    className="row pt-4"
+  >
+    <div
+      className="col-lg-3"
+    >
+      <ToggleCheck
+        label="Transfer"
+      />
+    </div>
+    <div
+      className="col-lg-3"
+    >
+      <Input
+        col={12}
+        label="Num Pol"
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;

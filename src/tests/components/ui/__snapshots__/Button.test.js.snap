@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba componente UI <Button/> Componente recibe props type:String, width:100% 1`] = `
+<div
+  className="col-lg- align-items-center"
+>
+  <button
+    alt="Titulo de etiqueta"
+    className="btn btn-  d-block m-auto"
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    title="Titulo de etiqueta"
+    type="Titulo de etiqueta"
+  >
+    <i
+      className=""
+    />
+     
+    Titulo de etiqueta
+  </button>
+</div>
+`;
